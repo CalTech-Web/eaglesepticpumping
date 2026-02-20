@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { serviceAreas } from "@/lib/serviceAreas";
 
 export const metadata: Metadata = {
-  title: "Septic Service Areas | Eagle Septic Pumping — Central Valley, CA",
+  title: { absolute: "Septic Service Areas | Eagle Septic Pumping — Central Valley, CA" },
   description:
     "Eagle Septic Pumping serves Modesto, Turlock, Stockton, Tracy, Manteca, Merced, and 14 more cities across Stanislaus, San Joaquin, and Merced counties. Licensed, insured, same-day service available.",
   alternates: { canonical: "https://eaglesepticpumping.com/service-areas" },

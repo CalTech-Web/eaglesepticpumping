@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     `Browse all Eagle Septic Pumping articles about ${category}.`;
 
   return {
-    title: `${category} — Septic Tips & Guides | Eagle Septic Pumping`,
+    title: { absolute: `${category} — Septic Tips & Guides | Eagle Septic Pumping` },
     description,
     alternates: {
       canonical: `https://eaglesepticpumping.com/blog/category/${slug}`,

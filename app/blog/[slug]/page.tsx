@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(slug);
   if (!post) return {};
   return {
-    title: post.metaTitle,
+    title: { absolute: post.metaTitle },
     description: post.metaDescription,
     alternates: {
       canonical: `https://eaglesepticpumping.com/blog/${post.slug}`,
@@ -46,8 +46,8 @@ function slugify(text: string): string {
 
 function buildToc(sections: BlogSection[]): TocEntry[] {
   return sections
-    .filter((s): s is Extract<BlogSection, { type: "heading" }> => s.type === "heading" && s.level === 2)
-    .map((s) => ({ id: slugify(s.text), text: s.text, level: s.level }));
+    .filter((s): s is Extract<BlogSection, { type: "heading" }> => s.type === "heading" && (s.level === 2 || s.level === 3))
+    .map((s) => ({ id: slugify(s.text), text: s.text, level: s.level as 2 | 3 }));
 }
 
 function renderSection(section: BlogSection, index: number) {

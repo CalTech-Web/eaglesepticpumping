@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { PHONE, PHONE_HREF, EMAIL } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Customer Reviews | Eagle Septic Pumping — Central Valley",
+  title: { absolute: "Customer Reviews | Eagle Septic Pumping — Central Valley" },
   description:
     "Read verified reviews from Eagle Septic Pumping customers across Modesto, Turlock, Ceres, and the Central Valley. 4.9 stars from 200+ satisfied homeowners.",
   alternates: {

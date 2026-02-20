@@ -6,7 +6,7 @@ import { PHONE, PHONE_HREF } from "@/lib/services";
 import { serviceAreas } from "@/lib/serviceAreas";
 
 export const metadata: Metadata = {
-  title: "Septic Inspection for Real Estate | Eagle Septic Pumping",
+  title: { absolute: "Septic Inspection for Real Estate | Eagle Septic Pumping" },
   description:
     "Certified septic inspections for home buyers, sellers, and real estate agents in California's Central Valley. Written reports within 24 hours. Free quotes. Schedule before your closing date.",
   alternates: {

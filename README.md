@@ -2,52 +2,66 @@
 
 Site-specific content, scripts, and data for eaglesepticpumping.com.
 
-## Autonomous Agent — Directory Improvement
+## Autonomous Agents
 
-Fixes content quality, taxonomy errors, creates hub pages, and publishes informational content to make the site sellable.
+### SEO Agent
+Improves meta data, internal links, content quality, heading structure, and blog posts.
 
-**Run the agent:**
 ```bash
-cd eaglesepticpumping/agents && ./run-agent.sh directory
+cd eaglesepticpumping/agents && ./run-agent.sh seo
 ```
+
+### Visual Agent
+Audits and fixes layout, CTAs, spacing, mobile UX, and contrast by taking live screenshots and editing source files.
+
+```bash
+cd eaglesepticpumping/agents && ./run-agent.sh visual
+```
+
+---
 
 **Options:**
 ```bash
-./run-agent.sh directory                  # Default: sonnet model, 10 loops
-./run-agent.sh directory sonnet 10        # Explicit: sonnet model, 10 loops
-./run-agent.sh directory opus 5           # High quality, fewer loops
-./run-agent.sh directory haiku 20         # Fast pass, more loops
+./run-agent.sh seo                  # SEO agent, sonnet, 10 loops
+./run-agent.sh seo sonnet 10        # Explicit model + loops
+./run-agent.sh seo opus 5           # High quality, fewer loops
+./run-agent.sh visual               # Visual agent, sonnet, 5 loops
+./run-agent.sh visual sonnet 3      # Visual agent, 3 loops
 ```
 
 **Or run directly via ENGINE:**
 ```bash
-WORK=/Users/brandonhopkins/Projects/seo/eagleseptic/agents/ MODEL="sonnet" MAX_LOOPS=10 bash ~/Projects/claude-lab/ENGINE/run.sh
+WORK=/Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent MODEL="sonnet" MAX_LOOPS=10 bash ~/Projects/claude-lab/ENGINE/run.sh
+WORK=/Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/visual-agent MODEL="sonnet" MAX_LOOPS=5 bash ~/Projects/claude-lab/ENGINE/run.sh
 ```
 
 **Watch logs:**
 ```bash
-tail -f eaglesepticpumping/agents/output/agent-log.md
+tail -f agents/seo-agent/output/agent-log.md
+tail -f agents/visual-agent/output/agent-log.md
 ```
 
-**Stop the agent:**
+**Stop an agent:**
 ```bash
-touch eaglesepticpumping/agents/output/STOP
+touch agents/seo-agent/output/STOP
+touch agents/visual-agent/output/STOP
 ```
 
-**Recommended config:** `sonnet` model, `10` loops. Each loop fixes one listing or creates one page. 10 loops = ~10 improvements per session.
+---
 
 ## Models
 
 | Model | Quality | Speed | Use when |
 |-------|---------|-------|----------|
 | `opus` | Best | Slowest | Complex content creation, hub pages |
-| `sonnet` | Good | Medium | Listing rewrites, taxonomy fixes (default) |
+| `sonnet` | Good | Medium | Standard fixes (default) |
 | `haiku` | Basic | Fastest | Bulk simple fixes, audit passes |
 
 ## Loops
 
-Each loop is one full agent run (pick task, execute, log). More loops = more pages improved.
+Each loop is one full agent run (pick task, execute, commit). More loops = more improvements per session.
 
-- `5` — Quick session, targeted fixes
-- `10` — Standard session (default)
-- `20+` — Extended session, bulk improvements
+- `3–5` — Quick targeted session
+- `10` — Standard session (default for SEO)
+- `5` — Default for Visual (screenshot-heavy, slower per loop)
+- `20+` — Extended bulk session

@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { PHONE, PHONE_HREF } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Annual Septic Maintenance Plan | Eagle Septic Pumping",
+  title: { absolute: "Annual Septic Maintenance Plan | Eagle Septic Pumping" },
   description:
     "Protect your septic system year-round with Eagle Septic's annual maintenance plans. Starting at $299/year — includes scheduled pump-out, inspection, and priority service. Central Valley, CA.",
   alternates: {

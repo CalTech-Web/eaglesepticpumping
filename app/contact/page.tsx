@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { PHONE, PHONE_HREF, EMAIL } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Contact Eagle Septic Pumping | Free Estimates · (555) 867-5309",
+  title: { absolute: "Contact Eagle Septic Pumping | Free Estimates" },
   description:
     "Contact Eagle Septic Pumping for a free estimate or to schedule service. Call anytime — 24/7 emergency response. Serving Modesto, Turlock, Ceres, and the Central Valley.",
   openGraph: {

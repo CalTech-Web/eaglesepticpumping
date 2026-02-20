@@ -32,7 +32,8 @@ show_help() {
     echo "Usage: ./run-agent.sh [agent] [model] [loops]"
     echo ""
     echo "Agents:"
-    echo "  directory   - Directory improvement: fix content quality, taxonomy, create hub pages (recommended: sonnet, 10 loops)"
+    echo "  seo       - SEO improvements: meta, content, internal links, blog posts (default: sonnet, 10 loops)"
+    echo "  visual    - Visual/UX improvements: layout, CTAs, spacing, mobile (default: sonnet, 5 loops)"
     echo ""
     echo "Models:"
     echo "  opus      - Best quality, slower"
@@ -40,10 +41,11 @@ show_help() {
     echo "  haiku     - Fast, lower quality"
     echo ""
     echo "Examples:"
-    echo "  ./run-agent.sh directory              # Directory improvement with sonnet, 10 loops"
-    echo "  ./run-agent.sh directory sonnet 10    # Explicit: sonnet, 10 loops"
-    echo "  ./run-agent.sh directory opus 5       # High quality, fewer loops"
-    echo "  ./run-agent.sh directory haiku 20     # Fast pass, more loops"
+    echo "  ./run-agent.sh seo                # SEO agent, sonnet, 10 loops"
+    echo "  ./run-agent.sh seo sonnet 10      # Explicit: sonnet, 10 loops"
+    echo "  ./run-agent.sh seo opus 5         # High quality, fewer loops"
+    echo "  ./run-agent.sh visual             # Visual agent, sonnet, 5 loops"
+    echo "  ./run-agent.sh visual sonnet 3    # Visual agent, 3 loops"
     echo ""
 }
 
@@ -70,8 +72,12 @@ run_agent() {
 
 # Main logic
 case "${1:-help}" in
-    directory)
-        run_agent "Directory Improvement Agent" "$AGENTS_DIR/directory-improvement-agent" "🔧" "$MODEL" "${LOOPS:-10}"
+    seo)
+        run_agent "SEO Agent" "$AGENTS_DIR/seo-agent" "🔍" "$MODEL" "${LOOPS:-10}"
+        ;;
+
+    visual)
+        run_agent "Visual Agent" "$AGENTS_DIR/visual-agent" "🎨" "$MODEL" "${LOOPS:-5}"
         ;;
 
     help|--help|-h)

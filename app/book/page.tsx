@@ -5,7 +5,7 @@ import BookingForm from "@/components/BookingForm";
 import { PHONE, PHONE_HREF, EMAIL } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Book Service | Eagle Septic Pumping",
+  title: { absolute: "Book Service | Eagle Septic Pumping" },
   description:
     "Schedule septic tank pumping, cleaning, inspection, or emergency service online. Eagle Septic Pumping serves Modesto, Turlock, Ceres, and all of California's Central Valley.",
   openGraph: {

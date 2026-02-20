@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { PHONE, PHONE_HREF } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "24/7 Emergency Septic Service | Eagle Septic Pumping",
+  title: { absolute: "24/7 Emergency Septic Service | Eagle Septic Pumping" },
   description:
     "Septic backup or overflow? Call Eagle Septic NOW — we respond 24/7, including nights, weekends, and holidays. Licensed technicians, fast dispatch to Modesto, Turlock, Stockton & Central Valley.",
   alternates: {

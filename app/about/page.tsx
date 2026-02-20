@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "About Us | Eagle Septic Pumping",
+  title: { absolute: "About Us | Eagle Septic Pumping" },
   description:
     "Eagle Septic Pumping is a family-owned septic service company serving California's Central Valley. Learn about our team, our story, and our commitment to honest, reliable service.",
   alternates: {

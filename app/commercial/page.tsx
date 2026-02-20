@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { PHONE, PHONE_HREF } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Commercial Septic Services | Eagle Septic Pumping — Central Valley",
+  title: { absolute: "Commercial Septic Services | Eagle Septic Pumping — Central Valley" },
   description:
     "Commercial septic pumping, cleaning, and maintenance for restaurants, farms, apartment complexes, and businesses across California's Central Valley. Scheduled maintenance contracts available. Call for a free site assessment.",
   alternates: {

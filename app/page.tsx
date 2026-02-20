@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 import { PHONE, EMAIL } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Eagle Septic Pumping | Modesto & Central Valley Septic Services",
+  title: { absolute: "Eagle Septic Pumping | Modesto & Central Valley Septic Services" },
   description:
     "Licensed septic tank pumping, cleaning, inspection & 24/7 emergency service in Modesto, Turlock, Ceres, and 20+ Central Valley communities. Free estimates — call today.",
   alternates: {
