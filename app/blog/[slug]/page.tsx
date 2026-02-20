@@ -221,7 +221,7 @@ export default async function BlogPostPage({ params }: Props) {
       <main>
         {/* Article hero */}
         <section className="bg-brand-900 text-white">
-          <div className="container-max section-padding">
+          <div className="container-max px-4 pt-16 pb-10 sm:px-6 lg:px-8 lg:pt-24 lg:pb-14">
             <nav className="mb-4 flex items-center gap-2 text-sm text-brand-300">
               <Link href="/" className="hover:text-white">
                 Home
@@ -229,6 +229,10 @@ export default async function BlogPostPage({ params }: Props) {
               <span>/</span>
               <Link href="/blog" className="hover:text-white">
                 Blog
+              </Link>
+              <span>/</span>
+              <Link href={`/blog/category/${categoryToSlug(post.category)}`} className="hover:text-white">
+                {post.category}
               </Link>
               <span>/</span>
               <span className="text-brand-100 line-clamp-1">{post.title}</span>
@@ -260,7 +264,7 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* Cover image */}
         <div className="bg-white">
-          <div className="container-max pt-8 pb-0">
+          <div className="container-max pt-4 pb-0">
             <div className="mx-auto max-w-3xl">
               <div className="relative h-64 w-full overflow-hidden rounded-2xl shadow-lg sm:h-80 lg:h-96">
                 <Image
