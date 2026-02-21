@@ -192,7 +192,7 @@ export default async function CategoryPage({ params }: Props) {
                     <div className="flex flex-wrap items-center gap-2 mb-3">
                       <span className="text-xs text-gray-400">{post.readingTime}</span>
                     </div>
-                    <h2 className="mb-2 text-lg font-bold text-gray-900 group-hover:text-brand-700 leading-snug">
+                    <h2 className="mb-2 text-lg font-bold text-gray-900 group-hover:text-brand-700 leading-snug line-clamp-2">
                       {post.title}
                     </h2>
                     <p className="flex-1 text-sm text-gray-500 leading-relaxed line-clamp-3">
