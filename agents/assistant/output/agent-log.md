@@ -190,3 +190,13 @@ Done.
 The HomepageAnswerHub already presents the top 5 homeowner questions as fully-visible cards with rich answers linked to blog posts — a far more informational pattern than the accordion. The FAQ accordion hid content behind clicks, overlapped the same question topics (pumping frequency, warning signs, cost, emergency steps), and was the last element disrupting the clean informational → company-services flow. The full FAQ page at `/faq` is untouched.
 [2026-02-21 18:17:16] Run #1 finished
 [2026-02-21 18:17:21] Run #2 starting (model: sonnet)
+✅ **Completed**
+
+- Removed `Testimonials` import and component from `app/page.tsx`
+- The 6-card review grid was the last major "company website" section dominating the homepage
+
+**Rationale:** Testimonials serve a conversion goal (social proof), not an informational one. The page already carries trust signals — the Hero badge ("4.9 stars · 200+ reviews"), the schema markup, and a link to `/reviews` from the old Testimonials footer. Removing the section shortens the page and tightens the informational flow:
+
+`Hero → Guides → Q&A Hub → Health Check → Services → Service Area → Contact`
+[2026-02-21 18:18:43] Run #2 finished
+[2026-02-21 18:18:48] Run #3 starting (model: sonnet)

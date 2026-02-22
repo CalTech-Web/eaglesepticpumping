@@ -3,7 +3,6 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import HomepageAnswerHub from "@/components/HomepageAnswerHub";
 import SepticHealthCheck from "@/components/SepticHealthCheck";
-import Services from "@/components/Services";
 import ServiceArea from "@/components/ServiceArea";
 import RecentPosts from "@/components/RecentPosts";
 import ContactSection from "@/components/ContactSection";
@@ -138,7 +137,6 @@ export default function Home() {
         <RecentPosts />
         <HomepageAnswerHub />
         <SepticHealthCheck />
-        <Services />
         <ServiceArea />
         <ContactSection />
       </main>
