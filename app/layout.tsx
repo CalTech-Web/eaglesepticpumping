@@ -1,32 +1,25 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import CallbackWidget from "@/components/CallbackWidget";
-import MobileCTABar from "@/components/MobileCTABar";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://eaglesepticpumping.com"),
   title: {
-    default: "Eagle Septic Pumping | Professional Septic Services",
-    template: "%s | Eagle Septic Pumping",
+    default: "Eagle Septic Guide | Free Septic System Information",
+    template: "%s | Eagle Septic Guide",
   },
   description:
-    "Eagle Septic Pumping offers professional septic tank pumping, cleaning, inspection, and emergency services. Licensed, insured, and available 24/7. Get a free estimate today.",
+    "Free septic system guides, maintenance tips, troubleshooting help, and cost information for homeowners. Learn how to understand and care for your septic system.",
   keywords: [
-    "septic tank pumping",
-    "septic cleaning",
-    "septic inspection",
-    "emergency septic service",
-    "septic maintenance",
+    "septic system guide",
+    "septic tank maintenance",
+    "septic system information",
+    "how septic systems work",
+    "septic troubleshooting",
   ],
   openGraph: {
     type: "website",
-    siteName: "Eagle Septic Pumping",
+    siteName: "Eagle Septic Guide",
     url: "https://eaglesepticpumping.com",
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@eagleseptic",
-    creator: "@eagleseptic",
   },
 };
 
@@ -37,10 +30,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="pb-[68px] lg:pb-0">
+      <body>
         {children}
-        <CallbackWidget />
-        <MobileCTABar />
       </body>
     </html>
   );

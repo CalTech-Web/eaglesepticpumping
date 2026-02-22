@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { PHONE, PHONE_HREF } from "@/lib/services";
 import { serviceAreas } from "@/lib/serviceAreas";
 
 export const metadata: Metadata = {
@@ -233,13 +232,10 @@ export default function RealEstateInspectionsPage() {
                 timeline — not the other way around.
               </p>
               <div className="flex flex-col gap-3 sm:flex-row">
-                <a href={PHONE_HREF} className="btn-primary text-base">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-                    <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-                  </svg>
-                  Call {PHONE}
-                </a>
-                <Link href="/book" className="btn-secondary text-base">
+                <Link href="/services/septic-inspections" className="btn-primary text-base">
+                  Learn About Inspections
+                </Link>
+                <Link href="/services/septic-inspections" className="btn-secondary text-base">
                   Schedule Inspection
                 </Link>
               </div>
@@ -326,9 +322,9 @@ export default function RealEstateInspectionsPage() {
                     disputed conditions, or when lenders require visual evidence.
                   </p>
                 </div>
-                <a href={PHONE_HREF} className="inline-flex flex-shrink-0 items-center gap-2 rounded-lg bg-brand-700 px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-800 transition-colors">
-                  Ask About Camera
-                </a>
+                <Link href="/services/septic-inspections" className="inline-flex flex-shrink-0 items-center gap-2 rounded-lg bg-brand-700 px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-800 transition-colors">
+                  Learn About Camera Inspections
+                </Link>
               </div>
             </div>
           </div>
@@ -378,12 +374,9 @@ export default function RealEstateInspectionsPage() {
                 an upfront quote before scheduling — no hidden fees, no surprise charges.
               </p>
               <div className="flex flex-col gap-4 sm:flex-row justify-center">
-                <a href={PHONE_HREF} className="btn-primary text-base">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-                    <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-                  </svg>
-                  Get a Free Quote
-                </a>
+                <Link href="/services/septic-inspections" className="btn-primary text-base">
+                  Learn About Inspections
+                </Link>
                 <Link href="/pricing" className="btn-secondary text-base">
                   View Full Pricing
                 </Link>
@@ -428,20 +421,17 @@ export default function RealEstateInspectionsPage() {
                     </ul>
                   </div>
                   <div className="flex-shrink-0 flex flex-col gap-3">
-                    <a
-                      href={PHONE_HREF}
+                    <Link
+                      href="/services/septic-system-inspections"
                       className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-6 py-3 font-bold text-white hover:bg-accent-600 transition-colors"
                     >
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-                        <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-                      </svg>
-                      Call {PHONE}
-                    </a>
+                      Learn About Inspections
+                    </Link>
                     <Link
-                      href="/contact"
+                      href="/faq"
                       className="inline-flex items-center justify-center rounded-lg border-2 border-gray-600 px-6 py-3 font-bold text-white hover:border-white transition-colors"
                     >
-                      Send a Message
+                      Browse Septic FAQ
                     </Link>
                   </div>
                 </div>
@@ -475,9 +465,9 @@ export default function RealEstateInspectionsPage() {
             </div>
             <p className="mt-6 text-center text-sm text-gray-500">
               Don&apos;t see your city?{" "}
-              <a href={PHONE_HREF} className="text-brand-700 underline hover:text-brand-900">
-                Call to confirm coverage
-              </a>{" "}
+              <Link href="/service-areas" className="text-brand-700 underline hover:text-brand-900">
+                Browse all service areas
+              </Link>{" "}
               — we often travel beyond our standard service area.
             </p>
           </div>
@@ -511,19 +501,15 @@ export default function RealEstateInspectionsPage() {
               Schedule Your Real Estate Inspection Today
             </h2>
             <p className="mb-8 mx-auto max-w-xl text-brand-100 text-lg">
-              Don&apos;t let a septic system stall your closing. Call Eagle Septic now —
-              we&apos;ll get you scheduled, complete the inspection, and have your written
-              report ready before your deadline.
+              Don&apos;t let a septic system stall your closing. Learn about our inspection
+              process, then schedule before your deadline.
             </p>
             <div className="flex flex-col gap-3 sm:flex-row justify-center">
-              <a href={PHONE_HREF} className="btn-primary text-base">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-                  <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-                </svg>
-                Call {PHONE}
-              </a>
-              <Link href="/book" className="btn-secondary text-base">
-                Book Online
+              <Link href="/services/septic-inspections" className="btn-primary text-base">
+                Learn About Inspections
+              </Link>
+              <Link href="/services/septic-inspections" className="btn-secondary text-base">
+                Schedule Inspection
               </Link>
             </div>
             <p className="mt-6 text-sm text-brand-300">

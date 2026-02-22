@@ -223,3 +223,15 @@ Removed `ServiceArea` from the homepage. The "Our Service Area" section — whic
 Every section above the contact is now informational. Service area coverage remains accessible via the nav and the dedicated `/service-areas` page.
 [2026-02-21 18:21:02] Run #4 finished
 [2026-02-21 18:21:07] Run #5 starting (model: sonnet)
+✅ **Completed**
+- Removed `ContactSection` from `app/page.tsx` — the "Get a Free Estimate" lead-gen form was the last company-focused conversion section on the homepage
+
+**Homepage is now fully informational:**
+1. Hero
+2. Septic System Guides (RecentPosts)
+3. Common Septic Questions, Answered (HomepageAnswerHub)
+4. How Healthy Is Your Septic System? (SepticHealthCheck)
+
+Contact remains reachable via the `/contact` nav link, the header phone button, and the footer — no conversion paths removed from the site, just from the homepage.
+[2026-02-21 18:22:25] Run #5 finished
+[2026-02-21 18:22:25] Reached max loops (5). Stopping.

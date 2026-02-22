@@ -2,19 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { PHONE, PHONE_HREF } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: { absolute: "Annual Septic Maintenance Plan | Eagle Septic Pumping" },
+  title: { absolute: "Septic Maintenance Plans Explained | Eagle Septic Guide" },
   description:
-    "Protect your septic system year-round with Eagle Septic's annual maintenance plans. Starting at $299/year — includes scheduled pump-out, inspection, and priority service. Central Valley, CA.",
+    "What a septic maintenance plan includes, how much it costs, and whether it's worth it for your home.",
   alternates: {
     canonical: "https://eaglesepticpumping.com/maintenance-plan",
   },
   openGraph: {
-    title: "Annual Septic Maintenance Plan | Eagle Septic Pumping",
+    title: "Septic Maintenance Plans Explained | Eagle Septic Guide",
     description:
-      "Pre-schedule your septic service, lock in priority response, and save on every visit. Two plan tiers for homeowners in Modesto, Turlock, Ceres, and the Central Valley.",
+      "What a septic maintenance plan includes, how much it costs, and whether it's worth it for your home.",
     type: "website",
   },
 };
@@ -39,7 +38,7 @@ const plans = [
       "Effluent filter service",
       "Camera inspection",
     ],
-    ctaText: "Sign Up — Essential",
+    ctaText: "Essential Plan",
   },
   {
     name: "Complete Care Plan",
@@ -57,7 +56,7 @@ const plans = [
       "15% discount on any repairs or additional services",
     ],
     notIncluded: [],
-    ctaText: "Sign Up — Complete Care",
+    ctaText: "Complete Care Plan",
   },
 ];
 
@@ -190,7 +189,6 @@ const serviceSchema = {
     "@type": "LocalBusiness",
     name: "Eagle Septic Pumping",
     url: BASE_URL,
-    telephone: PHONE,
     areaServed: "Central Valley, CA",
   },
   description:
@@ -268,12 +266,12 @@ export default function MaintenancePlanPage() {
               <span className="text-brand-100">Maintenance Plan</span>
             </nav>
             <h1 className="mb-4 max-w-2xl text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">
-              Annual Septic Maintenance Plan
+              Septic Maintenance Plans: What They Include & What They Cost
             </h1>
             <p className="max-w-xl text-lg leading-relaxed text-brand-100">
-              Stop worrying about your septic system. Pre-schedule your annual
-              service, lock in priority response, and save on everything we do —
-              all for one flat yearly rate.
+              A septic maintenance plan is a pre-paid annual service agreement
+              with a septic company. Here&apos;s what they typically include,
+              what they cost, and whether the math makes sense.
             </p>
 
             {/* Trust signals */}
@@ -408,18 +406,18 @@ export default function MaintenancePlanPage() {
 
                   {/* CTA */}
                   <div className="px-6 pb-6">
-                    <a
-                      href={PHONE_HREF}
+                    <Link
+                      href="/pricing"
                       className={`block w-full rounded-lg px-4 py-3 text-center text-sm font-bold transition-colors ${
                         plan.accent
                           ? "bg-accent-500 text-white hover:bg-accent-600"
                           : "bg-brand-900 text-white hover:bg-brand-800"
                       }`}
                     >
-                      {plan.ctaText}
-                    </a>
+                      See Typical Pricing →
+                    </Link>
                     <p className="mt-2 text-center text-xs text-gray-400">
-                      Call to get started — no forms, no wait
+                      Pricing details and what&apos;s included
                     </p>
                   </div>
                 </div>
@@ -428,9 +426,9 @@ export default function MaintenancePlanPage() {
 
             <p className="mt-8 text-center text-sm text-gray-500">
               Have a tank larger than 1,500 gallons or a commercial property?{" "}
-              <a href={PHONE_HREF} className="font-semibold text-brand-700 hover:underline">
-                Call for a custom quote.
-              </a>
+              <Link href="/pricing" className="font-semibold text-brand-700 hover:underline">
+                See our full pricing guide.
+              </Link>
             </p>
           </div>
         </section>
@@ -569,11 +567,6 @@ export default function MaintenancePlanPage() {
                 </blockquote>
               ))}
             </div>
-            <p className="mt-6 text-center text-sm">
-              <Link href="/reviews" className="font-semibold text-brand-700 hover:underline">
-                Read all 200+ reviews →
-              </Link>
-            </p>
           </div>
         </section>
 
@@ -602,37 +595,25 @@ export default function MaintenancePlanPage() {
           <div className="container-max section-padding">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="mb-3 text-2xl font-bold sm:text-3xl">
-                Start Protecting Your System Today
+                The Bottom Line on Maintenance Plans
               </h2>
               <p className="mb-8 text-lg leading-relaxed text-brand-100">
-                Sign up takes five minutes over the phone. We&apos;ll handle
-                everything from there — reminders, scheduling, service, and
-                follow-up. One less thing to think about.
+                Maintenance plans make financial sense for most homeowners when
+                you compare the cost of a plan to reactive emergency service
+                costs.
               </p>
               <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-                <a
-                  href={PHONE_HREF}
-                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-8 py-3 text-base font-bold text-white shadow-lg hover:bg-accent-600 transition-colors"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="h-5 w-5"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  Call {PHONE}
-                </a>
                 <Link
                   href="/pricing"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-8 py-3 text-base font-bold text-white shadow-lg hover:bg-accent-600 transition-colors"
+                >
+                  See Typical Pricing
+                </Link>
+                <Link
+                  href="/blog"
                   className="inline-flex items-center justify-center rounded-lg border-2 border-white px-8 py-3 text-base font-bold text-white hover:bg-white hover:text-brand-900 transition-colors"
                 >
-                  View Full Pricing
+                  Read Our Guides
                 </Link>
               </div>
               <p className="mt-6 text-sm text-brand-300">

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { serviceAreas } from "@/lib/serviceAreas";
@@ -9,9 +10,6 @@ export const metadata: Metadata = {
     "Eagle Septic Pumping serves Modesto, Turlock, Stockton, Tracy, Manteca, Merced, and 14 more cities across Stanislaus, San Joaquin, and Merced counties. Licensed, insured, same-day service available.",
   alternates: { canonical: "https://eaglesepticpumping.com/service-areas" },
 };
-
-const PHONE = "(555) 867-5309";
-const PHONE_HREF = "tel:+15558675309";
 
 const countyGroups = [
   {
@@ -61,21 +59,12 @@ export default function ServiceAreasPage() {
               to Los Banos and Gustine in the west. Licensed, insured, and locally based.
             </p>
             <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-              <a
-                href={PHONE_HREF}
-                className="inline-flex items-center gap-2 rounded-lg bg-accent-500 px-6 py-3 text-base font-bold text-white shadow hover:bg-accent-600"
+              <Link
+                href="/resources"
+                className="inline-flex items-center rounded-lg bg-accent-500 px-6 py-3 text-base font-semibold text-white hover:bg-accent-600"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-                  <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-                </svg>
-                Call {PHONE}
-              </a>
-              <a
-                href="/estimate"
-                className="inline-flex items-center rounded-lg border border-accent-400 px-6 py-3 text-base font-semibold text-accent-300 hover:bg-accent-500 hover:text-white hover:border-accent-500"
-              >
-                Get a Free Estimate
-              </a>
+                Browse Septic Guides
+              </Link>
             </div>
           </div>
         </section>
@@ -142,18 +131,15 @@ export default function ServiceAreasPage() {
               Don&apos;t See Your City?
             </h2>
             <p className="mb-6 text-gray-600 max-w-xl mx-auto">
-              We often travel beyond our standard coverage area for new customers.
-              Give us a call — we&apos;ll tell you right away if we can reach you.
+              We often travel beyond our standard coverage area. Browse our septic
+              guides to learn more about what we do across the Central Valley.
             </p>
-            <a
-              href={PHONE_HREF}
+            <Link
+              href="/blog"
               className="inline-flex items-center gap-2 rounded-lg bg-brand-700 px-6 py-3 text-base font-bold text-white hover:bg-brand-800"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-                <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-              </svg>
-              Call {PHONE}
-            </a>
+              Read Our Guides
+            </Link>
           </div>
         </section>
       </main>

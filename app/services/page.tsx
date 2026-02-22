@@ -3,7 +3,7 @@ import type { ReactElement } from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { services, PHONE, PHONE_HREF } from "@/lib/services";
+import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
   title: { absolute: "Septic Services | Eagle Septic Pumping" },
@@ -157,37 +157,25 @@ export default function ServicesPage() {
       <section className="bg-brand-900 text-white">
         <div className="container-max section-padding text-center">
           <h2 className="mb-4 text-2xl font-bold sm:text-3xl">
-            Not Sure What You Need?
+            Learn More About Each Service
           </h2>
           <p className="mb-8 max-w-xl mx-auto text-brand-100 text-lg">
-            Call us and describe what you&apos;re experiencing. We&apos;ll help
-            you identify the right service and give you an honest estimate.
+            Browse our guides and FAQ to understand what each service involves
+            and when it&apos;s needed.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row justify-center">
-            <a
-              href={PHONE_HREF}
+            <Link
+              href="/faq"
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-8 py-3 text-base font-bold text-white hover:bg-accent-600 transition-colors"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="h-5 w-5"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              Call {PHONE}
-            </a>
-            <a
-              href="/#contact"
+              Browse the FAQ
+            </Link>
+            <Link
+              href="/blog"
               className="inline-flex items-center justify-center rounded-lg border-2 border-white px-8 py-3 text-base font-bold text-white hover:bg-white hover:text-brand-900 transition-colors"
             >
-              Get a Free Estimate
-            </a>
+              Read Our Guides
+            </Link>
           </div>
         </div>
       </section>

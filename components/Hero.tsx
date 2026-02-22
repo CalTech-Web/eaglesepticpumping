@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { PHONE, PHONE_HREF } from "@/lib/services";
+import Link from "next/link";
 
 const HERO_IMAGE =
   "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1600&h=900&q=85&fit=crop&crop=center";
@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Background photo */}
       <Image
         src={HERO_IMAGE}
-        alt="Residential home with green lawn served by Eagle Septic Pumping"
+        alt="Residential home with green lawn and healthy septic system"
         fill
         priority
         className="object-cover object-center opacity-30"
@@ -23,50 +23,36 @@ export default function Hero() {
         <div className="mx-auto max-w-3xl text-center">
           {/* Badge */}
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-accent-500/20 px-4 py-2 text-sm font-semibold text-accent-400 ring-1 ring-accent-500/30">
-            <span className="h-2 w-2 animate-pulse rounded-full bg-accent-400"></span>
-            Available 24/7 for Emergencies
+            Free septic system information for homeowners
           </div>
 
           <h1 className="mb-6 text-4xl font-extrabold leading-tight text-white sm:text-5xl lg:text-6xl">
-            Professional Septic{" "}
-            <span className="text-accent-400">Pumping & Services</span>
+            Understand Your{" "}
+            <span className="text-accent-400">Septic System</span>
           </h1>
 
           <p className="mb-8 text-lg text-brand-100 sm:text-xl">
-            Trusted septic tank pumping, cleaning, and inspection services.
-            Licensed & insured technicians ready to solve your septic problems —
-            fast.
+            Plain-language guides, maintenance tips, and troubleshooting help
+            for homeowners with septic systems. No jargon, no sales pitch.
           </p>
 
           {/* CTA buttons */}
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <a href="/resources" className="btn-primary text-base">
-              Browse Septic Guides
-            </a>
-            <a href={PHONE_HREF} className="btn-secondary text-base">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="h-5 w-5"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              Call {PHONE}
-            </a>
+            <Link href="/resources" className="btn-primary text-base">
+              Browse All Guides
+            </Link>
+            <Link href="/blog" className="btn-secondary text-base">
+              Read the Blog
+            </Link>
           </div>
 
           {/* Trust signals */}
           <div className="mt-12 flex flex-wrap items-center justify-center gap-6 text-sm text-brand-100">
             {[
-              "Licensed & Insured",
-              "Same-Day Service",
-              "Free Estimates",
-              "Family Owned",
+              "Free to Read",
+              "No Ads",
+              "Homeowner Focused",
+              "Plain Language",
             ].map((trust) => (
               <div key={trust} className="flex items-center gap-2">
                 <svg

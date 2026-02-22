@@ -2,19 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { PHONE, PHONE_HREF } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: { absolute: "Commercial Septic Services | Eagle Septic Pumping — Central Valley" },
+  title: { absolute: "Commercial Septic Systems Explained | Eagle Septic Guide" },
   description:
-    "Commercial septic pumping, cleaning, and maintenance for restaurants, farms, apartment complexes, and businesses across California's Central Valley. Scheduled maintenance contracts available. Call for a free site assessment.",
+    "What commercial and agricultural properties need to know about septic systems — service frequency, compliance requirements, and system maintenance.",
   alternates: {
     canonical: "https://eaglesepticpumping.com/commercial",
   },
   openGraph: {
-    title: "Commercial Septic Services | Eagle Septic Pumping",
+    title: "Commercial Septic Systems Explained | Eagle Septic Guide",
     description:
-      "Scheduled maintenance, emergency response, and full-service septic solutions for commercial properties and agricultural operations across the Central Valley.",
+      "What commercial and agricultural properties need to know about septic systems — service frequency, compliance requirements, and system maintenance.",
     type: "website",
   },
 };
@@ -263,7 +262,6 @@ const serviceSchema = {
   "@type": "LocalBusiness",
   name: "Eagle Septic Pumping",
   url: "https://eaglesepticpumping.com",
-  telephone: PHONE,
   description:
     "Commercial septic pumping, cleaning, grease trap service, and maintenance contracts for restaurants, farms, apartment complexes, and industrial facilities in California's Central Valley.",
   areaServed: [
@@ -324,20 +322,17 @@ export default function CommercialPage() {
                   scheduling, and the compliance documentation their businesses require.
                 </p>
                 <div className="flex flex-col gap-3 sm:flex-row">
-                  <a
-                    href={PHONE_HREF}
-                    className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-6 py-3 text-base font-bold text-white shadow hover:bg-accent-600 transition-colors"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-                      <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-                    </svg>
-                    Call for a Free Site Assessment
-                  </a>
                   <Link
-                    href="/contact"
+                    href="/faq"
+                    className="inline-flex items-center justify-center rounded-lg bg-accent-500 px-6 py-3 text-base font-bold text-white hover:bg-accent-600 transition-colors"
+                  >
+                    Browse Septic FAQ
+                  </Link>
+                  <Link
+                    href="/blog"
                     className="inline-flex items-center justify-center rounded-lg border-2 border-white px-6 py-3 text-base font-bold text-white hover:bg-white hover:text-brand-900 transition-colors"
                   >
-                    Request a Quote
+                    Read Our Guides
                   </Link>
                 </div>
               </div>
@@ -459,21 +454,12 @@ export default function CommercialPage() {
                     </li>
                   ))}
                 </ol>
-                <div className="mt-8 space-y-3 border-t border-brand-700 pt-8">
-                  <a
-                    href={PHONE_HREF}
-                    className="flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-5 py-3 font-bold text-white hover:bg-accent-600 transition-colors"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-                      <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-                    </svg>
-                    Call {PHONE}
-                  </a>
+                <div className="mt-8 border-t border-brand-700 pt-8">
                   <Link
-                    href="/contact"
-                    className="flex items-center justify-center rounded-lg border-2 border-brand-600 px-5 py-3 font-bold text-white hover:bg-brand-800 transition-colors"
+                    href="/resources"
+                    className="flex items-center justify-center rounded-lg bg-accent-500 px-5 py-3 font-bold text-white hover:bg-accent-600 transition-colors"
                   >
-                    Request a Proposal
+                    Browse All Guides
                   </Link>
                 </div>
               </div>
@@ -537,12 +523,12 @@ export default function CommercialPage() {
                       </div>
                     ))}
                   </div>
-                  <a
-                    href={PHONE_HREF}
+                  <Link
+                    href="/blog"
                     className="mt-8 inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-5 py-3 font-bold text-white hover:bg-accent-600 transition-colors"
                   >
-                    Discuss Your Property
-                  </a>
+                    Read Agricultural Septic Guide
+                  </Link>
                 </div>
               </div>
             </div>
@@ -572,29 +558,26 @@ export default function CommercialPage() {
             <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
               <div>
                 <h2 className="mb-3 text-2xl font-bold sm:text-3xl">
-                  Get a Free Commercial Site Assessment
+                  Understanding Commercial Septic Systems
                 </h2>
                 <p className="text-brand-100 text-lg leading-relaxed">
-                  We&apos;ll visit your property, evaluate your system, and provide a written
-                  proposal — including maintenance contract options — at no cost or obligation.
-                  Most assessments are completed within 48 hours of your call.
+                  Commercial properties have unique septic demands — higher usage volumes,
+                  compliance documentation requirements, and flexible scheduling needs.
+                  Browse our resources to understand what your property requires.
                 </p>
               </div>
               <div className="flex flex-col gap-3 sm:flex-row lg:justify-end">
-                <a
-                  href={PHONE_HREF}
+                <Link
+                  href="/faq"
                   className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-7 py-3 text-base font-bold text-white hover:bg-accent-600 transition-colors"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-                    <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-                  </svg>
-                  Call {PHONE}
-                </a>
+                  Browse Septic FAQ
+                </Link>
                 <Link
-                  href="/contact"
+                  href="/blog"
                   className="inline-flex items-center justify-center rounded-lg border-2 border-white px-7 py-3 text-base font-bold text-white hover:bg-white hover:text-brand-900 transition-colors"
                 >
-                  Request a Proposal
+                  Read Our Guides
                 </Link>
               </div>
             </div>
