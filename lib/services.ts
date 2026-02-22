@@ -442,7 +442,7 @@ export const services: ServiceData[] = [
     ],
     relatedPostSlugs: [
       "septic-emergency-what-to-do",
-      "sewage-smell-septic-system",
+      "septic-backup-after-heavy-rain",
       "warning-signs-septic-system-failing",
     ],
   },
