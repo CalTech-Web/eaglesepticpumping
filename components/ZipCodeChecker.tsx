@@ -12,10 +12,7 @@ export default function ZipCodeChecker() {
   const [city, setCity] = useState("");
   const [citySlug, setCitySlug] = useState("");
 
-  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
-    const val = e.target.value.replace(/\D/g, "").slice(0, 5);
-    setZip(val);
-
+  function checkZip(val: string) {
     if (val.length === 5) {
       const slug = ZIP_CODE_MAP[val];
       if (slug) {
@@ -28,13 +25,27 @@ export default function ZipCodeChecker() {
         setCitySlug("");
         setResult("not-found");
       }
+    }
+  }
+
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const val = e.target.value.replace(/\D/g, "").slice(0, 5);
+    setZip(val);
+
+    if (val.length === 5) {
+      checkZip(val);
     } else {
       setResult("idle");
     }
   }
 
+  function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    checkZip(zip);
+  }
+
   return (
-    <div className="flex h-80 flex-col items-center justify-center gap-4 p-8 text-center">
+    <div className="flex flex-col items-center justify-center gap-4 p-8 text-center">
       {/* Icon */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -58,8 +69,8 @@ export default function ZipCodeChecker() {
         </p>
       </div>
 
-      {/* Input */}
-      <div className="w-full max-w-[220px]">
+      {/* Input + Button */}
+      <form onSubmit={handleSubmit} className="flex w-full max-w-xs flex-col gap-2">
         <input
           type="text"
           inputMode="numeric"
@@ -70,7 +81,14 @@ export default function ZipCodeChecker() {
           aria-label="Enter your zip code"
           className="w-full rounded-lg border border-brand-300 bg-white px-4 py-3 text-center text-xl font-mono tracking-widest text-gray-900 placeholder:text-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200"
         />
-      </div>
+        <button
+          type="submit"
+          disabled={zip.length < 5}
+          className="w-full rounded-lg bg-brand-700 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-800 disabled:cursor-not-allowed disabled:opacity-40"
+        >
+          Check Coverage
+        </button>
+      </form>
 
       {/* Results */}
       {result === "found" && (
