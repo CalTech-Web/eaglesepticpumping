@@ -88,6 +88,51 @@ const savings = [
   },
 ];
 
+const steps = [
+  {
+    step: "1",
+    title: "Sign Up in 5 Minutes",
+    desc: "Call us and we'll set up your plan over the phone. Tell us your tank size and last service date — that's all we need.",
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+        <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
+      </svg>
+    ),
+  },
+  {
+    step: "2",
+    title: "We Schedule Service",
+    desc: "We enter your system in our maintenance calendar and contact you 30 days before your service is due each year.",
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+        <path fillRule="evenodd" d="M6.75 2.25A.75.75 0 017.5 3v1.5h9V3A.75.75 0 0118 3v1.5h.75a3 3 0 013 3v11.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V7.5a3 3 0 013-3H6V3a.75.75 0 01.75-.75zm13.5 9a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5v7.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-7.5z" clipRule="evenodd" />
+      </svg>
+    ),
+  },
+  {
+    step: "3",
+    title: "We Show Up — You Don't Stress",
+    desc: "Your technician arrives on schedule, services the system, and leaves you with a written condition report.",
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+        <path d="M3.375 4.5C2.339 4.5 1.5 5.34 1.5 6.375V13.5h12V6.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM13.5 15h-12v2.625c0 1.035.84 1.875 1.875 1.875h.375a3 3 0 116 0h3a.75.75 0 00.75-.75V15z" />
+        <path d="M8.25 19.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0zM15.75 6.75a.75.75 0 00-.75.75v11.25c0 .087.015.17.042.248a3 3 0 015.958.464c.853-.175 1.522-.935 1.464-1.883a18.659 18.659 0 00-3.732-10.104 1.837 1.837 0 00-1.47-.725H15.75z" />
+        <path d="M19.5 19.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0z" />
+      </svg>
+    ),
+  },
+  {
+    step: "4",
+    title: "Discount Applies All Year",
+    desc: "Any repairs or additional visits during your plan year are automatically discounted at your plan rate.",
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+        <path fillRule="evenodd" d="M5.25 2.25a3 3 0 00-3 3v4.318a3 3 0 00.879 2.121l9.58 9.581c.92.92 2.39 1.186 3.548.428a18.849 18.849 0 005.441-5.44c.758-1.16.492-2.629-.428-3.548l-9.58-9.581a3 3 0 00-2.121-.879H5.25zM6.375 7.5a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z" clipRule="evenodd" />
+      </svg>
+    ),
+  },
+];
+
 const faqs = [
   {
     question: "How do I sign up for a maintenance plan?",
@@ -470,32 +515,12 @@ export default function MaintenancePlanPage() {
               How the Plan Works
             </h2>
             <div className="mx-auto grid max-w-4xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {[
-                {
-                  step: "1",
-                  title: "Sign Up in 5 Minutes",
-                  desc: "Call us and we'll set up your plan over the phone. Tell us your tank size and last service date — that's all we need.",
-                },
-                {
-                  step: "2",
-                  title: "We Schedule Service",
-                  desc: "We enter your system in our maintenance calendar and contact you 30 days before your service is due each year.",
-                },
-                {
-                  step: "3",
-                  title: "We Show Up — You Don't Stress",
-                  desc: "Your technician arrives on schedule, services the system, and leaves you with a written condition report.",
-                },
-                {
-                  step: "4",
-                  title: "Discount Applies All Year",
-                  desc: "Any repairs or additional visits during your plan year are automatically discounted at your plan rate.",
-                },
-              ].map((item) => (
+              {steps.map((item) => (
                 <div key={item.step} className="rounded-xl bg-white p-6 shadow-sm">
-                  <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-brand-900 text-sm font-bold text-white">
-                    {item.step}
+                  <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-brand-100 text-brand-700">
+                    {item.icon}
                   </div>
+                  <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-brand-400">Step {item.step}</p>
                   <h3 className="mb-2 font-bold text-gray-900">{item.title}</h3>
                   <p className="text-sm leading-relaxed text-gray-500">{item.desc}</p>
                 </div>
