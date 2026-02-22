@@ -49,12 +49,12 @@ export default function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-6 lg:flex">
+        <nav className="hidden items-center gap-4 xl:flex">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-brand-100 transition-colors hover:text-white"
+              className="whitespace-nowrap text-sm font-medium text-brand-100 transition-colors hover:text-white"
             >
               {link.label}
             </Link>
@@ -98,7 +98,7 @@ export default function Header() {
           {/* Mobile menu toggle */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="rounded p-2 text-brand-100 hover:text-white lg:hidden"
+            className="rounded p-2 text-brand-100 hover:text-white xl:hidden"
             aria-label="Toggle menu"
           >
             {menuOpen ? (
@@ -138,7 +138,7 @@ export default function Header() {
 
       {/* Mobile nav dropdown */}
       {menuOpen && (
-        <nav className="border-t border-brand-800 bg-brand-900 px-4 pb-4 lg:hidden">
+        <nav className="border-t border-brand-800 bg-brand-900 px-4 pb-4 xl:hidden">
           <Link
             href={emergencyLink.href}
             onClick={() => setMenuOpen(false)}
