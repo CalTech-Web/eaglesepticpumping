@@ -40,7 +40,10 @@ export default function Hero() {
 
           {/* CTA buttons */}
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <a href={PHONE_HREF} className="btn-primary text-base">
+            <a href="/resources" className="btn-primary text-base">
+              Browse Septic Guides
+            </a>
+            <a href={PHONE_HREF} className="btn-secondary text-base">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -54,9 +57,6 @@ export default function Hero() {
                 />
               </svg>
               Call {PHONE}
-            </a>
-            <a href="/resources" className="btn-secondary text-base">
-              Browse Septic Guides
             </a>
           </div>
 

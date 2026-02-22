@@ -147,3 +147,10 @@ Done. Removed `WhyChooseUs` from the homepage.
 **Why this was the highest-priority goal:** It was the most purely promotional block on the page with zero informational value. A homeowner researching septic systems gets nothing useful from "Why Choose Us?" copy. The homepage now flows: informational answers → diagnostic tool → blog posts → FAQ → services → reviews → coverage → contact — with no hard marketing pitch interrupting the information-first experience.
 [2026-02-21 18:03:34] Run #2 finished
 [2026-02-21 18:03:39] Run #3 starting (model: sonnet)
+Two targeted changes committed as Run #32:
+
+1. **Hero height**: `min-h-[520px]` → `min-h-[380px]` — saves 140px of company-only viewport. On a typical 900px laptop, the HomepageAnswerHub Q&As are now partially visible on first load, immediately signalling "informational resource" rather than "service company."
+
+2. **Secondary CTA**: "Get a Free Estimate" → "Browse Septic Guides" → `/resources` — the primary phone CTA stays, but the second button now drives visitors toward educational content instead of a service conversion funnel. This is the most visible signal of intent on the entire page.
+[2026-02-21 18:06:56] Run #3 finished
+[2026-02-21 18:07:01] Run #4 starting (model: sonnet)
