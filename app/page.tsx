@@ -137,9 +137,9 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <RecentPosts />
         <HomepageAnswerHub />
         <SepticHealthCheck />
-        <RecentPosts />
         <FAQ />
         <Services />
         <Testimonials />

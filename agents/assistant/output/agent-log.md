@@ -154,3 +154,12 @@ Two targeted changes committed as Run #32:
 2. **Secondary CTA**: "Get a Free Estimate" → "Browse Septic Guides" → `/resources` — the primary phone CTA stays, but the second button now drives visitors toward educational content instead of a service conversion funnel. This is the most visible signal of intent on the entire page.
 [2026-02-21 18:06:56] Run #3 finished
 [2026-02-21 18:07:01] Run #4 starting (model: sonnet)
+Done. Single focused change committed.
+
+**Run #33 — Hero CTA hierarchy swap**
+
+"Browse Septic Guides" is now the `btn-primary` (green, visually dominant) and appears first. "Call {PHONE}" is demoted to `btn-secondary` (outlined) and appears second.
+
+The above-the-fold first impression now reads: *learn here* — not *hire us*. Every other informational section below (AnswerHub, SepticHealthCheck, RecentPosts) already supported this framing; the Hero was the only element contradicting it.
+[2026-02-21 18:08:52] Run #4 finished
+[2026-02-21 18:08:57] Run #5 starting (model: sonnet)
