@@ -67,19 +67,31 @@ const team = [
     name: "Mike Ramirez",
     role: "Owner & Lead Technician",
     bio: "With over 18 years in the septic industry, Mike founded Eagle Septic Pumping to bring honest, expert service to the Central Valley. He holds a California State Contractor's License and personally oversees every major job.",
-    initials: "MR",
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-9 w-9">
+        <path fillRule="evenodd" d="M12 6.75a5.25 5.25 0 016.775-5.025.75.75 0 01.313 1.248l-3.32 3.319c.063.475.276.934.641 1.299.365.365.824.578 1.3.641l3.318-3.319a.75.75 0 011.248.313 5.25 5.25 0 01-5.472 6.756c-1.018-.086-1.87.1-2.309.634L7.344 21.3A3.298 3.298 0 112.7 16.657l8.684-7.151c.533-.44.72-1.291.634-2.309A5.342 5.342 0 0112 6.75zM4.117 19.125a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z" clipRule="evenodd" />
+      </svg>
+    ),
   },
   {
     name: "Carlos Vega",
     role: "Senior Technician",
     bio: "Carlos brings 12 years of field experience and specializes in drain field diagnostics and repair. Customers consistently praise his thorough explanations and attention to detail.",
-    initials: "CV",
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-9 w-9">
+        <path d="M11.25 4.533A9.707 9.707 0 006 3a9.735 9.735 0 00-3.25.555.75.75 0 00-.5.707v14.25a.75.75 0 001 .707A8.237 8.237 0 016 18.75c1.995 0 3.823.707 5.25 1.886V4.533zM12.75 20.636A8.214 8.214 0 0118 18.75c.966 0 1.89.166 2.75.47a.75.75 0 001-.708V4.262a.75.75 0 00-.5-.707A9.735 9.735 0 0018 3a9.707 9.707 0 00-5.25 1.533v16.103z" />
+      </svg>
+    ),
   },
   {
     name: "Sarah Thompson",
     role: "Office Manager",
     bio: "Sarah keeps everything running smoothly — from scheduling and estimates to follow-up calls. She's the friendly voice you'll hear when you call us and the reason jobs never fall through the cracks.",
-    initials: "ST",
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-9 w-9">
+        <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
+      </svg>
+    ),
   },
 ];
 
@@ -264,11 +276,10 @@ export default function AboutPage() {
               {team.map((member) => (
                 <div
                   key={member.name}
-                  className="flex flex-col items-center rounded-2xl bg-gray-50 p-8 text-center"
+                  className="flex flex-col items-center rounded-2xl bg-gray-50 p-8 text-center ring-1 ring-gray-100"
                 >
-                  {/* Avatar placeholder */}
-                  <div className="mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-brand-700 text-2xl font-bold text-white">
-                    {member.initials}
+                  <div className="mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-brand-700 text-white shadow-md">
+                    {member.icon}
                   </div>
                   <h3 className="text-xl font-bold text-gray-900">{member.name}</h3>
                   <p className="mb-4 text-sm font-medium text-accent-600">{member.role}</p>
