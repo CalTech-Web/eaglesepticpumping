@@ -2,27 +2,18 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { PHONE, PHONE_HREF } from "@/lib/services";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: "/services", label: "Services" },
-    { href: "/commercial", label: "Commercial" },
-    { href: "/pricing", label: "Pricing" },
-    { href: "/service-areas", label: "Service Area" },
-    { href: "/reviews", label: "Reviews" },
-    { href: "/faq", label: "FAQ" },
-    { href: "/about", label: "About" },
-    { href: "/resources", label: "Resources" },
     { href: "/blog", label: "Blog" },
-    { href: "/contact", label: "Contact" },
+    { href: "/resources", label: "Guides" },
+    { href: "/faq", label: "FAQ" },
+    { href: "/services", label: "Services Explained" },
+    { href: "/emergency", label: "Emergency Help" },
+    { href: "/about", label: "About" },
   ];
-
-  const emergencyLink = { href: "/emergency", label: "⚠️ Emergency" };
-
-  const bookLink = { href: "/book", label: "Book Service" };
 
   return (
     <header className="sticky top-0 z-50 bg-brand-900 shadow-lg">
@@ -44,7 +35,7 @@ export default function Header() {
               Eagle Septic
             </span>
             <span className="block text-xs font-medium leading-tight text-brand-100">
-              Pumping & Services
+              Septic Information Guide
             </span>
           </div>
         </Link>
@@ -61,41 +52,15 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            href={emergencyLink.href}
-            className="rounded-lg bg-red-600 px-3 py-1.5 text-sm font-bold text-white shadow transition-colors hover:bg-red-700"
-          >
-            {emergencyLink.label}
-          </Link>
-          <Link
-            href={bookLink.href}
+            href="/blog"
             className="rounded-lg bg-accent-500 px-4 py-2 text-sm font-bold text-white shadow transition-colors hover:bg-accent-600"
           >
-            {bookLink.label}
+            Read Guides
           </Link>
         </nav>
 
-        {/* CTA phone */}
+        {/* Mobile menu toggle */}
         <div className="flex items-center gap-3">
-          <a
-            href={PHONE_HREF}
-            className="flex items-center gap-2 rounded-lg bg-accent-500 px-4 py-2 text-sm font-bold text-white shadow transition-colors hover:bg-accent-600"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              className="h-4 w-4"
-            >
-              <path
-                fillRule="evenodd"
-                d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span className="hidden sm:inline">{PHONE}</span>
-            <span className="sm:hidden">Call Now</span>
-          </a>
-
           {/* Mobile menu toggle */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
@@ -140,13 +105,6 @@ export default function Header() {
       {/* Mobile nav dropdown */}
       {menuOpen && (
         <nav className="border-t border-brand-800 bg-brand-900 px-4 pb-4 xl:hidden">
-          <Link
-            href={emergencyLink.href}
-            onClick={() => setMenuOpen(false)}
-            className="mt-3 block rounded-lg bg-red-600 px-3 py-2.5 text-center text-sm font-bold text-white hover:bg-red-700"
-          >
-            {emergencyLink.label}
-          </Link>
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -158,11 +116,11 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            href={bookLink.href}
+            href="/blog"
             onClick={() => setMenuOpen(false)}
             className="mt-2 block rounded-lg bg-accent-500 px-3 py-2.5 text-center text-sm font-bold text-white hover:bg-accent-600"
           >
-            {bookLink.label}
+            Read Guides
           </Link>
         </nav>
       )}
