@@ -280,14 +280,14 @@ export default function AboutPage() {
         </section>
 
         {/* Certifications */}
-        <section className="bg-brand-900">
+        <section className="bg-brand-50">
           <div className="container-max section-padding px-4 sm:px-6 lg:px-8">
             <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
               <div>
-                <h2 className="mb-4 text-3xl font-bold text-white sm:text-4xl">
+                <h2 className="mb-4 text-3xl font-bold text-brand-900 sm:text-4xl">
                   Licensed, Certified &amp; Insured
                 </h2>
-                <p className="mb-8 text-lg text-brand-200">
+                <p className="mb-8 text-lg text-brand-700">
                   We hold every credential required by the State of California —
                   not because we have to, but because you deserve a company that
                   takes its responsibilities seriously.
@@ -299,7 +299,7 @@ export default function AboutPage() {
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
                         fill="currentColor"
-                        className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent-400"
+                        className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent-500"
                       >
                         <path
                           fillRule="evenodd"
@@ -307,17 +307,17 @@ export default function AboutPage() {
                           clipRule="evenodd"
                         />
                       </svg>
-                      <span className="text-brand-100">{cert}</span>
+                      <span className="text-brand-800">{cert}</span>
                     </li>
                   ))}
                 </ul>
               </div>
 
-              <div className="rounded-2xl bg-brand-800 p-8 lg:p-10">
-                <h3 className="mb-4 text-xl font-bold text-white">
+              <div className="rounded-2xl bg-white p-8 ring-1 ring-brand-200 lg:p-10">
+                <h3 className="mb-4 text-xl font-bold text-brand-900">
                   Why It Matters to You
                 </h3>
-                <div className="space-y-4 text-brand-200">
+                <div className="space-y-4 text-brand-700">
                   <p>
                     An unlicensed septic contractor can void your homeowner&apos;s
                     insurance and leave you liable for county code violations.
