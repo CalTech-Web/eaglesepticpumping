@@ -183,6 +183,60 @@ const PhoneIcon = () => (
   </svg>
 );
 
+// Step-specific icons for "Do This Right Now" section
+const NoWaterIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+    <path d="M3.53 2.47a.75.75 0 00-1.06 1.06l18 18a.75.75 0 101.06-1.06l-18-18zM20.25 5.507v11.561L5.853 2.671c.15-.043.306-.075.467-.094a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93zM3.75 21V6.932l14.063 14.063L12 18.088l-7.165 3.583A.75.75 0 013.75 21z" />
+  </svg>
+);
+
+const ShieldExclamationIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+    <path fillRule="evenodd" d="M11.484 2.17a.75.75 0 011.032 0 11.209 11.209 0 007.877 3.08.75.75 0 01.722.515 12.74 12.74 0 01.635 3.985c0 5.942-4.064 10.933-9.563 12.348a.749.749 0 01-.374 0C6.314 20.683 2.25 15.692 2.25 9.75c0-1.39.223-2.73.635-3.985a.75.75 0 01.722-.516l.143.001c2.996 0 5.718-1.17 7.734-3.08zM12 8.25a.75.75 0 01.75.75v3.75a.75.75 0 01-1.5 0V9a.75.75 0 01.75-.75zM12 15a.75.75 0 100 1.5.75.75 0 000-1.5z" clipRule="evenodd" />
+  </svg>
+);
+
+const WindowIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+    <path fillRule="evenodd" d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm4.5 0a.75.75 0 000 1.5h9a.75.75 0 000-1.5h-9zm0 3a.75.75 0 000 1.5h9a.75.75 0 000-1.5h-9zm0 3a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z" clipRule="evenodd" />
+  </svg>
+);
+
+// Icons for "What Happens When You Call" section
+const ChatBubbleIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
+    <path fillRule="evenodd" d="M4.848 2.771A49.144 49.144 0 0112 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 01-3.476.383.39.39 0 00-.297.17l-2.755 4.133a.75.75 0 01-1.248 0l-2.755-4.133a.39.39 0 00-.297-.17 48.9 48.9 0 01-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97z" clipRule="evenodd" />
+  </svg>
+);
+
+const TruckIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
+    <path d="M3.375 4.5C2.339 4.5 1.5 5.34 1.5 6.375V13.5h12V6.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM13.5 15h-12v2.625c0 1.035.84 1.875 1.875 1.875H3.75a3 3 0 106 0h3.75a.75.75 0 00.75-.75V15z" />
+    <path d="M8.25 19.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0zM15.75 6.75a.75.75 0 00-.75.75v11.25c0 .087.015.17.042.248a3 3 0 015.958.464c.853-.175 1.522-.935 1.464-1.883a18.659 18.659 0 00-3.732-10.104 1.837 1.837 0 00-1.47-.725H15.75z" />
+    <path d="M19.5 19.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0z" />
+  </svg>
+);
+
+const WrenchIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
+    <path fillRule="evenodd" d="M12 6.75a5.25 5.25 0 016.775-5.025.75.75 0 01.313 1.248l-3.32 3.319c.063.475.276.934.641 1.299.365.365.824.578 1.3.641l3.318-3.319a.75.75 0 011.248.313 5.25 5.25 0 01-5.472 6.756c-1.018-.086-1.87.1-2.309.634L7.344 21.3A3.298 3.298 0 112.7 16.657l8.684-7.151c.533-.44.72-1.291.634-2.309A5.342 5.342 0 0112 6.75zM4.117 19.125a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z" clipRule="evenodd" />
+  </svg>
+);
+
+const stepIcons = [
+  <NoWaterIcon key="no-water" />,
+  <ShieldExclamationIcon key="shield" />,
+  <WindowIcon key="window" />,
+  <PhoneIcon key="phone" />,
+];
+
+const callStepIcons = [
+  <PhoneIcon key="phone" />,
+  <ChatBubbleIcon key="chat" />,
+  <TruckIcon key="truck" />,
+  <WrenchIcon key="wrench" />,
+];
+
 const CheckIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -290,13 +344,16 @@ export default function EmergencyPage() {
               These steps limit damage and protect your family until we arrive.
             </p>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {immediateSteps.map((item) => (
+              {immediateSteps.map((item, i) => (
                 <div
                   key={item.step}
                   className="rounded-xl bg-white p-6 shadow-sm ring-1 ring-red-100"
                 >
-                  <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-red-600 text-lg font-bold text-white">
-                    {item.step}
+                  <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-red-400">
+                    STEP {item.step}
+                  </p>
+                  <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-red-100 text-red-700">
+                    {stepIcons[i]}
                   </div>
                   <h3 className="mb-2 font-semibold text-gray-900">
                     {item.title}
@@ -371,8 +428,8 @@ export default function EmergencyPage() {
                     },
                   ].map((item, i) => (
                     <div key={item.title} className="flex gap-4">
-                      <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-red-600 text-sm font-bold text-white">
-                        {i + 1}
+                      <div className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-red-100 text-red-700">
+                        {callStepIcons[i]}
                       </div>
                       <div>
                         <p className="font-semibold text-gray-900">
