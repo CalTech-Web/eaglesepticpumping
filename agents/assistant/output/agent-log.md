@@ -183,3 +183,10 @@ Done. The change moves `<RecentPosts />` to be the first content section after t
 [2026-02-21 18:15:35] Max loops: 5 (0=infinite)
 [2026-02-21 18:15:35] ==========================================
 [2026-02-21 18:15:35] Run #1 starting (model: sonnet)
+Done.
+
+**Run #35:** Removed `<FAQ />` from the homepage.
+
+The HomepageAnswerHub already presents the top 5 homeowner questions as fully-visible cards with rich answers linked to blog posts — a far more informational pattern than the accordion. The FAQ accordion hid content behind clicks, overlapped the same question topics (pumping frequency, warning signs, cost, emergency steps), and was the last element disrupting the clean informational → company-services flow. The full FAQ page at `/faq` is untouched.
+[2026-02-21 18:17:16] Run #1 finished
+[2026-02-21 18:17:21] Run #2 starting (model: sonnet)
