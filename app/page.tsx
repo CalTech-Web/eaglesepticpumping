@@ -4,7 +4,6 @@ import Hero from "@/components/Hero";
 import HomepageAnswerHub from "@/components/HomepageAnswerHub";
 import SepticHealthCheck from "@/components/SepticHealthCheck";
 import RecentPosts from "@/components/RecentPosts";
-import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import { PHONE, EMAIL } from "@/lib/services";
 
@@ -136,7 +135,6 @@ export default function Home() {
         <RecentPosts />
         <HomepageAnswerHub />
         <SepticHealthCheck />
-        <ContactSection />
       </main>
       <Footer />
     </>

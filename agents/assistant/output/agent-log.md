@@ -215,3 +215,11 @@ Done. Run #37: removed the `<Services />` component from the homepage.
 Informational content now runs uninterrupted from Hero through the health check. Services are still accessible from the nav, and every content section already links to the services that matter in context.
 [2026-02-21 18:19:58] Run #3 finished
 [2026-02-21 18:20:03] Run #4 starting (model: sonnet)
+Removed `ServiceArea` from the homepage. The "Our Service Area" section — which led with company marketing copy, a city grid, and a zip code checker — was the last company-focused block in the main content flow.
+
+**New homepage flow:**
+1. Hero → 2. Septic System Guides (RecentPosts) → 3. Common Questions Answered (HomepageAnswerHub) → 4. System Health Self-Assessment (SepticHealthCheck) → 5. Contact
+
+Every section above the contact is now informational. Service area coverage remains accessible via the nav and the dedicated `/service-areas` page.
+[2026-02-21 18:21:02] Run #4 finished
+[2026-02-21 18:21:07] Run #5 starting (model: sonnet)
