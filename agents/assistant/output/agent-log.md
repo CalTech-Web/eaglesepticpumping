@@ -57,3 +57,31 @@ The site previously had a blog but no clear "this is an educational resource" si
 - "Resources" added between About and Blog — visible signal to both users and crawlers that this is an educational resource site, not just a service company
 [2026-02-21 17:50:05] Run #2 finished
 [2026-02-21 17:50:10] Run #3 starting (model: sonnet)
+✅ **Completed**
+
+- Added **"How Does a Septic System Work? A Complete Guide for Homeowners"** (`/blog/how-does-a-septic-system-work`)
+  - Category: Education | ~10 min read
+  - TypeScript compiled clean, committed to `main`
+
+**Why this was the highest priority:** The site had 25+ posts on maintenance schedules, costs, warning signs, and troubleshooting — but zero foundational content explaining *what a septic system actually is*. "How does a septic system work" is the most-searched informational query in the category and the anchor every other informational post links back to. Without it, the informational pivot was built on a missing foundation.
+
+**Post covers:**
+- The two core components (tank + drain field)
+- The 3-layer tank process (scum / effluent / sludge)
+- The role of anaerobic bacteria and what disrupts them
+- Drain field filtration mechanics (physical, biological, chemical)
+- 5 system types (conventional, pressure distribution, aerobic, mound, chamber)
+- What not to flush and why
+- Healthy system signs vs early warning signs
+- The 3 homeowner maintenance responsibilities (pump schedule, drain field protection, input control)
+[2026-02-21 17:53:38] Run #3 finished
+[2026-02-21 17:53:42] Run #4 starting (model: sonnet)
+[2026-02-21 17:53:42] Claude command interrupted or failed
+[2026-02-21 17:53:47] ==========================================
+[2026-02-21 17:53:47] Agent: Assistant
+[2026-02-21 17:53:47] Model: sonnet
+[2026-02-21 17:53:47] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/assistant
+[2026-02-21 17:53:47] Stop on complete: false
+[2026-02-21 17:53:47] Max loops: 5 (0=infinite)
+[2026-02-21 17:53:47] ==========================================
+[2026-02-21 17:53:47] Run #1 starting (model: sonnet)
