@@ -163,3 +163,23 @@ Done. Single focused change committed.
 The above-the-fold first impression now reads: *learn here* — not *hire us*. Every other informational section below (AnswerHub, SepticHealthCheck, RecentPosts) already supported this framing; the Hero was the only element contradicting it.
 [2026-02-21 18:08:52] Run #4 finished
 [2026-02-21 18:08:57] Run #5 starting (model: sonnet)
+Done. The change moves `<RecentPosts />` to be the first content section after the Hero.
+
+**What changed:**
+- `Hero` → `RecentPosts` → `HomepageAnswerHub` → `SepticHealthCheck` → `FAQ` → `Services` → ...
+- Was: `Hero` → `HomepageAnswerHub` → `SepticHealthCheck` → `RecentPosts` → `FAQ` → ...
+
+**Why this is the highest-priority goal:**
+- Blog guide cards (thumbnail photos, "Education" / "Maintenance" category pills, "8 min read" tags, "Read guide →" CTAs) are the single strongest visual indicator that a page is an informational resource — not a company marketing site. Visitors now see that signal in the first scroll.
+- Fixes the visual merge: `SepticHealthCheck` and `RecentPosts` both had `bg-gray-50`, making them look like one continuous section. Now they're separated by `HomepageAnswerHub` (`bg-white`).
+- Creates near-perfect background alternation across all informational sections: `dark → gray-50 → white → gray-50 → white → gray-50` — each section is visually distinct.
+[2026-02-21 18:12:25] Run #5 finished
+[2026-02-21 18:12:25] Reached max loops (5). Stopping.
+[2026-02-21 18:15:35] ==========================================
+[2026-02-21 18:15:35] Agent: Assistant
+[2026-02-21 18:15:35] Model: sonnet
+[2026-02-21 18:15:35] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/assistant
+[2026-02-21 18:15:35] Stop on complete: false
+[2026-02-21 18:15:35] Max loops: 5 (0=infinite)
+[2026-02-21 18:15:35] ==========================================
+[2026-02-21 18:15:35] Run #1 starting (model: sonnet)

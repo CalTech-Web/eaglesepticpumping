@@ -6,7 +6,6 @@ import SepticHealthCheck from "@/components/SepticHealthCheck";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import ServiceArea from "@/components/ServiceArea";
-import FAQ from "@/components/FAQ";
 import RecentPosts from "@/components/RecentPosts";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -140,7 +139,6 @@ export default function Home() {
         <RecentPosts />
         <HomepageAnswerHub />
         <SepticHealthCheck />
-        <FAQ />
         <Services />
         <Testimonials />
         <ServiceArea />
