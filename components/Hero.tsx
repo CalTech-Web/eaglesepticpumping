@@ -6,7 +6,7 @@ const HERO_IMAGE =
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-[520px] items-center overflow-hidden bg-brand-900">
+    <section className="relative flex min-h-[380px] items-center overflow-hidden bg-brand-900">
       {/* Background photo */}
       <Image
         src={HERO_IMAGE}
@@ -55,8 +55,8 @@ export default function Hero() {
               </svg>
               Call {PHONE}
             </a>
-            <a href="#contact" className="btn-secondary text-base">
-              Get a Free Estimate
+            <a href="/resources" className="btn-secondary text-base">
+              Browse Septic Guides
             </a>
           </div>
 

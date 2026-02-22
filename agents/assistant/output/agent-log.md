@@ -140,3 +140,10 @@ The homepage now has a clean two-part structure:
 A visitor now reads through five consecutive educational sections before encountering any service/sales content — the structural signature of an informational site rather than a company brochure.
 [2026-02-21 18:02:22] Run #1 finished
 [2026-02-21 18:02:27] Run #2 starting (model: sonnet)
+Done. Removed `WhyChooseUs` from the homepage.
+
+**What changed:** The "Why Choose Eagle Septic?" section — a stats bar (18+ years, 4,200+ tanks, 24/7, Licensed & Insured) plus 6 company marketing pitch cards — has been removed from the homepage.
+
+**Why this was the highest-priority goal:** It was the most purely promotional block on the page with zero informational value. A homeowner researching septic systems gets nothing useful from "Why Choose Us?" copy. The homepage now flows: informational answers → diagnostic tool → blog posts → FAQ → services → reviews → coverage → contact — with no hard marketing pitch interrupting the information-first experience.
+[2026-02-21 18:03:34] Run #2 finished
+[2026-02-21 18:03:39] Run #3 starting (model: sonnet)
