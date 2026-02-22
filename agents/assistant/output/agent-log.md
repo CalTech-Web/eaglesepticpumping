@@ -118,3 +118,25 @@ Each column has a status badge, icon, a headline, 5 diagnostic signals, and a "r
 [2026-02-21 18:00:48] Max loops: 5 (0=infinite)
 [2026-02-21 18:00:48] ==========================================
 [2026-02-21 18:00:48] Run #1 starting (model: sonnet)
+Done. Here's what changed:
+
+**Structural reorder in `app/page.tsx`** — moved `<RecentPosts />` (Septic System Guides) and `<FAQ />` from positions 9 and 8 up to positions 4 and 5, right after the HealthCheck diagnostic.
+
+The homepage now has a clean two-part structure:
+
+| Position | Section | Character |
+|---|---|---|
+| 1 | Hero | Orientation |
+| 2 | AnswerHub | Informational |
+| 3 | HealthCheck | Informational |
+| 4 | **Guides** (moved) | Informational |
+| 5 | **FAQ** (moved) | Informational |
+| 6 | Services | Company |
+| 7 | WhyChooseUs | Company |
+| 8 | Testimonials | Company |
+| 9 | ServiceArea | Company |
+| 10 | Contact | Conversion |
+
+A visitor now reads through five consecutive educational sections before encountering any service/sales content — the structural signature of an informational site rather than a company brochure.
+[2026-02-21 18:02:22] Run #1 finished
+[2026-02-21 18:02:27] Run #2 starting (model: sonnet)

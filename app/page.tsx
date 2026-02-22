@@ -4,7 +4,6 @@ import Hero from "@/components/Hero";
 import HomepageAnswerHub from "@/components/HomepageAnswerHub";
 import SepticHealthCheck from "@/components/SepticHealthCheck";
 import Services from "@/components/Services";
-import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
 import ServiceArea from "@/components/ServiceArea";
 import FAQ from "@/components/FAQ";
@@ -143,7 +142,6 @@ export default function Home() {
         <RecentPosts />
         <FAQ />
         <Services />
-        <WhyChooseUs />
         <Testimonials />
         <ServiceArea />
         <ContactSection />
