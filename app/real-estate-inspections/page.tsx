@@ -3,16 +3,16 @@ import Link from "next/link";
 import { serviceAreas } from "@/lib/serviceAreas";
 
 export const metadata: Metadata = {
-  title: { absolute: "Septic Inspection for Real Estate | Eagle Septic Pumping" },
+  title: { absolute: "Septic Inspection for Real Estate | Eagle Septic Guide" },
   description:
-    "Certified septic inspections for home buyers, sellers, and real estate agents in California's Central Valley. Written reports within 24 hours. Free quotes. Schedule before your closing date.",
+    "What to know about septic inspections for home buyers, sellers, and real estate agents in California's Central Valley. What reports cover, typical timelines, and how to prepare.",
   alternates: {
     canonical: "https://eaglesepticpumping.com/real-estate-inspections",
   },
   openGraph: {
-    title: "Real Estate Septic Inspections | Eagle Septic Pumping",
+    title: "Real Estate Septic Inspections | Eagle Septic Guide",
     description:
-      "Protect your real estate transaction with a certified septic inspection. Reports within 24 hours. Serving Modesto, Stockton, Merced, and all Central Valley communities.",
+      "What to know about septic inspections for real estate transactions. What reports cover, how long they take, and what buyers and sellers should expect.",
     type: "website",
   },
 };

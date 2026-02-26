@@ -25,10 +25,10 @@ export default function ServiceArea() {
               Our Service Area
             </h2>
             <p className="mb-6 text-lg text-gray-600">
-              Eagle Septic Pumping proudly serves homeowners and businesses
+              This guide covers septic system information for homeowners
               throughout California&apos;s Central Valley — Stanislaus, Merced,
-              and surrounding counties. Not sure if we cover your area? Give us
-              a call — we&apos;ll let you know right away.
+              and surrounding counties. Select your city below to find
+              area-specific septic resources and tips.
             </p>
             <div className="mb-8 grid grid-cols-2 gap-2 sm:grid-cols-3">
               {areas.map((area) => (
@@ -60,8 +60,8 @@ export default function ServiceArea() {
               View all service locations →
             </a>
             <p className="mt-3 text-sm text-gray-500">
-              Don&apos;t see your city? We often service nearby areas — call to
-              confirm coverage.
+              Don&apos;t see your city? Our guides cover most Central Valley
+              communities with septic systems.
             </p>
           </div>
 

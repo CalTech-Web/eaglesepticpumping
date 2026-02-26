@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://eaglesepticpumping.com/resources",
   },
   openGraph: {
-    title: "Septic System Resource Center | Eagle Septic Pumping",
+    title: "Septic System Resource Center | Eagle Septic Guide",
     description:
       "Free septic system guides for Central Valley homeowners — maintenance schedules, warning signs, costs, home buying checklists, and more.",
     type: "website",

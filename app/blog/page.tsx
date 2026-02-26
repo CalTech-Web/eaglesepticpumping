@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical: "https://eaglesepticpumping.com/blog",
   },
   openGraph: {
-    title: "Septic System Tips & Guides | Eagle Septic Pumping",
+    title: "Septic System Tips & Guides | Eagle Septic Guide",
     description:
       "Expert advice on septic tank maintenance, pumping schedules, warning signs, and how to protect your drain field.",
     type: "website",

@@ -4,16 +4,16 @@ import Link from "next/link";
 import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: { absolute: "Septic Services | Eagle Septic Pumping" },
+  title: { absolute: "Septic Services | Eagle Septic Guide" },
   description:
-    "Complete septic services: tank pumping, cleaning, inspections, emergency response, drain field repair, and new system installation. Licensed & insured. Free estimates.",
+    "Learn about septic services: tank pumping, cleaning, inspections, emergency response, drain field repair, and new system installation. What to expect and how each service works.",
   alternates: {
     canonical: "https://eaglesepticpumping.com/services",
   },
   openGraph: {
-    title: "Septic Services | Eagle Septic Pumping",
+    title: "Septic Services | Eagle Septic Guide",
     description:
-      "Complete septic services from routine pumping to emergency response and new installations. Licensed, insured, available 24/7.",
+      "Learn about septic services from routine pumping to emergency response and new installations. What each service involves and when you need it.",
     type: "website",
   },
 };

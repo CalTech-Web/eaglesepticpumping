@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const area = getServiceArea(city);
   if (!area) return {};
   const title = `Septic Pumping & Service in ${area.city}, ${area.stateAbbr} | Eagle Septic`;
-  const description = `Licensed septic tank pumping, cleaning, inspection, and emergency service in ${area.city}, ${area.county} County. Eagle Septic Pumping — upfront pricing, same-day availability.`;
+  const description = `Septic system information for ${area.city}, ${area.county} County homeowners — pumping schedules, maintenance tips, common issues, and local resources.`;
   return {
     title: { absolute: title },
     description,
@@ -107,9 +107,9 @@ export default async function CityPage({ params }: Props) {
                   Septic Service in {area.city}, {area.stateAbbr}
                 </h1>
                 <p className="mb-8 text-lg text-brand-100">
-                  Eagle Septic Pumping provides licensed septic pumping, cleaning,
-                  inspection, and emergency service throughout {area.city} and{" "}
-                  {area.county} County. Upfront pricing. Same-day availability.
+                  Find septic system guides, maintenance tips, and local
+                  resources for homeowners in {area.city} and{" "}
+                  {area.county} County. Learn what to expect and how to care for your system.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Link
@@ -182,9 +182,9 @@ export default async function CityPage({ params }: Props) {
                 ))}
               </ul>
               <p className="mt-5 text-sm text-gray-500">
-                Eagle Septic&apos;s technicians are familiar with {area.city}&apos;s soil conditions,
-                drainage patterns, and local regulatory requirements. We bring the right
-                equipment and knowledge to every job.
+                Local septic professionals are typically familiar with {area.city}&apos;s soil conditions,
+                drainage patterns, and regulatory requirements. When hiring a provider,
+                look for one with experience in your specific area.
               </p>
             </div>
           </div>

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Answers to the most common questions about septic tanks, pumping schedules, warning signs, and costs. Free educational resource for homeowners.",
   openGraph: {
-    title: "Septic System FAQ | Eagle Septic Pumping",
+    title: "Septic System FAQ | Eagle Septic Guide",
     description:
       "Everything you need to know about septic maintenance, costs, and warning signs. Free educational resource for homeowners.",
     type: "website",

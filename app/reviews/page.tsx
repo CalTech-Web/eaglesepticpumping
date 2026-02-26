@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: { absolute: "Customer Reviews | Eagle Septic Pumping — Central Valley" },
+  title: { absolute: "Customer Reviews | Eagle Septic Guide — Central Valley" },
   description:
-    "Read verified reviews from Eagle Septic Pumping customers across Modesto, Turlock, Ceres, and the Central Valley. 4.9 stars from 200+ satisfied homeowners.",
+    "Read homeowner experiences with septic services across Modesto, Turlock, Ceres, and the Central Valley. Real stories about pumping, inspections, and emergency service.",
   alternates: {
     canonical: "https://eaglesepticpumping.com/reviews",
   },
   openGraph: {
-    title: "Customer Reviews | Eagle Septic Pumping",
+    title: "Customer Reviews | Eagle Septic Guide",
     description:
-      "See what homeowners across the Central Valley say about Eagle Septic Pumping. 4.9-star rating from 200+ Google reviews.",
+      "Real homeowner experiences with septic services across the Central Valley. What to expect from pumping, inspections, and repairs.",
   },
 };
 

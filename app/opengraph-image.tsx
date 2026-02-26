@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Eagle Septic Pumping | Professional Septic Services";
+export const alt = "Eagle Septic Guide | Septic System Information";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -40,7 +40,7 @@ export default function OGImage() {
           <span
             style={{ color: "white", fontSize: "22px", fontWeight: "700" }}
           >
-            Eagle Septic Pumping
+            Eagle Septic Guide
           </span>
         </div>
 

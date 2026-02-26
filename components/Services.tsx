@@ -158,8 +158,8 @@ export default function Services() {
             Complete Septic Services
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-gray-600">
-            From routine pumping to emergency repairs, Eagle Septic Pumping
-            handles every aspect of your septic system.
+            From routine pumping to emergency repairs, learn about every
+            aspect of septic system care and maintenance.
           </p>
         </div>
 

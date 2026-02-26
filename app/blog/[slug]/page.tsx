@@ -230,12 +230,12 @@ export default async function BlogPostPage({ params }: Props) {
     dateModified: post.updatedAt,
     author: {
       "@type": "Organization",
-      name: "Eagle Septic Pumping",
+      name: "Eagle Septic Guide",
       url: "https://eaglesepticpumping.com",
     },
     publisher: {
       "@type": "Organization",
-      name: "Eagle Septic Pumping",
+      name: "Eagle Septic Guide",
       url: "https://eaglesepticpumping.com",
     },
   };

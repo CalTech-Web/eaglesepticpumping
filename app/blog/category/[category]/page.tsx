@@ -66,16 +66,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const description =
     categoryDescriptions[category] ??
-    `Browse all Eagle Septic Pumping articles about ${category}.`;
+    `Browse all Eagle Septic Guide articles about ${category}.`;
 
   return {
-    title: { absolute: `${category} — Septic Tips & Guides | Eagle Septic Pumping` },
+    title: { absolute: `${category} — Septic Tips & Guides | Eagle Septic Guide` },
     description,
     alternates: {
       canonical: `https://eaglesepticpumping.com/blog/category/${slug}`,
     },
     openGraph: {
-      title: `${category} Articles | Eagle Septic Pumping`,
+      title: `${category} Articles | Eagle Septic Guide`,
       description,
       type: "website",
     },
@@ -93,7 +93,7 @@ export default async function CategoryPage({ params }: Props) {
   const allCategories = getAllCategories();
   const description =
     categoryDescriptions[category] ??
-    `Browse all Eagle Septic Pumping articles about ${category}.`;
+    `Browse all Eagle Septic Guide articles about ${category}.`;
   const colors = categoryColors[category] ?? {
     badge: "bg-gray-100 text-gray-700",
     heading: "text-gray-700",

@@ -258,7 +258,7 @@ const breadcrumbSchema = {
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "Eagle Septic Pumping",
+  name: "Eagle Septic Guide",
   url: "https://eaglesepticpumping.com",
   description:
     "Commercial septic pumping, cleaning, grease trap service, and maintenance contracts for restaurants, farms, apartment complexes, and industrial facilities in California's Central Valley.",

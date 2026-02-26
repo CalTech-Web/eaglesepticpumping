@@ -54,7 +54,7 @@ export default async function OGImage({
           <span
             style={{ color: "#bae6fd", fontSize: "20px", fontWeight: "600" }}
           >
-            Eagle Septic Pumping
+            Eagle Septic Guide
           </span>
         </div>
 
@@ -88,14 +88,14 @@ export default async function OGImage({
               lineHeight: "1.4",
             }}
           >
-            Licensed pumping, cleaning, inspection & 24/7 emergency service
+            Septic system guides, maintenance tips & local resources
           </div>
         </div>
 
         {/* Trust badges + bar */}
         <div style={{ display: "flex", flexDirection: "column", gap: "28px" }}>
           <div style={{ display: "flex", gap: "14px" }}>
-            {["Same-Day Availability", "Upfront Pricing", "Locally Trusted"].map(
+            {["Free Homeowner Guide", "Maintenance Tips", "Local Resources"].map(
               (badge) => (
                 <div
                   key={badge}

@@ -54,7 +54,7 @@ export default async function OGImage({
           <span
             style={{ color: "#bae6fd", fontSize: "20px", fontWeight: "600" }}
           >
-            Eagle Septic Pumping
+            Eagle Septic Guide
           </span>
         </div>
 
