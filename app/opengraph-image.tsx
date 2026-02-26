@@ -54,13 +54,13 @@ export default function OGImage() {
             maxWidth: "900px",
           }}
         >
-          Professional Septic Services in California&apos;s Central Valley
+          Septic System Guides for California&apos;s Central Valley
         </div>
 
         {/* Trust badges + green bar */}
         <div style={{ display: "flex", flexDirection: "column", gap: "32px" }}>
           <div style={{ display: "flex", gap: "16px" }}>
-            {["Licensed & Insured", "24/7 Emergency Response", "Free Estimates"].map(
+            {["Free Educational Resource", "Maintenance Guides", "Troubleshooting Tips"].map(
               (badge) => (
                 <div
                   key={badge}

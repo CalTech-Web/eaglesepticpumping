@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import { serviceAreas } from "@/lib/serviceAreas";
 
 export const metadata: Metadata = {
@@ -203,8 +201,6 @@ export default function RealEstateInspectionsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <Header />
-      <main>
         {/* Hero */}
         <section className="bg-brand-900 text-white">
           <div className="container-max section-padding">
@@ -528,8 +524,6 @@ export default function RealEstateInspectionsPage() {
             </p>
           </div>
         </section>
-      </main>
-      <Footer />
     </>
   );
 }

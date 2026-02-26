@@ -1,20 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import { PHONE, PHONE_HREF } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Septic Service Pricing & Cost Guide",
+  title: "How Much Does Septic Service Cost? | Pricing Guide",
   description:
-    "Transparent pricing for septic tank pumping, inspections, drain field repair, and emergency service. Residential pumping starts at $300. Get a free estimate today.",
+    "Typical costs for septic tank pumping, inspections, drain field repair, and emergency service. Learn what affects pricing and how to budget for septic maintenance.",
   alternates: {
     canonical: "https://eaglesepticpumping.com/pricing",
   },
   openGraph: {
-    title: "Septic Service Pricing | Eagle Septic Pumping",
+    title: "Septic Service Pricing Guide | Eagle Septic Guide",
     description:
-      "Transparent pricing for septic tank pumping, inspections, drain field repair, and emergency service. Free estimates — no surprises.",
+      "Typical costs for septic tank pumping, inspections, drain field repair, and emergency service. Understand what affects pricing.",
     type: "website",
   },
 };
@@ -181,32 +178,32 @@ const faqs = [
   {
     question: "Are these prices estimates or guaranteed quotes?",
     answer:
-      "The ranges above are typical market prices for our service area. Your actual quote depends on your specific tank size, location, and system condition. We provide free, no-obligation estimates before any work begins — no surprises on the final invoice.",
+      "The ranges above are typical market prices for the Central Valley area. Your actual cost depends on your specific tank size, location, and system condition. Always get a written estimate from your septic provider before any work begins.",
   },
   {
-    question: "What forms of payment do you accept?",
+    question: "What forms of payment do septic companies accept?",
     answer:
-      "We accept cash, check, and all major credit cards. Payment is due at time of service for routine pump-outs and inspections. For larger projects like drain field repairs, we offer a deposit/completion structure.",
+      "Most septic companies accept cash, check, and all major credit cards. Payment is typically due at time of service for routine pump-outs and inspections. For larger projects like drain field repairs, many companies offer a deposit/completion structure.",
   },
   {
-    question: "Do you charge extra to locate the tank lid?",
+    question: "Is there usually a charge to locate the tank lid?",
     answer:
-      "If we need to probe and locate your tank access lid (common on older systems), there may be a small locate fee ($50–$75). Excavating a buried lid runs $100–$200 depending on depth. These are disclosed in advance.",
+      "If a company needs to probe and locate your tank access lid (common on older systems), there may be a small locate fee ($50-$75). Excavating a buried lid runs $100-$200 depending on depth. These should be disclosed in advance.",
   },
   {
     question: "Is there a service call fee?",
     answer:
-      "We don't charge a separate service call fee for routine work — the pump-out or inspection price is all-inclusive. Emergency after-hours calls include a dispatch premium reflected in the pricing range above.",
+      "Many septic companies don't charge a separate service call fee for routine work. Emergency after-hours calls typically include a dispatch premium reflected in the higher pricing range.",
   },
   {
     question: "Does insurance cover septic repairs?",
     answer:
-      "Standard homeowners insurance typically excludes septic systems. Some service line protection add-ons or home warranties may cover partial repair costs. We can provide detailed invoices to support any claim you file.",
+      "Standard homeowners insurance typically excludes septic systems. Some service line protection add-ons or home warranties may cover partial repair costs. Keep detailed invoices to support any claim you file.",
   },
   {
-    question: "Can I get a discount for scheduling in advance?",
+    question: "Can I save money by scheduling in advance?",
     answer:
-      "Yes — we offer discounts for customers who pre-schedule their next pump-out at the time of service. Ask your technician about our maintenance plan pricing.",
+      "Yes — many septic companies offer discounts for customers who pre-schedule their next pump-out at the time of service. Ask about maintenance plan pricing when you call.",
   },
 ];
 
@@ -243,38 +240,6 @@ export default function PricingPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            name: "Eagle Septic Pumping",
-            url: "https://eaglesepticpumping.com",
-            telephone: PHONE,
-            priceRange: "$$",
-            hasOfferCatalog: {
-              "@type": "OfferCatalog",
-              name: "Septic Services",
-              itemListElement: services.map((s) => ({
-                "@type": "Offer",
-                itemOffered: {
-                  "@type": "Service",
-                  name: s.name,
-                  url: `https://eaglesepticpumping.com/services/${s.slug}`,
-                },
-                priceSpecification: {
-                  "@type": "PriceSpecification",
-                  priceCurrency: "USD",
-                  description: s.priceRange,
-                },
-              })),
-            },
-          }),
-        }}
-      />
-      <Header />
-      <main>
         {/* Page header */}
         <section className="bg-brand-900 text-white">
           <div className="container-max section-padding">
@@ -286,30 +251,13 @@ export default function PricingPage() {
               <span className="text-brand-100">Pricing</span>
             </nav>
             <h1 className="mb-4 text-3xl font-bold sm:text-4xl lg:text-5xl">
-              Septic Service Pricing
+              How Much Does Septic Service Cost?
             </h1>
             <p className="max-w-2xl text-lg text-brand-100 leading-relaxed">
-              We believe in honest, upfront pricing. Below are typical cost ranges
-              for each of our services. Every job gets a free estimate before we
-              start — no hidden fees, no surprises.
+              Understanding septic service costs helps you budget for routine
+              maintenance and avoid surprises. Below are typical cost ranges for
+              common septic services in the Central Valley.
             </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <a
-                href={PHONE_HREF}
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-6 py-3 text-base font-bold text-white shadow-lg hover:bg-accent-600 transition-colors"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-                  <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-                </svg>
-                Call for a Free Estimate
-              </a>
-              <Link
-                href="/estimate"
-                className="inline-flex items-center justify-center rounded-lg border-2 border-white px-6 py-3 text-base font-bold text-white hover:bg-white hover:text-brand-900 transition-colors"
-              >
-                Get a Free Estimate
-              </Link>
-            </div>
           </div>
         </section>
 
@@ -318,10 +266,10 @@ export default function PricingPage() {
           <div className="container-max px-4 py-5 sm:px-6 lg:px-8">
             <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-600 sm:gap-10">
               {[
-                "Free estimates on all services",
-                "No hidden fees",
-                "Price locked before work begins",
-                "Licensed & insured",
+                "Typical Central Valley prices",
+                "Updated for 2025-2026",
+                "Residential and commercial",
+                "Educational resource",
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5 text-accent-500">
@@ -342,7 +290,7 @@ export default function PricingPage() {
             </h2>
             <p className="mb-10 max-w-2xl text-gray-500 text-lg">
               Prices vary based on tank size, access conditions, and system complexity.
-              These ranges reflect typical residential jobs in our service area.
+              These ranges reflect typical residential jobs in the Central Valley.
             </p>
             <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
               {services.map((service) => (
@@ -368,7 +316,7 @@ export default function PricingPage() {
                   {/* Included */}
                   <div className="flex-1 px-6 py-5">
                     <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-gray-400">
-                      What&apos;s included
+                      What&apos;s typically included
                     </p>
                     <ul className="space-y-2">
                       {service.included.map((item) => (
@@ -414,105 +362,59 @@ export default function PricingPage() {
         {/* Cost comparison / cost of neglect */}
         <section className="bg-gray-50">
           <div className="container-max section-padding">
-            <div className="grid gap-12 lg:grid-cols-2 lg:items-start">
-              <div>
-                <h2 className="mb-4 text-2xl font-bold text-gray-900 sm:text-3xl">
-                  The Cost of Regular Maintenance vs. Neglect
-                </h2>
-                <p className="mb-6 text-gray-600 leading-relaxed text-lg">
-                  The math on septic maintenance is simple: a $400 pump-out every 3–5 years
-                  costs about $80–$133 per year. A drain field replacement costs $10,000–$30,000.
-                  Regular service is the best investment most homeowners rarely think about.
-                </p>
-                <div className="space-y-3">
-                  {[
-                    { label: "Routine pump-out (every 3–5 years)", cost: "$300–$550", type: "good" },
-                    { label: "Tank cleaning (every 5–7 years)", cost: "$400–$750", type: "good" },
-                    { label: "Annual inspection", cost: "$175–$400", type: "good" },
-                    { label: "Baffle repair (deferred maintenance)", cost: "$500–$1,500", type: "warn" },
-                    { label: "Drain field restoration (early-stage failure)", cost: "$3,000–$8,000", type: "warn" },
-                    { label: "Full drain field replacement", cost: "$10,000–$20,000", type: "bad" },
-                    { label: "Full system replacement", cost: "$15,000–$30,000", type: "bad" },
-                  ].map((row) => (
-                    <div
-                      key={row.label}
-                      className={`flex items-center justify-between rounded-lg px-4 py-3 ${
+            <div className="mx-auto max-w-4xl">
+              <h2 className="mb-4 text-2xl font-bold text-gray-900 sm:text-3xl">
+                The Cost of Regular Maintenance vs. Neglect
+              </h2>
+              <p className="mb-8 text-gray-600 leading-relaxed text-lg">
+                The math on septic maintenance is simple: a $400 pump-out every 3-5 years
+                costs about $80-$133 per year. A drain field replacement costs $10,000-$30,000.
+                Regular service is the best investment most homeowners rarely think about.
+              </p>
+              <div className="space-y-3">
+                {[
+                  { label: "Routine pump-out (every 3-5 years)", cost: "$300-$550", type: "good" },
+                  { label: "Tank cleaning (every 5-7 years)", cost: "$400-$750", type: "good" },
+                  { label: "Annual inspection", cost: "$175-$400", type: "good" },
+                  { label: "Baffle repair (deferred maintenance)", cost: "$500-$1,500", type: "warn" },
+                  { label: "Drain field restoration (early-stage failure)", cost: "$3,000-$8,000", type: "warn" },
+                  { label: "Full drain field replacement", cost: "$10,000-$20,000", type: "bad" },
+                  { label: "Full system replacement", cost: "$15,000-$30,000", type: "bad" },
+                ].map((row) => (
+                  <div
+                    key={row.label}
+                    className={`flex items-center justify-between rounded-lg px-4 py-3 ${
+                      row.type === "good"
+                        ? "border border-accent-200 bg-accent-50"
+                        : row.type === "warn"
+                        ? "border border-amber-200 bg-amber-50"
+                        : "border border-red-200 bg-red-50"
+                    }`}
+                  >
+                    <span
+                      className={`text-sm ${
                         row.type === "good"
-                          ? "border border-accent-200 bg-accent-50"
+                          ? "text-accent-800"
                           : row.type === "warn"
-                          ? "border border-amber-200 bg-amber-50"
-                          : "border border-red-200 bg-red-50"
+                          ? "text-amber-800"
+                          : "text-red-800"
                       }`}
                     >
-                      <span
-                        className={`text-sm ${
-                          row.type === "good"
-                            ? "text-accent-800"
-                            : row.type === "warn"
-                            ? "text-amber-800"
-                            : "text-red-800"
-                        }`}
-                      >
-                        {row.label}
-                      </span>
-                      <span
-                        className={`ml-4 font-bold tabular-nums ${
-                          row.type === "good"
-                            ? "text-accent-700"
-                            : row.type === "warn"
-                            ? "text-amber-700"
-                            : "text-red-700"
-                        }`}
-                      >
-                        {row.cost}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div className="rounded-2xl bg-brand-900 p-8 text-white lg:sticky lg:top-24">
-                <h3 className="mb-2 text-xl font-bold">Get Your Free Estimate</h3>
-                <p className="mb-6 text-brand-100 text-sm leading-relaxed">
-                  Tell us your tank size and last service date and we&apos;ll give
-                  you an accurate price range over the phone — usually in under
-                  5 minutes.
-                </p>
-                <a
-                  href={PHONE_HREF}
-                  className="mb-4 flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-5 py-3 text-base font-bold text-white hover:bg-accent-600 transition-colors"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-                    <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-                  </svg>
-                  Call {PHONE}
-                </a>
-                <Link
-                  href="/estimate"
-                  className="flex items-center justify-center rounded-lg border-2 border-brand-600 px-5 py-3 text-base font-bold text-white hover:bg-brand-800 transition-colors"
-                >
-                  Try the Cost Estimator
-                </Link>
-                <div className="mt-6 space-y-3 border-t border-brand-700 pt-6 text-sm text-brand-200">
-                  <div className="flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 text-accent-400">
-                      <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
-                    </svg>
-                    Free estimate — no obligation
+                      {row.label}
+                    </span>
+                    <span
+                      className={`ml-4 font-bold tabular-nums ${
+                        row.type === "good"
+                          ? "text-accent-700"
+                          : row.type === "warn"
+                          ? "text-amber-700"
+                          : "text-red-700"
+                      }`}
+                    >
+                      {row.cost}
+                    </span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 text-accent-400">
-                      <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
-                    </svg>
-                    Price confirmed before we start
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 text-accent-400">
-                      <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
-                    </svg>
-                    Emergency service available 24/7
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
@@ -542,33 +444,28 @@ export default function PricingPage() {
         <section className="bg-brand-900 text-white">
           <div className="container-max section-padding text-center">
             <h2 className="mb-3 text-2xl font-bold sm:text-3xl">
-              Ready for an exact quote?
+              Want to learn more about septic costs?
             </h2>
             <p className="mb-7 text-brand-100 text-lg max-w-xl mx-auto">
-              Call us or fill out our contact form and we&apos;ll get back to you
-              within the hour. Free estimates always — no commitment required.
+              Browse our in-depth guides on septic maintenance, warning signs,
+              and how to get the most value from your septic service.
             </p>
             <div className="flex flex-col gap-3 sm:flex-row justify-center">
-              <a
-                href={PHONE_HREF}
+              <Link
+                href="/resources"
                 className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-8 py-3 text-base font-bold text-white hover:bg-accent-600 transition-colors"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
-                  <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-                </svg>
-                Call {PHONE}
-              </a>
+                Browse Guides
+              </Link>
               <Link
-                href="/estimate"
+                href="/blog"
                 className="inline-flex items-center justify-center rounded-lg border-2 border-white px-8 py-3 text-base font-bold text-white hover:bg-white hover:text-brand-900 transition-colors"
               >
-                Free Estimate Tool
+                Read the Blog
               </Link>
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
     </>
   );
 }

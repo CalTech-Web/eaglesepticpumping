@@ -1,20 +1,18 @@
 import React from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import { PHONE, PHONE_HREF } from "@/lib/services";
+
 import { faqCategories } from "@/lib/faqData";
 import FAQAccordion from "./FAQAccordion";
 
 export const metadata: Metadata = {
   title: "Septic System FAQ | Common Questions Answered",
   description:
-    "Answers to the most common questions about septic tanks, pumping schedules, warning signs, costs, and Eagle Septic's services in Modesto and the Central Valley.",
+    "Answers to the most common questions about septic tanks, pumping schedules, warning signs, and costs. Free educational resource for homeowners.",
   openGraph: {
     title: "Septic System FAQ | Eagle Septic Pumping",
     description:
-      "Everything you need to know about septic maintenance, costs, warning signs, and scheduling service in Modesto, Turlock, and surrounding areas.",
+      "Everything you need to know about septic maintenance, costs, and warning signs. Free educational resource for homeowners.",
     type: "website",
     url: "https://eaglesepticpumping.com/faq",
   },
@@ -96,8 +94,6 @@ export default function FAQPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <Header />
-      <main>
         {/* Hero */}
         <section className="bg-brand-900 py-14 text-white">
           <div className="container-max px-4 sm:px-6 lg:px-8">
@@ -113,7 +109,7 @@ export default function FAQPage() {
             </h1>
             <p className="max-w-2xl text-lg text-brand-100">
               Answers to the most common questions about septic systems,
-              maintenance schedules, costs, and how Eagle Septic Pumping works.
+              maintenance schedules, costs, and how septic systems work.
             </p>
           </div>
         </section>
@@ -169,27 +165,25 @@ export default function FAQPage() {
               Still have questions?
             </h2>
             <p className="mb-8 text-brand-100">
-              Our team is ready to help — call us anytime or request a free
-              estimate.
+              Browse our guides and resources for more in-depth information about
+              septic systems.
             </p>
             <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-              <a
-                href={PHONE_HREF}
+              <Link
+                href="/resources"
                 className="rounded-lg bg-accent-500 px-8 py-3 text-base font-bold text-white shadow transition-colors hover:bg-accent-600"
               >
-                Call {PHONE}
-              </a>
-              <a
-                href="/contact"
+                Browse All Guides
+              </Link>
+              <Link
+                href="/blog"
                 className="rounded-lg border border-brand-400 px-8 py-3 text-base font-semibold text-brand-100 transition-colors hover:border-white hover:text-white"
               >
-                Send a Message
-              </a>
+                Read the Blog
+              </Link>
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
     </>
   );
 }

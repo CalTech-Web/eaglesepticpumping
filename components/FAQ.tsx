@@ -108,8 +108,8 @@ export default function FAQ() {
             </h2>
             <p className="text-lg text-gray-600">
               Everything you need to know about septic service. Don&apos;t see your question?{" "}
-              <a href="tel:+15558675309" className="text-brand-600 font-semibold hover:underline">
-                Call us directly.
+              <a href="/faq" className="text-brand-600 font-semibold hover:underline">
+                Visit our full FAQ.
               </a>
             </p>
           </div>
@@ -140,16 +140,13 @@ export default function FAQ() {
 
           {/* Bottom CTA */}
           <div className="mt-10 text-center">
-            <p className="text-gray-600 mb-4">Still have questions? We&apos;re happy to help.</p>
+            <p className="text-gray-600 mb-4">Want to learn more? Explore our guides and resources.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="tel:+15558675309" className="btn-primary inline-flex items-center justify-center gap-2">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                Call Us Now
+              <a href="/resources" className="btn-primary inline-flex items-center justify-center gap-2">
+                Browse All Guides
               </a>
-              <a href="#contact" className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-brand-700 px-6 py-3 font-semibold text-brand-700 transition-all hover:bg-brand-700 hover:text-white active:scale-95">
-                Send a Message
+              <a href="/faq" className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-brand-700 px-6 py-3 font-semibold text-brand-700 transition-all hover:bg-brand-700 hover:text-white active:scale-95">
+                View Full FAQ
               </a>
             </div>
           </div>

@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import { posts } from "@/lib/posts";
 
 export const metadata: Metadata = {
@@ -208,8 +206,6 @@ export default function ResourcesPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <Header />
-      <main>
         {/* Hero */}
         <section className="bg-brand-900 py-16 sm:py-20">
           <div className="container-max px-4 sm:px-6 lg:px-8">
@@ -459,8 +455,6 @@ export default function ResourcesPage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
     </>
   );
 }

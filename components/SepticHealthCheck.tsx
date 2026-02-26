@@ -24,7 +24,7 @@ const columns = [
     cta: { text: "Maintain your healthy system", href: "/blog/how-often-pump-septic-tank" },
   },
   {
-    status: "Schedule Service",
+    status: "Attention Needed",
     statusColor: "bg-amber-100 text-amber-800",
     borderColor: "border-amber-200",
     headerBg: "bg-amber-50",
@@ -46,7 +46,7 @@ const columns = [
     cta: { text: "Understand warning signs", href: "/blog/warning-signs-septic-system-failing" },
   },
   {
-    status: "Call Now",
+    status: "Emergency",
     statusColor: "bg-red-100 text-red-800",
     borderColor: "border-red-200",
     headerBg: "bg-red-50",

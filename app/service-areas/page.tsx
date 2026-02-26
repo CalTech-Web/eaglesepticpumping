@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import { serviceAreas } from "@/lib/serviceAreas";
 
 export const metadata: Metadata = {
@@ -42,8 +40,6 @@ export default function ServiceAreasPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <Header />
-      <main>
         {/* Hero */}
         <section className="bg-brand-900 py-16 sm:py-20">
           <div className="container-max px-4 sm:px-6 lg:px-8 text-center">
@@ -142,8 +138,6 @@ export default function ServiceAreasPage() {
             </Link>
           </div>
         </section>
-      </main>
-      <Footer />
     </>
   );
 }

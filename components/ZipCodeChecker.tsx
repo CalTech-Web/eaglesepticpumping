@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { ZIP_CODE_MAP, serviceAreas } from "@/lib/serviceAreas";
-import { PHONE_HREF } from "@/lib/services";
 
 type ResultState = "idle" | "found" | "not-found";
 
@@ -65,7 +64,7 @@ export default function ZipCodeChecker() {
           Check Your Service Area
         </p>
         <p className="mt-0.5 text-sm text-brand-700">
-          Enter your zip code to confirm we cover your location
+          Enter your zip code to see if your area is in the Central Valley
         </p>
       </div>
 
@@ -94,38 +93,30 @@ export default function ZipCodeChecker() {
       {result === "found" && (
         <div className="w-full max-w-xs rounded-xl border border-green-200 bg-green-50 p-4">
           <p className="font-semibold text-green-800">
-            ✓ Yes! We serve {city}, CA
+            Yes — {city}, CA is in the Central Valley service area.
           </p>
-          <div className="mt-3 flex flex-col gap-2">
-            <a
-              href={`/service-areas/${citySlug}`}
-              className="block rounded-lg bg-brand-700 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-800"
-            >
-              Book Service in {city}
-            </a>
-            <a
-              href={PHONE_HREF}
-              className="block rounded-lg border border-brand-300 px-4 py-2.5 text-sm font-semibold text-brand-700 hover:bg-brand-50"
-            >
-              Call Us Now
-            </a>
-          </div>
+          <a
+            href={`/service-areas/${citySlug}`}
+            className="mt-3 block rounded-lg bg-brand-700 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-800"
+          >
+            View {city} Info
+          </a>
         </div>
       )}
 
       {result === "not-found" && (
         <div className="w-full max-w-xs rounded-xl border border-amber-200 bg-amber-50 p-4">
           <p className="font-semibold text-amber-800">
-            Zip {zip} isn&apos;t on our list
+            Zip {zip} isn&apos;t in our coverage list.
           </p>
           <p className="mt-1 text-xs text-amber-700">
-            We often travel beyond our listed areas — call to confirm!
+            This area may still be served by Central Valley septic providers.
           </p>
           <a
-            href={PHONE_HREF}
+            href="/service-areas"
             className="mt-3 block rounded-lg bg-brand-700 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-800"
           >
-            Call to Confirm Coverage
+            Browse All Service Areas
           </a>
         </div>
       )}

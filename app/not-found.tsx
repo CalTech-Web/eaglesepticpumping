@@ -1,21 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import { PHONE, PHONE_HREF } from "@/lib/services";
 
 export const metadata: Metadata = {
   title: "Page Not Found",
   description:
-    "The page you were looking for doesn't exist. Find septic pumping, inspection, and emergency services at Eagle Septic Pumping.",
+    "The page you were looking for doesn't exist. Find septic system guides, FAQ, and educational resources at Eagle Septic Guide.",
   robots: { index: false, follow: true },
 };
 
 const helpfulLinks = [
   {
     href: "/services",
-    label: "All Services",
-    description: "Pumping, cleaning, inspections & more",
+    label: "Services Explained",
+    description: "What each septic service involves",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true">
         <path fillRule="evenodd" d="M2.25 5.25a3 3 0 013-3h13.5a3 3 0 013 3V15a3 3 0 01-3 3h-3v.257c0 .597.237 1.17.659 1.591l.621.622a.75.75 0 01-.53 1.28h-9a.75.75 0 01-.53-1.28l.621-.622a2.25 2.25 0 00.659-1.59V18h-3a3 3 0 01-3-3V5.25zm1.5 0v7.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-7.5a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5z" clipRule="evenodd" />
@@ -24,8 +21,8 @@ const helpfulLinks = [
   },
   {
     href: "/pricing",
-    label: "Pricing",
-    description: "Transparent cost ranges for every service",
+    label: "Pricing Guide",
+    description: "Typical cost ranges for every service",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true">
         <path d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 01-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004zM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 01-.921.42z" />
@@ -34,12 +31,12 @@ const helpfulLinks = [
     ),
   },
   {
-    href: "/emergency",
-    label: "Emergency Service",
-    description: "24/7 — call us any time, day or night",
+    href: "/resources",
+    label: "Resource Center",
+    description: "Guides, tips, and educational content",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true">
-        <path fillRule="evenodd" d="M9.401 3.003c1.155-2 4.043-2 5.197 0l7.355 12.748c1.154 2-.29 4.5-2.599 4.5H4.645c-2.309 0-3.752-2.5-2.598-4.5L9.4 3.003zM12 8.25a.75.75 0 01.75.75v3.75a.75.75 0 01-1.5 0V9a.75.75 0 01.75-.75zm0 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clipRule="evenodd" />
+        <path d="M11.25 4.533A9.707 9.707 0 006 3a9.735 9.735 0 00-3.25.555.75.75 0 00-.5.707v14.25a.75.75 0 001 .707A8.237 8.237 0 016 18.75c1.995 0 3.823.707 5.25 1.886V4.533zM12.75 20.636A8.214 8.214 0 0118 18.75c.966 0 1.89.166 2.75.47a.75.75 0 001-.708V4.262a.75.75 0 00-.5-.707A9.735 9.735 0 0018 3a9.707 9.707 0 00-5.25 1.533v16.103z" />
       </svg>
     ),
   },
@@ -63,23 +60,11 @@ const helpfulLinks = [
       </svg>
     ),
   },
-  {
-    href: "/book",
-    label: "Book a Service",
-    description: "Schedule online in minutes",
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true">
-        <path fillRule="evenodd" d="M6.75 2.25A.75.75 0 017.5 3v1.5h9V3A.75.75 0 0118 3v1.5h.75a3 3 0 013 3v11.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V7.5a3 3 0 013-3H6V3a.75.75 0 01.75-.75zm13.5 9a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5v7.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-7.5z" clipRule="evenodd" />
-      </svg>
-    ),
-  },
 ];
 
 export default function NotFound() {
   return (
     <>
-      <Header />
-      <main>
         {/* Hero */}
         <section className="bg-brand-900 text-white">
           <div className="container-max section-padding">
@@ -97,30 +82,19 @@ export default function NotFound() {
               </h1>
               <p className="text-lg text-brand-100 leading-relaxed mb-8">
                 The link may be outdated or the address was mistyped. Use the links
-                below to find what you need — or call us directly for immediate assistance.
+                below to find what you need.
               </p>
 
-              <div className="flex flex-col gap-4 sm:flex-row justify-center">
-                <a
-                  href={PHONE_HREF}
-                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-6 py-3 text-base font-bold text-white hover:bg-accent-600 transition-colors"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true">
-                    <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-                  </svg>
-                  Call {PHONE}
-                </a>
-                <Link
-                  href="/"
-                  className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-white px-6 py-3 text-base font-bold text-white hover:bg-white hover:text-brand-900 transition-colors"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true">
-                    <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
-                    <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
-                  </svg>
-                  Go to Homepage
-                </Link>
-              </div>
+              <Link
+                href="/"
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-6 py-3 text-base font-bold text-white hover:bg-accent-600 transition-colors"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true">
+                  <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                  <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                </svg>
+                Go to Homepage
+              </Link>
             </div>
           </div>
         </section>
@@ -132,7 +106,7 @@ export default function NotFound() {
               Looking for something specific?
             </h2>
             <p className="text-gray-500 mb-8">
-              Here are the pages our customers visit most often.
+              Here are the pages visitors find most helpful.
             </p>
 
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -165,36 +139,6 @@ export default function NotFound() {
             </div>
           </div>
         </section>
-
-        {/* Emergency callout */}
-        <section className="bg-red-700 text-white">
-          <div className="container-max px-4 py-8 sm:px-6 lg:px-8">
-            <div className="flex flex-col items-center gap-4 text-center sm:flex-row sm:text-left sm:justify-between">
-              <div className="flex items-center gap-4">
-                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-red-600">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6" aria-hidden="true">
-                    <path fillRule="evenodd" d="M9.401 3.003c1.155-2 4.043-2 5.197 0l7.355 12.748c1.154 2-.29 4.5-2.599 4.5H4.645c-2.309 0-3.752-2.5-2.598-4.5L9.4 3.003zM12 8.25a.75.75 0 01.75.75v3.75a.75.75 0 01-1.5 0V9a.75.75 0 01.75-.75zm0 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="font-bold text-lg">Septic emergency? Don&apos;t wait.</p>
-                  <p className="text-red-100 text-sm">We answer 24/7 — nights, weekends, and holidays.</p>
-                </div>
-              </div>
-              <a
-                href={PHONE_HREF}
-                className="inline-flex flex-shrink-0 items-center gap-2 rounded-lg bg-white px-6 py-3 text-base font-bold text-red-700 hover:bg-red-50 transition-colors"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true">
-                  <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
-                </svg>
-                Call {PHONE} Now
-              </a>
-            </div>
-          </div>
-        </section>
-      </main>
-      <Footer />
     </>
   );
 }

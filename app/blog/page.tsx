@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import { posts, getAllCategories } from "@/lib/posts";
 
 export const metadata: Metadata = {
@@ -55,8 +53,6 @@ export default function BlogPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <Header />
-      <main>
         {/* Page header */}
         <section className="bg-brand-900 text-white">
           <div className="container-max section-padding">
@@ -224,27 +220,25 @@ export default function BlogPage() {
               Have a question about your system?
             </h2>
             <p className="mb-7 text-brand-100 text-lg max-w-xl mx-auto">
-              Our licensed technicians can assess your septic system and answer any questions. Free
-              estimates, no pressure.
+              Browse our FAQ for quick answers or explore our resource center for
+              in-depth guides on septic maintenance and troubleshooting.
             </p>
             <div className="flex flex-col gap-3 sm:flex-row justify-center">
-              <a
-                href="tel:+15558675309"
+              <Link
+                href="/faq"
                 className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent-500 px-7 py-3 text-base font-bold text-white hover:bg-accent-600 transition-colors"
               >
-                Call for a Free Estimate
-              </a>
-              <a
-                href="/#contact"
+                Browse the FAQ
+              </Link>
+              <Link
+                href="/resources"
                 className="inline-flex items-center justify-center rounded-lg border-2 border-white px-7 py-3 text-base font-bold text-white hover:bg-white hover:text-brand-900 transition-colors"
               >
-                Send a Message
-              </a>
+                Explore Resources
+              </Link>
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
     </>
   );
 }

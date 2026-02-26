@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: { absolute: "Septic Maintenance Plans Explained | Eagle Septic Guide" },
@@ -185,12 +183,6 @@ const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Annual Septic Maintenance Plan",
-  provider: {
-    "@type": "LocalBusiness",
-    name: "Eagle Septic Pumping",
-    url: BASE_URL,
-    areaServed: "Central Valley, CA",
-  },
   description:
     "Annual septic system maintenance plans for homeowners in Modesto, Turlock, Ceres, and the Central Valley. Includes scheduled pump-out, inspection, and priority dispatch.",
   offers: [
@@ -253,8 +245,6 @@ export default function MaintenancePlanPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <Header />
-      <main>
         {/* Hero */}
         <section className="bg-brand-900 text-white">
           <div className="container-max section-padding">
@@ -622,8 +612,6 @@ export default function MaintenancePlanPage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
     </>
   );
 }

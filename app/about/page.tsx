@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: { absolute: "About Eagle Septic Guide" },
@@ -15,8 +13,6 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <Header />
-      <main>
         {/* Hero */}
         <section className="bg-brand-900 py-16 sm:py-20">
           <div className="container-max px-4 sm:px-6 lg:px-8">
@@ -139,8 +135,6 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
     </>
   );
 }

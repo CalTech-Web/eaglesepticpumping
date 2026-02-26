@@ -138,19 +138,19 @@ export default function Testimonials() {
         {/* Bottom CTA */}
         <div className="text-center mt-12 flex flex-col items-center gap-4">
           <a
-            href="#contact"
+            href="/reviews"
             className="btn-primary inline-flex items-center gap-2"
           >
-            Get Your Free Estimate
+            Read All Reviews
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </a>
           <a
-            href="/reviews"
+            href="/resources"
             className="text-sm text-gray-500 hover:text-brand-700 underline underline-offset-2"
           >
-            Read all 200+ customer reviews →
+            Browse septic system guides →
           </a>
         </div>
       </div>

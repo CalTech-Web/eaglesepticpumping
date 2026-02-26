@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: { absolute: "Commercial Septic Systems Explained | Eagle Septic Guide" },
@@ -297,9 +295,6 @@ export default function CommercialPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Header />
-      <main>
-
         {/* Hero */}
         <section className="bg-brand-900 text-white">
           <div className="container-max section-padding">
@@ -584,8 +579,6 @@ export default function CommercialPage() {
           </div>
         </section>
 
-      </main>
-      <Footer />
     </>
   );
 }

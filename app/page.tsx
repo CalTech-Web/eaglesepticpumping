@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import HomepageAnswerHub from "@/components/HomepageAnswerHub";
 import SepticHealthCheck from "@/components/SepticHealthCheck";
 import RecentPosts from "@/components/RecentPosts";
-import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: { absolute: "Eagle Septic Guide | Free Septic System Information for Homeowners" },
@@ -46,14 +44,10 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }}
       />
-      <Header />
-      <main>
-        <Hero />
-        <RecentPosts />
-        <HomepageAnswerHub />
-        <SepticHealthCheck />
-      </main>
-      <Footer />
+      <Hero />
+      <RecentPosts />
+      <HomepageAnswerHub />
+      <SepticHealthCheck />
     </>
   );
 }

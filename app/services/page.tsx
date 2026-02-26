@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactElement } from "react";
 import Link from "next/link";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
@@ -69,8 +67,6 @@ export default function ServicesPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <Header />
-      <main>
       {/* Hero */}
       <section className="bg-brand-900 text-white">
         <div className="container-max section-padding">
@@ -179,8 +175,6 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
-      </main>
-      <Footer />
     </>
   );
 }
