@@ -8111,6 +8111,286 @@ export const posts: BlogPost[] = [
       "drain-field-repair",
     ],
   },
+
+  {
+    slug: "septic-system-dos-and-donts",
+    title: "Septic System Do's and Don'ts: The Complete Homeowner Guide",
+    metaTitle: "Septic System Do's and Don'ts | Complete Homeowner Guide",
+    metaDescription:
+      "The definitive list of septic system do's and don'ts. Learn what to flush, what to avoid, how to protect your drain field, and the habits that make systems last 30+ years.",
+    publishedAt: "2026-03-18",
+    updatedAt: "2026-03-18",
+    category: "Maintenance",
+    readingTime: "8 min read",
+    excerpt:
+      "Most septic failures trace back to the same handful of avoidable mistakes. Here's the complete list of what to do, what never to do, and the daily habits that separate a system that lasts 30 years from one that fails at 12.",
+    coverImage: {
+      src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&q=80&fit=crop&crop=center",
+      alt: "Healthy green lawn over a residential property representing a well-maintained septic system",
+    },
+    sections: [
+      {
+        type: "paragraph",
+        text: "Your septic system is an underground wastewater treatment plant that relies on bacteria, gravity, and soil to work. It's also one of the most expensive systems in your home to replace — a failed drain field can cost $15,000 to $30,000 or more. The good news is that most septic failures are preventable. They trace back to a short list of avoidable mistakes that happen slowly, over years, before the first symptom appears.",
+      },
+      {
+        type: "paragraph",
+        text: "This guide covers the do's and don'ts that make the biggest difference. Whether you're a new septic owner or you've had a system for years, these habits determine how long your system lasts — and whether your next major expense is a routine pump-out or an emergency replacement.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "The Essential Do's",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Do pump your tank on a regular schedule",
+      },
+      {
+        type: "paragraph",
+        text: "The single most important thing you can do for a septic system is pump it before it needs it, not after. Most households with a 1,000-gallon tank and 3–4 occupants need pumping every 3 years. Larger tanks or smaller households can often go 4–5 years. The cost is $300–$500 every few years. Ignoring the schedule turns that into a $20,000 drain field replacement when solids overflow the outlet pipe and clog the leach lines.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Do keep a service record",
+      },
+      {
+        type: "paragraph",
+        text: "Write down every service date, what was done, and which company did it. A simple note in a home file works. This record helps you track your pumping interval, proves maintenance history when selling the home, and gives any future technician context about the system's history. Most homeowners don't have one — it's one of the easiest things to do and almost nobody does it.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Do know where your tank and drain field are located",
+      },
+      {
+        type: "paragraph",
+        text: "Mark the location of your tank lid and drain field on a simple sketch or photo. You need this for access during service, for planning any yard work or landscaping, and for emergency situations. County health records, as-built diagrams from the original permit, or a professional locating service can all help if you don't know where your system is.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Do spread water use throughout the week",
+      },
+      {
+        type: "paragraph",
+        text: "Large water loads entering the tank quickly — multiple laundry loads back to back, running the dishwasher while also doing laundry — can push undertreated wastewater out of the tank before bacteria finish processing it. Spread laundry over 2–3 days instead of doing it all on Saturday. Run water-intensive appliances at different times. Your drain field will thank you.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Do fix household leaks promptly",
+      },
+      {
+        type: "paragraph",
+        text: "A leaking toilet or dripping faucet can send hundreds of gallons of extra water into your septic system every day. That continuous flow prevents the tank from settling solids properly and can saturate your drain field over time. A running toilet alone can overflow a drain field in a matter of weeks.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Do keep the area above the drain field clear and uncompacted",
+      },
+      {
+        type: "paragraph",
+        text: "The drain field needs air in the soil to allow aerobic treatment of effluent. Keep grass or shallow-rooted ground cover over the field — never plant gardens, install pavement, or allow vehicles to park over it. Compaction from vehicles closes the air pockets in the soil and accelerates drain field failure.",
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "Plant only shallow-rooted plants over the drain field",
+        text: "Grass is the best cover for a drain field. Low-growing wildflowers and shallow-rooted groundcover also work. Avoid any plant with deep or aggressive roots — shrubs, trees, and vegetables all pose a risk. Tree roots can crack leach pipes and penetrate the tank itself, turning a healthy system into an expensive excavation job.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "The Non-Negotiable Don'ts",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Don't flush anything except waste and toilet paper",
+      },
+      {
+        type: "paragraph",
+        text: "The list of things that should never go down a toilet or drain is long, but the rule is simple: if it didn't come out of your body, it doesn't belong in the septic system. Common items that cause serious damage:",
+      },
+      {
+        type: "list",
+        items: [
+          "Wipes of any kind — including those labeled 'flushable.' They do not break down in a septic tank and accumulate into dense mats that clog the outlet pipe.",
+          "Paper towels and facial tissues — they are designed to hold together when wet, unlike toilet paper",
+          "Feminine hygiene products — pads, tampons, and applicators do not decompose",
+          "Condoms — latex does not break down",
+          "Dental floss — accumulates into a net that catches everything else",
+          "Cotton balls, Q-tips, and swabs",
+          "Cat litter — even 'septic-safe' litter adds clay solids that fill the tank faster",
+          "Cigarette butts — filters are non-biodegradable",
+          "Medications — antibiotics and other drugs kill the bacteria your tank depends on",
+        ],
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Don't pour grease, fats, or cooking oil down the drain",
+      },
+      {
+        type: "paragraph",
+        text: "Grease solidifies in the tank and forms a thick scum layer that does not break down. Over time it clogs the outlet baffle and inlet pipe, blocking the flow of wastewater. Pour used cooking oil and grease into a container and dispose of it in the trash — not the drain. Wipe greasy pans with a paper towel before washing them.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Don't use antibacterial soaps and cleaners in excess",
+      },
+      {
+        type: "paragraph",
+        text: "Your septic tank is a biological system. The bacteria inside it are what digest waste and prevent the tank from filling up with solids too quickly. Antibacterial soaps, bleach, and harsh chemical cleaners kill those bacteria. Normal household use of toilet bowl cleaner and occasional bleach is manageable — your system can recover. But daily use of antibacterial products or pouring bleach down the drain regularly will deplete the bacterial population and accelerate solid accumulation.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Don't use a garbage disposal — or limit it significantly",
+      },
+      {
+        type: "paragraph",
+        text: "Garbage disposals dramatically increase the solid load entering your septic tank. Ground food waste does not break down the way human waste does, and it fills tanks faster. Homes with garbage disposals typically need pumping 1–2 years sooner than those without. If you have one, use it sparingly — scrape plates into the compost or trash before washing them.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Don't drive or park on the drain field",
+      },
+      {
+        type: "paragraph",
+        text: "Even driving over the drain field once can compact the soil enough to reduce its absorption capacity. Heavy vehicle traffic — trucks, RVs, construction equipment — can crush the buried leach pipes. This damage is not always visible from the surface, and by the time symptoms appear, significant harm has already been done. Know where your drain field is and keep it permanently off-limits to vehicles.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Don't divert roof runoff or surface water toward the drain field",
+      },
+      {
+        type: "paragraph",
+        text: "The drain field needs to shed water downward into the soil, not pool it on the surface. When gutters, downspouts, or yard drainage route water toward the drain field area, the soil becomes saturated and can no longer accept effluent from the tank. This is especially common in heavy rain years in the Central Valley, where flat topography and clay soils are already prone to saturation.",
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Never put septic additives in a healthy system",
+        text: "Enzyme and bacterial additive products claim to improve septic performance. Independent research — including studies from the EPA and multiple university extension programs — has found no evidence that they work as advertised, and some have been shown to increase solid carryover into the drain field. A properly maintained system produces all the bacteria it needs. Save the money for a pump-out.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Kitchen Habits That Affect Your Septic System",
+      },
+      {
+        type: "paragraph",
+        text: "The kitchen is one of the biggest contributors to septic system stress. Beyond the grease issue above, keep these habits in mind:",
+      },
+      {
+        type: "list",
+        items: [
+          "Use biodegradable dish soap — avoid concentrated industrial degreasers",
+          "Run the dishwasher only when full to minimize water loads",
+          "Never pour expired medications or vitamins down the kitchen drain",
+          "Dispose of paint, solvents, and chemicals as household hazardous waste — not down any drain",
+          "If you have a garbage disposal, run cold water during and after use to flush solids through, but minimize overall use",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Bathroom Habits That Protect Your System",
+      },
+      {
+        type: "paragraph",
+        text: "Bathrooms contribute the highest volume of wastewater to a septic system. Keeping the bathroom side of your system healthy comes down to two things: only flushing waste and toilet paper, and managing water volume.",
+      },
+      {
+        type: "list",
+        items: [
+          "Install low-flow toilets and showerheads to reduce daily water load",
+          "Fix any running toilet immediately — a flapper leak can waste 200+ gallons per day",
+          "Avoid extra-thick or quilted toilet paper — single-ply breaks down fastest in a septic tank",
+          "Keep a wastebasket next to every toilet for wipes and feminine products — not a flush option",
+          "Space out showers across the household — four people showering back to back sends a large water surge at once",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Laundry Habits",
+      },
+      {
+        type: "paragraph",
+        text: "Laundry is the second-largest household water consumer after toilets. For a septic system, it's often the source of damaging flow spikes.",
+      },
+      {
+        type: "list",
+        items: [
+          "Run full loads only — half-loads use nearly as much water with less wash benefit",
+          "Spread laundry across multiple days instead of doing 6 loads on the weekend",
+          "Use liquid laundry detergent in small amounts — powdered detergent can contain clay fillers that accumulate in the tank",
+          "Avoid fabric softeners with quaternary ammonium compounds, which have antibacterial properties",
+          "If you have a lint trap on your washer outlet hose, clean it regularly — lint clogs leach lines",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Warning Signs That Something Is Wrong",
+      },
+      {
+        type: "paragraph",
+        text: "Even with good habits, systems develop problems. Know what to watch for so you can catch issues before they become expensive:",
+      },
+      {
+        type: "list",
+        items: [
+          "Slow drains throughout the house — not just in one fixture",
+          "Gurgling sounds in toilets or drains, especially after using other fixtures",
+          "Sewage odors inside the house or near the tank and drain field area outdoors",
+          "Unusually green, lush, or wet patches of grass over the drain field",
+          "Soggy or spongy ground near the tank or over the drain field that doesn't dry out after rain",
+          "Sewage backing up into the lowest drains in the house — floor drains, shower, ground-floor toilet",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Any of these signs means call a professional today",
+        text: "Septic symptoms don't go away on their own — they get worse. A slow drain that goes untreated for 30 days is a full backup in 60 days. Early intervention is always cheaper than emergency service. If you notice any of the warning signs above, schedule an inspection before the problem escalates.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "When to Schedule Professional Service",
+      },
+      {
+        type: "paragraph",
+        text: "Beyond routine pumping, call a septic professional for:",
+      },
+      {
+        type: "list",
+        items: [
+          "Any of the warning signs listed above",
+          "Before buying or selling a home — a pre-sale inspection protects both parties",
+          "After a major household change — a new baby, extended guests, or a new water-softening system all affect the system's load",
+          "If your system is more than 20 years old and has never been inspected — components wear out and can fail without obvious symptoms",
+          "If a large tree near the system has been removed — root death underground can create voids in the soil structure",
+          "After any major flooding event — saturated drain fields can take weeks to recover and may need assessment",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Eagle Septic serves homeowners throughout Stanislaus, San Joaquin, and Merced counties. Whether you need a routine pump-out, have noticed a warning sign, or haven't had service in several years and want a professional assessment, we're available 7 days a week. Call for a free estimate — catching a problem early is the most reliable way to avoid the expensive ones.",
+      },
+    ],
+    relatedServiceSlugs: ["septic-tank-pumping", "septic-system-inspections", "drain-field-repair-restoration"],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
