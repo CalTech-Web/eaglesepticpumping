@@ -171,8 +171,8 @@ export default async function CategoryPage({ params }: Props) {
           <div className="container-max section-padding">
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {categoryPosts.map((post) => (
+                <article key={post.slug}>
                 <Link
-                  key={post.slug}
                   href={`/blog/${post.slug}`}
                   className="group flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white transition-colors hover:border-brand-300 hover:bg-brand-50"
                 >
@@ -209,6 +209,7 @@ export default async function CategoryPage({ params }: Props) {
                     </div>
                   </div>
                 </Link>
+                </article>
               ))}
             </div>
           </div>

@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
 
           {/* Topics */}
-          <div>
+          <nav aria-label="Topics">
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-200">
               Topics
             </h4>
@@ -50,10 +50,10 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </nav>
 
           {/* Resources */}
-          <div>
+          <nav aria-label="Resources">
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-200">
               Resources
             </h4>
@@ -73,7 +73,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </nav>
         </div>
 
         {/* Bottom bar */}

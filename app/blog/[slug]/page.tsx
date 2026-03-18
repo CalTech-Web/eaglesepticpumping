@@ -324,7 +324,7 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
 
         {/* Article body */}
-        <section className="bg-white">
+        <article className="bg-white">
           <div className="container-max section-padding">
             <div className="mx-auto max-w-5xl lg:grid lg:grid-cols-[220px_1fr] lg:gap-12 xl:grid-cols-[260px_1fr]">
               {/* TOC — renders mobile strip inline, desktop sticky sidebar */}
@@ -360,7 +360,7 @@ export default async function BlogPostPage({ params }: Props) {
               </div>
             </div>
           </div>
-        </section>
+        </article>
 
         {/* Related services */}
         {relatedServices.length > 0 && (
@@ -372,26 +372,27 @@ export default async function BlogPostPage({ params }: Props) {
                 </h2>
                 <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                   {relatedServices.map((svc) => (
-                    <Link
-                      key={svc.slug}
-                      href={`/services/${svc.slug}`}
-                      className="group flex flex-col rounded-xl border border-gray-200 bg-gray-50 p-5 transition-colors hover:border-brand-300 hover:bg-brand-50"
-                    >
-                      {serviceIconMap[svc.slug] && (
-                        <div className="mb-3 inline-flex rounded-lg bg-brand-100 p-2 text-brand-700 group-hover:bg-brand-200 transition-colors w-fit">
-                          {serviceIconMap[svc.slug]}
-                        </div>
-                      )}
-                      <h3 className="font-semibold text-gray-900 group-hover:text-brand-700">
-                        {svc.shortTitle}
-                      </h3>
-                      <p className="mt-1 flex-1 text-sm text-gray-500 leading-relaxed line-clamp-2">
-                        {svc.metaDescription}
-                      </p>
-                      <span className="mt-3 text-sm font-medium text-brand-700 group-hover:underline">
-                        Learn more →
-                      </span>
-                    </Link>
+                    <article key={svc.slug}>
+                      <Link
+                        href={`/services/${svc.slug}`}
+                        className="group flex flex-col rounded-xl border border-gray-200 bg-gray-50 p-5 transition-colors hover:border-brand-300 hover:bg-brand-50"
+                      >
+                        {serviceIconMap[svc.slug] && (
+                          <div className="mb-3 inline-flex rounded-lg bg-brand-100 p-2 text-brand-700 group-hover:bg-brand-200 transition-colors w-fit">
+                            {serviceIconMap[svc.slug]}
+                          </div>
+                        )}
+                        <h3 className="font-semibold text-gray-900 group-hover:text-brand-700">
+                          {svc.shortTitle}
+                        </h3>
+                        <p className="mt-1 flex-1 text-sm text-gray-500 leading-relaxed line-clamp-2">
+                          {svc.metaDescription}
+                        </p>
+                        <span className="mt-3 text-sm font-medium text-brand-700 group-hover:underline">
+                          Learn more →
+                        </span>
+                      </Link>
+                    </article>
                   ))}
                 </div>
               </div>
@@ -406,39 +407,40 @@ export default async function BlogPostPage({ params }: Props) {
               <h2 className="mb-8 text-2xl font-bold text-gray-900">More {post.category} Articles</h2>
               <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
                 {related.map((rel) => (
-                  <Link
-                    key={rel.slug}
-                    href={`/blog/${rel.slug}`}
-                    className="group flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white transition-colors hover:border-brand-300"
-                  >
-                    <div className="relative h-40 w-full flex-shrink-0 overflow-hidden">
-                      <Image
-                        src={rel.coverImage.src}
-                        alt={rel.coverImage.alt}
-                        fill
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      />
-                    </div>
-                    <div className="flex flex-1 flex-col p-5">
-                      <span
-                        className={`inline-block rounded-full px-2.5 py-0.5 text-xs font-semibold ${
-                          categoryColors[rel.category] ?? "bg-gray-100 text-gray-600"
-                        }`}
-                      >
-                        {rel.category}
-                      </span>
-                      <h3 className="mt-2 font-bold text-gray-900 leading-snug group-hover:text-brand-700">
-                        {rel.title}
-                      </h3>
-                      <p className="mt-2 flex-1 text-sm text-gray-500 line-clamp-2 leading-relaxed">
-                        {rel.excerpt}
-                      </p>
-                      <span className="mt-3 inline-block text-sm font-medium text-brand-700 group-hover:underline">
-                        Read →
-                      </span>
-                    </div>
-                  </Link>
+                  <article key={rel.slug}>
+                    <Link
+                      href={`/blog/${rel.slug}`}
+                      className="group flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white transition-colors hover:border-brand-300"
+                    >
+                      <div className="relative h-40 w-full flex-shrink-0 overflow-hidden">
+                        <Image
+                          src={rel.coverImage.src}
+                          alt={rel.coverImage.alt}
+                          fill
+                          className="object-cover transition-transform duration-500 group-hover:scale-105"
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        />
+                      </div>
+                      <div className="flex flex-1 flex-col p-5">
+                        <span
+                          className={`inline-block rounded-full px-2.5 py-0.5 text-xs font-semibold ${
+                            categoryColors[rel.category] ?? "bg-gray-100 text-gray-600"
+                          }`}
+                        >
+                          {rel.category}
+                        </span>
+                        <h3 className="mt-2 font-bold text-gray-900 leading-snug group-hover:text-brand-700">
+                          {rel.title}
+                        </h3>
+                        <p className="mt-2 flex-1 text-sm text-gray-500 line-clamp-2 leading-relaxed">
+                          {rel.excerpt}
+                        </p>
+                        <span className="mt-3 inline-block text-sm font-medium text-brand-700 group-hover:underline">
+                          Read →
+                        </span>
+                      </div>
+                    </Link>
+                  </article>
                 ))}
               </div>
             </div>

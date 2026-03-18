@@ -105,6 +105,7 @@ export default function BlogPage() {
             <p className="mb-6 text-sm font-semibold uppercase tracking-wider text-gray-400">
               Latest Article
             </p>
+            <article>
             <Link
               href={`/blog/${featured.slug}`}
               className="group block overflow-hidden rounded-2xl border border-gray-200 bg-gray-50 transition-colors hover:border-brand-300 hover:bg-brand-50"
@@ -149,6 +150,7 @@ export default function BlogPage() {
                 </span>
               </div>
             </Link>
+            </article>
           </div>
         </section>
 
@@ -161,8 +163,8 @@ export default function BlogPage() {
               </p>
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {rest.map((post) => (
+                  <article key={post.slug}>
                   <Link
-                    key={post.slug}
                     href={`/blog/${post.slug}`}
                     className="group flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white transition-colors hover:border-brand-300 hover:bg-brand-50"
                   >
@@ -208,6 +210,7 @@ export default function BlogPage() {
                       </div>
                     </div>
                   </Link>
+                  </article>
                 ))}
               </div>
             </div>

@@ -94,8 +94,8 @@ export default function ServicesPage() {
         <div className="container-max section-padding">
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
+              <article key={service.slug}>
               <Link
-                key={service.slug}
                 href={`/services/${service.slug}`}
                 className="group flex flex-col rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200 transition-all hover:shadow-md hover:ring-brand-300"
               >
@@ -124,6 +124,7 @@ export default function ServicesPage() {
                   </svg>
                 </span>
               </Link>
+              </article>
             ))}
           </div>
         </div>
