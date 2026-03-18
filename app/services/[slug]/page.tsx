@@ -32,6 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: service.metaTitle,
       description: service.metaDescription,
       type: "website",
+      url: `https://eaglesepticpumping.com/services/${service.slug}`,
     },
   };
 }

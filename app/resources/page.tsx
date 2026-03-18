@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     description:
       "Free septic system guides for Central Valley homeowners — maintenance schedules, warning signs, costs, home buying checklists, and more.",
     type: "website",
+    url: "https://eaglesepticpumping.com/resources",
   },
 };
 

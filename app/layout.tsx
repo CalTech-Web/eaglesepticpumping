@@ -21,7 +21,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Eagle Septic Guide",
-    url: "https://eaglesepticpumping.com",
   },
 };
 

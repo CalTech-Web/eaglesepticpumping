@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     description:
       "Expert advice on septic tank maintenance, pumping schedules, warning signs, and how to protect your drain field.",
     type: "website",
+    url: "https://eaglesepticpumping.com/blog",
   },
 };
 

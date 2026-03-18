@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: { absolute: title },
     description,
     alternates: { canonical: `https://eaglesepticpumping.com/service-areas/${area.slug}` },
-    openGraph: { title, description, type: "website" },
+    openGraph: { title, description, type: "website", url: `https://eaglesepticpumping.com/service-areas/${area.slug}` },
   };
 }
 

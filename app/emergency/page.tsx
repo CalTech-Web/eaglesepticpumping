@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     description:
       "Step-by-step guide for handling a septic backup or overflow. Learn immediate safety steps and what to expect from a septic professional.",
     type: "website",
+    url: "https://eaglesepticpumping.com/emergency",
   },
 };
 

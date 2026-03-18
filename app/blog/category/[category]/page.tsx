@@ -78,6 +78,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${category} Articles | Eagle Septic Guide`,
       description,
       type: "website",
+      url: `https://eaglesepticpumping.com/blog/category/${slug}`,
     },
   };
 }

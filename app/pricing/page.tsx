@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     description:
       "Typical costs for septic tank pumping, inspections, drain field repair, and emergency service. Understand what affects pricing.",
     type: "website",
+    url: "https://eaglesepticpumping.com/pricing",
   },
 };
 

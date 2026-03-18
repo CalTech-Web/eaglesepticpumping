@@ -74,6 +74,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: post.metaTitle,
       description: post.metaDescription,
       type: "article",
+      url: `https://eaglesepticpumping.com/blog/${post.slug}`,
       publishedTime: post.publishedAt,
       modifiedTime: post.updatedAt,
       images: [{ url: post.coverImage.src, alt: post.coverImage.alt }],

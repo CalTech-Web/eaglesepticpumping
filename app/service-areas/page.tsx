@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   description:
     "Septic system guides for Modesto, Turlock, Stockton, Tracy, Manteca, Merced, and 14 more cities across Stanislaus, San Joaquin, and Merced counties.",
   alternates: { canonical: "https://eaglesepticpumping.com/service-areas" },
+  openGraph: {
+    title: "Septic Service Areas | Eagle Septic Guide — Central Valley",
+    description:
+      "Septic system guides for Modesto, Turlock, Stockton, Tracy, Manteca, Merced, and 14 more cities across Stanislaus, San Joaquin, and Merced counties.",
+    type: "website",
+    url: "https://eaglesepticpumping.com/service-areas",
+  },
 };
 
 const countyGroups = [

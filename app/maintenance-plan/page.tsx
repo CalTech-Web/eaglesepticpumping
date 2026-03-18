@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     description:
       "What a septic maintenance plan includes, how much it costs, and whether it's worth it for your home.",
     type: "website",
+    url: "https://eaglesepticpumping.com/maintenance-plan",
   },
 };
 

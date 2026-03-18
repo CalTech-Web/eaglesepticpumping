@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     description:
       "Learn about septic services from routine pumping to emergency response and new installations. What each service involves and when you need it.",
     type: "website",
+    url: "https://eaglesepticpumping.com/services",
   },
 };
 

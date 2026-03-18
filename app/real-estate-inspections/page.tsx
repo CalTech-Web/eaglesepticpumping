@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     description:
       "What to know about septic inspections for real estate transactions. What reports cover, how long they take, and what buyers and sellers should expect.",
     type: "website",
+    url: "https://eaglesepticpumping.com/real-estate-inspections",
   },
 };
 

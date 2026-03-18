@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     description:
       "What commercial and agricultural properties need to know about septic systems — service frequency, compliance requirements, and system maintenance.",
     type: "website",
+    url: "https://eaglesepticpumping.com/commercial",
   },
 };
 

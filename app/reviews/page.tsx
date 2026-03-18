@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     title: "Customer Reviews | Eagle Septic Guide",
     description:
       "Real homeowner experiences with septic services across the Central Valley. What to expect from pumping, inspections, and repairs.",
+    type: "website",
+    url: "https://eaglesepticpumping.com/reviews",
   },
 };
 

@@ -8,6 +8,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://eaglesepticpumping.com/about",
   },
+  openGraph: {
+    title: "About Eagle Septic Guide",
+    description:
+      "Eagle Septic Guide is a free informational resource for homeowners with septic systems. Learn about our mission and what you'll find here.",
+    type: "website",
+    url: "https://eaglesepticpumping.com/about",
+  },
 };
 
 export default function AboutPage() {
