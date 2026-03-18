@@ -17,9 +17,29 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Eagle Septic Guide",
+  url: "https://eaglesepticpumping.com",
+  description:
+    "Free septic system information, guides, and troubleshooting tips for homeowners.",
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://eaglesepticpumping.com" },
+    { "@type": "ListItem", position: 2, name: "About", item: "https://eaglesepticpumping.com/about" },
+  ],
+};
+
 export default function AboutPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
         {/* Hero */}
         <section className="bg-brand-900 py-16 sm:py-20">
           <div className="container-max px-4 sm:px-6 lg:px-8">

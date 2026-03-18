@@ -21,6 +21,20 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Eagle Septic Guide",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&h=630&q=80&fit=crop&crop=center",
+        width: 1200,
+        height: 630,
+        alt: "Residential home with a well-maintained lawn — Eagle Septic Guide",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Eagle Septic Guide | Free Septic System Information",
+    description:
+      "Free septic system guides, maintenance tips, troubleshooting help, and cost information for homeowners.",
   },
 };
 
