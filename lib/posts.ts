@@ -23,9 +23,9 @@ export const posts: BlogPost[] = [
   {
     slug: "how-often-pump-septic-tank",
     title: "How Often Should You Pump Your Septic Tank?",
-    metaTitle: "How Often Should You Pump Your Septic Tank? | Eagle Septic Guide",
+    metaTitle: "How Often Should You Pump Your Septic Tank?",
     metaDescription:
-      "Most households need septic tank pumping every 3–5 years, but the right frequency depends on tank size and household size. Learn the exact schedule for your home.",
+      "Most households need pumping every 3–5 years, but the right frequency depends on tank size and household size. Learn the exact schedule for your home.",
     publishedAt: "2025-11-01",
     updatedAt: "2025-11-01",
     category: "Maintenance",
@@ -199,9 +199,9 @@ export const posts: BlogPost[] = [
   {
     slug: "warning-signs-septic-system-failing",
     title: "7 Warning Signs Your Septic System Needs Immediate Attention",
-    metaTitle: "7 Warning Signs Your Septic System Is Failing | Eagle Septic Guide",
+    metaTitle: "7 Warning Signs Your Septic System Is Failing",
     metaDescription:
-      "Slow drains, sewage odors, and wet spots over your drain field are serious warning signs. Learn the 7 symptoms of septic failure and what to do before it becomes an emergency.",
+      "Slow drains, sewage odors, and wet spots are serious warning signs. Learn the 7 symptoms of septic failure and what to do before it becomes an emergency.",
     publishedAt: "2025-11-15",
     updatedAt: "2025-11-15",
     category: "Troubleshooting",
@@ -349,9 +349,9 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-system-maintenance-guide",
     title: "Septic System Maintenance: A Complete Guide for Homeowners",
-    metaTitle: "Septic System Maintenance Guide for Homeowners | Eagle Septic Guide",
+    metaTitle: "Septic System Maintenance Guide for Homeowners",
     metaDescription:
-      "Everything homeowners need to know about septic system maintenance: pumping schedules, what not to flush, water conservation, inspection checklists, and how to protect your drain field.",
+      "Complete septic system maintenance guide: pumping schedules, what not to flush, water conservation, and how to protect your drain field.",
     publishedAt: "2025-12-01",
     updatedAt: "2025-12-01",
     category: "Maintenance",
@@ -587,9 +587,9 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-tank-pumping-cost-central-valley",
     title: "Septic Tank Pumping Cost in Modesto & the Central Valley",
-    metaTitle: "Septic Tank Pumping Cost in Modesto & Central Valley | Eagle Septic Guide",
+    metaTitle: "Septic Tank Pumping Cost | Central Valley, CA",
     metaDescription:
-      "How much does septic tank pumping cost in Modesto, Turlock, and the Central Valley? Current 2025 price ranges, what drives costs up or down, and how to get a fair quote.",
+      "How much does septic pumping cost in Modesto and the Central Valley? 2025 price ranges, what drives costs, and how to get a fair quote.",
     publishedAt: "2026-01-10",
     updatedAt: "2026-01-10",
     category: "Cost & Pricing",
@@ -755,9 +755,9 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-inspection-home-sale-guide",
     title: "Buying or Selling a Home with a Septic System: The Complete Inspection Guide",
-    metaTitle: "Septic Inspection for Home Sale or Purchase | Eagle Septic Guide",
+    metaTitle: "Septic Inspection for Home Sale or Purchase",
     metaDescription:
-      "Everything buyers and sellers need to know about septic inspections during a real estate transaction. What's inspected, how long it takes, what failures mean, and who pays.",
+      "What buyers and sellers need to know about septic inspections. What's inspected, how long it takes, what failures mean, and who pays.",
     publishedAt: "2026-01-24",
     updatedAt: "2026-01-24",
     category: "Inspections",
@@ -934,9 +934,9 @@ export const posts: BlogPost[] = [
   {
     slug: "new-homeowner-septic-system-guide",
     title: "New Homeowner's Guide to Your Septic System",
-    metaTitle: "New Homeowner's Guide to Septic Systems | Eagle Septic Guide",
+    metaTitle: "New Homeowner's Guide to Septic Systems",
     metaDescription:
-      "Just bought a home with a septic system? This guide covers everything you need to know in year one: how the system works, what not to flush, when to pump, and warning signs to watch for.",
+      "Just bought a home with a septic system? This guide covers year one essentials: how it works, what not to flush, when to pump, and warning signs.",
     publishedAt: "2026-02-07",
     updatedAt: "2026-02-07",
     category: "Maintenance",
@@ -1139,7 +1139,7 @@ export const posts: BlogPost[] = [
     title: "What Not to Flush or Put Down the Drain if You Have a Septic System",
     metaTitle: "What Not to Flush with a Septic System | Eagle Septic Guide",
     metaDescription:
-      "Flushing the wrong items can destroy your drain field permanently. Here's the complete list of what never to put down the drain when you have a septic system — and what to do instead.",
+      "Flushing the wrong items can destroy your drain field permanently. The complete list of what never to put down the drain with a septic system.",
     publishedAt: "2026-01-08",
     updatedAt: "2026-01-08",
     category: "Maintenance",
@@ -1288,9 +1288,9 @@ export const posts: BlogPost[] = [
   {
     slug: "how-long-does-septic-system-last",
     title: "How Long Does a Septic System Last? (And Signs It's Time for Replacement)",
-    metaTitle: "How Long Does a Septic System Last? Lifespan Guide | Eagle Septic Guide",
+    metaTitle: "How Long Does a Septic System Last? Lifespan Guide",
     metaDescription:
-      "A well-maintained septic system can last 25–40+ years. Learn what determines lifespan, warning signs of end-of-life failure, and when repair vs. full replacement makes sense.",
+      "A well-maintained septic system can last 25–40+ years. Learn what determines lifespan, warning signs of failure, and when replacement makes sense.",
     publishedAt: "2026-01-22",
     updatedAt: "2026-01-22",
     category: "Maintenance",
@@ -1430,7 +1430,7 @@ export const posts: BlogPost[] = [
     title: "Septic System Emergency: What to Do in the First 30 Minutes",
     metaTitle: "Septic Emergency: What to Do Right Now | Eagle Septic Guide",
     metaDescription:
-      "Sewage backup or a septic alarm going off? Don't panic. Here's exactly what to do in the first 30 minutes of a septic emergency — and when to call for professional help.",
+      "Sewage backup or a septic alarm going off? Here's exactly what to do in the first 30 minutes of a septic emergency and when to call for help.",
     publishedAt: "2026-02-05",
     updatedAt: "2026-02-05",
     category: "Troubleshooting",
@@ -1598,7 +1598,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-tank-pumping-price-guide",
     title: "Septic Tank Pumping Cost in Central Valley: 2025 Price Guide",
-    metaTitle: "Septic Tank Pumping Cost in Modesto & Central Valley | 2025 Guide",
+    metaTitle: "Septic Pumping Costs: Modesto & Central Valley 2025",
     metaDescription:
       "Wondering what septic tank pumping costs in Modesto, Turlock, or Stanislaus County? Here's exactly what you'll pay in 2025 — and how to avoid surprise fees.",
     publishedAt: "2025-12-01",
@@ -1711,9 +1711,9 @@ export const posts: BlogPost[] = [
   {
     slug: "what-happens-if-you-never-pump-septic-tank",
     title: "What Happens If You Never Pump Your Septic Tank?",
-    metaTitle: "What Happens If You Never Pump Your Septic Tank? | Eagle Septic Guide",
+    metaTitle: "What Happens If You Never Pump Your Septic Tank?",
     metaDescription:
-      "Skipping septic tank pumping doesn't just cause odors — it leads to sewage backups, drain field failure, and $15,000+ in repairs. Here's the timeline of what goes wrong.",
+      "Skipping septic pumping doesn't just cause odors — it leads to sewage backups, drain field failure, and $15,000+ in repairs. Here's the timeline.",
     publishedAt: "2025-12-15",
     updatedAt: "2026-01-15",
     category: "Maintenance",
@@ -1814,9 +1814,9 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-inspection-home-buyers-guide",
     title: "Septic Inspection for Home Buyers: What to Expect and Ask",
-    metaTitle: "Septic Inspection for Home Buyers: What to Expect | Eagle Septic Guide",
+    metaTitle: "Septic Inspection for Home Buyers: What to Expect",
     metaDescription:
-      "Buying a home with a septic system? Learn what a septic inspection covers, what red flags to look for, and what questions to ask before closing — from Central Valley septic experts.",
+      "Buying a home with a septic system? Learn what an inspection covers, red flags to look for, and questions to ask before closing on your new home.",
     publishedAt: "2026-01-05",
     updatedAt: "2026-01-15",
     category: "Home Buying",
@@ -1942,9 +1942,9 @@ export const posts: BlogPost[] = [
   {
     slug: "drain-field-failure-signs-costs",
     title: "Drain Field Failure: Warning Signs, Causes, and Repair Costs",
-    metaTitle: "Drain Field Failure Signs & Repair Costs | Eagle Septic Guide",
+    metaTitle: "Drain Field Failure: Signs & Repair Costs",
     metaDescription:
-      "A failing drain field is the most expensive septic problem you can face — $5,000 to $40,000 to fix. Learn to spot the warning signs early and understand your repair options before it gets that bad.",
+      "A failing drain field costs $5,000–$40,000 to fix. Learn to spot the warning signs early and understand your repair options before it gets that bad.",
     publishedAt: "2026-01-05",
     updatedAt: "2026-01-05",
     category: "Repairs",
@@ -2143,9 +2143,9 @@ export const posts: BlogPost[] = [
   {
     slug: "how-to-find-your-septic-tank",
     title: "How to Find Your Septic Tank: 6 Reliable Methods",
-    metaTitle: "How to Find Your Septic Tank: 6 Reliable Methods | Eagle Septic Guide",
+    metaTitle: "How to Find Your Septic Tank: 6 Reliable Methods",
     metaDescription:
-      "Not sure where your septic tank is buried? Use these 6 proven methods to locate it — from checking permit records to following the drain line — before your next service.",
+      "Not sure where your septic tank is buried? Use these 6 proven methods to locate it, from checking permit records to following the drain line.",
     publishedAt: "2026-02-15",
     updatedAt: "2026-02-15",
     category: "Maintenance",
@@ -2331,9 +2331,9 @@ export const posts: BlogPost[] = [
   {
     slug: "do-septic-tank-additives-work",
     title: "Do Septic Tank Additives Work? What Licensed Techs Actually See",
-    metaTitle: "Do Septic Tank Additives Work? The Honest Truth | Eagle Septic Guide",
+    metaTitle: "Do Septic Tank Additives Work? The Honest Truth",
     metaDescription:
-      "Millions of homeowners buy septic tank additives every year. But do products like RidX actually help — or are they a waste of money? Licensed septic technicians weigh in with what they see in real tanks.",
+      "Millions of homeowners buy septic additives every year. Do products like RidX actually help — or are they a waste of money? Septic technicians weigh in.",
     publishedAt: "2026-02-19",
     updatedAt: "2026-02-19",
     category: "Maintenance",
@@ -2509,9 +2509,9 @@ export const posts: BlogPost[] = [
   {
     slug: "sewage-smell-septic-system",
     title: "Sewage Smell in Your House? Here's What Your Septic System Is Telling You",
-    metaTitle: "Sewage Smell in House From Septic: Causes & What To Do | Eagle Septic Guide",
+    metaTitle: "Sewage Smell From Septic: Causes & What To Do",
     metaDescription:
-      "Sewage odors inside or outside your home are a warning sign your septic system needs attention. Learn the 7 causes, how to diagnose them, and when to call for help.",
+      "Sewage odors inside or outside your home warn your septic system needs attention. Learn the 7 causes, how to diagnose them, and when to call for help.",
     publishedAt: "2026-02-19",
     updatedAt: "2026-02-19",
     category: "Troubleshooting",
@@ -2727,7 +2727,7 @@ export const posts: BlogPost[] = [
     title: "Septic Tank Service in Modesto, CA: A Local Homeowner's Guide",
     metaTitle: "Septic Service Modesto CA | Cost, Regulations & Scheduling",
     metaDescription:
-      "Complete guide for Modesto homeowners with septic systems. Typical costs ($300–$500), Stanislaus County regulations, common local problems, and how to schedule service.",
+      "Guide for Modesto homeowners with septic systems. Typical costs ($300–$500), Stanislaus County regulations, common problems, and how to schedule service.",
     publishedAt: "2026-01-20",
     updatedAt: "2026-01-20",
     category: "Local Guide",
@@ -2895,7 +2895,7 @@ export const posts: BlogPost[] = [
     title: "Septic Service in Turlock, CA: What Property Owners Need to Know",
     metaTitle: "Septic Service Turlock CA | Eagle Septic Guide",
     metaDescription:
-      "Turlock CA septic system guide: irrigation canal proximity, clay-heavy soils, CSU Stanislaus area properties, and typical pumping costs of $300–$500. Local tips and regulations.",
+      "Turlock CA septic guide: irrigation canal proximity, clay-heavy soils, CSU Stanislaus area properties, and typical pumping costs of $300–$500. Local tips.",
     publishedAt: "2026-01-28",
     updatedAt: "2026-01-28",
     category: "Local Guide",
@@ -3058,7 +3058,7 @@ export const posts: BlogPost[] = [
     title: "How to Find a Reliable Septic Company in California's Central Valley",
     metaTitle: "How to Find a Reliable Septic Company | Central Valley CA",
     metaDescription:
-      "What to look for when hiring a septic service company in Modesto, Turlock, Fresno, and the Central Valley. License requirements, red flags, pricing expectations, and questions to ask.",
+      "What to look for when hiring a septic company in Modesto and the Central Valley. License requirements, red flags, pricing expectations, and questions to ask.",
     publishedAt: "2026-02-03",
     updatedAt: "2026-02-03",
     category: "Hiring Guide",
@@ -3199,7 +3199,7 @@ export const posts: BlogPost[] = [
     title: "Stanislaus County Septic Regulations: What Homeowners Must Know",
     metaTitle: "Stanislaus County Septic System Regulations & Permit Guide",
     metaDescription:
-      "Complete guide to Stanislaus County septic rules for homeowners in Modesto, Turlock, Ceres, and surrounding areas. When permits are required, inspection requirements, and compliance tips.",
+      "Complete guide to Stanislaus County septic rules. When permits are required, inspection requirements, and compliance tips for Modesto and Turlock homeowners.",
     publishedAt: "2026-02-06",
     updatedAt: "2026-02-06",
     category: "Regulations",
@@ -3360,9 +3360,9 @@ export const posts: BlogPost[] = [
   {
     slug: "commercial-septic-service-central-valley",
     title: "Commercial Septic Service in the Central Valley: A Guide for Business Owners",
-    metaTitle: "Commercial Septic Service Central Valley CA | Eagle Septic Guide",
+    metaTitle: "Commercial Septic Service | Central Valley, CA",
     metaDescription:
-      "Septic service for restaurants, farms, apartment complexes, and businesses in Modesto, Turlock, Fresno, and the Central Valley. Pumping frequency, compliance, and cost guide.",
+      "Septic service for restaurants, farms, apartments, and businesses in Modesto and the Central Valley. Pumping frequency, compliance, and cost guide.",
     publishedAt: "2026-02-10",
     updatedAt: "2026-02-10",
     category: "Commercial",
@@ -3524,9 +3524,9 @@ export const posts: BlogPost[] = [
   {
     slug: "drain-field-repair-vs-replacement-central-valley",
     title: "Drain Field Repair vs. Replacement: A Central Valley Homeowner's Guide",
-    metaTitle: "Drain Field Repair vs. Replacement | Central Valley CA Guide",
+    metaTitle: "Drain Field Repair vs. Replacement | Central Valley CA",
     metaDescription:
-      "Learn when drain field repair is possible and when full replacement is necessary. Central Valley soil conditions, cost comparison ($3,000–$20,000), and what to expect from the process.",
+      "Learn when drain field repair is possible vs. full replacement. Central Valley soil conditions, costs ($3,000–$20,000), and what to expect.",
     publishedAt: "2026-02-14",
     updatedAt: "2026-02-14",
     category: "Repairs",
@@ -3689,9 +3689,9 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-service-stockton-ca",
     title: "Septic Service in Stockton, CA: What Property Owners Need to Know",
-    metaTitle: "Septic Service Stockton CA | Pumping, Inspection & Repair | Eagle Septic Guide",
+    metaTitle: "Septic Service in Stockton, CA | Eagle Septic Guide",
     metaDescription:
-      "Eagle Septic provides septic pumping, inspection, and emergency service throughout Stockton and San Joaquin County. Licensed, insured, upfront pricing. Call for same-day service.",
+      "Septic pumping, inspection, and emergency service throughout Stockton and San Joaquin County. Licensed, insured, upfront pricing. Same-day service.",
     publishedAt: "2026-01-22",
     updatedAt: "2026-02-01",
     category: "Local Guide",
@@ -3793,9 +3793,9 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-service-tracy-ca",
     title: "Septic Service in Tracy, CA: Pumping, Inspection & Repair",
-    metaTitle: "Septic Service Tracy CA | Pumping & Inspection | Eagle Septic Guide",
+    metaTitle: "Septic Service in Tracy, CA | Eagle Septic Guide",
     metaDescription:
-      "Licensed septic pumping, inspection, and repair in Tracy, CA and San Joaquin County. Eagle Septic — upfront pricing, same-day availability, 24/7 emergency service.",
+      "Septic pumping, inspection, and repair in Tracy, CA and San Joaquin County. Upfront pricing, same-day availability, and 24/7 emergency service.",
     publishedAt: "2026-01-25",
     updatedAt: "2026-02-01",
     category: "Local Guide",
@@ -3878,9 +3878,9 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-service-manteca-ca",
     title: "Septic Service in Manteca, CA: Local Pumping & Inspection Guide",
-    metaTitle: "Septic Service Manteca CA | Pumping, Repair & Inspection | Eagle Septic Guide",
+    metaTitle: "Septic Service in Manteca, CA | Eagle Septic Guide",
     metaDescription:
-      "Eagle Septic provides septic pumping, inspection, and emergency service in Manteca and San Joaquin County. Licensed technicians, upfront pricing, same-day availability.",
+      "Septic pumping, inspection, and emergency service in Manteca and San Joaquin County. Licensed technicians, upfront pricing, same-day availability.",
     publishedAt: "2026-01-28",
     updatedAt: "2026-02-01",
     category: "Local Guide",
@@ -3969,7 +3969,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-service-merced-ca",
     title: "Septic Service in Merced, CA: Pumping, Inspection & Local Regulations",
-    metaTitle: "Septic Service Merced CA | Pumping & Inspection | Eagle Septic Guide",
+    metaTitle: "Septic Service in Merced, CA | Eagle Septic Guide",
     metaDescription:
       "Eagle Septic provides licensed septic pumping, inspection, and repair in Merced and Merced County. Same-day service, 24/7 emergency response, upfront pricing.",
     publishedAt: "2026-02-01",
@@ -4074,7 +4074,7 @@ export const posts: BlogPost[] = [
     title: "Septic System Replacement Cost: 2025 Price Guide for California Homeowners",
     metaTitle: "Septic System Replacement Cost in 2025 | Eagle Septic Guide",
     metaDescription:
-      "Septic system replacement costs $3,000–$25,000+ depending on what needs replacing. Full breakdown of tank, drain field, and full system costs for Central Valley homeowners.",
+      "Septic system replacement costs $3,000–$25,000+ depending on what needs replacing. Tank, drain field, and full system costs for Central Valley homeowners.",
     publishedAt: "2026-02-20",
     updatedAt: "2026-02-20",
     category: "Cost & Pricing",
@@ -4337,9 +4337,9 @@ export const posts: BlogPost[] = [
   {
     slug: "how-does-a-septic-system-work",
     title: "How Does a Septic System Work? A Complete Homeowner's Guide",
-    metaTitle: "How Does a Septic System Work? Complete Guide | Eagle Septic Guide",
+    metaTitle: "How Does a Septic System Work? Complete Guide",
     metaDescription:
-      "Learn exactly how a septic system works — from the tank to the drain field. Covers all components, system types, and why maintenance matters. Simple, clear explanations.",
+      "Learn exactly how a septic system works — from tank to drain field. Covers all components, system types, and why maintenance matters. Clear explanations.",
     publishedAt: "2026-02-20",
     updatedAt: "2026-02-20",
     category: "Education",
@@ -4656,7 +4656,7 @@ export const posts: BlogPost[] = [
     title: "Septic Tank Inspection Cost: 2026 Price Guide for California Homeowners",
     metaTitle: "Septic Tank Inspection Cost in 2026 | Eagle Septic Guide",
     metaDescription:
-      "A standard septic inspection costs $150–$450 in California. Full mechanical inspections run $400–$800. Here's exactly what you get at each price point — and when each type is worth it.",
+      "A standard septic inspection costs $150–$450 in California. Full mechanical inspections run $400–$800. What you get at each price point and when it's worth it.",
     publishedAt: "2026-02-20",
     updatedAt: "2026-02-20",
     category: "Cost & Pricing",
@@ -4956,7 +4956,7 @@ export const posts: BlogPost[] = [
   {
     slug: "signs-septic-tank-is-full",
     title: "Signs Your Septic Tank Is Full: 8 Symptoms to Watch For",
-    metaTitle: "Signs Your Septic Tank Is Full: 8 Symptoms to Watch For | Eagle Septic Guide",
+    metaTitle: "Signs Your Septic Tank Is Full: 8 Warning Symptoms",
     metaDescription:
       "Slow drains, gurgling pipes, sewage odors, and soggy yard patches are classic signs a septic tank is full. Learn all 8 warning signs and what to do next.",
     publishedAt: "2026-02-20",
@@ -5192,7 +5192,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-tank-alarm-going-off",
     title: "Septic Tank Alarm Going Off: What It Means and What to Do",
-    metaTitle: "Septic Tank Alarm Going Off: Causes & What to Do | Eagle Septic Guide",
+    metaTitle: "Septic Tank Alarm Going Off: Causes & What to Do",
     metaDescription:
       "Septic alarm sounding? Learn what triggered it, whether it's an emergency, and the exact steps to take right now — before calling a technician.",
     publishedAt: "2026-02-20",
@@ -5451,9 +5451,9 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-tank-not-draining",
     title: "Septic Tank Not Draining: Causes, What to Do & When to Call a Pro",
-    metaTitle: "Septic Tank Not Draining: Causes & What to Do | Eagle Septic Guide",
+    metaTitle: "Septic Tank Not Draining: Causes & What to Do",
     metaDescription:
-      "Septic system not draining? Learn the 6 most common causes — full tank, drain field failure, clogged baffles, and more — plus what to do right now before calling a pro.",
+      "Septic system not draining? Learn the 6 most common causes — full tank, drain field failure, clogged baffles, and more — plus what to do right now.",
     publishedAt: "2026-02-20",
     updatedAt: "2026-02-20",
     category: "Troubleshooting",
@@ -5717,9 +5717,9 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-safe-cleaning-products",
     title: "Septic Safe Cleaning Products: What's Actually OK (and What Destroys Your System)",
-    metaTitle: "Septic Safe Cleaning Products: The Complete Guide | Eagle Septic Guide",
+    metaTitle: "Septic Safe Cleaning Products: The Complete Guide",
     metaDescription:
-      "Not sure which cleaning products are safe for your septic system? Learn which dish soaps, laundry detergents, toilet cleaners, and disinfectants protect your system — and which ones kill the bacteria keeping it alive.",
+      "Which cleaning products are safe for septic systems? Learn which dish soaps, laundry detergents, and toilet cleaners protect your tank and which kill bacteria.",
     publishedAt: "2026-02-20",
     updatedAt: "2026-02-20",
     category: "Maintenance",
@@ -6057,9 +6057,9 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-safe-toilet-paper",
     title: "Septic Safe Toilet Paper: Best Brands and What to Avoid",
-    metaTitle: "Septic Safe Toilet Paper: Best Brands & What to Avoid | Eagle Septic Guide",
+    metaTitle: "Septic Safe Toilet Paper: Best Brands & What to Avoid",
     metaDescription:
-      "Not all toilet paper is safe for septic systems. Learn which brands (Charmin, Scott, Angel Soft, Cottonelle) are actually septic safe, what to look for on labels, and why some popular TP can clog your drain field.",
+      "Not all toilet paper is septic safe. Learn which brands work best, what to look for on labels, and why some popular TP can clog your drain field.",
     publishedAt: "2026-02-20",
     updatedAt: "2026-02-20",
     category: "Maintenance",
@@ -6346,9 +6346,9 @@ export const posts: BlogPost[] = [
   {
     slug: "what-to-plant-over-septic-drain-field",
     title: "What to Plant Over a Septic Drain Field (And What to Keep Far Away)",
-    metaTitle: "What to Plant Over a Septic Drain Field | Safe Plants & Trees to Avoid",
+    metaTitle: "What to Plant Over a Septic Drain Field",
     metaDescription:
-      "Planting over your septic drain field requires careful plant selection. Learn the best grass, flowers, and shrubs to grow over a drain field — and which trees and plants to keep at least 50 feet away.",
+      "Planting over your septic drain field requires careful plant selection. Learn the best plants to grow over a drain field and which trees to keep far away.",
     publishedAt: "2026-02-20",
     updatedAt: "2026-02-20",
     category: "Maintenance",
@@ -6688,9 +6688,9 @@ export const posts: BlogPost[] = [
   {
     slug: "aerobic-septic-system",
     title: "Aerobic Septic System: How It Works, What It Costs, and How to Maintain It",
-    metaTitle: "Aerobic Septic System: Cost, Maintenance & How It Works | Eagle Septic Guide",
+    metaTitle: "Aerobic Septic System: Cost, Maintenance & How It Works",
     metaDescription:
-      "Aerobic septic systems treat wastewater more thoroughly than conventional systems — but they cost more to install and require quarterly maintenance. Learn how aerobic systems work, what they cost, and how to keep yours running.",
+      "Aerobic systems treat wastewater more thoroughly but cost more and need quarterly maintenance. Learn how aerobic septic systems work and what they cost.",
     publishedAt: "2026-02-20",
     updatedAt: "2026-02-20",
     category: "Education",
@@ -7058,9 +7058,9 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-tank-size-guide",
     title: "Septic Tank Size Guide: What Size Do You Need for Your Home?",
-    metaTitle: "Septic Tank Size Guide: What Size Do You Need? | Eagle Septic Guide",
+    metaTitle: "Septic Tank Size Guide: What Size Do You Need?",
     metaDescription:
-      "Most 3-bedroom homes need a 1,000-gallon septic tank. Learn how tank size is calculated by bedrooms, occupants, and water usage — plus California minimum requirements.",
+      "Most 3-bedroom homes need a 1,000-gallon septic tank. Learn how size is calculated by bedrooms, occupants, and water usage, plus California requirements.",
     publishedAt: "2026-02-20",
     updatedAt: "2026-02-20",
     category: "Education",
@@ -7369,8 +7369,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-backup-after-heavy-rain",
     title: "Septic Backup After Heavy Rain: Why It Happens & What to Do",
-    metaTitle:
-      "Septic Backup After Heavy Rain: Why It Happens & What to Do | Eagle Septic Guide",
+    metaTitle: "Septic Backup After Heavy Rain: Causes & What to Do",
     metaDescription:
       "Heavy rain causing septic backup, slow drains, or a soggy yard? Learn exactly why rain overloads septic systems and what to do in the first 30 minutes.",
     publishedAt: "2026-02-21",
@@ -7532,9 +7531,9 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-system-vs-sewer-system",
     title: "Septic System vs. Sewer System: Key Differences, Costs, and What's Right for Your Home",
-    metaTitle: "Septic System vs. Sewer System: Differences, Costs & Pros and Cons | Eagle Septic Guide",
+    metaTitle: "Septic System vs. Sewer: Differences, Costs & Pros",
     metaDescription:
-      "Septic system or sewer connection — what's the real difference? Compare costs, maintenance, pros and cons, and learn which is better for homes in California's Central Valley.",
+      "Septic system or sewer connection — what's the real difference? Compare costs, maintenance, pros and cons for Central Valley, CA homeowners.",
     publishedAt: "2026-02-22",
     updatedAt: "2026-02-22",
     category: "Education",
@@ -7799,9 +7798,9 @@ export const posts: BlogPost[] = [
   {
     slug: "how-does-a-septic-system-work",
     title: "How Does a Septic System Work? A Complete Guide for Homeowners",
-    metaTitle: "How Does a Septic System Work? Complete Homeowner's Guide | Eagle Septic",
+    metaTitle: "How Does a Septic System Work? A Homeowner's Guide",
     metaDescription:
-      "Learn exactly how a septic system works — from the tank's 3-layer treatment process to the drain field's final filtration. A practical guide for homeowners who want to understand and protect their system.",
+      "Learn exactly how a septic system works — from the tank's 3-layer treatment process to the drain field's filtration. A guide for every homeowner.",
     publishedAt: "2026-02-22",
     updatedAt: "2026-02-22",
     category: "Education",
@@ -8117,7 +8116,7 @@ export const posts: BlogPost[] = [
     title: "Septic System Do's and Don'ts: The Complete Homeowner Guide",
     metaTitle: "Septic System Do's and Don'ts | Complete Homeowner Guide",
     metaDescription:
-      "The definitive list of septic system do's and don'ts. Learn what to flush, what to avoid, how to protect your drain field, and the habits that make systems last 30+ years.",
+      "The definitive list of septic do's and don'ts: what to flush, what to avoid, and the habits that make septic systems last 30+ years.",
     publishedAt: "2026-03-18",
     updatedAt: "2026-03-18",
     category: "Maintenance",

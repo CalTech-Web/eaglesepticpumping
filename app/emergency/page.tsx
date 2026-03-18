@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: { absolute: "What to Do in a Septic Emergency | Step-by-Step Guide" },
   description:
-    "Step-by-step guide for handling a septic backup or overflow. Learn immediate safety steps, warning signs, what to expect from a septic professional, and emergency FAQ.",
+    "Step-by-step guide for handling a septic backup or overflow. Learn immediate safety steps, what to expect from a septic professional, and emergency FAQ.",
   alternates: {
     canonical: "https://eaglesepticpumping.com/emergency",
   },

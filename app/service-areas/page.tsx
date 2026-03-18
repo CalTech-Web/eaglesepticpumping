@@ -3,9 +3,9 @@ import Link from "next/link";
 import { serviceAreas } from "@/lib/serviceAreas";
 
 export const metadata: Metadata = {
-  title: { absolute: "Septic Service Areas | Eagle Septic Guide — Central Valley, CA" },
+  title: { absolute: "Septic Service Areas | Eagle Septic Guide — Central Valley" },
   description:
-    "Septic system guides and local resources for Modesto, Turlock, Stockton, Tracy, Manteca, Merced, and 14 more cities across Stanislaus, San Joaquin, and Merced counties.",
+    "Septic system guides for Modesto, Turlock, Stockton, Tracy, Manteca, Merced, and 14 more cities across Stanislaus, San Joaquin, and Merced counties.",
   alternates: { canonical: "https://eaglesepticpumping.com/service-areas" },
 };
 

@@ -26,7 +26,7 @@ export const services: ServiceData[] = [
     shortTitle: "Tank Pumping",
     metaTitle: "Septic Tank Pumping Service | Eagle Septic Guide",
     metaDescription:
-      "Professional septic tank pumping by licensed technicians. All tank sizes, fast service, legally disposed waste. Learn what to expect, what's included, and typical costs.",
+      "Professional septic tank pumping by licensed technicians. All tank sizes, fast service, legally disposed waste. What to expect and typical costs.",
     heroHeadline: "Professional Septic Tank Pumping",
     heroSubheadline:
       "Regular pumping every 3–5 years is the single most important thing you can do to protect your septic system. Here's what to expect from the process — and how to know when it's time.",
@@ -236,7 +236,7 @@ export const services: ServiceData[] = [
     shortTitle: "Inspections",
     metaTitle: "Septic System Inspection | Eagle Septic Guide",
     metaDescription:
-      "Certified septic inspections for real estate transactions and routine maintenance. Written reports, camera inspections available. Learn what's involved and what it costs.",
+      "Certified septic inspections for real estate and routine maintenance. Written reports, camera inspections available. What's involved and the cost.",
     heroHeadline: "Certified Septic System Inspections",
     heroSubheadline:
       "Whether you're buying a home, selling, or simply due for a checkup — here's what a thorough septic inspection involves, what the report covers, and why it matters.",

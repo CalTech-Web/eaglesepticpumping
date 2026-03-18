@@ -6,7 +6,7 @@ import { services } from "@/lib/services";
 export const metadata: Metadata = {
   title: { absolute: "Septic Services | Eagle Septic Guide" },
   description:
-    "Learn about septic services: tank pumping, cleaning, inspections, emergency response, drain field repair, and new system installation. What to expect and how each service works.",
+    "Septic services explained: tank pumping, cleaning, inspections, emergency response, drain field repair, and installation. What to expect from each service.",
   alternates: {
     canonical: "https://eaglesepticpumping.com/services",
   },

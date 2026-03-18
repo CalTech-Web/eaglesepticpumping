@@ -5,9 +5,9 @@ import SepticHealthCheck from "@/components/SepticHealthCheck";
 import RecentPosts from "@/components/RecentPosts";
 
 export const metadata: Metadata = {
-  title: { absolute: "Eagle Septic Guide | Free Septic System Information for Homeowners" },
+  title: { absolute: "Eagle Septic Guide | Free Septic System Information" },
   description:
-    "Free guides, maintenance tips, and troubleshooting help for homeowners with septic systems. Learn how your system works, when to pump, signs of problems, and more.",
+    "Free guides, maintenance tips, and troubleshooting help for homeowners with septic systems. Learn how your system works, when to pump, and signs of problems.",
   alternates: {
     canonical: "https://eaglesepticpumping.com",
   },

@@ -5,7 +5,7 @@ import { serviceAreas } from "@/lib/serviceAreas";
 export const metadata: Metadata = {
   title: { absolute: "Septic Inspection for Real Estate | Eagle Septic Guide" },
   description:
-    "What to know about septic inspections for home buyers, sellers, and real estate agents in California's Central Valley. What reports cover, typical timelines, and how to prepare.",
+    "What to know about septic inspections for home buyers, sellers, and real estate agents in the Central Valley. What reports cover, timelines, and how to prepare.",
   alternates: {
     canonical: "https://eaglesepticpumping.com/real-estate-inspections",
   },
