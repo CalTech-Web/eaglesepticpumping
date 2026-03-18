@@ -80,3 +80,65 @@ Fixed 74 total violations across the codebase — all metaTitles reduced to ≤5
 - TypeScript type-check: clean ✅
 - Committed as Run #30
 [2026-03-18 08:33:25] Run #2 finished
+**Run 30 complete.** Fixed all meta title and description length violations across the codebase:
+
+**74 total fixes:**
+- **32 metaTitles** in `lib/posts.ts` — all reduced from 61–88 chars to ≤59 chars
+- **36 metaDescriptions** in `lib/posts.ts` — all reduced from 162–227 chars to ≤159 chars
+- **2 metaDescriptions** in `lib/services.ts`
+- **5 static page metadata** fixes across `app/` pages
+
+**Title strategy:** Removed `| Eagle Septic Guide` brand suffix where possible. Local service posts reformatted as `"Septic Service in [City], CA | Eagle Septic Guide"`. Complex titles had their main clause shortened.
+
+**Description strategy:** Trimmed redundant phrases (`"Here's exactly what..."`, `"from Central Valley septic experts"`, `"Learn what to expect"` variants) while preserving primary keywords, location signals, and conversion CTAs.
+
+TypeScript: clean ✅ | Pushed to origin ✅
+[2026-03-18 08:51:25] Run #2 finished
+[2026-03-18 08:51:30] Run #3 starting (model: sonnet)
+
+**Run Order #2 complete: Canonical tags and sitemap accuracy**
+
+**Canonical tags:** All pages already had correct `alternates.canonical` set. ✅
+
+**OpenGraph URL fix (16 pages):** The `layout.tsx` had `openGraph.url: "https://eaglesepticpumping.com"` which was inherited by all child pages, causing every page to emit `<meta property="og:url" content="https://eaglesepticpumping.com">` — the homepage URL — regardless of the actual page. Fixed by:
+- Removing `url` from `layout.tsx` openGraph
+- Adding explicit `openGraph.url` to all 16 pages/templates that were missing it:
+  - `app/about/page.tsx` (also added missing openGraph block entirely)
+  - `app/service-areas/page.tsx` (also added missing openGraph block)
+  - `app/commercial/page.tsx`, `app/emergency/page.tsx`, `app/maintenance-plan/page.tsx`
+  - `app/pricing/page.tsx`, `app/real-estate-inspections/page.tsx`, `app/resources/page.tsx`
+  - `app/reviews/page.tsx` (also added missing `type: "website"`)
+  - `app/services/page.tsx`, `app/blog/page.tsx`
+  - `app/blog/[slug]/page.tsx`, `app/blog/category/[category]/page.tsx`
+  - `app/service-areas/[city]/page.tsx`, `app/services/[slug]/page.tsx`
+
+**Sitemap:** Already complete and accurate — all routes (static + dynamic) included, blog posts use `updatedAt` for lastModified. No changes needed.
+
+TypeScript: clean ✅ | Committed as Run #31 | Pushed to origin ✅
+[2026-03-18 08:51:30] Run #3 finished
+**Run Order #2 complete.** The key fix was `og:url` — `layout.tsx` had `openGraph.url: "https://eaglesepticpumping.com"` which Next.js was inheriting to all child pages, meaning every page on the site was emitting the homepage URL as its `og:url`. This affects how Facebook, Twitter, LinkedIn, and other crawlers report page URLs when shared.
+
+**Changes across 16 files:**
+- Removed the wrong inherited URL from `layout.tsx`
+- Added correct `openGraph.url` to all pages missing it (static pages, blog posts, service pages, city pages, category pages)
+- Added missing `openGraph` blocks entirely to `about/page.tsx` and `service-areas/page.tsx`
+- Added missing `type: "website"` to `reviews/page.tsx`
+
+Sitemap was already accurate — all routes covered, blog posts using `updatedAt` for `lastModified`. No sitemap changes needed.
+[2026-03-18 08:59:15] Run #3 finished
+[2026-03-18 08:59:20] Run #4 starting (model: sonnet)
+
+**Run Order #3 complete: Structured data, Open Graph images, Twitter cards**
+
+**Changes:**
+- `app/layout.tsx` — Added `twitter: { card: "summary_large_image" }` metadata that cascades to all 17 pages; added default `openGraph.images` fallback (1200×630 Unsplash residential home photo) for all pages without an explicit OG image
+- `app/about/page.tsx` — Added `Organization` schema (name, url, description) + `BreadcrumbList` JSON-LD scripts; was the only page missing structured data
+
+**Audit summary:**
+- All 17 app routes now emit `twitter:card = summary_large_image`
+- All pages without a page-specific OG image now inherit the default fallback image
+- Blog posts retain their individual `coverImage` Unsplash URLs as OG images (set in `app/blog/[slug]/page.tsx`)
+- All other pages (pricing, emergency, maintenance-plan, commercial, real-estate-inspections, resources, services, service-areas, faq, reviews) already had JSON-LD from prior runs
+
+TypeScript: clean ✅ | Committed as Run #32 | Pushed to origin ✅
+[2026-03-18 08:59:20] Run #4 finished
