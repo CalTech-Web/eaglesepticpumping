@@ -274,3 +274,35 @@ The post bridges the consumer/industry terminology gap ("cleaning" vs. "pumping"
 
 TypeScript: clean ✅ | Committed as Run #36 | Pushed to origin ✅
 [2026-03-19 09:38:38] Run #3 finished
+**Run 36 complete.** Two changes pushed:
+
+**1. Review/AggregateRating schema on `/reviews`**
+Replaced the generic `WebPage` JSON-LD with a `LocalBusiness` schema containing:
+- `aggregateRating`: 4.9 / 200 reviews
+- 14 individual `Review` items (author, rating, date, body)
+
+This signals Google to show star snippets (★ 4.9) in search results for the reviews page — one of the highest-visibility SERP enhancements available without any visual page changes.
+
+**2. New blog post: `/blog/septic-system-repair`**
+Targets the largest unaddressed keyword gap found in Ahrefs:
+- "septic system repair near me" — 16K/mo, KD 3, 57K traffic potential
+- "septic system repair" — 18K/mo, KD 5, 25K traffic potential
+
+~1,900 words: 6 repair types with costs ($75–$20K+), warning signs mapped to specific failures, repair-vs-replace decision guide, Central Valley soil/permit specifics, and a 5-question FAQ targeting featured snippets.
+[2026-03-19 09:47:09] Run #3 finished
+[2026-03-19 09:47:14] Run #4 starting (model: sonnet)
+
+**Run 37 complete: Leach field guide + cesspool vs septic post**
+
+**1. New blog post: `/blog/what-is-a-leach-field`**
+- Targets "what is a leach field" (1,200/mo, KD 2, traffic potential 13,000) and "leach field" (7,700/mo, KD 5)
+- ~1,700 words covering: definition (leach field = drain field = absorption field), how effluent percolates through gravel and biomat, 4 system types (conventional trench, chamber, mound, drip irrigation), 6 causes of failure, 6 warning signs, 6 maintenance rules, repair/replacement cost table ($500–$25,000), Central Valley clay soil and permit notes, 5-question FAQ
+- Category: Education | relatedServiceSlugs: drain-field-repair, septic-tank-pumping, septic-inspections
+- Complements existing drain-field-failure and drain-field-repair posts without duplication — targets the distinct "leach field" keyword cluster
+
+**2. New blog post: `/blog/cesspool-vs-septic-tank`**
+- Targets "cesspool vs septic tank" (1,000/mo, KD 0, traffic potential 2,700) and "what is a cesspool" (3,000/mo, KD 9, traffic 1,800)
+- ~1,500 words covering: cesspool definition (open-wall pit, no treatment), septic tank definition, side-by-side 7-point comparison table, why cesspools are being phased out (EPA Class V injection well classification, Hawaii ban), how to identify which system you have, warning signs for both, cesspool-to-septic conversion process and costs ($10K–$20K in Central Valley), FHA/VA loan implications, 4-question FAQ
+- Category: Education | relatedServiceSlugs: septic-tank-pumping, new-system-installation, septic-inspections
+
+TypeScript: clean ✅ | Committed as Run #37 | Pushed to origin ✅
