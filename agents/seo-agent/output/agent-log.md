@@ -211,3 +211,31 @@ TypeScript: clean | Committed as Run #33 | Pushed to origin
 | `app/maintenance-plan/page.tsx` | Added inline contextual links in cost comparison paragraph: "routine pump-out" → `/services/septic-tank-pumping`, "emergency service call" → `/services/emergency-services`, "drain field replacement" → `/services/drain-field-repair`; added "View All Services" button → `/services` in bottom CTA |
 
 TypeScript: clean ✅ | Committed as Run #34 | Pushed to origin ✅
+**Run Order #5 complete — committed as Run #34.**
+
+Image alt text was already excellent across the entire codebase. Internal linking added 17 new contextual links across 5 files:
+
+- **Resources page** — each of 4 topic sections (Maintenance, Warning Signs, Home Buying, Repairs) now has a "View [Service]" link to the corresponding service page alongside the existing "See all guides" link
+- **Emergency page** — replaced the generic `/resources` CTA with two targeted links: "View Emergency Service Details" (→ `/services/emergency-services`) and "Full Emergency Guide" (→ blog post)
+- **HomepageAnswerHub** — the pumping card now links to `/services/septic-tank-pumping` and the emergency card links to `/emergency`, so users can jump to service booking directly from the homepage answer grid
+- **FAQ page** — added "View Our Services" → `/services` CTA button in the bottom section alongside the existing guides/blog links
+- **Maintenance plan page** — added inline contextual links in the cost comparison paragraph (pumping, emergency service, drain field repair) plus a "View All Services" button in the bottom CTA
+
+All 5 Run Order items (meta titles, canonical tags, structured data/OG, semantic HTML, image alt + internal linking) are now complete.
+[2026-03-19 09:31:10] Run #1 finished
+[2026-03-19 09:31:15] Run #2 starting (model: sonnet)
+
+**Run 35 complete: Duplicate slug fix + new 'septic tank cleaning' blog post**
+
+**Technical fix:**
+- Removed older duplicate `how-does-a-septic-system-work` post (publishedAt 2026-02-20, 9 min read). The better Run 27 version (publishedAt 2026-02-22, 10 min read) was unreachable because `getPostBySlug` uses `Array.find()` which returns the first match — the older, lower-quality post. Removing it unblocks the canonical Run 27 version.
+
+**New blog post: `septic-tank-cleaning`**
+- Targets "septic tank cleaning" (30K/mo, KD 6, traffic_potential 25K) and "septic tank cleaning near me" (21K/mo, KD 0, traffic_potential 39K)
+- SERP features for target query: local_pack, question, video_th, image_th — strong featured snippet opportunity
+- ~1,800 words covering: cleaning vs. pumping terminology (answers the core consumer question), 7-step service process, frequency guide, cost breakdown ($300–$600 in Central Valley), warning signs list, DIY impossibility/why, what to look for in a company, Central Valley CTA
+- FAQ section (5 Q&As) structured for featured snippet capture: "Is cleaning the same as pumping?", "How long does it take?", "How do I know if I need it?", "What happens if you don't clean?", "Can I use additives instead?"
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+
+TypeScript: clean ✅ | Committed as Run #35 | Pushed to origin ✅
+[2026-03-19 09:31:15] Run #2 finished
