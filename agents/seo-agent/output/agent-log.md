@@ -142,3 +142,72 @@ Sitemap was already accurate — all routes covered, blog posts using `updatedAt
 
 TypeScript: clean ✅ | Committed as Run #32 | Pushed to origin ✅
 [2026-03-18 08:59:20] Run #4 finished
+`npx` is at `/opt/homebrew/bin/npx`. That's noted for future TypeScript checks — I'll use that path directly next time instead of searching.
+[2026-03-18 09:04:24] Run #4 finished
+[2026-03-18 09:04:29] Run #5 starting (model: sonnet)
+
+**Run Order #4 complete: Heading hierarchy and semantic HTML**
+
+**Audit findings:**
+- Heading hierarchy (H1→H2→H3): PASS across all pages — no skips found
+- `<main>` wrapper: already present in `layout.tsx` — no change needed
+- Missing semantic elements: blog post cards, service cards, footer nav links
+
+**Changes across 5 files:**
+- `app/blog/[slug]/page.tsx` — article body `<section>` → `<article>`; wrapped related post cards and related service cards in `<article>`
+- `app/blog/page.tsx` — wrapped featured post and all post grid cards in `<article>`
+- `app/blog/category/[category]/page.tsx` — wrapped post grid cards in `<article>`
+- `app/services/page.tsx` — wrapped service cards in `<article>`
+- `components/Footer.tsx` — Topics and Resources link columns changed from `<div>` to `<nav aria-label="...">` for proper landmark navigation
+
+TypeScript: clean ✅ | Committed as Run #33 | Pushed to origin ✅
+**Run Order #4 complete.** Here's what was done:
+
+**Heading hierarchy**: PASS — all pages already had correct H1→H2→H3 ordering with no skips and exactly one H1 per page. `<main>` was already in `layout.tsx`.
+
+**Semantic HTML fixes across 5 files:**
+
+| File | Change |
+|------|--------|
+| `blog/[slug]/page.tsx` | Article body `<section>` → `<article>`; related post/service cards wrapped in `<article>` |
+| `blog/page.tsx` | Featured post and all grid cards wrapped in `<article>` |
+| `blog/category/[category]/page.tsx` | Post grid cards wrapped in `<article>` |
+| `services/page.tsx` | Service cards wrapped in `<article>` |
+| `Footer.tsx` | Topics and Resources link columns `<div>` → `<nav aria-label="...">` |
+
+TypeScript: clean | Committed as Run #33 | Pushed to origin
+[2026-03-18 09:10:22] Run #5 finished
+[2026-03-18 09:10:22] Reached max loops (5). Stopping.
+[2026-03-19 06:00:00] ==========================================
+[2026-03-19 06:00:00] Agent: Seo Agent
+[2026-03-19 06:00:00] Model: sonnet
+[2026-03-19 06:00:01] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-03-19 06:00:01] Stop on complete: false
+[2026-03-19 06:00:01] Max loops: 5 (0=infinite)
+[2026-03-19 06:00:01] ==========================================
+[2026-03-19 06:00:01] Run #1 starting (model: sonnet)
+[2026-03-19 06:00:05] Claude command interrupted or failed
+[2026-03-19 09:22:54] ==========================================
+[2026-03-19 09:22:54] Agent: Seo Agent
+[2026-03-19 09:22:54] Model: sonnet
+[2026-03-19 09:22:54] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-03-19 09:22:54] Stop on complete: false
+[2026-03-19 09:22:54] Max loops: 5 (0=infinite)
+[2026-03-19 09:22:54] ==========================================
+[2026-03-19 09:22:54] Run #1 starting (model: sonnet)
+
+**Run Order #5 complete: Image alt text and internal linking**
+
+**Image alt text:** EXCELLENT — all images across the codebase already have descriptive alt text. No fixes needed.
+
+**Internal linking — 17 new contextual links across 5 files:**
+
+| File | Change |
+|------|--------|
+| `app/resources/page.tsx` | Added "View Service" links to 4 topic sections: Maintenance & Pumping → `/services/septic-tank-pumping`, Warning Signs → `/services/emergency-services`, Home Buying → `/services/septic-inspections`, Repairs → `/services/drain-field-repair` |
+| `app/emergency/page.tsx` | Replaced generic "Learn More About Septic Emergencies" → `/resources` with two targeted CTAs: "View Emergency Service Details" → `/services/emergency-services` + "Full Emergency Guide" → blog post |
+| `components/HomepageAnswerHub.tsx` | Added secondary service link to "How often should I pump?" card (→ `/services/septic-tank-pumping`) and "What should I do in an emergency?" card (→ `/emergency`) |
+| `app/faq/page.tsx` | Added "View Our Services" CTA button → `/services` alongside existing "Browse All Guides" and "Read the Blog" buttons in the bottom CTA section |
+| `app/maintenance-plan/page.tsx` | Added inline contextual links in cost comparison paragraph: "routine pump-out" → `/services/septic-tank-pumping`, "emergency service call" → `/services/emergency-services`, "drain field replacement" → `/services/drain-field-repair`; added "View All Services" button → `/services` in bottom CTA |
+
+TypeScript: clean ✅ | Committed as Run #34 | Pushed to origin ✅
