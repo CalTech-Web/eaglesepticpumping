@@ -432,10 +432,19 @@ export default function MaintenancePlanPage() {
                 The Real Cost of On-Demand vs. Planned Maintenance
               </h2>
               <p className="mb-8 text-lg text-gray-500 leading-relaxed">
-                Most homeowners wait until there&apos;s a problem. By then, a
-                $350 pump-out has turned into an emergency call at twice the
-                price — or worse, a drain field replacement. A maintenance plan
-                changes that math entirely.
+                Most homeowners wait until there&apos;s a problem. By then, a{" "}
+                <Link href="/services/septic-tank-pumping" className="font-medium text-brand-700 hover:underline">
+                  routine pump-out
+                </Link>{" "}
+                has turned into an{" "}
+                <Link href="/services/emergency-services" className="font-medium text-brand-700 hover:underline">
+                  emergency service call
+                </Link>{" "}
+                at twice the price — or worse, a{" "}
+                <Link href="/services/drain-field-repair" className="font-medium text-brand-700 hover:underline">
+                  drain field replacement
+                </Link>
+                . A maintenance plan changes that math entirely.
               </p>
 
               <div className="overflow-hidden rounded-2xl border border-gray-200">
@@ -601,8 +610,14 @@ export default function MaintenancePlanPage() {
                   See Typical Pricing
                 </Link>
                 <Link
-                  href="/blog"
+                  href="/services"
                   className="inline-flex items-center justify-center rounded-lg border-2 border-white px-8 py-3 text-base font-bold text-white hover:bg-white hover:text-brand-900 transition-colors"
+                >
+                  View All Services
+                </Link>
+                <Link
+                  href="/blog"
+                  className="inline-flex items-center justify-center rounded-lg border-2 border-brand-600 px-8 py-3 text-base font-semibold text-brand-200 hover:border-brand-400 hover:text-white transition-colors"
                 >
                   Read Our Guides
                 </Link>

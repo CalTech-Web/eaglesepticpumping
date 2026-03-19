@@ -6,6 +6,8 @@ const answers = [
     answer:
       "Most households need pumping every 3–5 years. A family of four with a 1,000-gallon tank typically pumps every 3–4 years. Waiting too long lets solids overflow into the drain field — turning a $400 pump job into a $15,000+ repair.",
     href: "/blog/how-often-pump-septic-tank",
+    serviceHref: "/services/septic-tank-pumping",
+    serviceLabel: "View Pumping Service",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-6 w-6" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
@@ -50,6 +52,8 @@ const answers = [
     answer:
       "Stop all water use immediately — every flush makes it worse. Keep people away from wet areas outside (sewage is a health hazard). Then call a septic company right away; most emergencies can be resolved with an emergency pump-out.",
     href: "/blog/septic-emergency-what-to-do",
+    serviceHref: "/emergency",
+    serviceLabel: "Emergency Guide",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-6 w-6" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
@@ -90,15 +94,28 @@ export default function HomepageAnswerHub() {
                 {item.question}
               </h3>
               <p className="flex-1 text-sm leading-relaxed text-gray-600">{item.answer}</p>
-              <Link
-                href={item.href}
-                className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:text-brand-900 hover:underline"
-              >
-                Read full guide
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden="true">
-                  <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
-                </svg>
-              </Link>
+              <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2">
+                <Link
+                  href={item.href}
+                  className="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:text-brand-900 hover:underline"
+                >
+                  Read full guide
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden="true">
+                    <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
+                  </svg>
+                </Link>
+                {"serviceHref" in item && (
+                  <Link
+                    href={(item as { serviceHref: string }).serviceHref}
+                    className="inline-flex items-center gap-1 text-sm font-semibold text-gray-500 hover:text-gray-800 hover:underline"
+                  >
+                    {(item as { serviceLabel: string }).serviceLabel}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden="true">
+                      <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
+                    </svg>
+                  </Link>
+                )}
+              </div>
             </article>
           ))}
         </div>
@@ -117,15 +134,28 @@ export default function HomepageAnswerHub() {
                 {item.question}
               </h3>
               <p className="flex-1 text-sm leading-relaxed text-gray-600">{item.answer}</p>
-              <Link
-                href={item.href}
-                className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:text-brand-900 hover:underline"
-              >
-                Read full guide
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden="true">
-                  <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
-                </svg>
-              </Link>
+              <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2">
+                <Link
+                  href={item.href}
+                  className="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:text-brand-900 hover:underline"
+                >
+                  Read full guide
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden="true">
+                    <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
+                  </svg>
+                </Link>
+                {"serviceHref" in item && (
+                  <Link
+                    href={(item as { serviceHref: string }).serviceHref}
+                    className="inline-flex items-center gap-1 text-sm font-semibold text-gray-500 hover:text-gray-800 hover:underline"
+                  >
+                    {(item as { serviceLabel: string }).serviceLabel}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden="true">
+                      <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
+                    </svg>
+                  </Link>
+                )}
+              </div>
             </article>
           ))}
         </div>

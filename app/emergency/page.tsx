@@ -308,12 +308,18 @@ export default function EmergencyPage() {
                     </li>
                   ))}
                 </ul>
-                <div className="mt-8">
+                <div className="mt-8 flex flex-wrap gap-3">
                   <Link
-                    href="/resources"
+                    href="/services/emergency-services"
                     className="inline-flex items-center gap-2 rounded-lg bg-red-600 px-6 py-3 text-base font-bold text-white shadow transition-colors hover:bg-red-700"
                   >
-                    Learn More About Septic Emergencies
+                    View Emergency Service Details
+                  </Link>
+                  <Link
+                    href="/blog/septic-emergency-what-to-do"
+                    className="inline-flex items-center gap-2 rounded-lg border border-red-300 px-6 py-3 text-base font-semibold text-red-700 transition-colors hover:bg-red-50"
+                  >
+                    Full Emergency Guide
                   </Link>
                 </div>
               </div>

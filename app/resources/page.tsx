@@ -64,6 +64,8 @@ const topics = [
       badge: "bg-accent-100 text-accent-700",
       iconBg: "bg-accent-100",
     },
+    serviceHref: "/services/septic-tank-pumping",
+    serviceLabel: "Septic Tank Pumping",
     slugs: [
       "how-often-pump-septic-tank",
       "septic-system-maintenance-guide",
@@ -85,6 +87,8 @@ const topics = [
       badge: "bg-amber-100 text-amber-700",
       iconBg: "bg-amber-100",
     },
+    serviceHref: "/services/emergency-services",
+    serviceLabel: "Emergency Services",
     slugs: [
       "warning-signs-septic-system-failing",
       "signs-septic-tank-is-full",
@@ -127,6 +131,8 @@ const topics = [
       badge: "bg-purple-100 text-purple-700",
       iconBg: "bg-purple-100",
     },
+    serviceHref: "/services/septic-inspections",
+    serviceLabel: "Septic Inspections",
     slugs: [
       "new-homeowner-septic-system-guide",
       "septic-inspection-home-buyers-guide",
@@ -148,6 +154,8 @@ const topics = [
       badge: "bg-red-100 text-red-700",
       iconBg: "bg-red-100",
     },
+    serviceHref: "/services/drain-field-repair",
+    serviceLabel: "Drain Field Repair",
     slugs: [
       "drain-field-failure-signs-costs",
       "drain-field-repair-vs-replacement-central-valley",
@@ -338,7 +346,7 @@ export default function ResourcesPage() {
                       ))}
                     </div>
 
-                    <div className="mt-5 border-t border-white/50 pt-4">
+                    <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 border-t border-white/50 pt-4">
                       <Link
                         href={`/blog/category/${topic.categorySlug}`}
                         className={`inline-flex items-center gap-1.5 text-sm font-semibold ${topic.colorClasses.text} hover:underline`}
@@ -348,6 +356,17 @@ export default function ResourcesPage() {
                           <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
                         </svg>
                       </Link>
+                      {"serviceHref" in topic && (
+                        <Link
+                          href={(topic as { serviceHref: string }).serviceHref}
+                          className="inline-flex items-center gap-1.5 text-sm font-semibold text-gray-600 hover:text-gray-900 hover:underline"
+                        >
+                          View {(topic as { serviceLabel: string }).serviceLabel}
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
+                            <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
+                          </svg>
+                        </Link>
+                      )}
                     </div>
                   </div>
                 );

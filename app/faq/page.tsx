@@ -176,8 +176,14 @@ export default function FAQPage() {
                 Browse All Guides
               </Link>
               <Link
-                href="/blog"
+                href="/services"
                 className="rounded-lg border border-brand-400 px-8 py-3 text-base font-semibold text-brand-100 transition-colors hover:border-white hover:text-white"
+              >
+                View Our Services
+              </Link>
+              <Link
+                href="/blog"
+                className="rounded-lg border border-brand-600 px-8 py-3 text-base font-semibold text-brand-300 transition-colors hover:border-brand-400 hover:text-brand-100"
               >
                 Read the Blog
               </Link>
