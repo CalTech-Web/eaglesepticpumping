@@ -4335,323 +4335,6 @@ export const posts: BlogPost[] = [
     relatedServiceSlugs: ["new-system-installation", "drain-field-repair", "septic-inspections"],
   },
   {
-    slug: "how-does-a-septic-system-work",
-    title: "How Does a Septic System Work? A Complete Homeowner's Guide",
-    metaTitle: "How Does a Septic System Work? Complete Guide",
-    metaDescription:
-      "Learn exactly how a septic system works — from tank to drain field. Covers all components, system types, and why maintenance matters. Clear explanations.",
-    publishedAt: "2026-02-20",
-    updatedAt: "2026-02-20",
-    category: "Education",
-    readingTime: "9 min read",
-    coverImage: {
-      src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&q=80&fit=crop&crop=center",
-      alt: "Rural home with green lawn representing a healthy septic system",
-    },
-    excerpt:
-      "About one in five U.S. homes relies on a septic system. Here's exactly how one works — from what happens when you flush the toilet to why the drain field is the most expensive part to replace.",
-    sections: [
-      {
-        type: "paragraph",
-        text: "Roughly 21 million American households — including a large share of rural and semi-rural homes across California's Central Valley — rely on a private septic system instead of a municipal sewer connection. Yet most homeowners have only a vague idea of how their system actually works. That's a problem: a poorly understood system is an ignored system, and ignored systems fail.",
-      },
-      {
-        type: "paragraph",
-        text: "This guide explains every part of a conventional septic system in plain language — what each component does, how they work together, what types of systems exist, and why certain maintenance habits protect or destroy the system over time.",
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "The Basic Concept: Nature Does the Work",
-      },
-      {
-        type: "paragraph",
-        text: "A septic system is fundamentally a two-stage biological treatment process. Wastewater from your home flows into an underground tank where solids settle and bacteria begin breaking them down. The partially treated liquid then flows into the soil, where the earth itself filters and neutralizes contaminants before they can reach groundwater.",
-      },
-      {
-        type: "paragraph",
-        text: "That process sounds simple, and it is — as long as every component is working correctly and isn't overloaded. When any part of the chain fails, untreated sewage either backs up into your home or surfaces in your yard.",
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "The Four Main Components of a Septic System",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "1. The Drain Line (House-to-Tank Pipe)",
-      },
-      {
-        type: "paragraph",
-        text: "Every drain in your home — sinks, toilets, showers, washing machines — connects to a single main drain line that exits the house and runs underground to the septic tank. This pipe is typically 4 inches in diameter and pitched at a slight slope (usually 1/4 inch per linear foot) so gravity moves waste toward the tank without pumping.",
-      },
-      {
-        type: "paragraph",
-        text: "Problems here are usually clogs from root intrusion, grease buildup, or physical damage. A blockage in the main drain line creates backups in the lowest drains in the house — typically a ground-floor toilet or a floor drain in the basement or utility room.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "2. The Septic Tank",
-      },
-      {
-        type: "paragraph",
-        text: "The septic tank is a watertight buried container — almost always concrete in modern installations — that holds wastewater long enough for solids to separate. Most residential tanks range from 1,000 to 1,500 gallons, though larger households and commercial properties require bigger tanks.",
-      },
-      {
-        type: "paragraph",
-        text: "Inside the tank, three distinct layers form naturally:",
-      },
-      {
-        type: "list",
-        items: [
-          "Scum layer (top): Fats, oils, and lightweight materials float to the surface and form a crust",
-          "Liquid layer (middle): Partially clarified wastewater, called effluent, occupies the center of the tank",
-          "Sludge layer (bottom): Heavy solids settle to the bottom and are broken down by anaerobic bacteria over time",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "The tank has an inlet baffle (where wastewater enters from the house) and an outlet baffle (where effluent exits toward the drain field). Baffles prevent the scum layer from flowing out with the liquid. Bacteria living in the tank — naturally present, no additives needed — digest organic matter in the sludge layer, reducing its volume. But they don't eliminate it entirely. That's why pumping is necessary: the portion bacteria can't break down accumulates over years and eventually must be removed before it reaches the outlet.",
-      },
-      {
-        type: "callout",
-        variant: "tip",
-        title: "How full is your tank right now?",
-        text: "A properly functioning tank is always full — of liquid. The liquid level should sit just below the outlet pipe. What grows over time is the sludge layer at the bottom. When sludge rises to within 12 inches of the outlet, it's time to pump. Most households hit that point every 3–5 years.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "3. The Distribution System",
-      },
-      {
-        type: "paragraph",
-        text: "Effluent leaving the tank travels to the drain field through a distribution system. In the most common design, this is a distribution box (D-box) — a small concrete or plastic chamber that receives effluent from the tank and splits it evenly across multiple drain field trenches.",
-      },
-      {
-        type: "paragraph",
-        text: "In pressure distribution systems, a pump moves effluent under pressure to ensure even coverage across the drain field — particularly important on sloped lots or in systems with multiple zones. The distribution system is often overlooked but is a critical link: if the D-box cracks, tilts, or clogs, effluent gets pushed unevenly into the field, prematurely saturating one section while others go unused.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "4. The Drain Field (Leach Field)",
-      },
-      {
-        type: "paragraph",
-        text: "The drain field — also called a leach field, absorption field, or septic field — is where final treatment happens. It consists of a network of perforated pipes buried in gravel-filled trenches, typically 18–36 inches below the surface. Effluent seeps out of the perforations, moves through the gravel, and filters down through the soil.",
-      },
-      {
-        type: "paragraph",
-        text: "As liquid passes through the soil, naturally occurring bacteria and the soil matrix itself remove pathogens, nitrogen, phosphorus, and other contaminants before the water reaches the water table. The quality of treatment depends heavily on soil type: sandy soils drain well but offer less treatment time; clay soils treat more effectively but can saturate and become waterlogged.",
-      },
-      {
-        type: "paragraph",
-        text: "The drain field is the most expensive component to repair or replace — often $10,000–$30,000 or more — and it cannot be rehabilitated once it fails from solids contamination. Protecting it is the entire reason for regular tank pumping.",
-      },
-      {
-        type: "callout",
-        variant: "warning",
-        title: "Never drive or build over the drain field",
-        text: "Compacting the soil above the drain field — by driving vehicles over it, parking equipment, or building structures — crushes the pipes and destroys the soil's ability to absorb effluent. Keep the area clear and planted with shallow-rooted grass only.",
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Step-by-Step: What Happens When You Flush the Toilet",
-      },
-      {
-        type: "list",
-        ordered: true,
-        items: [
-          "Waste leaves the toilet and flows through your home's drain lines by gravity toward the main sewer pipe",
-          "The main pipe exits the foundation and slopes underground to the inlet of the septic tank, typically 10–30 feet from the house",
-          "Wastewater enters the tank through the inlet baffle, which prevents disturbance of the settled layers",
-          "Solids settle to the bottom (sludge); grease and oils float to the top (scum); clarified liquid occupies the middle",
-          "Anaerobic bacteria in the tank break down organic solids — reducing, but not eliminating, accumulated sludge over time",
-          "Clarified effluent exits through the outlet baffle and flows to the distribution box",
-          "The D-box distributes effluent equally across the perforated pipes in the drain field trenches",
-          "Effluent seeps through the gravel and down through the soil, where biological and physical processes remove contaminants",
-          "Treated water eventually reaches the water table or evaporates from the soil surface — completing the cycle",
-        ],
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Types of Septic Systems",
-      },
-      {
-        type: "paragraph",
-        text: "The conventional gravity system described above works well on lots with suitable soil depth and absorption rates. But not every property can support a standard system. Alternative designs address challenging conditions:",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "Conventional Gravity System",
-      },
-      {
-        type: "paragraph",
-        text: "The most common design. Effluent flows from the tank to the drain field by gravity through a distribution box. Works well on level to gently sloping lots with at least 18–24 inches of suitable soil above bedrock or seasonal high water. Most homes in Stanislaus, San Joaquin, and Merced counties use this system.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "Pressure Distribution System",
-      },
-      {
-        type: "paragraph",
-        text: "A pump in or after the tank pushes effluent to the drain field under pressure, ensuring even distribution across all zones. Required on sloped lots or in systems where gravity distribution would overload part of the field. Slightly more complex — the pump adds a mechanical component that can fail and requires inspection.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "Mound System",
-      },
-      {
-        type: "paragraph",
-        text: "When the water table is too high or soil depth is insufficient for a conventional drain field, a mound system builds the absorption bed above ground using imported fill soil. A pump doses the mound in controlled cycles. Mound systems require more land, more materials, and ongoing pump maintenance — but they work where conventional systems can't.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "Aerobic Treatment Unit (ATU)",
-      },
-      {
-        type: "paragraph",
-        text: "An ATU introduces oxygen into the treatment process, enabling aerobic bacteria (far more efficient than anaerobic bacteria in a conventional tank) to break down waste more completely. The treated effluent is higher quality and can sometimes be used for drip irrigation. ATUs are more complex, require electricity and regular maintenance, and are typically reserved for properties where conventional drain fields aren't feasible.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "Drip Irrigation System",
-      },
-      {
-        type: "paragraph",
-        text: "Combines an ATU with a network of small drip emitters buried just below the soil surface. Highly treated effluent is dosed in small amounts across a large area, working well on smaller lots or challenging terrain. Requires sophisticated controls and frequent maintenance checks.",
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "What Can Go Wrong — And Why",
-      },
-      {
-        type: "paragraph",
-        text: "Understanding how the system works makes it easy to understand what damages it:",
-      },
-      {
-        type: "list",
-        items: [
-          "Infrequent pumping: Sludge accumulates until it reaches the outlet baffle and flows into the drain field. Even small amounts of solids in the field create a biomat — a biological crust that blocks soil pores and prevents absorption. Once the biomat is established, the field loses capacity and eventually fails completely.",
-          "Flushing non-biodegradable items: Wipes, cotton balls, feminine hygiene products, and paper towels don't break down in the tank. They accumulate, clog baffles, and pass into the drain field where they cause permanent blockages.",
-          "Pouring grease down the drain: Grease solidifies in the tank and drain lines, accelerating scum layer growth and clogging outlet baffles.",
-          "Overloading with water: Excessive water use — back-to-back laundry loads, long showers, leaking toilets — flushes solids out of the tank before they settle. Spread water use throughout the day and fix leaks promptly.",
-          "Tree root intrusion: Roots from trees and large shrubs near the tank or drain field penetrate pipes and the tank itself, causing damage that requires excavation to repair.",
-          "Driving over the field: Vehicle traffic compacts soil and crushes perforated pipes, destroying the field's ability to absorb effluent.",
-          "Chemical damage: Bleach, paint, solvents, and antibacterial products in large quantities kill the bacteria in the tank, slowing or halting organic breakdown and sending more raw solids toward the drain field.",
-        ],
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "The 5 Rules That Keep a Septic System Healthy",
-      },
-      {
-        type: "list",
-        ordered: true,
-        items: [
-          "Pump the tank on schedule — every 3–5 years for most households. This is the single most important maintenance task.",
-          "Only flush human waste and toilet paper. Nothing else belongs in the system.",
-          "Spread water use throughout the day. Don't run the dishwasher, washing machine, and shower simultaneously.",
-          "Protect the drain field. No vehicles, no deep-rooted plants, no structures.",
-          "Schedule an inspection every 3–5 years — or before buying or selling a home with a septic system.",
-        ],
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "How Long Does a Septic System Last?",
-      },
-      {
-        type: "paragraph",
-        text: "A well-maintained conventional septic system typically lasts 25–40 years. Concrete tanks rarely fail if pumped regularly — the tank itself can outlast the house. The drain field is the vulnerable component: it has a finite lifespan measured partly in years and partly in cumulative load. Neglect compresses that lifespan dramatically.",
-      },
-      {
-        type: "paragraph",
-        text: "Homes in the Central Valley with clay-heavy soils — common in western Stanislaus, San Joaquin, and Merced counties — face particular drain field challenges. Clay reduces percolation rates, meaning the field saturates more easily during wet seasons or under heavy use. A properly sized system installed on a competent perc test mitigates this risk; an undersized or aging system on poor soil is a ticking clock.",
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "When to Call a Professional",
-      },
-      {
-        type: "list",
-        items: [
-          "It has been more than 5 years since your last pump service",
-          "You notice slow drains throughout the house (not just one fixture)",
-          "You smell sewage indoors or in the yard",
-          "You see wet patches, unusually green grass, or standing water over the drain field",
-          "You're buying or selling a home with a septic system",
-          "You're adding bedrooms, bathrooms, or significant living space",
-          "You're unsure of your system's age, location, or maintenance history",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Eagle Septic serves homeowners across Modesto, Turlock, Ceres, Stockton, Tracy, Manteca, Merced, and the surrounding Central Valley. Whether you need a routine pump service, a pre-sale inspection, or an assessment of a system showing warning signs, our licensed technicians provide honest evaluations and upfront pricing. Call us to schedule or get a free estimate.",
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Frequently Asked Questions",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "How far should a septic system be from the house?",
-      },
-      {
-        type: "paragraph",
-        text: "Most local codes require the septic tank to be at least 5–10 feet from the house foundation, and the drain field at least 10–25 feet away. Setback requirements from wells, property lines, and waterways vary by county. In Stanislaus County, the minimum setback from a water supply well is typically 100 feet.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "Does rain affect my septic system?",
-      },
-      {
-        type: "paragraph",
-        text: "Heavy or prolonged rain can saturate the soil around the drain field, temporarily reducing its absorption capacity. During wet Central Valley winters, it's normal to notice slightly slower drainage. If your system backs up during rain, it may be undersized, failing, or have a drain field that's already compromised.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "Can I use a garbage disposal with a septic system?",
-      },
-      {
-        type: "paragraph",
-        text: "Yes, but with caution. Garbage disposals send significantly more solids into your tank, accelerating sludge accumulation. If you use one regularly, plan to pump your tank 1–2 years more frequently than the standard schedule. Some septic professionals recommend avoiding garbage disposals entirely.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "How do I find out where my septic system is?",
-      },
-      {
-        type: "paragraph",
-        text: "Your county environmental health department likely has a record of your system's location and installation date — this is the first place to check. The original home inspection report or building permit may also include a site plan. If no records exist, a septic technician can locate the tank by probing the soil or tracing the main drain line from the house.",
-      },
-    ],
-    relatedServiceSlugs: [
-      "septic-tank-pumping",
-      "septic-inspections",
-      "new-system-installation",
-      "drain-field-repair",
-    ],
-  },
-  {
     slug: "septic-tank-inspection-cost",
     title: "Septic Tank Inspection Cost: 2026 Price Guide for California Homeowners",
     metaTitle: "Septic Tank Inspection Cost in 2026 | Eagle Septic Guide",
@@ -8389,6 +8072,245 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlugs: ["septic-tank-pumping", "septic-system-inspections", "drain-field-repair-restoration"],
+  },
+  {
+    slug: "septic-tank-cleaning",
+    title: "Septic Tank Cleaning: What It Is, What It Costs, and How Often to Do It",
+    metaTitle: "Septic Tank Cleaning: Cost, Frequency & What to Expect",
+    metaDescription:
+      "Septic tank cleaning removes sludge and scum buildup. Learn what the service costs ($300–$600), how often to schedule it, and signs you need it now.",
+    publishedAt: "2026-03-19",
+    updatedAt: "2026-03-19",
+    category: "Maintenance",
+    readingTime: "8 min read",
+    coverImage: {
+      src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&q=80&fit=crop&crop=center",
+      alt: "Residential property with a well-maintained lawn over a septic drain field",
+    },
+    excerpt:
+      "Searching for septic tank cleaning? You're looking for what the industry calls pumping — the routine service that removes accumulated sludge and scum from your tank before it causes a backup or drain field failure.",
+    sections: [
+      {
+        type: "paragraph",
+        text: "If you've been searching for 'septic tank cleaning near me,' you're in the right place. Most homeowners use 'cleaning' and 'pumping' interchangeably, and for good reason: they're describing the same essential service. A professional removes the accumulated solids from your tank, inspects the system, and prevents the most expensive septic problems before they start.",
+      },
+      {
+        type: "paragraph",
+        text: "This guide covers everything you need to know — what the service actually involves, how often you need it, what it costs in Central California, and the signs that tell you it's overdue.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Septic Tank Cleaning vs. Pumping: Are They the Same Thing?",
+      },
+      {
+        type: "paragraph",
+        text: "Yes, in most residential contexts 'septic tank cleaning' and 'septic tank pumping' refer to the same service. A vacuum truck removes the liquid and solid contents of the tank — the sludge layer at the bottom, the effluent in the middle, and the scum layer at the top — and hauls it away for proper disposal.",
+      },
+      {
+        type: "paragraph",
+        text: "The term 'cleaning' sometimes implies a slightly more thorough service: after pumping out the contents, the technician may rinse the tank walls with water and pump out the rinse water to remove residual solids stuck to the concrete. This is common for tanks that haven't been serviced in many years or tanks going back into service after a long vacancy.",
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "Consumer vs. industry terminology",
+        text: "Homeowners say 'cleaning.' Technicians say 'pumping.' Both mean removing the accumulated waste from your septic tank. When you call to schedule service, either term will be understood.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Happens During a Septic Tank Cleaning",
+      },
+      {
+        type: "paragraph",
+        text: "A standard residential septic cleaning takes 1–3 hours from arrival to departure. Here's what happens:",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Locate and expose the access lid — The technician locates the tank (using a map, probe, or prior service records) and uncovers the access lid. Modern tanks have risers that bring the lid to ground level; older tanks may require digging.",
+          "Measure sludge and scum depth — Before pumping, a technician checks how much has accumulated. This tells you whether the tank was overdue and helps estimate your ideal pumping interval going forward.",
+          "Pump out the contents — A vacuum hose connects to the truck and removes all liquid and solid material from the tank. A standard 1,000-gallon tank takes 20–45 minutes to empty.",
+          "Break up solids — The technician may use a maneuvering rod to break up compacted sludge at the bottom to ensure complete removal.",
+          "Inspect the tank interior — With the tank empty, the technician checks for cracks, broken baffles, root intrusion, and signs of drain field stress (such as effluent backing up into the tank from the outlet side).",
+          "Rinse if needed — For thorough cleanings, the tank is rinsed with water and pumped a second time to remove residual material.",
+          "Replace the lid and document the service — A reputable company provides a service report noting the tank condition, sludge depth before pumping, and any issues found.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Often Should You Clean Your Septic Tank?",
+      },
+      {
+        type: "paragraph",
+        text: "The standard recommendation is every 3–5 years for a typical household. But 'typical' varies considerably — and the consequences of going too long are expensive enough that it's worth understanding your specific situation.",
+      },
+      {
+        type: "list",
+        items: [
+          "Household size: A 2-person household with a 1,500-gallon tank may go 5–7 years between cleanings. A family of 5 in the same home may need service every 2–3 years.",
+          "Tank size: Smaller tanks (750–1,000 gallons) fill faster than larger ones (1,500–2,500 gallons).",
+          "Garbage disposal use: Disposals significantly increase the rate of sludge accumulation — plan to pump 1–2 years more frequently if you use one regularly.",
+          "Water use habits: Households that run laundry daily, have high water consumption, or have a water softener cycling frequently overload the tank faster.",
+          "System age: Older systems with worn baffles or degraded tank walls may need more frequent monitoring even if they don't need pumping as often.",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "Ask during your next service visit",
+        text: "A good technician will measure sludge depth before and after pumping. That measurement tells you exactly how fast your tank is filling — which gives a much more accurate recommendation than a generic '3–5 years.'",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Much Does Septic Tank Cleaning Cost?",
+      },
+      {
+        type: "paragraph",
+        text: "In the Central Valley of California, a standard residential septic tank cleaning costs between $300 and $600 for most homes. Factors that affect price include:",
+      },
+      {
+        type: "list",
+        items: [
+          "Tank size: Larger tanks require more pump time and haul capacity. A 1,000-gallon tank typically costs less than a 2,500-gallon tank.",
+          "Access difficulty: Tanks without risers require digging, which adds labor cost — typically $100–$200 extra.",
+          "How full the tank is: An extremely full or compacted tank may require extra time and equipment.",
+          "Distance from disposal site: Companies farther from licensed disposal facilities may charge more for hauling.",
+          "Additional services: Lid replacement, riser installation, baffle replacement, or a full camera inspection add to the base cost.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Some companies advertise very low prices ($150–$200) but charge additional fees for tank access, extra footage, or 'overfull' tanks. When comparing quotes, ask what's included — specifically whether lid excavation, a basic inspection, and a service report are part of the price.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Signs You Need Septic Tank Cleaning Now",
+      },
+      {
+        type: "paragraph",
+        text: "Don't wait for a backup to schedule service. These warning signs mean your tank is approaching or past the point where cleaning is overdue:",
+      },
+      {
+        type: "list",
+        items: [
+          "Slow drains throughout the house — especially in multiple fixtures simultaneously, not just one sink or toilet",
+          "Gurgling sounds from drains or toilets after flushing",
+          "Sewage odors inside the house or around the yard",
+          "Unusually green or lush grass over the drain field area — effluent is surfacing and fertilizing the lawn",
+          "Soggy ground or standing water near the tank or drain field when it hasn't rained",
+          "Toilets that take multiple flushes or drain more slowly than normal",
+          "It has been more than 5 years since your last service",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Don't wait for a backup",
+        text: "When a full tank causes a sewage backup, the damage often reaches beyond the tank. Solids flow into the drain field and begin clogging the absorption area — a problem that can cost $10,000–$30,000 to fix. Routine cleaning every few years is far cheaper than the alternative.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Can You Clean a Septic Tank Yourself?",
+      },
+      {
+        type: "paragraph",
+        text: "No. Septic tank cleaning requires a licensed vacuum truck and a licensed disposal facility. The contents of a septic tank are classified as hazardous waste and cannot be disposed of on your property or in a landfill without proper processing. Attempting to open and clean a tank yourself exposes you to serious health risks from hydrogen sulfide gas, which is colorless, odorless at low concentrations, and lethal at higher concentrations.",
+      },
+      {
+        type: "paragraph",
+        text: "What you can do yourself: maintain accurate records of service dates and tank location, protect the drain field from vehicle traffic and deep-rooted plants, and monitor your household water use habits. These practices extend the interval between professional cleanings — but they don't replace them.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What to Look for in a Septic Cleaning Company",
+      },
+      {
+        type: "paragraph",
+        text: "When choosing a company for septic tank cleaning near you, prioritize these qualifications:",
+      },
+      {
+        type: "list",
+        items: [
+          "Licensed and insured: California requires septic pumping contractors to hold a Contractor's License (Class C-42 for sanitation system contractors). Verify before scheduling.",
+          "Provides a written service report: A reputable company documents what they found — sludge depth, tank condition, any issues — so you have a record for future service.",
+          "Transparent pricing: Ask for a flat price inclusive of standard access and disposal before the truck arrives.",
+          "Hauls waste to a licensed facility: Ask where waste is disposed. Licensed companies use permitted treatment facilities — not fields or storm drains.",
+          "Local experience: Companies familiar with your county's soil conditions and permit history can flag system-specific issues that out-of-area contractors may miss.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Septic Tank Cleaning in the Central Valley",
+      },
+      {
+        type: "paragraph",
+        text: "Eagle Septic serves homeowners across Modesto, Turlock, Ceres, Stockton, Tracy, Manteca, Merced, and the surrounding Central Valley. Our septic tank cleaning service includes a thorough pump-out, visual inspection of all accessible components, and a written service report. We're available 7 days a week, offer same-day emergency service, and provide upfront pricing before we start.",
+      },
+      {
+        type: "paragraph",
+        text: "If you're overdue for service, noticing warning signs, or simply don't know when your tank was last pumped, call us for a free estimate. Our licensed technicians will assess your system honestly and tell you exactly what you need — nothing more.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Is septic tank cleaning the same as septic tank pumping?",
+      },
+      {
+        type: "paragraph",
+        text: "Yes, in most cases. Both terms refer to the same service: a vacuum truck removes the accumulated sludge, effluent, and scum from the tank. 'Cleaning' sometimes implies a rinse step after pumping to remove residual solids, but the core service is identical.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "How long does septic tank cleaning take?",
+      },
+      {
+        type: "paragraph",
+        text: "Most residential cleanings take 1–3 hours from arrival to completion. Variables include tank size, access difficulty, and whether extra steps like rinsing or component replacement are needed.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "How do I know if my septic tank needs cleaning?",
+      },
+      {
+        type: "paragraph",
+        text: "The most reliable indicator is time: if it's been more than 3–5 years since your last service, schedule a cleaning regardless of symptoms. If you notice slow drains, sewage odors, or wet areas near the drain field, those are signs that service is overdue and possibly urgent.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "What happens if you don't clean your septic tank?",
+      },
+      {
+        type: "paragraph",
+        text: "Sludge accumulates until it reaches the outlet pipe and flows into the drain field. Solids clog the absorption area, creating a biomat that blocks effluent from entering the soil. The field loses capacity gradually, then fails completely — requiring replacement at a cost of $10,000–$30,000 or more. The tank backup that precedes field failure also risks damage to flooring, walls, and household belongings.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can I use additives instead of cleaning my tank?",
+      },
+      {
+        type: "paragraph",
+        text: "No. Septic additives — biological or chemical — cannot substitute for physical removal of accumulated solids. Bacteria naturally present in the tank already break down organic matter as efficiently as commercial additive products. The portion that remains (inorganic solids, non-biodegradable material, excess organic load) must be physically removed by pumping. Additives are not a substitute for routine cleaning.",
+      },
+    ],
+    relatedServiceSlugs: ["septic-tank-pumping", "tank-cleaning-maintenance", "septic-inspections"],
   },
 ];
 
