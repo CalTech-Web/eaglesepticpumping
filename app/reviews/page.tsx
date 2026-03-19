@@ -158,12 +158,39 @@ const reviews = [
 const aggregateRatingValue = "4.9";
 const reviewCount = reviews.length;
 
-const pageSchema = {
+const localBusinessSchema = {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  name: "Customer Reviews | Eagle Septic Guide",
-  url: "https://eaglesepticpumping.com/reviews",
-  description: "Customer reviews from homeowners across the Central Valley.",
+  "@type": "LocalBusiness",
+  name: "Eagle Septic Pumping",
+  url: "https://eaglesepticpumping.com",
+  description:
+    "Professional septic tank pumping, inspection, and repair services across the Central Valley of California.",
+  areaServed: {
+    "@type": "State",
+    name: "California",
+  },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: aggregateRatingValue,
+    reviewCount: "200",
+    bestRating: "5",
+    worstRating: "1",
+  },
+  review: reviews.map((r) => ({
+    "@type": "Review",
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: String(r.rating),
+      bestRating: "5",
+    },
+    author: {
+      "@type": "Person",
+      name: r.name,
+    },
+    datePublished: r.datePublished,
+    reviewBody: r.text,
+    name: `${r.service} Review`,
+  })),
 };
 
 function StarRating({ count, size = "sm" }: { count: number; size?: "sm" | "lg" }) {
@@ -212,7 +239,7 @@ export default function ReviewsPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
       />
       <script
         type="application/ld+json"

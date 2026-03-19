@@ -8312,6 +8312,267 @@ export const posts: BlogPost[] = [
     ],
     relatedServiceSlugs: ["septic-tank-pumping", "tank-cleaning-maintenance", "septic-inspections"],
   },
+  {
+    slug: "septic-system-repair",
+    title: "Septic System Repair: Types, Costs & When to Call a Pro",
+    metaTitle: "Septic System Repair: Costs, Types & When to Call",
+    metaDescription:
+      "Common septic repairs explained — baffles, filters, pumps, distribution boxes, and drain fields. Costs, warning signs, and repair vs. replacement guidance.",
+    category: "Repairs",
+    publishedAt: "2026-03-19",
+    updatedAt: "2026-03-19",
+    readingTime: "10 min read",
+    coverImage: {
+      src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&q=80&fit=crop&crop=center",
+      alt: "Septic system repair technician working on underground pipes",
+    },
+    excerpt:
+      "Septic problems are stressful, but most don't require a full system replacement. Learn which repairs are most common, what each costs, and how to decide between repair and replacement.",
+    relatedServiceSlugs: ["drain-field-repair", "septic-inspections", "emergency-services"],
+    sections: [
+      {
+        type: "paragraph",
+        text: "When your septic system starts showing problems — slow drains, sewage odors, alarm alerts — the first question most homeowners ask is: how bad is it? The good news is that the majority of septic issues are repairable without tearing out the entire system. The key is identifying the specific component that has failed and addressing it before the problem spreads.",
+      },
+      {
+        type: "paragraph",
+        text: "This guide covers the most common septic system repairs, what each typically costs, the warning signs that point to each problem, and how to decide whether repair or full replacement makes more financial sense.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "The Most Common Septic System Repairs",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Inlet and Outlet Baffle Replacement",
+      },
+      {
+        type: "paragraph",
+        text: "Baffles are T-shaped pipes inside the tank that control how wastewater enters and exits. The inlet baffle prevents incoming sewage from disturbing the liquid layer; the outlet baffle keeps floating scum from escaping into the drain field. Both are made of concrete or PVC and deteriorate over 15–25 years.",
+      },
+      {
+        type: "paragraph",
+        text: "Cracked or missing baffles are one of the most common findings during septic inspections. Without a functioning outlet baffle, solids reach the drain field and cause field damage — a much more expensive problem. Baffle replacement costs $150–$500 and is one of the highest-value preventive repairs available.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Effluent Filter Cleaning or Replacement",
+      },
+      {
+        type: "paragraph",
+        text: "Many modern tanks have an effluent filter — a cartridge installed in the outlet baffle that screens solids before they enter the distribution system. It's the most frequently neglected part of a septic system, and a clogged filter is a surprisingly common cause of slow drains and backups.",
+      },
+      {
+        type: "paragraph",
+        text: "Filters should be cleaned every 1–3 years. Cleaning costs $75–$150 as a standalone service; replacement of a damaged filter runs $200–$400. If you've never had your filter serviced, it should be the first thing a technician checks.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Septic Pump Replacement",
+      },
+      {
+        type: "paragraph",
+        text: "Pump-assisted and pressure-dosed systems rely on a submersible pump to move effluent from the tank to the drain field. Pumps have a lifespan of 5–15 years and can fail from wear, power surges, or running dry. A pump failure typically triggers a septic alarm and causes the tank to fill rapidly.",
+      },
+      {
+        type: "paragraph",
+        text: "Pump replacement costs $500–$1,500 including parts and labor. It's a straightforward swap in most cases — a trained technician can complete it in a few hours. Delaying pump replacement risks tank overflow, so treat alarm alerts as urgent.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Distribution Box Repair or Replacement",
+      },
+      {
+        type: "paragraph",
+        text: "The distribution box (d-box) sits between the tank and the drain field, splitting effluent evenly across the field's lateral lines. Concrete d-boxes crack over time; uneven distribution causes one section of the field to receive all the effluent while the rest sits underutilized. Replacing a d-box costs $500–$1,500.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Riser and Access Lid Installation",
+      },
+      {
+        type: "paragraph",
+        text: "If your tank is buried more than 12 inches below grade with no access risers, technicians must dig to the lids at every service call — adding cost and disruption. Installing concrete or PVC risers brings access to ground level. It's a one-time investment of $200–$800 that pays for itself in reduced service fees over time.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Drain Field Aeration and Restoration",
+      },
+      {
+        type: "paragraph",
+        text: "A failing drain field is the most serious (and most expensive) septic repair. When biomat builds up and blocks soil absorption, effluent backs up toward the surface. Before condemning the field to full replacement, a technician may attempt aeration — a process that breaks up compacted soil and biomat to restore absorption capacity.",
+      },
+      {
+        type: "paragraph",
+        text: "Aeration and restoration services cost $1,000–$5,000 depending on field size and condition. They succeed in roughly 60–70% of cases where the field hasn't completely failed. If restoration fails, full drain field replacement ($5,000–$20,000+) is the final option.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Typical Septic Repair Costs",
+      },
+      {
+        type: "paragraph",
+        text: "The table below summarizes what homeowners in the Central Valley typically pay for each repair type. Prices vary by system complexity, depth of components, and permit requirements:",
+      },
+      {
+        type: "list",
+        items: [
+          "Effluent filter cleaning: $75–$150",
+          "Effluent filter replacement: $200–$400",
+          "Inlet/outlet baffle replacement: $150–$500",
+          "Riser installation (per riser): $200–$400",
+          "Septic pump replacement: $500–$1,500",
+          "Distribution box replacement: $500–$1,500",
+          "Tank crack repair: $500–$1,500",
+          "Drain field aeration/restoration: $1,000–$5,000",
+          "Drain field replacement (partial): $3,000–$10,000",
+          "Full drain field replacement: $8,000–$20,000+",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Emergency calls — same-day or after-hours service — typically add $200–$500 to any repair estimate. Getting a written quote before work begins is always recommended.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Warning Signs That Point to Specific Repairs",
+      },
+      {
+        type: "paragraph",
+        text: "Different symptoms point to different failed components. Matching symptoms to the likely cause helps you have a more informed conversation with your technician:",
+      },
+      {
+        type: "list",
+        items: [
+          "Slow drains after recent pumping — clogged effluent filter or failed outlet baffle",
+          "Sewage odors inside the home — pump failure, blocked vent pipe, or inlet baffle issues",
+          "Septic alarm going off — pump failure or high water level in the pump chamber",
+          "Wet spots or lush grass over the drain field — field saturation; d-box failure or field failure",
+          "Gurgling sounds in drains — pressure imbalance; often a clogged filter or pump issue",
+          "Sewage smell in the yard without wet spots — cracked tank or d-box leaking",
+          "Backup after heavy rain — saturated soil or high water table; field may need aeration",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Repair vs. Replace: How to Decide",
+      },
+      {
+        type: "paragraph",
+        text: "A useful rule of thumb: if the estimated repair cost exceeds 50% of what a new system would cost, replacement often makes more financial sense — especially if the system is already 20+ years old. A new system comes with a warranty and won't need additional major repairs for years.",
+      },
+      {
+        type: "paragraph",
+        text: "Age alone doesn't determine the decision. A 30-year-old system that needs only a baffle replaced is worth repairing. A 15-year-old system with a failing drain field may not be. The deciding factors are condition (documented by a thorough inspection), repair cost, remaining useful life, and whether financing a new system makes sense given your plans for the property.",
+      },
+      {
+        type: "paragraph",
+        text: "If you're buying or selling a property, a pre-purchase inspection identifies repair needs before they become your problem post-closing. Inspection findings are also negotiating leverage — documented repairs give buyers a basis for price adjustments.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What to Expect During a Septic Repair",
+      },
+      {
+        type: "paragraph",
+        text: "Most repairs follow a similar process:",
+      },
+      {
+        type: "list",
+        items: [
+          "Diagnosis: Camera inspection, dye testing, or physical inspection to confirm the failed component",
+          "Quote: Written estimate with parts, labor, and any permit fees",
+          "Permits: Component replacements often require a permit from your county health department — a reputable company handles this",
+          "Repair: Most component swaps (baffles, filters, pumps, d-boxes) are completed in half a day to a full day",
+          "Inspection: For permitted work, a county inspector signs off before the permit closes",
+          "Documentation: You should receive a service record noting what was repaired, parts used, and any follow-up recommendations",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "For drain field restoration, expect multiple visits over several weeks as the soil recovers. The technician will monitor results before confirming success or recommending full replacement.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Central Valley Considerations",
+      },
+      {
+        type: "paragraph",
+        text: "Several factors make septic repair in the Central Valley somewhat different from other regions:",
+      },
+      {
+        type: "list",
+        items: [
+          "Clay-heavy soils in Stanislaus and Merced counties have low percolation rates — drain fields here are more susceptible to saturation and biomat buildup than sandy-soil regions",
+          "High water tables during winter rains (December through March) can saturate fields temporarily — some 'failures' resolve after the water table drops",
+          "Stanislaus County Environmental Resources and Merced County Environmental Health both require permits for most component replacements — budget 1–2 weeks for permit processing",
+          "Many older properties in rural Modesto, Turlock, and unincorporated areas have aging concrete tanks from the 1970s–1990s; cracked baffles and deteriorating tanks are common in this housing stock",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "How do I know if I need repair or just pumping?",
+      },
+      {
+        type: "paragraph",
+        text: "If slow drains and odors resolve after pumping and stay resolved, routine pumping was all you needed. If symptoms return within days or weeks after pumping, a component has failed — baffle, filter, pump, or drain field — and repair is necessary. An inspection during or after pumping is the most reliable way to distinguish the two.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can I stay in my house during a septic repair?",
+      },
+      {
+        type: "paragraph",
+        text: "For most repairs — baffles, filters, pump replacement, d-box work — yes. Water use should be minimized during the work day, but you can stay home. For major drain field excavation, especially near the house, your technician may ask you to limit or avoid water use for 24–48 hours. Full system replacement may require a day or two of minimal water use.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "How long does septic repair take?",
+      },
+      {
+        type: "paragraph",
+        text: "Component repairs (baffles, filters, pumps, d-boxes) are typically completed in a single day. Drain field restoration takes several weeks of monitoring. Full drain field replacement takes 3–7 days of active construction after permits are approved. Permit processing adds 1–3 weeks for permitted repairs.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Does homeowners insurance cover septic repair?",
+      },
+      {
+        type: "paragraph",
+        text: "Standard homeowners insurance typically excludes routine maintenance and gradual system failure. Sudden, accidental damage — like a pipe damaged by excavation — may be covered depending on your policy. Some insurers offer add-on coverage for septic and sewer lines. Review your policy or call your agent before assuming coverage.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Who do I call for septic system repair near me?",
+      },
+      {
+        type: "paragraph",
+        text: "Look for a licensed septic contractor (C-42 license in California) with experience in both tank service and drain field work — some companies only pump, and can't handle structural repairs. Ask for a written quote before any work begins, verify they handle permits, and check that they carry liability insurance. A company that does inspections as well as repairs is more likely to give you an honest diagnosis rather than defaulting to the most expensive option.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
