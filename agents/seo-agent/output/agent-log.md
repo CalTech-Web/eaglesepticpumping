@@ -306,3 +306,34 @@ Targets the largest unaddressed keyword gap found in Ahrefs:
 - Category: Education | relatedServiceSlugs: septic-tank-pumping, new-system-installation, septic-inspections
 
 TypeScript: clean ✅ | Committed as Run #37 | Pushed to origin ✅
+**Run 37 complete.** Two new posts pushed targeting uncovered keyword clusters:
+
+**1. `/blog/what-is-a-leach-field`**
+- "what is a leach field" — KD 2, traffic potential **13,000/mo**
+- "leach field" — 7,700/mo, KD 5
+- ~1,700 words: definition, how biomat treatment works, 4 system types, failure causes, warning signs, maintenance rules, cost table ($500–$25K), Central Valley permit notes, 5-question FAQ
+
+**2. `/blog/cesspool-vs-septic-tank`**
+- "cesspool vs septic tank" — KD 0, traffic potential **2,700/mo**
+- "what is a cesspool" — 3,000/mo, KD 9
+- ~1,500 words: cesspool vs septic comparison, EPA phase-out context, how to identify your system, conversion process and costs ($10K–$20K), FHA/VA loan implications, FAQ
+
+TypeScript: clean | Pushed to origin ✅
+[2026-03-19 09:53:08] Run #4 finished
+[2026-03-19 09:53:13] Run #5 starting (model: sonnet)
+
+**Run 38 complete: New 'emergency septic pumping' blog post**
+
+Targets the largest uncovered keyword cluster found in Ahrefs:
+- "emergency septic pumping near me" — 25,000/mo, KD 9, traffic potential 57,000
+- "emergency septic pumping" — 14,000/mo, KD 0, traffic potential 57,000
+- "emergency septic tank pumping" — 450/mo, KD 0, traffic potential 39,000
+
+**New blog post: `/blog/emergency-septic-pumping`**
+- ~1,900 words covering: what emergency pumping is, 7 warning signs, what to expect during the service, cost breakdown ($400–$900 in Central Valley), response time expectations, root causes of overload, post-emergency action steps, 5-question FAQ
+- Category: Troubleshooting | relatedServiceSlugs: emergency-services, septic-tank-pumping, septic-inspections
+- SERP features for target query: local_pack + question — FAQ section directly targets both
+- Distinct from existing `septic-emergency-what-to-do` (which covers general emergency actions) — this post targets the commercial intent of finding an emergency pumping provider
+
+TypeScript: clean ✅ | Committed as Run #38 | Pushed to origin ✅
+[2026-03-19 09:53:13] Run #5 finished
