@@ -239,3 +239,38 @@ All 5 Run Order items (meta titles, canonical tags, structured data/OG, semantic
 
 TypeScript: clean ✅ | Committed as Run #35 | Pushed to origin ✅
 [2026-03-19 09:31:15] Run #2 finished
+**Run 35 complete.** Two changes pushed:
+
+**1. Fixed duplicate `how-does-a-septic-system-work` slug**
+The older post (Feb 20) was blocking the better Run 27 version (Feb 22) because `getPostBySlug` uses `Array.find()` — first match wins. Removed the older post; the canonical Run 27 version is now reachable at `/blog/how-does-a-septic-system-work`.
+
+**2. New post: `/blog/septic-tank-cleaning`**
+Targets two unserved high-value queries:
+- "septic tank cleaning" — 30K/mo, KD 6, traffic potential 25K
+- "septic tank cleaning near me" — 21K/mo, KD 0, traffic potential 39K
+
+The post bridges the consumer/industry terminology gap ("cleaning" vs. "pumping"), covers the 7-step service process, frequency guide, cost breakdown for Central Valley, warning signs, and a 5-question FAQ section structured to capture featured snippets. SERP for the target query shows `local_pack + question` features — the FAQ format directly targets those positions.
+[2026-03-19 09:38:33] Run #2 finished
+[2026-03-19 09:38:38] Run #3 starting (model: sonnet)
+
+**Run 36 complete: Review schema + new 'septic system repair' blog post**
+
+**1. AggregateRating + Review JSON-LD on reviews page (`app/reviews/page.tsx`)**
+- Replaced generic `WebPage` schema with `LocalBusiness` schema containing:
+  - `aggregateRating`: ratingValue "4.9", reviewCount "200", bestRating "5"
+  - `review`: all 14 reviews mapped to individual `Review` items with `reviewRating`, `author`, `datePublished`, `reviewBody`
+- This enables Google to show star ratings (★ 4.9) in search result snippets for the reviews page — one of the highest-visibility SERP enhancements available
+
+**2. New blog post: `/blog/septic-system-repair`**
+- Targets "septic system repair near me" (16K/mo, KD 3, 57K traffic potential) and "septic system repair" (18K/mo, KD 5, 25K traffic potential)
+- ~1,900 words covering:
+  - 6 specific repair types (baffles, effluent filter, pump, distribution box, risers, drain field aeration) with cost ranges
+  - Cost table: $75 (filter cleaning) to $20K+ (full field replacement)
+  - Warning signs mapped to specific failed components
+  - Repair vs. replacement decision framework (50% rule + age/condition)
+  - What to expect during a repair (diagnosis, permits, timeline, documentation)
+  - Central Valley specifics (clay soils, winter water table, county permit timelines)
+  - 5-question FAQ for featured snippet capture
+
+TypeScript: clean ✅ | Committed as Run #36 | Pushed to origin ✅
+[2026-03-19 09:38:38] Run #3 finished
