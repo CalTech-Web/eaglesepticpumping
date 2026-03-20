@@ -455,3 +455,31 @@ Targets the uncovered keyword cluster:
 
 TypeScript: clean ✅ | Committed as Run #42 | Pushed to origin ✅
 [2026-03-20 06:21:48] Run #4 finished
+**Run 42 complete.**
+
+New post: `/blog/types-of-septic-systems`
+
+Targets the uncovered keyword cluster:
+- "septic system types" — KD 2, traffic potential **10,000/mo**
+- "types of septic system" — KD 1, TP 8,300
+- "septic tank types" — KD 0, TP 9,200
+
+~1,900 words covering all 8 system types (conventional gravity, pressure distribution, aerobic ATU, mound, chamber, drip irrigation, sand filter, constructed wetland) with best-use case, cost range, maintenance requirements, and lifespan for each. Includes sections on how to identify your system type, maintenance requirements by type, and a 5-question FAQ targeting featured snippets.
+
+This is distinct from the existing `alternative-septic-systems` post — that post focuses on *when* alternatives are required and their costs. This post targets the informational intent of someone who simply wants to understand all available septic system types.
+[2026-03-20 06:29:14] Run #4 finished
+[2026-03-20 06:29:20] Run #5 starting (model: sonnet)
+
+**Run 43 complete: New 'anaerobic septic system' blog post**
+
+Targets the highest uncovered keyword cluster found in Ahrefs:
+- "anaerobic septic system maintenance" — 20/mo, KD 2, traffic potential **20,000/mo**
+- "anaerobic septic system diagram" — 90/mo, KD 0, traffic potential **10,000/mo**
+- "anaerobic septic system" — 600/mo, KD 1
+
+**New blog post: `/blog/anaerobic-septic-system`**
+- ~2,000 words covering: what anaerobic means (= conventional system), the 3-layer tank process (scum/effluent/sludge), the one-third rule for pump timing, a 5-component system diagram walkthrough, full maintenance schedule (pump-out, baffle inspection, D-box check, daily habits), what disrupts bacterial activity (bleach, antibacterials, garbage disposal, heavy water loads), 4 warning signs (slow drains, odors, wet spots, backup), system lifespan and drain field failure economics, how to identify anaerobic vs. aerobic, conversion path, Central Valley cost breakdown, 5-question FAQ
+- Category: Education | relatedServiceSlugs: septic-tank-pumping, septic-inspections, drain-field-repair
+- Complements existing `aerobic-septic-system` post without duplicating it — targets the distinct "anaerobic" keyword cluster
+
+TypeScript: clean ✅ | Committed as Run #43 | Pushed to origin ✅
