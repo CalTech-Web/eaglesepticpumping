@@ -372,3 +372,28 @@ Targets the largest uncovered keyword cluster found in Ahrefs keyword research:
 - Distinct from existing `septic-system-repair` post (covers baffles, distribution box, drain field) — this post targets the specific mechanical pump component
 
 TypeScript: clean ✅ | Committed as Run #39 | Pushed to origin ✅
+**Run 39 complete.**
+
+New post: `/blog/septic-tank-pump-repair`
+
+Targets the highest uncovered keyword cluster from Ahrefs:
+- "septic tank pump repair" — KD 1, traffic potential **47,000/mo**
+- "septic tank pump service" — KD 2, traffic potential **39,000/mo**
+
+~1,900 words covering: 4 pump types (effluent, dosing, grinder, aerator), 7 failure warning signs, repairable components (float switch $75–$200, wiring, control panel, impeller clearing) vs. full replacement ($400–$1,800 by pump type), repair-vs-replace decision guide, what a service visit looks like, DIY risks (hydrogen sulfide hazard + electrical), Central Valley water table sizing issues, and a 5-question FAQ targeting the `question` SERP feature. Committed as Run #39 and pushed to origin.
+[2026-03-20 06:09:28] Run #1 finished
+[2026-03-20 06:09:33] Run #2 starting (model: sonnet)
+
+**Run 40 complete: New 'septic tank plumbing' blog post**
+
+Targets the highest uncovered keyword cluster found in Ahrefs:
+- "septic tank plumbing" — 20,000 traffic potential, KD 2
+- "septic plumbing" — related variant
+
+**New blog post: `/blog/septic-tank-plumbing`**
+- ~1,900 words covering: how home plumbing connects to the septic tank (6-step path), key tank connection components (inlet baffle, outlet baffle/effluent filter, cleanout access points), vent pipes and gurgling symptoms, plumber vs. septic company decision guide (who to call for what), 5 common septic plumbing problems (root intrusion, pipe belly, broken inlet baffle, clogged effluent filter, joint separation), how to distinguish plumbing vs. septic problems, 6 septic-safe plumbing practices, 5-question FAQ
+- Category: Education | relatedServiceSlugs: septic-tank-pumping, emergency-services, septic-inspections
+- SERP features for target query: local_pack + question — FAQ + decision guide directly targets both
+
+TypeScript: clean ✅ | Committed as Run #40 | Pushed to origin ✅
+[2026-03-20 06:09:33] Run #2 finished
