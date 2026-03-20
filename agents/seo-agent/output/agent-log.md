@@ -427,3 +427,31 @@ Targets the highest uncovered keyword cluster from Ahrefs:
 - Cross-links to existing "aerobic-septic-system" post to strengthen topic cluster
 
 TypeScript: clean ✅ | Committed as Run #41 | Pushed to origin ✅
+**Run 41 complete.**
+
+New post: `/blog/alternative-septic-systems`
+
+Targets the uncovered keyword cluster:
+- "alternative septic systems" — KD 6, traffic potential **11,000/mo**
+- "alternative septic systems cost" — traffic potential **12,000/mo** (same parent topic)
+
+~1,900 words covering all 6 alternative system types (mound, aerobic ATU, chamber, drip irrigation, sand filter, constructed wetland) with cost ranges, best-use cases, maintenance requirements, and lifespan for each. Includes the California permitting process (perc test to installation), Central Valley clay soil/water table specifics, and a 5-question FAQ targeting featured snippets. Cross-links to the existing `aerobic-septic-system` post to strengthen the topic cluster.
+[2026-03-20 06:21:43] Run #3 finished
+[2026-03-20 06:21:48] Run #4 starting (model: sonnet)
+
+**Run 42 complete: New 'types of septic systems' blog post**
+
+Targets the uncovered keyword cluster:
+- "septic system types" — 350/mo, KD 2, traffic potential **10,000/mo**
+- "types of septic system" — 40/mo, KD 1, TP 8,300
+- "septic tank types" — 80/mo, KD 0, TP 9,200
+
+**New blog post: `/blog/types-of-septic-systems`**
+- ~1,900 words covering all 8 system types: conventional gravity, pressure distribution, aerobic (ATU), mound, chamber, drip irrigation, sand filter, constructed wetland
+- Each type includes: best-use case, cost range, maintenance requirements, lifespan
+- Sections: 2 main categories overview, conventional types, alternative types, how to identify your system, maintenance by type, 5-question FAQ
+- Distinct from existing `alternative-septic-systems` post (which focuses on WHEN alternatives are needed and their costs) — this post provides the comprehensive types overview for informational intent
+- Category: Education | relatedServiceSlugs: septic-tank-pumping, septic-inspections, new-system-installation
+
+TypeScript: clean ✅ | Committed as Run #42 | Pushed to origin ✅
+[2026-03-20 06:21:48] Run #4 finished
