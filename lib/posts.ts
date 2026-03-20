@@ -9232,6 +9232,335 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "septic-tank-pump-repair",
+    title: "Septic Tank Pump Repair: Signs It's Failing, Repair vs. Replacement, and What It Costs",
+    metaTitle: "Septic Tank Pump Repair: Signs, Cost & When to Replace",
+    metaDescription:
+      "Septic pump alarm going off or sewage backing up? Learn the warning signs of pump failure, repair vs. replacement costs ($200–$1,200), and what to expect.",
+    publishedAt: "2026-03-20",
+    updatedAt: "2026-03-20",
+    category: "Repairs",
+    readingTime: "8 min read",
+    coverImage: {
+      src: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&h=630&q=80&fit=crop&crop=center",
+      alt: "Septic system pump being serviced by a technician at a residential property",
+    },
+    excerpt:
+      "Your septic alarm going off, slow drains on a pump-assisted system, or wet spots over your pump chamber — these are early warnings that your septic pump needs attention. Here's how to diagnose a failing pump, what can be repaired versus replaced, and what it costs in Central California.",
+    relatedServiceSlugs: ["emergency-services", "septic-tank-pumping", "drain-field-repair"],
+    sections: [
+      {
+        type: "paragraph",
+        text: "Most homeowners know they have a septic tank. Far fewer know they also have a pump — or multiple pumps — that actively move wastewater through their system. When that pump fails, the entire system stops working. Sewage backs up, alarms sound, and you're suddenly facing a repair call that can't wait.",
+      },
+      {
+        type: "paragraph",
+        text: "This guide covers the different types of septic pumps, how to recognize when one is failing, whether repair or replacement makes more sense, how much it costs in the Central Valley, and what a professional pump service visit involves.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Is a Septic Tank Pump?",
+      },
+      {
+        type: "paragraph",
+        text: "A septic pump is a submersible or above-ground mechanical device that moves wastewater from one part of your system to another when gravity alone can't do the job. Not every septic system has one — conventional gravity-fed systems on flat lots with good soil may have no pumps at all. But many modern systems, and almost any system where the drain field sits uphill from the tank, depends on at least one pump to function.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Types of Septic Pumps",
+      },
+      {
+        type: "paragraph",
+        text: "Understanding which pump you have determines what can go wrong and what repair looks like:",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Effluent Pump",
+      },
+      {
+        type: "paragraph",
+        text: "The most common septic pump. An effluent pump sits in a separate pump chamber (wet well) downstream of the septic tank and pushes clarified effluent to the drain field. These pumps run on a float switch — when the chamber reaches a set level, the float triggers the pump to discharge. Effluent pumps are rated for liquid and small solids (typically under 3/4 inch). Lifespan: 7–15 years.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Dosing Pump (Timed Pump)",
+      },
+      {
+        type: "paragraph",
+        text: "Similar to an effluent pump, but controlled by a timer rather than a float. Dosing pumps deliver measured volumes of effluent to the drain field at set intervals, giving the soil time to absorb between doses. This controlled distribution extends drain field life. Commonly found in advanced treatment systems and mound systems.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Grinder Pump",
+      },
+      {
+        type: "paragraph",
+        text: "A grinder pump is a heavy-duty unit that handles raw sewage — not just clarified effluent. It grinds solids into a fine slurry before pumping it under pressure to the tank or a community sewer system. Grinder pumps are found in low-pressure sewer systems, homes where the septic tank is uphill from the house, or properties too far from a gravity main. They're more powerful and more expensive to repair than effluent pumps.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Aerator Pump (Air Pump)",
+      },
+      {
+        type: "paragraph",
+        text: "Aerobic treatment units (ATUs) use a compressor or air pump to inject oxygen into the treatment chamber, feeding aerobic bacteria that break down waste more thoroughly than standard septic tanks. The air pump doesn't move liquid — it moves air. It runs continuously and wears out faster than liquid pumps, typically needing replacement every 3–7 years.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Signs Your Septic Pump Is Failing",
+      },
+      {
+        type: "paragraph",
+        text: "Pump failure rarely happens without warning. These symptoms usually precede a complete failure by days to weeks:",
+      },
+      {
+        type: "list",
+        items: [
+          "Septic alarm going off — the float-triggered alarm activates when the pump chamber fills beyond the high-water mark, meaning the pump isn't running or isn't discharging fully",
+          "Slow drains throughout the house on a pump-assisted system — when the pump isn't keeping up, the system backs up to your plumbing",
+          "Sewage odors near the pump chamber or control panel — venting issues often indicate a struggling pump",
+          "Wet, spongy ground or standing water over the pump chamber — can indicate a failed seal or cracked chamber",
+          "Pump runs continuously without discharging — suggests a stuck float switch or a pump that's working but not moving water (impeller failure)",
+          "Pump never runs even when the chamber is full — electrical failure, failed float switch, or burned-out motor",
+          "Unusually high electricity bill — a pump running continuously or cycling rapidly draws excessive power before failing",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Don't ignore a septic alarm",
+        text: "A septic alarm means the pump chamber is filling above normal operating level. This is a pre-failure warning, not a false alert. If the pump doesn't run within the next few hours, raw effluent will begin backing up into your home. Call a septic professional the same day the alarm sounds.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Septic Pump Repair: What Can Actually Be Fixed",
+      },
+      {
+        type: "paragraph",
+        text: "Not all pump problems require a full pump replacement. Several components can be repaired or replaced independently:",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Float Switch Replacement",
+      },
+      {
+        type: "paragraph",
+        text: "The float switch is the most commonly failed component — it controls when the pump turns on and off. Floats can become waterlogged, get tangled in the chamber, or simply wear out. Replacing just the float switch typically costs $75–$200 in parts and labor, and is one of the most cost-effective repairs in septic service.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Control Panel / Timer Repair",
+      },
+      {
+        type: "paragraph",
+        text: "Dosing pumps rely on a timer panel to control discharge intervals. If the panel fails, the pump won't run regardless of the chamber level. Panel repair or replacement runs $150–$400 depending on complexity.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Circuit Breaker and Wiring",
+      },
+      {
+        type: "paragraph",
+        text: "Before diagnosing the pump itself, a technician will check the electrical supply. A tripped breaker or corroded wire connection can mimic pump failure entirely. Electrical repairs are typically $100–$300.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Pump Impeller Clearing",
+      },
+      {
+        type: "paragraph",
+        text: "Debris — rags, wipes, grease buildup — can clog the impeller and prevent discharge without burning out the motor. If caught early, a technician can clear the impeller without replacing the pump. This is a billable service call ($150–$250) but far cheaper than replacement.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Repair vs. Replacement: How to Decide",
+      },
+      {
+        type: "paragraph",
+        text: "Once a technician has diagnosed the pump, the decision usually comes down to motor condition and age:",
+      },
+      {
+        type: "list",
+        items: [
+          "If the motor is functional and the problem is a float, wiring, or timer — repair it. Parts are cheap and the pump has years of life remaining.",
+          "If the motor has failed but the pump is under 5 years old — replacement is usually the right call; motor-only rebuilds rarely make economic sense.",
+          "If the pump is 10+ years old and showing motor or bearing failure — replace it. A repaired old pump will fail again soon.",
+          "If the pump is a grinder pump with motor failure — replacement almost always makes more sense than repair given the cost to rebuild grinder mechanisms.",
+          "Use the 50% rule: if repair cost exceeds 50% of a new pump's installed price, replace it.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Much Does Septic Pump Repair Cost?",
+      },
+      {
+        type: "paragraph",
+        text: "Costs vary by pump type, what failed, and whether it's a repair or replacement:",
+      },
+      {
+        type: "list",
+        items: [
+          "Float switch replacement: $75–$200",
+          "Control panel / timer repair: $150–$400",
+          "Wiring and electrical repair: $100–$300",
+          "Impeller clearing (no replacement): $150–$250",
+          "Effluent pump replacement (labor + pump): $400–$800",
+          "Dosing pump replacement: $500–$900",
+          "Grinder pump replacement: $800–$1,800",
+          "Aerator / air pump replacement: $300–$700",
+          "Emergency service call surcharge: $100–$200 added to any above",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The ranges above reflect installed cost in Stanislaus, San Joaquin, Merced, and surrounding counties. Pump hardware itself typically accounts for $150–$600 of the total — labor and the service call make up the rest. Weekend and after-hours emergency rates add $100–$200 to any repair.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What to Expect from a Professional Pump Service Visit",
+      },
+      {
+        type: "paragraph",
+        text: "A standard pump repair visit follows a consistent diagnostic process:",
+      },
+      {
+        type: "list",
+        items: [
+          "Access and inspection: The technician opens the pump chamber, checks the liquid level, and observes pump behavior with the lid open.",
+          "Electrical check: Voltage at the pump, float switch continuity, and panel function are tested before pulling the pump.",
+          "Pump pull and inspection: The pump is lifted from the chamber and inspected for motor condition, impeller obstruction, and seal integrity.",
+          "Float and switch testing: Float switches are tested in a bucket of water to confirm trigger points and switch function.",
+          "Repair or replacement: Depending on findings, the technician will repair the existing pump or install a replacement unit.",
+          "Test run: The repaired or new pump is tested through multiple cycles before the technician leaves.",
+          "Documentation: For systems with service agreements or county inspection requirements, the visit is documented with findings and parts used.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Most pump repair visits take 1–2 hours for straightforward float or electrical issues, and 2–3 hours for a full pump replacement.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Can You Repair a Septic Pump Yourself?",
+      },
+      {
+        type: "paragraph",
+        text: "Float switch replacement is technically within reach for a capable DIYer — the float is usually connected via a pig-tail plug that can be swapped without specialized tools. However, there are meaningful risks:",
+      },
+      {
+        type: "list",
+        items: [
+          "Electrical work near a water-filled chamber creates electrocution risk if safety precautions aren't followed",
+          "Septic pump chambers contain hydrogen sulfide gas — an odorless, highly toxic gas that has killed people who open tanks without proper ventilation and monitoring",
+          "Misdiagnosing a float issue (when the real problem is motor failure) means the pump fails again within days",
+          "In California, pump work on systems permitted through the county health department may require licensed technician documentation",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "For anything beyond a straightforward float swap, the combination of confined-space hazard, electrical risk, and diagnostic complexity makes professional service the right call. The cost of a service visit is low relative to the risk of a misdiagnosis that leads to sewage backup — or worse.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Central Valley Considerations",
+      },
+      {
+        type: "paragraph",
+        text: "Septic pumps in Stanislaus, San Joaquin, and Merced counties face a specific challenge: the region's wet winters raise groundwater tables significantly, increasing the head pressure (vertical lift) that effluent pumps must overcome. A pump sized for summer conditions may struggle or fail during January and February when the water table is at its seasonal peak.",
+      },
+      {
+        type: "paragraph",
+        text: "If your pump is undersized for your peak groundwater conditions, you'll see repeated float alarms and premature motor burnout. When replacing a pump, ask your technician to confirm the replacement is sized for your maximum head pressure, not just average conditions. This is a common specification error that leads to repeat pump failures.",
+      },
+      {
+        type: "paragraph",
+        text: "Aerobic treatment systems (ATUs) are also common in parts of the Central Valley. The air pump compressors on these systems require annual inspection under most county permits. Neglected air pumps fail quietly — the system continues to appear functional but treatment quality drops, and biomat can develop in the drain field before anyone notices.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to Extend Septic Pump Life",
+      },
+      {
+        type: "list",
+        items: [
+          "Never flush wipes — even 'flushable' wipes are the leading cause of grinder pump and effluent pump impeller clogs",
+          "Keep grease out of drains — hardened grease coats impellers and float switches, causing both to fail prematurely",
+          "Have the pump chamber inspected annually along with your septic tank pumping — catching a failing float costs $150; ignoring it leads to a $800 emergency pump replacement",
+          "Know where your control panel is and check the alarm light monthly — a constant green light means the system is operating normally",
+          "If your pump is 10+ years old, consider proactive replacement before it fails — a planned pump swap during a routine service visit costs less than an emergency weekend call",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "How do I know if my septic system has a pump?",
+      },
+      {
+        type: "paragraph",
+        text: "Look for a separate concrete or plastic riser lid near your septic tank — this is often the pump chamber. Also look for an electrical conduit running from your home or a nearby post to a control panel or alarm box. If you have a mound system, an aerobic treatment unit, or a system where the tank is downhill from the house, you almost certainly have at least one pump.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "My septic alarm is beeping. Is it the pump?",
+      },
+      {
+        type: "paragraph",
+        text: "A beeping or flashing alarm means the liquid level in the pump chamber has risen above the high-water mark — which means the pump isn't running or isn't keeping up with inflow. The most common causes are a failed float switch, tripped breaker, motor failure, or a clogged impeller. Stop all water use, check the breaker panel for a tripped circuit, and call a septic professional the same day.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "How long does a septic pump last?",
+      },
+      {
+        type: "paragraph",
+        text: "Effluent and dosing pumps typically last 7–15 years with proper maintenance. Grinder pumps last 7–12 years. Air pumps on aerobic systems have the shortest lifespan — 3–7 years — because they run continuously. All pumps fail faster when exposed to rags, wipes, grease, or harsh chemical drain cleaners that enter the system.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can a failing pump damage the drain field?",
+      },
+      {
+        type: "paragraph",
+        text: "Yes. If a pump fails and the chamber overflows, raw effluent can hydraulically overload the drain field in a single event. Clay soils in the Central Valley are particularly unforgiving — once saturated with raw effluent, they can take weeks to recover and may develop permanent biomat that reduces absorption capacity. A drain field damaged by pump overflow may require $3,000–$15,000 in repair or replacement.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Does homeowners insurance cover septic pump failure?",
+      },
+      {
+        type: "paragraph",
+        text: "Standard homeowners policies typically exclude septic system failure, including pump replacement. Some policies cover sudden and accidental damage (like a pump failure that causes sewage backup inside the home) but not gradual mechanical wear. Check your policy's sewage backup rider. A few insurers offer separate home warranty products that cover septic pumps — these may be worth adding if your pump is approaching the end of its expected lifespan.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
