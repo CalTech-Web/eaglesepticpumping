@@ -397,3 +397,33 @@ Targets the highest uncovered keyword cluster found in Ahrefs:
 
 TypeScript: clean ✅ | Committed as Run #40 | Pushed to origin ✅
 [2026-03-20 06:09:33] Run #2 finished
+**Run 40 complete.**
+
+New post: `/blog/septic-tank-plumbing`
+
+Targets the highest uncovered keyword cluster from Ahrefs:
+- "septic tank plumbing" — traffic potential **20,000/mo**, KD 2
+
+~1,900 words covering: how home plumbing connects to the septic tank (6-step flow path), key connection components (inlet baffle, effluent filter, cleanouts), vent pipes and gurgling diagnosis, a **plumber vs. septic company decision guide** (who to call for what), 5 common septic plumbing problems with causes, how to tell if a symptom is a plumbing or septic issue, 6 septic-safe plumbing practices, and a 5-question FAQ. Committed as Run #40 and pushed to origin.
+[2026-03-20 06:14:20] Run #2 finished
+[2026-03-20 06:14:25] Run #3 starting (model: sonnet)
+
+**Run 41 complete: New 'alternative septic systems' blog post**
+
+Targets the highest uncovered keyword cluster from Ahrefs:
+- "alternative septic systems" — 450/mo, KD 6, traffic potential **11,000/mo**
+- "alternative septic systems cost" — 40/mo, KD 46, traffic potential **12,000/mo** (parent topic match)
+
+**New blog post: `/blog/alternative-septic-systems`**
+- ~1,900 words covering:
+  - Why properties can't use conventional systems (6 common conditions: clay soil, high water table, small lot, proximity to water, steep slope, shallow soil)
+  - 6 alternative system types with cost, best-use case, maintenance, and lifespan for each: mound ($10K–$20K), aerobic ATU ($10K–$20K + contracts), chamber ($8K–$15K), drip irrigation ($15K–$30K), sand filter ($8K–$18K), constructed wetland ($10K–$20K)
+  - Cost comparison table across all types
+  - California permitting process (perc test → soil eval → site eval → system selection)
+  - Central Valley specifics (clay soils, seasonal water table, ag proximity, aerobic contract filing)
+  - Maintenance requirements per system type
+  - 5-question FAQ targeting featured snippets: upgrade from conventional, odor comparison, lifespan, property value impact, DIY legality
+- Category: Education | relatedServiceSlugs: new-system-installation, septic-inspections, drain-field-repair
+- Cross-links to existing "aerobic-septic-system" post to strengthen topic cluster
+
+TypeScript: clean ✅ | Committed as Run #41 | Pushed to origin ✅
