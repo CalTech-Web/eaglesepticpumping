@@ -337,3 +337,38 @@ Targets the largest uncovered keyword cluster found in Ahrefs:
 
 TypeScript: clean ✅ | Committed as Run #38 | Pushed to origin ✅
 [2026-03-19 09:53:13] Run #5 finished
+**Run 38 complete.**
+
+New post: `/blog/emergency-septic-pumping`
+
+Targets the highest uncovered keyword cluster found in Ahrefs keyword research:
+- "emergency septic pumping near me" — 25,000/mo, KD 9, traffic potential **57,000**
+- "emergency septic pumping" — 14,000/mo, KD 0, traffic potential **57,000**
+
+~1,900 words covering: what emergency pumping is, 7 warning signs, what to expect from the service, cost breakdown ($400–$900 in Central Valley), response time expectations, 6 root causes of overload, post-emergency action checklist, and 5-question FAQ structured for featured snippet capture. Category: Troubleshooting. Linked to emergency-services, septic-tank-pumping, and septic-inspections service pages.
+
+This post is intentionally distinct from the existing `septic-emergency-what-to-do` post (which covers first-30-minutes emergency response actions) — the new post targets the commercial intent of someone looking to book an emergency pump-out.
+[2026-03-19 10:05:50] Run #5 finished
+[2026-03-19 10:05:50] Reached max loops (5). Stopping.
+[2026-03-20 06:04:01] ==========================================
+[2026-03-20 06:04:01] Agent: Seo Agent
+[2026-03-20 06:04:01] Model: sonnet
+[2026-03-20 06:04:01] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-03-20 06:04:01] Stop on complete: false
+[2026-03-20 06:04:01] Max loops: 5 (0=infinite)
+[2026-03-20 06:04:01] ==========================================
+[2026-03-20 06:04:01] Run #1 starting (model: sonnet)
+
+**Run 39 complete: New 'septic tank pump repair' blog post**
+
+Targets the largest uncovered keyword cluster found in Ahrefs keyword research:
+- "septic tank pump repair" — 600/mo, KD 1, traffic potential **47,000**
+- "septic tank pump service" — 400/mo, KD 2, traffic potential **39,000**
+
+**New blog post: `/blog/septic-tank-pump-repair`**
+- ~1,900 words covering: what a septic pump is, 4 pump types (effluent, dosing, grinder, aerator/air), 7 warning signs of pump failure, what can be repaired vs. replaced (float switch, control panel, wiring, impeller clearing), repair vs. replacement decision guide (50% rule), cost breakdown by repair type ($75–$1,800), what to expect from a service visit, DIY risks (confined-space gas hazard + electrical), Central Valley specifics (winter water table + head pressure sizing), pump maintenance tips, 5-question FAQ
+- Category: Repairs | relatedServiceSlugs: emergency-services, septic-tank-pumping, drain-field-repair
+- SERP features for target query: local_pack + question — FAQ section directly targets both
+- Distinct from existing `septic-system-repair` post (covers baffles, distribution box, drain field) — this post targets the specific mechanical pump component
+
+TypeScript: clean ✅ | Committed as Run #39 | Pushed to origin ✅
