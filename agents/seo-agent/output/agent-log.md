@@ -614,3 +614,41 @@ Targets the largest uncovered indoor odor keyword cluster:
 
 TypeScript: clean ✅ | Committed as Run #47 | Pushed to origin ✅
 [2026-03-21 06:20:46] Run #4 finished
+**Run 47 complete.** New post: `/blog/bathroom-smells-like-sewage`
+
+**Target keyword cluster** (all uncovered, KD 0–2):
+- "sewer smell in bathroom" — 1,800/mo, TP 4,600
+- "bathroom smells like sewage" — 15+ variants, TP 5,000–5,500 each
+- "sewer smell in house" — TP 4,400–4,500
+- SERP features: ai_overview + snippet + question on every variant
+
+**Why distinct from existing content:** The existing `sewage-smell-septic-system` post covers outdoor/yard septic odors. This post targets indoor bathroom and whole-house smell — a completely different user intent and SERP cluster.
+
+**~2,000 words covering:**
+- 7 specific causes with diagnosis and fix for each (dry P-trap, blocked vent, failed wax ring, full septic tank, failing drain field, dead legs, misplaced vent pipe)
+- A "plumbing vs. septic" diagnostic decision guide
+- Emergency warning signs
+- DIY first steps
+- Central Valley clay soil seasonal callout
+- 5-question FAQ optimized for ai_overview/featured snippet capture
+[2026-03-21 06:27:10] Run #4 finished
+[2026-03-21 06:27:16] Run #5 starting (model: sonnet)
+
+**Run 48 complete: New 'septic system diagram' blog post**
+
+Targets the highest uncovered keyword cluster found in Ahrefs:
+- "septic system diagram" — 2,300/mo, KD 3, traffic potential **9,400/mo**
+- "diagram of a septic system" — 100/mo, KD 1, TP 10,000/mo
+- "diagram of septic tank" — 60/mo, KD 0, TP 10,000/mo
+- "septic system diagram leach field" — 150/mo, KD 2, TP 9,200
+- "residential septic tank diagram" — 80/mo, KD 0, TP 10,000
+- "anaerobic septic system diagram" — 90/mo, KD 0, TP 10,000
+- SERP features: question + image_th — strong image pack and snippet opportunity
+
+**New blog post: `/blog/septic-system-diagram`**
+- ~1,900 words covering: how to read a septic system diagram, all 5 major components in sequential order (building sewer line, septic tank with inlet baffle/outlet baffle/effluent filter/risers, outlet pipe, distribution box, drain field), detailed component descriptions with burial depths and failure modes, how the diagram changes by system type (pressure distribution, mound, ATU, drip irrigation), critical setback distances (tank-to-foundation, field-to-well, etc.), what diagrams don't reveal, 5-question FAQ
+- Category: Education | relatedServiceSlugs: septic-tank-pumping, septic-inspections, drain-field-repair
+- Distinct from existing `how-does-a-septic-system-work` post (which explains the process/flow) — this post explains the physical components, their locations, dimensions, and what they look like underground
+- The three-layer tank anatomy (scum/effluent/sludge), baffle descriptions, d-box function, and drain field gravel-bed detail all target the image_th SERP feature
+
+TypeScript: clean ✅ | Committed as Run #48 | Pushed to origin ✅
