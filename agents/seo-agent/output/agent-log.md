@@ -553,3 +553,33 @@ Targets the highest uncovered keyword cluster in the drain field topic group:
 - Cross-links to `what-to-plant-over-septic-drain-field` for plantings section
 
 TypeScript: clean ✅ | Committed as Run #45 | Pushed to origin ✅
+**Run 45 complete.**
+
+New post: `/blog/drain-field-maintenance`
+
+Targets the last uncovered cluster in the drain field topic group:
+- "drain field maintenance" — KD 1, traffic potential **20,000/mo**
+
+~1,900 words covering the 6 maintenance rules (pump on schedule, no vehicles, plant management, water load control, surface water diversion, protect bacterial community), additive myths, annual inspection schedule, Central Valley seasonal guidance (winter saturation + summer agricultural groundwater), warning signs, and cost comparison: $1,500–$2,500 in maintenance over 25 years vs. $5,000–$40,000+ for field replacement.
+
+This fills the prevention gap alongside the two existing drain field posts: `drain-field-failure-signs-costs` covers what goes wrong, `drain-field-repair-vs-replacement-central-valley` covers the decision after failure — and now `drain-field-maintenance` covers how to avoid failure entirely.
+[2026-03-21 06:15:46] Run #2 finished
+[2026-03-21 06:15:51] Run #3 starting (model: sonnet)
+
+**Run 46 complete: New 'septic system installation cost' blog post**
+
+Targets the largest uncovered cost cluster found in Ahrefs:
+- "how much does it cost to put in a septic system" — 250/mo, KD 2, TP 8,200
+- "how much does septic system cost" — 200/mo, KD 4, TP 8,200
+- "septic tank cost to install" — 200/mo, KD 2, TP 8,700
+- "how much does it cost to install septic system" — 150/mo, KD 9, TP 7,800
+- "cost for new septic system" — 100/mo, KD 10, TP 7,800
+- 40+ additional long-tail variants with same parent topic
+
+**New blog post: `/blog/septic-system-installation-cost`**
+- ~2,100 words covering: at-a-glance cost table ($8,000–$25,000 for California), 5-component cost breakdown (perc test, design/engineering, county permits, tank, drain field), cost by system type (conventional $8K–$18K, pressure distribution $10K–$20K, mound $15K–$25K, drip $18K–$30K, ATU $12K–$20K), 4 cost drivers (soil conditions, lot layout, bedroom count, terrain), step-by-step installation process (10 steps), money-saving tips, Central Valley clay soil warning, C-42 license requirement, and 5-question FAQ
+- Category: Cost & Pricing | relatedServiceSlugs: new-system-installation, septic-inspections, septic-tank-pumping
+- Distinct from existing `septic-system-replacement-cost` post (which covers replacing a failed system) — this post targets the first-time installation query cluster
+
+TypeScript: clean ✅ | Committed as Run #46 | Pushed to origin ✅
+[2026-03-21 06:15:51] Run #3 finished
