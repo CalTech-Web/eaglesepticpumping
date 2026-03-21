@@ -483,3 +483,43 @@ Targets the highest uncovered keyword cluster found in Ahrefs:
 - Complements existing `aerobic-septic-system` post without duplicating it — targets the distinct "anaerobic" keyword cluster
 
 TypeScript: clean ✅ | Committed as Run #43 | Pushed to origin ✅
+**Run 43 complete.**
+
+New post: `/blog/anaerobic-septic-system`
+
+Targets the best uncovered keyword cluster found in Ahrefs:
+- "anaerobic septic system maintenance" — KD 2, traffic potential **20,000/mo**
+- "anaerobic septic system diagram" — KD 0, traffic potential **10,000/mo**
+- "anaerobic septic system" — 600/mo, KD 1
+
+~2,000 words covering: what anaerobic means in the context of septic (= conventional system), the 3-layer separation process, the one-third sludge rule for pump timing, a full 5-component system diagram walkthrough, maintenance schedule (pump-out intervals, baffle/filter inspection, D-box check), what kills the bacterial colony, 4 warning signs, system lifespan and drain field economics ($250 pump-out vs. $10K+ replacement), how to identify anaerobic vs. aerobic, conversion path, Central Valley cost table, and a 5-question FAQ.
+
+The post complements the existing `aerobic-septic-system` post and targets the distinct "anaerobic" keyword cluster that was completely uncovered.
+[2026-03-20 06:35:51] Run #5 finished
+[2026-03-20 06:35:51] Reached max loops (5). Stopping.
+[2026-03-21 06:04:02] ==========================================
+[2026-03-21 06:04:02] Agent: Seo Agent
+[2026-03-21 06:04:02] Model: sonnet
+[2026-03-21 06:04:02] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-03-21 06:04:02] Stop on complete: false
+[2026-03-21 06:04:02] Max loops: 5 (0=infinite)
+[2026-03-21 06:04:02] ==========================================
+[2026-03-21 06:04:02] Run #1 starting (model: sonnet)
+
+**Run 44 complete: New 'perc test' blog post**
+
+Targets the largest uncovered keyword cluster found in Ahrefs:
+- "what is a perc test" — 1,700/mo, KD 1, traffic potential 2,400/mo
+- "perc test cost" — 1,100/mo, KD 5
+- "who performs a perc test" — 300/mo, KD 0
+- "septic perc test" — 300/mo, KD 0
+- "perc test land" — 150/mo, KD 0 (+ 20+ additional related queries)
+
+**New blog post: `/blog/perc-test-for-septic`**
+- ~2,100 words covering: what a perc test is (soil percolation test), how the testing process works (5 steps), interpreting percolation rate results (MPI scale table), who performs it (county vs. private engineer vs. soil scientist), California-specific process (Stanislaus County EHD, licensed civil engineer requirement), cost breakdown ($150–$3,500 for full permit process in Central Valley), when you need one (6 situations), what to do if the land fails (7 options including mound, ATU, drip, holding tank), Central Valley clay soil challenges, how to prepare the property, and 5-question FAQ
+- Category: Education | relatedServiceSlugs: septic-inspections, new-system-installation, real-estate-inspections
+- SERP features for target query: ai_overview + question — FAQ + structured cost sections directly target both
+- Zero overlap with existing posts — "perc test" topic was completely uncovered across all 50 existing blog posts
+
+TypeScript: clean ✅ | Committed as Run #44 | Pushed to origin ✅
+[2026-03-21 06:04:02] Run #1 finished
