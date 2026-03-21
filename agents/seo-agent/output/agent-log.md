@@ -523,3 +523,33 @@ Targets the largest uncovered keyword cluster found in Ahrefs:
 
 TypeScript: clean ✅ | Committed as Run #44 | Pushed to origin ✅
 [2026-03-21 06:04:02] Run #1 finished
+**Run 44 complete.**
+
+New post: `/blog/perc-test-for-septic`
+
+Targets the fully uncovered "perc test" keyword cluster:
+- "what is a perc test" — 1,700/mo, KD 1
+- "perc test cost" — 1,100/mo, KD 5
+- "who performs a perc test" — 300/mo, KD 0
+- 20+ related queries (perc test land, perc test septic, perc test requirements, etc.)
+
+~2,100 words covering: what a perc test is, the 5-step testing process, MPI rate interpretation table, who performs it in California (county vs. civil engineer vs. soil scientist), cost breakdown for the full Central Valley permit process ($150–$3,500), 6 situations when you need one, 7 options when land fails, Central Valley clay soil challenges, property preparation tips, and a 5-question FAQ. Linked to septic-inspections, new-system-installation, and real-estate-inspections services.
+
+TypeScript: clean | Pushed to origin ✅
+[2026-03-21 06:10:30] Run #1 finished
+[2026-03-21 06:10:35] Run #2 starting (model: sonnet)
+
+**Run 45 complete: New 'drain field maintenance' blog post**
+
+Targets the highest uncovered keyword cluster in the drain field topic group:
+- "drain field maintenance" — KD 1, traffic potential **20,000/mo**
+- "leach field maintenance", "how to maintain a drain field" (same parent topic)
+
+**New blog post: `/blog/drain-field-maintenance`**
+- ~1,900 words covering: how a drain field works (brief), 6 maintenance rules (pump on schedule, no vehicles, plant management, water load management, surface water diversion, protect bacterial community), why additives don't help, drain field inspection schedule, seasonal Central Valley maintenance (winter saturation + summer groundwater), warning signs maintenance isn't enough, cost of maintenance vs. neglect ($1,500–$2,500 over 25 years vs. $5K–$40K+ replacement), 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, septic-inspections, drain-field-repair
+- Fills the prevention gap in the existing drain field cluster: `drain-field-failure-signs-costs` (what goes wrong) + `drain-field-repair-vs-replacement-central-valley` (after failure) now have a true maintenance companion post
+- SERP features for target query: question + local_pack — FAQ section targets both
+- Cross-links to `what-to-plant-over-septic-drain-field` for plantings section
+
+TypeScript: clean ✅ | Committed as Run #45 | Pushed to origin ✅
