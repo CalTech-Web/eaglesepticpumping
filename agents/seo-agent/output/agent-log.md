@@ -583,3 +583,34 @@ Targets the largest uncovered cost cluster found in Ahrefs:
 
 TypeScript: clean ✅ | Committed as Run #46 | Pushed to origin ✅
 [2026-03-21 06:15:51] Run #3 finished
+**Run 46 complete.**
+
+New post: `/blog/septic-system-installation-cost`
+
+Targets the largest uncovered cost cluster from Ahrefs:
+- "septic tank cost to install" — KD 2, TP **8,700/mo**
+- "how much does it cost to put in a septic system" — KD 2, TP **8,200/mo**
+- "how much does it cost to install septic system" — KD 9, TP **7,800/mo**
+- 40+ long-tail variants with the same parent topic
+
+~2,100 words covering: the full cost table ($8,000–$25,000 in California), 5-component breakdown (perc test, engineering, permits, tank, drain field), cost by system type (conventional through drip irrigation), the 4 biggest cost drivers, a 10-step installation process, money-saving tips, Central Valley clay soil warning, C-42 license requirement, and a 5-question FAQ. This is distinct from the existing `septic-system-replacement-cost` post which covers failed system replacement — this post targets first-time installation intent.
+[2026-03-21 06:20:41] Run #3 finished
+[2026-03-21 06:20:46] Run #4 starting (model: sonnet)
+
+**Run 47 complete: New 'bathroom smells like sewage' blog post**
+
+Targets the largest uncovered indoor odor keyword cluster:
+- "sewer smell in bathroom" — 1,800/mo, KD 1, TP 4,600
+- "bathroom smells like sewage" — multiple variants, TP 5,000–5,500 each
+- "sewer smell in house" — 350+/mo, KD 0–2, TP 4,400–4,500
+- "why does my bathroom smell like sewage" — parent topic for 15+ long-tail queries
+- SERP features: ai_overview + snippet + question — strong featured snippet opportunity
+
+**New blog post: `/blog/bathroom-smells-like-sewage`**
+- ~2,000 words covering: what sewer gas is (H2S + methane), 7 specific causes (dry P-trap, blocked vent pipe, failed wax ring, full septic tank, failing drain field, rarely used drains, septic vent near windows/HVAC), plumbing vs. septic diagnostic guide, when to call a septic company immediately, DIY steps to try first, Central Valley clay soil callout, 5-question FAQ
+- Category: Troubleshooting | relatedServiceSlugs: emergency-services, septic-tank-pumping, septic-inspections
+- Distinct from existing `sewage-smell-septic-system` post (which covers outdoor/yard septic odors) — this post targets the indoor bathroom/house smell cluster
+- The "plumbing vs. septic" diagnostic section is the core differentiator — helps readers self-triage before calling the right professional
+
+TypeScript: clean ✅ | Committed as Run #47 | Pushed to origin ✅
+[2026-03-21 06:20:46] Run #4 finished
