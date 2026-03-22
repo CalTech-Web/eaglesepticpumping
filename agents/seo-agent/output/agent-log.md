@@ -652,3 +652,48 @@ Targets the highest uncovered keyword cluster found in Ahrefs:
 - The three-layer tank anatomy (scum/effluent/sludge), baffle descriptions, d-box function, and drain field gravel-bed detail all target the image_th SERP feature
 
 TypeScript: clean ✅ | Committed as Run #48 | Pushed to origin ✅
+**Run 48 complete.** New post: `/blog/septic-system-diagram`
+
+**Target keyword cluster** (all uncovered, KD 0–3):
+- "septic system diagram" — 2,300/mo, TP **9,400/mo**
+- "diagram of a septic system" — 100/mo, TP **10,000/mo**
+- "residential septic tank diagram" — 80/mo, TP **10,000/mo**
+- "anaerobic septic system diagram" — 90/mo, TP **10,000/mo**
+- SERP features: question + image_th on every variant
+
+**Why distinct from existing content:** The `how-does-a-septic-system-work` post covers the water treatment *process*. This post targets people who want to understand the *physical layout* — what each component looks like, where it sits underground, and how deep it is. It functions as a text-based diagram that labels and describes every component in order from house to drain field.
+
+**~1,900 words covering:**
+- All 5 major components in sequential order (sewer line, tank with baffles/filter/risers, outlet pipe, distribution box, drain field)
+- Burial depths, failure modes, and replacement costs for each component
+- How diagrams differ for 4 alternative system types (pressure distribution, mound, ATU, drip)
+- California setback distances for Stanislaus County
+- What permit diagrams don't reveal (current condition)
+- 5-question FAQ targeting image_th + snippet SERP features
+[2026-03-21 06:34:45] Run #5 finished
+[2026-03-21 06:34:45] Reached max loops (5). Stopping.
+[2026-03-22 06:04:01] ==========================================
+[2026-03-22 06:04:01] Agent: Seo Agent
+[2026-03-22 06:04:01] Model: sonnet
+[2026-03-22 06:04:01] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-03-22 06:04:01] Stop on complete: false
+[2026-03-22 06:04:01] Max loops: 5 (0=infinite)
+[2026-03-22 06:04:01] ==========================================
+[2026-03-22 06:04:01] Run #1 starting (model: sonnet)
+
+**Run 49 complete: New 'garbage disposal and septic tank' blog post**
+
+Targets the largest uncovered keyword cluster found in Ahrefs:
+- "can you have a garbage disposal with a septic tank" — 600/mo, KD 0, TP 7,500
+- "garbage disposal with a septic system" — KD 5-6, TP 7,500
+- "garbage disposal and septic tank" — 150/mo, KD 0
+- 15+ long-tail variants ("can you use garbage disposal with septic system", "can i have a garbage disposal with a septic tank", "garbage disposal with septic", etc.) — all KD 0
+
+**New blog post: `/blog/garbage-disposal-septic-tank`**
+- ~1,900 words covering: what a garbage disposal does to a septic tank (50% more solids per EPA estimate), adjusted pumping schedules by household size, what septic-safe disposals (InSinkErator Evolution Septic Assist) actually do and their limitations, the 7 food categories that should never go in a disposal on a septic system, warning signs the disposal is stressing the tank/drain field, whether a larger tank is needed, 7 best-practice rules for disposal use, the composting alternative, and a 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- SERP features for target queries: ai_overview + question — FAQ structured for both
+- Zero overlap with existing 55 blog posts — the topic was completely uncovered
+
+TypeScript: clean ✅ | Committed as Run #49 | Pushed to origin ✅
+[2026-03-22 06:04:01] Run #1 finished
