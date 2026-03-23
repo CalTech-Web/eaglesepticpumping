@@ -836,3 +836,38 @@ Targets the largest uncovered keyword cluster found in Ahrefs:
 
 TypeScript: clean ✅ | Committed as Run #53 | Pushed to origin ✅
 [2026-03-23 06:23:45] Run #4 finished
+**Run 53 complete.** New post: `/blog/concrete-vs-fiberglass-vs-plastic-septic-tank`
+
+**Target keyword cluster** (fully uncovered across 59 posts, KD 0):
+- "septic tank material" — TP **8,400/mo**
+- SERP features: ai_overview, image_th, question, video_th, organic_shopping
+
+**~2,100 words covering:**
+- Why material choice matters (county approval, soil compatibility, buoyancy, access)
+- Concrete tanks: 40+ year lifespan, universally approved, but vulnerable to clay soil cracking and internal baffle corrosion
+- Fiberglass tanks: corrosion-resistant, lightweight, better for expansive clay, buoyancy risk in high water table areas
+- Plastic/polyethylene: cheapest upfront but has county approval restrictions in Stanislaus and Merced Counties
+- 8-point side-by-side comparison across durability, cost, buoyancy risk, soil tolerance, county approval
+- How California Title 22 and IAPMO certification affect the decision
+- Central Valley clay soil specifics and contractor guidance
+- 5-question FAQ targeting featured snippet positions
+
+TypeScript: clean | Committed as Run #53 | Pushed to origin
+[2026-03-23 06:32:39] Run #4 finished
+[2026-03-23 06:32:44] Run #5 starting (model: sonnet)
+
+**Run 54 complete: New 'septic safe drain cleaner' blog post**
+
+Targets the uncovered "is drano safe for septic" keyword cluster:
+- "is drano max gel safe for septic" — KD 2, traffic potential **18,000/mo**, `snippet` SERP feature
+- "septic safe drain cleaner for hair" — 70/mo, KD 0, TP **12,000/mo**
+- "best drain cleaner for septic" — 20/mo, KD 0, TP **7,000/mo**
+- Combined cluster: ~37,000 traffic potential, all KD 0–2
+
+**New blog post: `/blog/septic-safe-drain-cleaner`**
+- ~1,900 words covering: why chemical drain cleaners (Drano Max Gel, Liquid-Plumr) kill septic bacteria, direct answer to "is Drano safe for septic?", enzyme-based alternatives, baking soda and vinegar, mechanical methods (Zip-It, drain snake, plunger), hair clog section (targets TP 12,000 "septic safe drain cleaner for hair" keyword), what multiple slow drains actually signal on a septic system (full tank vs. localized clog triage), kitchen grease clogs, Central Valley context for older concrete systems, 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, emergency-services, septic-inspections
+- Distinct from existing `septic-safe-cleaning-products` (which has one brief section on Drano) — this post targets the dedicated search intent of someone looking for what drain cleaner to use with their septic system
+- The `snippet` SERP feature on "is drano max gel safe for septic" makes the direct H2 "Is Drano Max Gel Safe for Septic Systems?" section a strong featured snippet candidate
+
+TypeScript: clean ✅ | Committed as Run #54 | Pushed to origin ✅
