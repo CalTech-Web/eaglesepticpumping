@@ -759,3 +759,80 @@ Targets the largest uncovered keyword cluster found in Ahrefs:
 - Distinct from existing posts: fills the gap between `perc-test-for-septic` (one step in the process) and `septic-system-installation-cost` (installation, not design) — covers the full design-to-permit process
 
 TypeScript: clean ✅ | Committed as Run #51 | Pushed to origin ✅
+**Run 51 complete.** New post: `/blog/septic-system-design`
+
+**Target keyword cluster** (uncovered across all 57 posts, KD 1):
+- "septic system design" — 1,600/mo, TP **8,800/mo**
+- SERP features: image_th + question + video_th + knowledge_panel
+
+**~2,200 words covering:**
+- The 6-step design-to-permit process (site eval → perc test → system selection → sizing → documents → county review)
+- Key parameters: bedroom-count sizing rules, MPI perc rate interpretation, seasonal high water table, California setback requirements
+- Who can legally design a system in CA (REHS vs. PE requirements by system type)
+- Central Valley cost breakdown: $2,000–$5,000 (conventional) to $5,000–$10,000 (alternative)
+- How to read your design documents
+- Central Valley-specific challenges: clay soils, winter water table rise, Stanislaus County's stricter-than-state standards
+- 5-question FAQ targeting featured snippet positions
+
+Distinct from existing posts: fills the process gap between `perc-test-for-septic` (one step) and `septic-system-installation-cost` (post-design costs).
+
+TypeScript: clean | Pushed to origin ✅
+[2026-03-23 06:15:50] Run #2 finished
+[2026-03-23 06:15:55] Run #3 starting (model: sonnet)
+
+**Run 52 complete: New 'septic system maintenance checklist' blog post**
+
+Targets the uncovered "checklist" keyword cluster:
+- "septic system maintenance checklist" — KD 1, traffic potential **14,000/mo**
+- "septic maintenance checklist", "septic system maintenance schedule" (same parent topic)
+- SERP features: ai_overview + question — structured list content targets both
+
+**New blog post: `/blog/septic-system-maintenance-checklist`**
+- ~1,900 words covering:
+  - Monthly checklist (5 items: drain observation, drain field walk, odor check, water use review, product audit)
+  - Quarterly checklist (5 items: riser/lid inspection, running toilet test, laundry habits, pump-out schedule review, drainage routing check)
+  - Annual checklist (8 items: effluent filter cleaning, baffle inspection, D-box check, sludge/scum measurement, drain field probe, pump record review, root proximity check, aerobic ATU check)
+  - Every 3–5 years checklist (5 items: pump-out with tank inspection, baffle condition, D-box evaluation, service documentation, drain field stress assessment)
+  - Central Valley seasonal checklist (pre-rainy season, during rainy season, before summer — clay soil and high water table specific)
+  - Warning signs that override the schedule (immediate action triggers)
+  - The maintenance don't list (8 items: no wipes, no grease, no antibacterial daily, no vehicle traffic, no trees near field, etc.)
+  - 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- Distinct from existing `septic-system-maintenance-guide` (narrative guide) — checklist format targets a different user intent (structured reference vs. educational read) and different SERP features
+
+TypeScript: clean ✅ | Committed as Run #52 | Pushed to origin ✅
+**Run 52 complete.** New post: `/blog/septic-system-maintenance-checklist`
+
+**Target keyword cluster** (uncovered across all 58 posts, KD 1):
+- "septic system maintenance checklist" — TP **14,000/mo**
+- "septic system maintenance schedule", "septic maintenance checklist" (same parent topic)
+
+**~1,900 words** organized as actionable checklists by frequency:
+- **Monthly** (5 tasks): drain observation, drain field walk, odor check, water use review, product audit
+- **Quarterly** (5 tasks): riser/lid inspection, running toilet test, laundry habits, pump schedule, drainage routing
+- **Annual** (8 tasks): effluent filter, baffle inspection, D-box, sludge measurement, drain field probe, root check, ATU inspection
+- **Every 3–5 years** (5 tasks): pump-out, tank wall inspection, baffle replacement, documentation, drain field stress assessment
+- **Central Valley seasonal** checklist: pre-rainy season, during rainy season, before summer (clay soil + water table specific)
+- **Warning signs** override list + **maintenance don'ts** list + 5-question FAQ
+
+Distinct from the existing `septic-system-maintenance-guide` (narrative guide) — the checklist format targets users who want a structured reference document, not an educational read, and captures the specific "checklist" SERP intent.
+
+TypeScript: clean | Pushed to origin ✅
+[2026-03-23 06:23:40] Run #3 finished
+[2026-03-23 06:23:45] Run #4 starting (model: sonnet)
+
+**Run 53 complete: New 'concrete vs fiberglass vs plastic septic tank' blog post**
+
+Targets the largest uncovered keyword cluster found in Ahrefs:
+- "septic tank material" — 70/mo, KD 0, traffic potential **8,400/mo**
+- SERP features: ai_overview, ai_overview_sitelink, image_th, video_th, question, organic_shopping
+
+**New blog post: `/blog/concrete-vs-fiberglass-vs-plastic-septic-tank`**
+- ~2,100 words covering: why material matters (soil compatibility, county approval, cost, buoyancy), concrete tanks (pros/cons, lifespan 40+ years, cost $5,500–$12,000 installed), fiberglass tanks (pros/cons, corrosion resistance, buoyancy risk, cost $6,000–$14,000 installed), plastic/polyethylene tanks (pros/cons, county approval limitations in Stanislaus/Merced, cost $4,500–$9,000), 8-point side-by-side comparison, how to choose based on site conditions, California regulations (Title 22 + IAPMO certification), Central Valley clay soil warning, 5-question FAQ
+- Category: Education | relatedServiceSlugs: new-system-installation, septic-inspections, septic-tank-pumping
+- Zero overlap with existing 59 blog posts — tank material comparison was completely uncovered
+- Complements existing `septic-tank-size-guide` post (covers gallons/sizing; this covers material choice)
+- Central Valley relevance: most pre-2010 systems use concrete; fiberglass growing for replacements; plastic has county approval restrictions in Stanislaus/Merced that are not widely known
+
+TypeScript: clean ✅ | Committed as Run #53 | Pushed to origin ✅
+[2026-03-23 06:23:45] Run #4 finished
