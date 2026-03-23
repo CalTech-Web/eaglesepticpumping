@@ -12958,6 +12958,346 @@ export const posts: BlogPost[] = [
       "new-system-installation",
     ],
   },
+  {
+    slug: "septic-system-design",
+    title: "Septic System Design: How It Works, What It Costs, and Who Does It",
+    metaTitle: "Septic System Design: Process, Cost & Requirements",
+    metaDescription:
+      "Learn how septic system design works — from site evaluation and perc testing to tank sizing and drain field layout. Covers California requirements and Central Valley costs.",
+    publishedAt: "2026-03-23",
+    updatedAt: "2026-03-23",
+    category: "Education",
+    readingTime: "10 min read",
+    coverImage: {
+      src: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&h=630&q=80&fit=crop&crop=center",
+      alt: "Engineering blueprint and design plans for residential construction",
+    },
+    excerpt:
+      "Before a septic system can be installed, it has to be designed. The design process determines exactly what type of system your property needs, where every component goes, and how large each piece must be — and it's required by law in California before any permit is issued.",
+    sections: [
+      {
+        type: "paragraph",
+        text: "Before a septic system can be installed, it has to be designed. The design process determines exactly what type of system your property needs, where every component goes, and how large each piece must be — and it's required by law in California before any permit is issued. Understanding how septic system design works helps you navigate the permit process, evaluate contractor proposals, and avoid costly mistakes when building on rural land or replacing a failing system.",
+      },
+      {
+        type: "paragraph",
+        text: "This guide covers the full design process from site evaluation through permit submission, the key parameters that shape every design decision, who is qualified to design a system in California, and what you can expect to pay in the Central Valley.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Is a Septic System Design?",
+      },
+      {
+        type: "paragraph",
+        text: "A septic system design is a set of engineered documents — typically a site plan, system specifications, and calculations — that describe exactly how a private wastewater treatment system will be constructed on a specific property. The design is property-specific: it accounts for your soil type, lot dimensions, topography, proximity to wells and water bodies, and the number of bedrooms in your home.",
+      },
+      {
+        type: "paragraph",
+        text: "California requires a permitted design before any septic system can be installed or replaced. The design is reviewed and approved by the county Environmental Health Department (EHD), which verifies it meets state Title 17 regulations and local standards before issuing a construction permit. In Stanislaus County, that agency is the Environmental Resources Division; in Merced County, it's the Environmental Health Division.",
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "Design vs. permit: what's the difference?",
+        text: "The design is the technical document describing the system. The permit is the county's formal approval to build it. You must have an approved design before the county will issue a permit, and you must have a permit before any contractor can legally begin installation.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "When Do You Need a Septic System Design?",
+      },
+      {
+        type: "paragraph",
+        text: "You'll need a formal septic system design in several situations:",
+      },
+      {
+        type: "list",
+        items: [
+          "New construction on a lot not served by municipal sewer",
+          "Replacing a failed or failing septic system",
+          "Adding bedrooms to a home (which increases the required system capacity)",
+          "Converting from a cesspool or holding tank to a conventional septic system",
+          "Purchasing land and verifying it can support a septic system before the sale closes",
+          "Installing an alternative system type (mound, aerobic treatment unit, drip irrigation)",
+          "Repairing a failed drain field when the county requires a new design as a condition of the repair permit",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "The Septic System Design Process: Step by Step",
+      },
+      {
+        type: "paragraph",
+        text: "The design process involves several stages that must happen in sequence. Skipping steps or trying to combine them to save money typically results in permit rejection and additional cost.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Step 1: Site Evaluation",
+      },
+      {
+        type: "paragraph",
+        text: "Before any tests are run, the designer walks the property to assess topography, identify setback constraints (distances from wells, property lines, buildings, and water features), note the location of existing structures, and determine where the system could physically fit. In the Central Valley, designers also check soil maps to understand the likely clay content and depth to seasonal high groundwater — both of which are major design constraints in Stanislaus and Merced Counties.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Step 2: Percolation Test and Soil Evaluation",
+      },
+      {
+        type: "paragraph",
+        text: "The percolation test (perc test) measures how quickly water moves through your soil by timing how fast a standardized test hole drains. The result — expressed as minutes per inch (MPI) — tells the designer how much drain field area the property needs. Slower-draining soil (higher MPI) requires more drain field area per bedroom. In addition to the perc test, Stanislaus County now requires a formal soil profile evaluation by a licensed civil engineer or soil scientist to assess soil texture, structure, and restrictive layers down to 5 feet.",
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Perc test results expire",
+        text: "In most California counties, perc test results are valid for 3–5 years. If you did a perc test for a property purchase years ago and never built, you may need to retest before the county will accept a design based on those old results.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Step 3: System Selection",
+      },
+      {
+        type: "paragraph",
+        text: "Once the site conditions are established, the designer selects the appropriate system type. For most Central Valley properties with adequate soil percolation and sufficient lot area, a conventional gravity-fed system is the simplest and least expensive option. When soil conditions don't support a conventional system — due to high clay content, a high seasonal water table, or insufficient lot area — an alternative system is required. Common alternatives in the Central Valley include pressure distribution systems, mound systems, and aerobic treatment units (ATUs).",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Step 4: Sizing the Components",
+      },
+      {
+        type: "paragraph",
+        text: "With the system type selected, the designer calculates the required size of each component. The two most critical sizing decisions are the septic tank capacity and the drain field area.",
+      },
+      {
+        type: "list",
+        items: [
+          "Tank sizing: California regulations set minimum tank sizes based on bedroom count — typically 1,000 gallons for 1–3 bedrooms and 1,200–1,500 gallons for 4–5 bedrooms. Stanislaus County often requires larger tanks when soil percolation is slow or when the lot has limited drain field area.",
+          "Drain field sizing: Required drain field area is calculated by multiplying the daily sewage flow estimate (gallons per day, based on bedroom count) by an absorption factor derived from the perc test result. Slower perc rates require larger drain fields.",
+          "Reserve area: California requires that every new design include a reserve drain field area equal to 100% of the primary field — so if the primary field is 1,200 square feet, the design must reserve another 1,200 square feet of undisturbed land for a future replacement field.",
+          "Setbacks: The design must document that all components meet minimum distance requirements from wells, property lines, buildings, drainage ditches, and other structures.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Step 5: Preparing the Design Documents",
+      },
+      {
+        type: "paragraph",
+        text: "The designer produces a complete package that typically includes a to-scale site plan showing component locations and dimensions, system specifications (tank type, pipe materials, gravel depth, trench dimensions), setback calculations, soil evaluation data and perc test results, engineer's calculations, and the designer's stamp and signature. In California, designs for alternative systems must be stamped by a licensed civil or sanitary engineer.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Step 6: County Permit Submission and Review",
+      },
+      {
+        type: "paragraph",
+        text: "The completed design is submitted to the county Environmental Health Department with a permit application and fee. The county reviews the design for compliance with state and local regulations. If the design is approved, the county issues a construction permit. If corrections are needed, the designer revises the documents and resubmits. In Stanislaus County, standard review takes 4–8 weeks; complex alternative system designs can take longer.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Key Design Parameters Explained",
+      },
+      {
+        type: "paragraph",
+        text: "Understanding the parameters that drive your design helps you evaluate contractor bids and anticipate what your system will require.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Bedroom Count vs. Actual Occupancy",
+      },
+      {
+        type: "paragraph",
+        text: "California sizes septic systems by bedroom count, not by actual number of residents. The bedroom count is a proxy for potential future occupancy — a 4-bedroom home might house 2 people today but could have 8 in the future. This is why adding bedrooms to a home sometimes requires upgrading the septic system even if the household size hasn't changed. For permitting purposes, the bedroom count on record with the county assessor is the governing figure.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Percolation Rate and What It Means",
+      },
+      {
+        type: "paragraph",
+        text: "Percolation rate is measured in minutes per inch (MPI) — the number of minutes it takes the water level in a test hole to drop one inch. A rate of 1–5 MPI is ideal (fast-draining, sandy soil). A rate of 30–60 MPI is acceptable for conventional systems but requires a larger drain field. Rates above 60 MPI typically require an alternative system; rates above 120 MPI usually require an engineered alternative or mound system. In the Central Valley's clay soils, MPI rates of 30–90 are common, which is why many properties require oversized or alternative drain fields.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Seasonal High Water Table",
+      },
+      {
+        type: "paragraph",
+        text: "California regulations require a minimum vertical separation of 5 feet between the bottom of a conventional drain field trench and the seasonal high water table (SHWT). In the Central Valley, the SHWT rises significantly during winter months, particularly in low-lying areas and near rivers. If the SHWT is within 5 feet of the surface during the wettest months, a conventional system cannot be used — the designer must specify a mound system or ATU that places the drain field above grade.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Setback Requirements",
+      },
+      {
+        type: "paragraph",
+        text: "Every component of a septic system must maintain minimum distances from other features on and around the property. Standard California setbacks for conventional systems include: 50 feet from a water well, 5 feet from a property line, 5 feet from a building foundation, 100 feet from a surface water body, 25 feet from a drainage ditch, and 10 feet from a water line. Alternative systems often require larger setbacks. Small or irregular lots frequently cannot accommodate a conventional system once setbacks are applied, which is one reason alternative systems are common in subdivided rural areas.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Who Can Design a Septic System in California?",
+      },
+      {
+        type: "paragraph",
+        text: "California law limits who can prepare and stamp a septic system design based on the system type and complexity:",
+      },
+      {
+        type: "list",
+        items: [
+          "Conventional gravity systems: May be designed by a licensed civil engineer, registered environmental health specialist (REHS), or a county-approved registered sanitarian. Some counties allow the county EHD itself to prepare standard designs for straightforward lots.",
+          "Alternative systems (mound, pressure distribution, ATU, drip irrigation): Must be designed and stamped by a licensed civil engineer or registered sanitary engineer (PE with sanitary engineering designation).",
+          "Soil evaluation: Must be performed by a licensed civil engineer or registered soil scientist. The county's own EHD staff may conduct evaluations for standard permit applications in some counties.",
+          "Installation: Must be performed by a licensed C-42 contractor (sanitation system specialty). Design engineers and soil evaluators are not permitted to also be the installing contractor on the same project.",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "Ask to see the designer's license",
+        text: "Always verify that whoever designs your system holds the appropriate California license for your system type. Unlicensed designs are rejected by the county and you lose the fee. Ask for the license number and verify it at the California Department of Consumer Affairs website.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Septic System Design Costs in the Central Valley",
+      },
+      {
+        type: "paragraph",
+        text: "Design costs vary based on system complexity, lot challenges, and whether the county requires additional testing. Here's a realistic cost breakdown for Central Valley properties in Stanislaus and Merced Counties:",
+      },
+      {
+        type: "list",
+        items: [
+          "Perc test (county-conducted): $150–$400 per test hole; typically 3–6 holes required",
+          "Soil profile evaluation (licensed engineer or soil scientist): $500–$1,500",
+          "Design preparation (conventional system): $800–$2,000",
+          "Design preparation (alternative system, engineer-stamped): $2,000–$5,000",
+          "County permit application fee: $300–$800 (varies by county and system type)",
+          "County plan check fee (for alternative systems): $200–$600",
+          "Total for a straightforward conventional system: $2,000–$5,000",
+          "Total for a complex alternative system: $5,000–$10,000 or more",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Note that design and permit costs are separate from installation costs. The full cost of a new system — design, permit, materials, labor, and inspection — typically runs $10,000–$30,000 in the Central Valley depending on system type and site conditions.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to Read Your Septic System Design",
+      },
+      {
+        type: "paragraph",
+        text: "If you're reviewing a design prepared for your property, here's what to look for:",
+      },
+      {
+        type: "list",
+        items: [
+          "Site plan: A scaled drawing showing the lot, all buildings, the septic tank location, all drain field trenches, reserve area, and setback lines. Every component should be labeled and dimensioned.",
+          "Tank specification: The design should specify tank material (concrete or plastic), minimum capacity in gallons, and number of compartments. Two-compartment tanks are now standard in California.",
+          "Drain field trench layout: Should show the number of trenches, trench length and width, trench depth, gravel depth, and pipe specifications. Total absorption area should match the calculations.",
+          "Reserve area: Should be clearly marked on the site plan as a no-disturb zone. No structures, driveways, trees, or heavy equipment should be placed in the reserve area.",
+          "Engineer's stamp: Alternative system designs must carry the PE stamp of a California-licensed civil or sanitary engineer.",
+          "Perc test data: The design should reference or include the perc test results, MPI rates, and soil evaluation report that justify the drain field sizing.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Central Valley Design Challenges",
+      },
+      {
+        type: "paragraph",
+        text: "Stanislaus and Merced Counties present specific challenges that shape how septic systems are designed in this area:",
+      },
+      {
+        type: "list",
+        items: [
+          "Clay-heavy soils: Much of the Central Valley sits on Vertisol and Alfisol soils with significant clay content. Clay drains slowly (high MPI), which means larger drain fields and more land area required. Shrink-swell clay also creates movement that can crack drain field pipes over time.",
+          "Seasonal water table fluctuation: The Central Valley water table rises dramatically from December through March and drops in summer. Designs must account for the seasonal high — not the summer low — when calculating separation distances.",
+          "Agricultural chemical proximity: Properties near irrigated fields may need larger setbacks from drainage ditches that carry agricultural runoff, which the county considers potential contamination sources.",
+          "Subdivision of older parcels: The Central Valley has many older rural subdivisions where lots were split without accounting for modern septic requirements. Smaller parcels may struggle to fit a conventional system plus the required reserve area once setbacks are applied.",
+          "Stanislaus County's stricter standards: Stanislaus County EHD has implemented soil profile requirements and minimum tank sizes that exceed state minimums. Designs that meet state standards may not meet county standards — always verify against local requirements.",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Design approval doesn't guarantee installation approval",
+        text: "Even with an approved design, the county inspector must approve each phase of installation: tank placement, excavation depth, drain field trench dimensions, and final gravel and pipe placement. If the installer deviates from the design — even slightly — the inspector can require corrections or deny final approval. Use only licensed C-42 contractors who understand the county inspection process.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "How long does the septic system design process take?",
+      },
+      {
+        type: "paragraph",
+        text: "From initial site evaluation to county permit issuance, the process typically takes 2–4 months for a conventional system. Alternative systems that require additional engineering review can take 4–6 months or longer. The biggest variable is county review time, which ranges from 4 weeks to several months depending on workload. Pre-application meetings with the county EHD can sometimes shorten the review timeline by identifying potential issues before the formal submission.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can I reuse an old septic system design?",
+      },
+      {
+        type: "paragraph",
+        text: "No. Septic system designs are site-specific and time-specific. An approved design for a property that was never built can expire — Stanislaus County construction permits are generally valid for 2 years and can be renewed once. If your property's conditions have changed (new structures, land grading, changes to nearby wells or drainage), the original design may no longer be valid even if it was recently approved. Always confirm with the county before assuming an old design can be used.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "What happens if my land fails the perc test?",
+      },
+      {
+        type: "paragraph",
+        text: "A failed perc test means the soil doesn't drain quickly enough to support a conventional septic system at standard sizing. It does not necessarily mean the property can't have a septic system — it means the design must account for the slow drainage. Options include: oversizing the drain field if space allows, designing a mound system that places the drain field above native soil, specifying an aerobic treatment unit (ATU) that produces higher-quality effluent requiring less drain field area, or using a drip irrigation system that distributes effluent at a very low rate over a larger area.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Do I need a new design to repair my existing drain field?",
+      },
+      {
+        type: "paragraph",
+        text: "Minor repairs — replacing a broken pipe section, clearing a clogged filter — typically don't require a new design. But if the drain field has failed and needs to be replaced or significantly altered, most counties require a new design and permit. This is actually beneficial: the new design will properly size the replacement field based on current soil conditions and current bedroom count, rather than the potentially outdated original design.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can the contractor who installs the system also design it?",
+      },
+      {
+        type: "paragraph",
+        text: "In California, the designer and installer can be from the same company in some cases, but the person who stamps a design for an alternative system must hold a PE license, and the person who installs it must hold a C-42 contractor license. Many companies offer both engineering and contracting services under the same roof — this is legal as long as the licensed individuals are different and the appropriate licenses are held. However, there are advantages to using an independent engineer who has no financial interest in what type of system gets specified.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "new-system-installation",
+      "septic-inspections",
+      "drain-field-repair",
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
