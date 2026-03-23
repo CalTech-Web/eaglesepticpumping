@@ -726,3 +726,36 @@ Targets the largest uncovered keyword cluster found in Ahrefs:
 - Central Valley relevance: manufactured homes are extremely common in Stanislaus and Merced Counties; a dedicated post captures this demographic directly
 
 TypeScript: clean ✅ | Committed as Run #50 | Pushed to origin ✅
+**Run 50 complete.** New post: `/blog/mobile-home-septic-system`
+
+**Target keyword cluster** (fully uncovered across 56 posts, KD 0–3):
+- "mobile home septic system cost" — TP **7,500/mo**, KD 3
+- "septic tank for mobile home" — TP 1,700, KD 0
+- "above ground septic tank for mobile home" — TP 1,700, KD 0
+
+**~2,000 words covering:**
+- Mobile vs. manufactured home distinction (pre/post-1976 HUD code)
+- How septic connects to a manufactured home's belly plumbing (common failure point)
+- All 4 system types: conventional gravity, pressure distribution, mound, ATU
+- California tank sizing by bedroom count (Stanislaus County)
+- Installation cost table: $8,000–$25,000 by system type
+- 6 common problems with older mobile home systems
+- Pumping schedule, California regulations, emergency warning signs
+- 5-question FAQ targeting question + sitelink SERP features
+
+TypeScript: clean | Pushed to origin ✅
+[2026-03-23 06:10:05] Run #1 finished
+[2026-03-23 06:10:10] Run #2 starting (model: sonnet)
+
+**Run 51 complete: New 'septic system design' blog post**
+
+Targets the largest uncovered keyword cluster found in Ahrefs:
+- "septic system design" — 1,600/mo, KD 1, traffic potential **8,800/mo**
+- SERP features: image_th + question + video_th + knowledge_panel — strong featured snippet and image pack opportunities
+
+**New blog post: `/blog/septic-system-design`**
+- ~2,200 words covering: what a septic system design is, the 6-step design process (site evaluation → perc test → system selection → component sizing → document preparation → county permit submission), key design parameters (bedroom count sizing, percolation rate interpretation, seasonal high water table, California setback requirements), who can legally design a system in California (REHS vs. PE requirements by system type), cost breakdown for Central Valley ($2,000–$10,000 for design + permit), how to read a design document, Central Valley-specific challenges (clay soils, seasonal water table, agricultural proximity, Stanislaus County's stricter standards), 5-question FAQ
+- Category: Education | relatedServiceSlugs: new-system-installation, septic-inspections, drain-field-repair
+- Distinct from existing posts: fills the gap between `perc-test-for-septic` (one step in the process) and `septic-system-installation-cost` (installation, not design) — covers the full design-to-permit process
+
+TypeScript: clean ✅ | Committed as Run #51 | Pushed to origin ✅
