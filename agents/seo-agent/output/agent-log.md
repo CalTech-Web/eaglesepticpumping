@@ -871,3 +871,52 @@ Targets the uncovered "is drano safe for septic" keyword cluster:
 - The `snippet` SERP feature on "is drano max gel safe for septic" makes the direct H2 "Is Drano Max Gel Safe for Septic Systems?" section a strong featured snippet candidate
 
 TypeScript: clean ✅ | Committed as Run #54 | Pushed to origin ✅
+**Run 54 complete.** New post: `/blog/septic-safe-drain-cleaner`
+
+**Target keyword cluster** (fully uncovered, KD 0–2):
+- "is drano max gel safe for septic" — TP **18,000/mo**, `snippet` SERP feature
+- "septic safe drain cleaner for hair" — TP **12,000/mo**
+- "best drain cleaner for septic" — TP **7,000/mo**
+
+**~1,900 words covering:**
+- Direct answer callout + dedicated H2: "Is Drano Max Gel Safe for Septic Systems?" (targets the `snippet` SERP feature)
+- Why sodium hydroxide/lye kills septic bacteria
+- Enzyme-based drain cleaner alternatives (safe options)
+- Baking soda + vinegar method
+- Mechanical methods: Zip-It tool, drain snake, plunger
+- Hair clog section targeting the TP 12,000 "septic safe drain cleaner for hair" keyword
+- Multiple slow drains triage guide (localized clog vs. full tank vs. drain field)
+- Kitchen grease clog guidance
+- Central Valley note for older concrete systems
+- 5-question FAQ
+
+TypeScript: clean | Pushed to origin ✅
+[2026-03-23 06:38:01] Run #5 finished
+[2026-03-23 06:38:01] Reached max loops (5). Stopping.
+[2026-03-24 06:04:04] ==========================================
+[2026-03-24 06:04:05] Agent: Seo Agent
+[2026-03-24 06:04:05] Model: sonnet
+[2026-03-24 06:04:05] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-03-24 06:04:05] Stop on complete: false
+[2026-03-24 06:04:05] Max loops: 5 (0=infinite)
+[2026-03-24 06:04:05] ==========================================
+[2026-03-24 06:04:05] Run #1 starting (model: sonnet)
+
+**Run 55 complete: New 'holding tank vs septic tank' blog post**
+
+Targets the largest uncovered keyword cluster found in Ahrefs:
+- "holding tank vs septic tank" — 300/mo, KD 0, TP 1,100
+- "sewage holding tank" — 250/mo, KD 0, TP 1,900
+- "septic holding tank" — 700/mo, KD 0, TP 1,800
+- "septic holding tank pumping cost" — 30/mo, KD 4, TP 8,000
+- Combined cluster: ~8,000–10,000 TP, all KD 0–4
+
+**New blog post: `/blog/holding-tank-vs-septic-tank`**
+- ~2,000 words covering: what a septic tank is (brief recap), what a holding tank is (sealed, no drain field, no treatment), 9-point side-by-side comparison table (treatment, discharge, pump frequency, cost, soil requirements, alarm, long-term cost), holding tank pumping cost breakdown ($250–$500/service, $2,400–$9,600/year vs $60–$200/year for septic), when holding tanks are used (failed perc test, small lot, high water table, seasonal/vacation use, failed septic interim), how to identify which system you have (5 methods: permit records, drain field presence, lid count, alarm panel, ask pumping company), holding tank maintenance rules, converting from holding tank to septic system ($8K–$25K with 2–4 year break-even), 5-question FAQ
+- Category: Education | relatedServiceSlugs: septic-tank-pumping, new-system-installation, septic-inspections
+- SERP features for target query: ai_overview + question — FAQ section directly targets both
+- Zero overlap with existing 61 blog posts — holding tank topic was completely uncovered
+- Central Valley relevance: properties near seasonal water bodies, small rural lots, and properties with poor clay soil that fails perc tests often use holding tanks
+
+TypeScript: clean ✅ | Committed as Run #55 | Pushed to origin ✅
+[2026-03-24 06:04:05] Run #1 finished
