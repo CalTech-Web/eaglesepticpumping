@@ -957,3 +957,43 @@ Targets the uncovered "septic tank risers" keyword cluster (KD 0–5, estimated 
 - Zero overlap with existing 62 posts — risers were completely uncovered
 
 TypeScript: clean ✅ | Committed as Run #56 | Pushed to origin ✅
+**Run 56 complete.** New post: `/blog/septic-tank-risers`
+
+**Target keyword cluster** (fully uncovered across 62 posts, KD 0–5):
+- "septic tank riser" — 2,000–3,000/mo
+- "septic tank riser installation" — 800–1,500/mo
+- "septic riser cost" — 500–1,000/mo
+- SERP features: question + local_pack
+
+**~2,000 words covering:**
+- What a riser is and why it eliminates excavation fees on every pump-out
+- 3 riser types (PVC, polyethylene, concrete) with lifespan, cost, and best-use case
+- How to tell if your tank already has risers
+- Step-by-step installation process
+- Central Valley cost breakdown: $150–$900 depending on count and depth
+- Riser lid replacement and annual inspection checklist
+- DIY vs. professional decision (H₂S gas hazard, seal quality requirements)
+- Central Valley clay soil specifics (deeper burial depths, seasonal heaving)
+- 5-question FAQ targeting featured snippets
+
+Strong commercial intent — converts directly to riser installation service bookings alongside pump-outs.
+[2026-03-24 06:16:51] Run #2 finished
+[2026-03-24 06:16:57] Run #3 starting (model: sonnet)
+
+**Run 57 complete: New 'does homeowners insurance cover septic tank' blog post**
+
+Targets the fully uncovered insurance/financial keyword cluster:
+- "does homeowners insurance cover septic tank" — low KD, TP estimated 8,000–15,000/mo
+- "does homeowners insurance cover septic system" — same parent topic
+- "is septic tank covered by homeowners insurance" — same cluster
+- "septic tank insurance coverage" — commercial decision intent
+- SERP features: ai_overview + snippet + question — strong featured snippet opportunity
+
+**New blog post: `/blog/homeowners-insurance-septic-tank`**
+- ~2,000 words covering: short answer (usually no), what standard HO-3 policies exclude, three scenarios that may be covered (sudden accidental damage, sewage backup interior damage, service line coverage), what is never covered (9 exclusions), home warranty coverage and its limitations (caps, pre-existing conditions), USDA Rural Development grants and CA State Water Board programs, how to protect yourself financially (5 strategies), what to do when a system fails (5 steps), Central Valley specifics (aging systems, clay soil replacement costs), 5-question FAQ
+- Category: Cost & Pricing | relatedServiceSlugs: septic-inspections, septic-tank-pumping, drain-field-repair
+- Zero overlap with all 63 existing posts — insurance/coverage angle was completely uncovered
+- Strong conversion signal: homeowner facing a $15K–$40K failure is a high-intent service lead
+
+TypeScript: clean ✅ | Committed as Run #57 | Pushed to origin ✅
+[2026-03-24 06:16:57] Run #3 finished
