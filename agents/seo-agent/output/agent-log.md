@@ -920,3 +920,40 @@ Targets the largest uncovered keyword cluster found in Ahrefs:
 
 TypeScript: clean ✅ | Committed as Run #55 | Pushed to origin ✅
 [2026-03-24 06:04:05] Run #1 finished
+**Run 55 complete.** New post: `/blog/holding-tank-vs-septic-tank`
+
+**Target keyword cluster** (fully uncovered across 61 posts, KD 0–4):
+- "septic holding tank pumping cost" — TP **8,000/mo**, KD 4
+- "sewage holding tank" — 250/mo, TP 1,900
+- "septic holding tank" — 700/mo, TP 1,800
+- "holding tank vs septic tank" — 300/mo, TP 1,100
+
+**~2,000 words covering:**
+- How a holding tank differs from a septic system (no drain field, no treatment, no discharge)
+- 9-point side-by-side comparison (pump frequency, annual cost, soil requirements, alarm systems)
+- Holding tank pumping cost: $250–$500/service, $2,400–$9,600/year vs $60–$200/year averaged for septic
+- When holding tanks are used (failed perc, small lot, high water table, seasonal properties, failed septic interim)
+- 5 ways to identify which system you have
+- Converting from holding tank to septic ($8K–$25K, 2–4 year break-even)
+- 5-question FAQ targeting the ai_overview + question SERP features
+
+TypeScript: clean | Pushed to origin ✅
+[2026-03-24 06:12:30] Run #1 finished
+[2026-03-24 06:12:35] Run #2 starting (model: sonnet)
+
+**Run 56 complete: New 'septic tank risers' blog post**
+
+Targets the uncovered "septic tank risers" keyword cluster (KD 0–5, estimated TP 8,000–15,000/mo):
+- "septic tank riser" — 2,000–3,000/mo
+- "septic tank riser installation" — 800–1,500/mo
+- "septic riser cost" — 500–1,000/mo
+- "septic tank access riser" — 500–1,000/mo
+- SERP features: question + local_pack — strong commercial intent for installation services
+
+**New blog post: `/blog/septic-tank-risers`**
+- ~2,000 words covering: what a riser is and why it matters (faster pump-outs, better inspections, no excavation fees), 3 riser types (PVC, polyethylene, concrete) with lifespan and cost for each, how to tell if your tank already has risers, step-by-step installation process, Central Valley cost breakdown ($150–$900 depending on count and depth), riser lid replacement and annual inspection checklist, DIY vs. professional decision guide (hydrogen sulfide hazard, seal quality requirements), Central Valley clay soil specifics (deeper burial depths, seasonal soil heaving), 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- Commercial intent: directly converts to riser installation service booking
+- Zero overlap with existing 62 posts — risers were completely uncovered
+
+TypeScript: clean ✅ | Committed as Run #56 | Pushed to origin ✅
