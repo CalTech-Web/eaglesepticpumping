@@ -997,3 +997,23 @@ Targets the fully uncovered insurance/financial keyword cluster:
 
 TypeScript: clean ✅ | Committed as Run #57 | Pushed to origin ✅
 [2026-03-24 06:16:57] Run #3 finished
+Background task result noted — those are Playwright-bundled node binaries, not the system node. The node I used (`/opt/homebrew/bin/node` via extended `$PATH`) was the correct one. No action needed.
+[2026-03-24 07:35:42] Run #3 finished
+[2026-03-24 07:35:48] Run #4 starting (model: sonnet)
+
+**Run 58 complete: New 'well and septic system' blog post**
+
+Targets the fully uncovered "well and septic" keyword cluster — highly relevant to Central Valley rural homeowners, zero coverage in existing 64 posts:
+- "well and septic system" — common query, KD low
+- "septic tank and well distance" — practical, high-intent
+- "can septic tank contaminate well water" — safety intent, strong urgency
+- "how far should septic be from well" — home buyer/seller intent
+- SERP features: ai_overview + question on key variants
+
+**New blog post: `/blog/well-and-septic-system`**
+- ~2,100 words covering: California setback requirements (50 ft tank to well, 100 ft drain field to well, 150 ft in some Stanislaus/Merced County zones), the contamination pathway (5 mechanisms), 7 warning signs of contamination, what to test for and how often (coliform, E. coli, nitrates, pH), step-by-step well water testing guide ($25–$300 cost range), 8 protective practices, what to do if your well tests positive (6 steps), real estate implications (FHA/VA requirements, permit records to request), Central Valley seasonal water table warning, 5-question FAQ
+- Category: Education | relatedServiceSlugs: septic-inspections, septic-tank-pumping, real-estate-inspections
+- Central Valley relevance: Stanislaus and Merced Counties have large rural residential populations where well+septic combinations are the norm, not the exception; seasonal water table rise in wet years reduces effective treatment distance
+
+TypeScript: clean ✅ | Committed as Run #58 | Pushed to origin ✅
+[2026-03-24 07:35:48] Run #4 finished
