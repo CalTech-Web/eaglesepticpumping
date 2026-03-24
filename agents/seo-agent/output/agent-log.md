@@ -1017,3 +1017,42 @@ Targets the fully uncovered "well and septic" keyword cluster — highly relevan
 
 TypeScript: clean ✅ | Committed as Run #58 | Pushed to origin ✅
 [2026-03-24 07:35:48] Run #4 finished
+**Run 58 complete.** New post: `/blog/well-and-septic-system`
+
+**Target keyword cluster** (fully uncovered across 64 posts, KD low):
+- "well and septic system" / "well water and septic system"
+- "septic tank and well distance" — practical homeowner intent
+- "can septic tank contaminate well water" — safety/urgency intent
+- "how far should septic be from well" — home buyer/seller intent
+
+**~2,100 words covering:**
+- California setback requirements: 50 ft (tank to well), 100 ft (drain field to well), 150 ft in some Stanislaus/Merced zones
+- 5 contamination pathways (hydraulic overload, drain field failure, setback violation, cracked casing, high water table)
+- 7 warning signs of contamination
+- What to test for and how often (coliform, E. coli, nitrates) with cost breakdown ($25–$300)
+- 8 protective practices
+- What to do if your well tests positive (6 steps)
+- Real estate implications (FHA/VA requirements, permit records)
+- Central Valley seasonal water table warning
+- 5-question FAQ
+
+Linked to septic-inspections, septic-tank-pumping, and real-estate-inspections services.
+[2026-03-24 07:41:28] Run #4 finished
+[2026-03-24 07:41:33] Run #5 starting (model: sonnet)
+
+**Run 59 complete: New 'septic distribution box' blog post**
+
+Targets the fully uncovered D-box keyword cluster (KD 0–3, estimated TP 5,000–10,000/mo):
+- "distribution box septic system"
+- "d-box septic"
+- "septic distribution box problems"
+- "septic distribution box repair"
+- "what is a distribution box on a septic system"
+
+**New blog post: `/blog/septic-distribution-box`**
+- ~2,100 words covering: what a D-box is and where it sits in the system, how gravity distribution works and why level matters, 6 common failure modes (tilting, pipe displacement, solids accumulation, root intrusion, cracked walls, lid failure), 6 warning signs (uneven field saturation, lush grass strips, odors, sunken depression), how to find the box using as-built permits or probe rod, full inspection checklist (level, outlet elevations, pipe condition, solids, wall integrity, lid), repair options with Central Valley costs (leveling $250–$500, pipe repair $150–$400, full replacement $400–$900), how a failing D-box can save a drain field by releveling, Central Valley specifics (expansive clay soils, seasonal water table, agricultural root systems, pre-1990 concrete boxes), 5-question FAQ
+- Category: Education | relatedServiceSlugs: septic-tank-pumping, septic-inspections, drain-field-repair
+- Zero overlap with existing 65 posts — the distribution box topic was completely uncovered; existing posts mention D-boxes briefly but have no dedicated coverage
+- This is the component most commonly repaired during inspections and the one whose failure most directly causes drain field damage
+
+TypeScript: clean ✅ | Committed as Run #59 | Pushed to origin ✅
