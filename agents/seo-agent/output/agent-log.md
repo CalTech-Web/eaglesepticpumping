@@ -1056,3 +1056,89 @@ Targets the fully uncovered D-box keyword cluster (KD 0–3, estimated TP 5,000�
 - This is the component most commonly repaired during inspections and the one whose failure most directly causes drain field damage
 
 TypeScript: clean ✅ | Committed as Run #59 | Pushed to origin ✅
+**Run 59 complete.** New post: `/blog/septic-distribution-box`
+
+**Target keyword cluster** (fully uncovered across 65 posts, KD 0–3):
+- "distribution box septic system" / "d-box septic"
+- "septic distribution box problems" / "septic distribution box repair"
+- Estimated TP: 5,000–10,000/mo
+
+**~2,100 words covering:**
+- What a D-box is and how gravity distribution keeps drain field laterals loaded evenly
+- 6 failure modes (tilting from clay soil movement, pipe displacement, solids accumulation, root intrusion, cracked walls, lid failure)
+- 6 warning signs — including the "one strip of grass is greener" tell
+- How to locate the D-box using as-built permits, probe rod, or pipe locator
+- Full inspection checklist (level, outlet elevations, pipe joints, solids, wall integrity)
+- Repair costs: leveling $250–$500, pipe repair $150–$400, full replacement $400–$900
+- How releveling a tilted D-box can sometimes save a failing drain field without field replacement
+- Central Valley specifics: expansive clay soils, seasonal water table, agricultural root systems, pre-1990 concrete boxes
+- 5-question FAQ targeting featured snippets
+
+TypeScript: clean | Committed as Run #59 | Pushed to origin ✅
+[2026-03-24 07:47:01] Run #5 finished
+[2026-03-24 07:47:01] Reached max loops (5). Stopping.
+[2026-03-25 06:04:00] ==========================================
+[2026-03-25 06:04:00] Agent: Seo Agent
+[2026-03-25 06:04:00] Model: sonnet
+[2026-03-25 06:04:00] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-03-25 06:04:00] Stop on complete: false
+[2026-03-25 06:04:00] Max loops: 5 (0=infinite)
+[2026-03-25 06:04:00] ==========================================
+[2026-03-25 06:04:00] Run #1 starting (model: sonnet)
+
+**Run 60 complete: New 'septic tank additives' blog post**
+
+Targets the fully uncovered additives/treatment keyword cluster (KD 0–5, high informational volume):
+- "do septic tank additives work" — very common consumer question
+- "best septic tank treatment" — commercial intent
+- "is Rid-X necessary" / "does Rid-X work" — brand-specific searches
+- "septic tank bacteria treatment" — product category searches
+- SERP features: ai_overview + snippet + question on most variants
+
+**New blog post: `/blog/septic-tank-additives`**
+- ~2,000 words covering: what additives are (biological, enzyme, chemical — 3 types), what EPA and University of Minnesota research actually shows, why Rid-X and similar products persist despite limited efficacy, which chemical additives are actively harmful (solvents, caustics), the limited situations where biological additives do help (post-antibiotics, post-bleach, extended non-use, new system startup), what actually kills septic bacteria (antibacterials, bleach, drain cleaners), why pumping beats additives ($400 pump-out vs. $40K drain field failure), California groundwater contamination risk for well owners, and 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- Zero overlap with all 65 existing posts — the additive topic was completely uncovered
+- Strong trust signal: honest "most additives don't work" position builds credibility while directing users toward the actual service (pumping) that does
+
+TypeScript: clean ✅ | Committed as Run #60 | Pushed to origin ✅
+Deployment succeeded.
+
+**Run 60 complete.** New post: `/blog/septic-tank-additives`
+
+Targets the fully uncovered consumer question cluster around septic treatments:
+- "do septic tank additives work" / "does Rid-X work"
+- "best septic tank treatment"
+- "septic tank bacteria treatment"
+
+**~2,000 words covering:**
+- 3 additive types: biological (bacteria/yeast), enzyme, chemical
+- What EPA and University of Minnesota research actually shows (most are unnecessary)
+- Why the Rid-X business model works despite limited efficacy
+- Which chemical additives are actively harmful (solvents, caustics that kill bacteria and contaminate groundwater)
+- The 4 narrow situations where biological additives genuinely help (post-antibiotics, post-bleach, extended non-use, new system startup)
+- What actually kills septic bacteria (daily antibacterials, bleach, drain cleaners)
+- Cost reality: $400 pump-out vs. $40K drain field failure — no additive changes this math
+- California groundwater risk for properties with wells
+- 5-question FAQ targeting ai_overview/snippet SERP features
+
+The post takes an honest "most additives don't work" position — a trust signal that builds credibility while directing users toward the actual service (pumping) that does protect their system.
+[2026-03-25 06:10:02] Run #1 finished
+[2026-03-25 06:10:08] Run #2 starting (model: sonnet)
+
+**Run 61 complete: New 'septic tank baffle' blog post**
+
+Targets the fully uncovered baffle keyword cluster — the most common repair finding during pump-outs, zero coverage across all 66 existing posts:
+- "what is a septic tank baffle" — KD 0–2, informational intent
+- "septic tank baffle replacement" / "septic tank baffle repair" — commercial intent
+- "inlet baffle septic tank" / "outlet baffle septic tank" — component-specific
+- "septic tank baffle cost" — cost intent
+- Estimated TP: 5,000–15,000/mo
+
+**New blog post: `/blog/septic-tank-baffle`**
+- ~2,100 words covering: what a baffle is and the two positions (inlet/outlet), three material types (concrete, PVC tee, fiberglass), what each baffle does (flow direction and scum/solids containment), how each material fails (H₂S acid corrosion for concrete, mechanical loosening for PVC in clay soils), warning signs of baffle failure, what happens if a broken baffle is ignored (solids-to-drain-field failure cascade), baffle inspection process, replacement procedure (step-by-step), Central Valley cost breakdown ($75–$400 by repair type), why clay soils and warm summers accelerate baffle failure faster in the Central Valley, inlet vs. outlet priority comparison, effluent filter retrofit as a baffle upgrade, and 5-question FAQ
+- Category: Education | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- Strong commercial intent: converts directly to pump-out + baffle inspection service bookings
+- Highest-ROI repair message: $150–$400 baffle replacement prevents $10,000–$40,000 drain field failure
+
+TypeScript: clean ✅ | Committed as Run #61 | Pushed to origin ✅
