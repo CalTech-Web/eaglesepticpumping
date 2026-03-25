@@ -1142,3 +1142,116 @@ Targets the fully uncovered baffle keyword cluster — the most common repair fi
 - Highest-ROI repair message: $150–$400 baffle replacement prevents $10,000–$40,000 drain field failure
 
 TypeScript: clean ✅ | Committed as Run #61 | Pushed to origin ✅
+**Run 61 complete.** New post: `/blog/septic-tank-baffle`
+
+**Target keyword cluster** (fully uncovered across 66 posts, KD 0–2):
+- "what is a septic tank baffle" / "septic tank inlet baffle" / "outlet baffle"
+- "septic tank baffle replacement" / "septic tank baffle repair cost"
+- Estimated TP: 5,000–15,000/mo with strong commercial intent
+
+**~2,100 words covering:**
+- Inlet vs. outlet baffle functions (flow direction vs. scum containment)
+- 3 material types: concrete (H₂S acid corrosion after 20–40 years), PVC tee (clay soil movement loosens fittings), fiberglass
+- 6 warning signs including the "no immediate symptoms until drain field damage" callout
+- The failure cascade: missing outlet baffle → solids to drain field → $10K–$40K replacement
+- Step-by-step replacement process and Central Valley cost table ($75–$400)
+- Why Central Valley clay soils + warm summers accelerate baffle failure faster than national average
+- Effluent filter as a retrofit upgrade
+- 5-question FAQ targeting featured snippet positions
+
+TypeScript: clean | Deployed: success ✅
+[2026-03-25 06:15:51] Run #2 finished
+[2026-03-25 06:15:56] Run #3 starting (model: sonnet)
+
+**Run 62 complete: New 'tree roots in septic system' blog post**
+
+Targets the fully uncovered root intrusion keyword cluster (KD 0–3):
+- "tree roots in septic system" / "roots in septic tank"
+- "tree root intrusion septic system" / "roots growing in septic tank"
+- Estimated TP: 5,000–12,000/mo across variants
+
+**New blog post: `/blog/tree-roots-septic-system`**
+- ~2,100 words covering: how roots find and enter the system (4 entry points: pipe joints, hairline cracks, tank access points, D-box gaps), 5 most vulnerable components, 8 warning signs, camera inspection diagnosis ($150–$350), 4 removal methods (rooter $150–$400, hydro-jetting $350–$700, chemical root killers RootX/copper sulfate, pipe lining/replacement $80–$200/ft), drain field root damage (often irreversible), cost table ($150–$25,000 by component), prevention guide by tree species (willow 50ft, liquidambar 20–30ft, crape myrtle 10–15ft), Central Valley specifics (mature urban canopy, clay soil movement, summer drought stress, older VCP pipe systems), 5-question FAQ
+- Category: Troubleshooting | relatedServiceSlugs: emergency-services, septic-tank-pumping, drain-field-repair
+- Zero overlap with existing 67 posts — root intrusion mentioned in many posts as a cause but never addressed comprehensively
+- Strongest commercial intent trigger: recurring main line blockages are the #1 reason homeowners call a septic company
+
+TypeScript: clean ✅ | Committed as Run #62 | Pushed to origin ✅
+Deployment succeeded. Run 62 complete.
+
+**New post: `/blog/tree-roots-septic-system`**
+
+Targets the fully uncovered root intrusion keyword cluster (KD 0–3):
+- "tree roots in septic system" / "roots in septic tank" / "tree root intrusion septic system"
+- Estimated TP: 5,000–12,000/mo across variants
+
+~2,100 words covering: how roots find 4 entry points in the system (pipe joints, cracks, tank connections, D-box gaps), which 5 components are most vulnerable, 8 warning signs, camera inspection diagnosis, 4 removal methods (rooter, hydro-jetting, chemical root killers, pipe lining/replacement), why drain field root damage is often irreversible, a full cost table ($150–$25,000 by component), a prevention guide by tree species, Central Valley specifics (mature oak/liquidambar canopy, clay soil movement, summer drought stress), and a 5-question FAQ.
+
+Root intrusion was mentioned as a cause of failure in at least 12 existing posts — but this is the first post to address it comprehensively as a standalone topic with its own diagnosis and remediation guide.
+[2026-03-25 06:21:34] Run #3 finished
+[2026-03-25 06:21:39] Run #4 starting (model: sonnet)
+
+**Run 63 complete: New 'septic effluent filter' blog post**
+
+Targets the fully uncovered effluent filter keyword cluster — mentioned in 10+ existing posts but never addressed as a standalone topic:
+- "septic effluent filter" / "what is a septic effluent filter"
+- "how to clean septic effluent filter"
+- "effluent filter replacement cost"
+- "septic tank effluent filter replacement"
+- Estimated TP: 5,000–10,000/mo across variants, KD 0–3
+
+**New blog post: `/blog/septic-effluent-filter`**
+- ~2,100 words covering: what an effluent filter is (screened cartridge at outlet baffle), where it's located (outlet side of tank), how it works (slot screening), 5 common filter types (Zabel A1800, Orenco Biotube, Premier Tech, Polylok, Infiltrator), 6 warning signs it needs cleaning (slow drains, gurgling, backup), 9-step cleaning process, cleaning frequency guide (normal = every pump-out; more often for garbage disposal users, households of 5+, older systems without bypass), when to replace vs. clean (cracked slots, broken end caps, warped housing), cost breakdown ($0 during pump-out to $500 for retrofit install), how to add a filter to older systems ($200–$500 retrofit with strong ROI), Central Valley specifics (clay soil baffle damage, warm summers accelerating solids, older system stock without filters), 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- Strong conversion: filters are inspected and replaced during pump-outs — post directly supports pump-out service bookings
+- Internal link target: this slug can now be referenced from the 10+ existing posts that mention effluent filters
+
+TypeScript: clean ✅ | Committed as Run #63 | Pushed to origin ✅
+Deployment succeeded.
+
+**Run 63 complete.** New post: `/blog/septic-effluent-filter`
+
+**Target keyword cluster** (fully uncovered across 69 posts, KD 0–3):
+- "septic effluent filter" / "what is a septic effluent filter"
+- "how to clean septic effluent filter"
+- "effluent filter replacement cost"
+- Estimated TP: 5,000–10,000/mo
+
+**~2,100 words covering:**
+- What an effluent filter is (screened outlet cartridge that protects the drain field)
+- 5 common filter brands (Zabel A1800, Orenco Biotube, Premier Tech, Polylok, Infiltrator)
+- 6 warning signs it needs cleaning (slow drains, gurgling, backup)
+- 9-step cleaning process with hydrogen sulfide safety warning
+- When to replace vs. just clean (cracked slots, broken endcaps, warped housing)
+- Cost breakdown: $0 during pump-out to $500 for a retrofit on older systems
+- Central Valley specifics: clay soil baffle damage, warm summers accelerating solids, pre-2000 systems lacking filters entirely
+- 5-question FAQ targeting featured snippet positions
+
+This post is now a natural internal link target from the 10+ existing posts (baffle, maintenance checklist, distribution box, etc.) that mention effluent filters without linking anywhere.
+[2026-03-25 06:28:22] Run #4 finished
+[2026-03-25 06:28:27] Run #5 starting (model: sonnet)
+
+**Run 64 complete: New 'how to find your septic tank' blog post**
+
+Targets the fully uncovered "locate septic tank" keyword cluster — a practical homeowner query with strong conversion intent to pump-out and inspection bookings:
+- "how to find septic tank" / "how to locate a septic tank" — KD low, informational intent
+- "where is my septic tank" — very common consumer question
+- "how to find septic tank in yard" — local/practical intent
+- Estimated TP: 5,000–12,000/mo across variants
+
+**New blog post: `/blog/how-to-find-septic-tank`**
+- ~2,000 words covering:
+  - Why knowing tank location matters (5 practical situations)
+  - Method 1: County permit records and as-built plans (Stanislaus County EHD + Merced County contact info)
+  - Method 2: Follow the sewer line from the house (cleanout identification, directional tracing)
+  - Method 3: Visual clues (green grass patches, depressions, vent pipes, riser lids)
+  - Method 4: Ground probing (technique, depth, identifying lids vs sidewalls)
+  - Method 5: Professional electronic locating ($75–$350 depending on service)
+  - What to record once found (sketch, GPS, risers, county filing)
+  - Central Valley specifics: deep burial in clay, missing pre-1970 records, multiple tanks on agricultural properties, old steel/redwood tank collapse hazard, seasonal ground hardness
+  - 5-question FAQ: burial depth, lid location, opening lids safely, tank under concrete slab, setback distances
+- Category: Education | relatedServiceSlugs: septic-tank-pumping, septic-inspections, tank-cleaning-maintenance
+- Strong conversion: finding the tank creates immediate demand for pump-out service (often the tank is overdue by the time someone searches this)
+- Zero overlap with existing 69 posts — locating a buried tank was completely uncovered
+
+TypeScript: clean ✅ | Committed as Run #64 | Pushed to origin ✅
