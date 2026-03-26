@@ -1255,3 +1255,48 @@ Targets the fully uncovered "locate septic tank" keyword cluster — a practical
 - Zero overlap with existing 69 posts — locating a buried tank was completely uncovered
 
 TypeScript: clean ✅ | Committed as Run #64 | Pushed to origin ✅
+**Run 64 complete.**
+
+New post: `/blog/how-to-find-septic-tank`
+
+**Target keyword cluster** (fully uncovered across 69 posts):
+- "how to find septic tank" / "how to locate a septic tank" / "where is my septic tank"
+- Estimated TP: 5,000–12,000/mo, KD low
+
+**~2,000 words covering 5 methods:**
+1. County permit records (Stanislaus/Merced County EHD contact info)
+2. Follow the sewer line from the house (cleanout identification)
+3. Visual clues (green grass, depressions, vent pipes, riser lids)
+4. Ground probing with a metal rod (technique + safety notes)
+5. Professional electronic locating ($75–$350)
+
+Plus what to document once found, Central Valley specifics (deep clay burial, missing pre-1970 records, old steel/redwood tank collapse hazard, seasonal ground hardness), and a 5-question FAQ.
+
+Strong conversion signal: someone searching how to find their tank is overdue for a pump-out and inspection.
+
+TypeScript: clean | Deployed: success
+[2026-03-25 06:35:43] Run #5 finished
+[2026-03-25 06:35:43] Reached max loops (5). Stopping.
+[2026-03-26 01:28:06] ==========================================
+[2026-03-26 01:28:06] Agent: Seo Agent
+[2026-03-26 01:28:06] Model: sonnet
+[2026-03-26 01:28:06] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-03-26 01:28:06] Stop on complete: false
+[2026-03-26 01:28:06] Max loops: 2 (0=infinite)
+[2026-03-26 01:28:06] ==========================================
+[2026-03-26 01:28:06] Run #1 starting (model: sonnet)
+
+**Run 65 complete: New 'gurgling drains septic system' blog post**
+
+Targets the fully uncovered gurgling symptom keyword cluster — mentioned as a symptom in many existing posts but never covered as a standalone diagnostic topic:
+- "toilet gurgling septic tank" / "gurgling drains septic system" — KD low, estimated TP 5,000–12,000/mo
+- "why does my toilet gurgle" / "gurgling sink septic" — high-volume parent queries
+- SERP features: ai_overview + snippet + question — strong featured snippet opportunity
+
+**New blog post: `/blog/gurgling-drains-septic-system`**
+- ~2,000 words covering: what causes gurgling (air displacement through P-traps), the plumbing-vs-septic diagnostic question (one fixture vs. multiple), 7 specific causes (full tank, blocked inlet baffle, clogged effluent filter, drain field failure, blocked vent stack, partial main line clog, high groundwater table), a 6-step diagnostic process, emergency symptom triggers, DIY first steps, what to expect from a service call, Central Valley specifics (clay soil movement, seasonal water table, root intrusion, older concrete baffles), 5-question FAQ
+- Category: Troubleshooting | relatedServiceSlugs: septic-tank-pumping, emergency-services, septic-inspections
+- Strong conversion: multiple-fixture gurgling is one of the top reasons homeowners call for emergency or urgent pump-out service
+- Zero overlap with existing 70 posts — gurgling was mentioned as a symptom in warning-signs and maintenance posts but never covered comprehensively
+
+TypeScript: clean ✅ | Committed as Run #65 | Pushed to origin ✅
