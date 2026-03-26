@@ -1300,3 +1300,38 @@ Targets the fully uncovered gurgling symptom keyword cluster — mentioned as a 
 - Zero overlap with existing 70 posts — gurgling was mentioned as a symptom in warning-signs and maintenance posts but never covered comprehensively
 
 TypeScript: clean ✅ | Committed as Run #65 | Pushed to origin ✅
+**Run 65 complete.** New post: `/blog/gurgling-drains-septic-system`
+
+**Target keyword cluster** (fully uncovered across 70 posts):
+- "toilet gurgling septic tank" / "gurgling drains septic system" — estimated TP 5,000–12,000/mo, KD low
+- SERP features: ai_overview + snippet + question
+
+**~2,000 words covering:**
+- What gurgling actually means (air displacement through P-traps)
+- The key diagnostic question: one fixture vs. multiple fixtures (separates plumbing from septic)
+- 7 causes: full tank, blocked inlet baffle, clogged effluent filter, drain field failure, blocked vent stack, partial main line clog, high groundwater table
+- 6-step diagnostic process homeowners can follow
+- Emergency symptom combinations that require same-day service
+- DIY first steps for non-emergency situations
+- What a service call includes
+- Central Valley specifics (clay soil movement, seasonal water table, mature tree root systems, pre-1990 concrete baffles)
+- 5-question FAQ targeting featured snippets
+
+TypeScript: clean | Deployed: success
+[2026-03-26 07:02:24] Run #1 finished
+[2026-03-26 07:02:29] Run #2 starting (model: sonnet)
+
+**Run 66 complete: New 'overflowing septic tank' blog post**
+
+Targets the fully uncovered overflow emergency keyword cluster — the existing rain-backup and general-emergency posts are distinct; no post addresses overflow as a standalone symptom with its own causes and response guide:
+- "overflowing septic tank" / "septic tank overflowing" — high urgency, KD low, estimated TP 5,000–15,000/mo
+- "what to do when septic tank overflows" / "septic tank overflow causes" — parent topic variants
+- SERP features: ai_overview + snippet + question — strong featured snippet opportunity
+
+**New blog post: `/blog/septic-tank-overflowing`**
+- ~2,000 words covering: 3 types of overflow (lid overflow, drain field surfacing, indoor backup), 6 causes (full tank, drain field failure, pump failure, blocked baffle, high groundwater, physical damage), health risks (E. coli, hepatitis A, H2S, nitrate groundwater contamination), 6-step immediate action guide, what NOT to do (5 items including the floated-tank risk during active flooding), what a service call includes (9-step diagnosis sequence), recovery timeline by cause type, 7 prevention rules, Central Valley-specific risks (seasonal water table, expansive clay, agricultural runoff, pre-1990 concrete systems), 5-question FAQ
+- Category: Troubleshooting | relatedServiceSlugs: emergency-services, septic-tank-pumping, drain-field-repair
+- Distinct from `septic-backup-after-heavy-rain` (rain-specific cause) and `emergency-septic-pumping` (booking intent) — this post is the comprehensive diagnostic and action guide for the overflow symptom itself
+- Strong emergency commercial intent: overflow is the top reason homeowners call for same-day emergency service
+
+TypeScript: clean ✅ | Committed as Run #66 | Deployed: success ✅
