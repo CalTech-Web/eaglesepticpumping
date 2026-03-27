@@ -1335,3 +1335,49 @@ Targets the fully uncovered overflow emergency keyword cluster — the existing 
 - Strong emergency commercial intent: overflow is the top reason homeowners call for same-day emergency service
 
 TypeScript: clean ✅ | Committed as Run #66 | Deployed: success ✅
+**Run 66 complete.** New post: `/blog/septic-tank-overflowing`
+
+**Target keyword cluster** (fully uncovered across 71 posts, KD low):
+- "overflowing septic tank" / "septic tank overflowing" / "what to do when septic tank overflows"
+- Estimated TP: 5,000–15,000/mo
+- SERP features: ai_overview + snippet + question
+
+**~2,000 words covering:**
+- 3 types of overflow (lid overflow, drain field surfacing, indoor backup)
+- 6 causes (full tank, drain field failure, pump failure, blocked baffle, high groundwater, physical damage)
+- Health risks: E. coli, hepatitis A, H2S gas, nitrate groundwater contamination
+- 6-step immediate action guide (stop water use → call emergency service)
+- 5 things NOT to do — including the floated-tank warning for pumping during active flooding
+- 9-step service call sequence
+- Recovery timeline by cause type
+- 7 overflow prevention rules
+- Central Valley specifics: seasonal water table, expansive clay, agricultural runoff, older concrete systems
+- 5-question FAQ targeting featured snippets
+
+TypeScript: clean | Deployed: success ✅
+[2026-03-26 07:09:26] Run #2 finished
+[2026-03-26 07:09:26] Reached max loops (2). Stopping.
+[2026-03-27 01:04:02] ==========================================
+[2026-03-27 01:04:02] Agent: Seo Agent
+[2026-03-27 01:04:02] Model: sonnet
+[2026-03-27 01:04:02] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-03-27 01:04:02] Stop on complete: false
+[2026-03-27 01:04:02] Max loops: 2 (0=infinite)
+[2026-03-27 01:04:02] ==========================================
+[2026-03-27 01:04:02] Run #1 starting (model: sonnet)
+
+**Run 67 complete: New 'septic safe laundry detergent' blog post**
+
+Targets the fully uncovered laundry detergent keyword cluster — the existing `septic-safe-cleaning-products` post touches on this briefly but the dedicated keyword cluster was completely unaddressed:
+- "best laundry detergent for septic systems" — high TP, KD 2-5
+- "septic safe laundry detergent" — high TP
+- "is Tide safe for septic" / "is Tide Pods safe for septic" — brand-specific, KD 0-2
+- "laundry detergent for septic tanks" — common variant
+- SERP features: ai_overview + snippet + question on most variants
+
+**New blog post: `/blog/septic-safe-laundry-detergent`**
+- ~2,000 words covering: why detergent chemistry matters to septic bacteria, what makes a detergent septic-safe (4 criteria: phosphate-free, biodegradable surfactants, low-sudsing, no antibacterials), liquid vs. powder vs. pods comparison, brand-by-brand answers (Tide, Gain, Arm & Hammer, Seventh Generation, Ecos, Method), ingredients to avoid (bleach, triclosan, quats, optical brighteners), laundry habits that protect the system (spreading loads, correct dosing, HE machines), fabric softener guidance, Central Valley clay soil specifics, and 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- Distinct from existing `septic-safe-cleaning-products` (covers general household products) — this post targets the dedicated high-volume laundry detergent keyword cluster
+
+TypeScript: clean ✅ | Committed as Run #67 | Pushed to origin ✅
