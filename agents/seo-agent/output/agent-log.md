@@ -1381,3 +1381,43 @@ Targets the fully uncovered laundry detergent keyword cluster — the existing `
 - Distinct from existing `septic-safe-cleaning-products` (covers general household products) — this post targets the dedicated high-volume laundry detergent keyword cluster
 
 TypeScript: clean ✅ | Committed as Run #67 | Pushed to origin ✅
+**Run 67 complete.** New post: `/blog/septic-safe-laundry-detergent`
+
+**Target keyword cluster** (fully uncovered across 72 posts, KD 0-5):
+- "best laundry detergent for septic systems" — high TP
+- "septic safe laundry detergent" — high TP
+- "is Tide safe for septic" / "is Tide Pods safe for septic" — brand-specific variants
+- SERP features: ai_overview + snippet + question
+
+**~2,000 words covering:**
+- Why detergent chemistry matters to septic bacteria
+- 4 criteria for septic-safe detergent (phosphate-free, biodegradable surfactants, low-sudsing, no antibacterials)
+- Liquid vs. powder vs. pods comparison
+- Brand-by-brand answers: Tide, Gain, Arm & Hammer, Seventh Generation, Ecos, Method
+- Ingredients to avoid (bleach frequency, triclosan, quats, optical brighteners)
+- Laundry habits that protect the system (spreading loads, correct dosing, HE machine benefits)
+- Fabric softener guidance
+- Central Valley clay soil + well water specifics
+- 5-question FAQ targeting featured snippets
+
+TypeScript: clean | Deployed: success
+[2026-03-27 01:10:50] Run #1 finished
+[2026-03-27 01:10:55] Run #2 starting (model: sonnet)
+
+**Run 68 complete: New 'septic safe dishwasher detergent' blog post**
+
+Targets the fully uncovered dishwasher detergent keyword cluster — the existing `septic-safe-cleaning-products` post has one brief mention; the dedicated cluster was completely unaddressed:
+- "is cascade safe for septic systems" — high TP, KD 0-2, `snippet` SERP feature
+- "is cascade platinum safe for septic tanks" — brand-specific, KD 0
+- "is finish dishwasher detergent safe for septic" — brand-specific, KD 0-2
+- "septic safe dishwasher detergent" — high TP, KD 0-3
+- "dishwasher detergent safe for septic" — variant
+- SERP features: ai_overview + snippet + question on most variants
+
+**New blog post: `/blog/septic-safe-dishwasher-detergent`**
+- ~2,000 words covering: direct answer to "is Cascade safe for septic" (H2 targeting the snippet SERP feature), product-by-product ratings (Cascade Complete, Cascade Platinum, Finish Quantum, Finish All-in-One, Seventh Generation, Method, Ecos), what makes a detergent septic-safe (4 criteria), ingredients to avoid (chlorine bleach, triclosan, quats, phosphates), pods vs. powder vs. gel comparison, the most important usage habit (spreading water load across the day), rinse aid guidance (Jet-Dry safe), hard water specifics for Central Valley well owners, what to do if you've been using the wrong detergent, and 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- Distinct from existing `septic-safe-cleaning-products` (covers general household products) — this post targets the dedicated high-volume dishwasher detergent keyword cluster with brand-specific queries that have `snippet` SERP features
+- The "Is Cascade Safe for Septic Systems?" H2 directly targets the snippet position for that query
+
+TypeScript: clean ✅ | Committed as Run #68 | Pushed to origin ✅
