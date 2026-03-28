@@ -1467,3 +1467,44 @@ Targets the fully uncovered toilet bowl cleaner keyword cluster — the existing
 - Distinct from existing `septic-safe-cleaning-products` (general household), `septic-safe-drain-cleaner`, `septic-safe-laundry-detergent`, `septic-safe-dishwasher-detergent` — completes the "septic safe [product]" series with the most-used daily bathroom cleaning product
 
 TypeScript: clean ✅ | Committed as Run #69 | Pushed to origin ✅
+**Run 69 complete.** New post: `/blog/septic-safe-toilet-bowl-cleaner`
+
+**Target keyword cluster** (fully uncovered across 74 posts, KD 0-3):
+- "is Lysol toilet bowl cleaner safe for septic" — high TP, `snippet` SERP feature
+- "septic safe toilet bowl cleaner" — high TP
+- "is Scrubbing Bubbles safe for septic" / "is Clorox toilet bowl cleaner safe for septic" — brand-specific
+- SERP features: ai_overview + snippet + question
+
+**~2,100 words covering:**
+- Direct H2 "Is Lysol Toilet Bowl Cleaner Safe for Septic Systems?" targeting the featured snippet position
+- Product-by-product ratings for 14 brands (Lysol, Scrubbing Bubbles, Clorox, Method, Seventh Generation, Better Life, Ecos, Bar Keepers Friend)
+- Why in-tank tablets (blue/bleach) are the worst choice — continuous dosing with every flush
+- The hydrochloric acid dilution math — why frequency matters more than any single use
+- Natural alternatives: white vinegar, baking soda + vinegar, borax, citric acid, pumice stone
+- Usage frequency guidelines by cleaner type
+- Central Valley hard water note (iron stains + mineral rings common)
+- Symptoms that cleaning products may be stressing the system
+- 5-question FAQ targeting featured snippets
+
+TypeScript: clean | Deployed: success ✅
+[2026-03-28 01:09:22] Run #1 finished
+[2026-03-28 01:09:27] Run #2 starting (model: sonnet)
+
+**Run 70 complete: New 'flushable wipes septic tank' and 'septic tank lid' blog posts**
+
+**1. New blog post: `/blog/flushable-wipes-septic-tank`**
+- Targets the fully uncovered "flushable wipes" keyword cluster — existing `what-not-to-flush` post mentions wipes in one paragraph; this post targets the dedicated high-volume cluster:
+  - "are flushable wipes safe for septic" — very high TP, KD 0-3, `snippet` SERP feature
+  - "flushable wipes in septic tank" / "can you flush flushable wipes with septic"
+  - Brand-specific queries: "are Cottonelle wipes safe for septic", "are Dude Wipes safe for septic"
+- ~2,000 words covering: why "flushable" labeling is not regulated for septic safety, what happens inside the tank when wipes accumulate (scum layer buildup, outlet baffle bridging), brand-by-brand analysis (Cottonelle, Scott, Charmin, Dude Wipes, baby wipes, antibacterial wipes), flushable vs. toilet paper dissolution comparison, what to use instead (bidet, moistened TP, trash disposal), what to do if you've been flushing wipes, Central Valley older concrete system warning, 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+
+**2. New blog post: `/blog/septic-tank-lid`**
+- Targets the fully uncovered "septic tank lid" keyword cluster — risers post covers a related component but not lid replacement specifically:
+  - "septic tank lid replacement" / "septic tank cover replacement" — estimated TP 5,000-10,000/mo, KD 0-3
+  - "septic tank lid cracked" / "septic tank lid types" — variant clusters
+- ~1,900 words covering: 4 lid types (concrete, PVC/polyethylene, fiberglass, cast iron) with lifespan and cost; how many lids a tank has; 7 warning signs requiring replacement; Central Valley cost breakdown ($125-$800 depending on excavation needed); DIY safety guidance (H2S hazard warning); California code requirements for locking lids at surface grade; combining lid replacement with riser installation (best time to add risers); Central Valley clay soil lid sinking issue; 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+
+TypeScript: clean ✅ | Committed as Run #70 | Pushed to origin ✅
