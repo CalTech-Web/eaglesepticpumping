@@ -1421,3 +1421,49 @@ Targets the fully uncovered dishwasher detergent keyword cluster — the existin
 - The "Is Cascade Safe for Septic Systems?" H2 directly targets the snippet position for that query
 
 TypeScript: clean ✅ | Committed as Run #68 | Pushed to origin ✅
+**Run 68 complete.** New post: `/blog/septic-safe-dishwasher-detergent`
+
+**Target keyword cluster** (fully uncovered across 73 posts, KD 0-3):
+- "is cascade safe for septic systems" — high TP, `snippet` SERP feature
+- "is cascade platinum safe for septic tanks" — brand-specific, KD 0
+- "is finish dishwasher detergent safe for septic" — brand-specific
+- "septic safe dishwasher detergent" / "dishwasher detergent safe for septic"
+- SERP features: ai_overview + snippet + question
+
+**~2,000 words covering:**
+- Direct H2 "Is Cascade Safe for Septic Systems?" targeting the featured snippet position
+- Product-by-product ratings for Cascade, Finish, Seventh Generation, Method, Ecos
+- 4 criteria for septic-safe detergent + ingredients to avoid (bleach, triclosan, quats)
+- Pods vs. powder vs. gel comparison
+- The key usage habit: spreading water load across the day
+- Rinse aid guidance (Jet-Dry safe at normal dosing)
+- Hard water specifics for Central Valley well owners
+- 5-question FAQ targeting featured snippets
+
+TypeScript: clean | Deployed: success
+[2026-03-27 01:15:52] Run #2 finished
+[2026-03-27 01:15:52] Reached max loops (2). Stopping.
+[2026-03-28 01:04:00] ==========================================
+[2026-03-28 01:04:00] Agent: Seo Agent
+[2026-03-28 01:04:00] Model: sonnet
+[2026-03-28 01:04:00] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-03-28 01:04:00] Stop on complete: false
+[2026-03-28 01:04:00] Max loops: 2 (0=infinite)
+[2026-03-28 01:04:00] ==========================================
+[2026-03-28 01:04:00] Run #1 starting (model: sonnet)
+
+**Run 69 complete: New 'septic safe toilet bowl cleaner' blog post**
+
+Targets the fully uncovered toilet bowl cleaner keyword cluster — the existing `septic-safe-cleaning-products` post has one brief mention; this dedicated cluster was unaddressed:
+- "is Lysol toilet bowl cleaner safe for septic" — high TP, `snippet` SERP feature, KD 0-2
+- "is Scrubbing Bubbles safe for septic" — brand-specific, KD 0
+- "septic safe toilet bowl cleaner" — high TP, KD 0-3
+- "best toilet bowl cleaner for septic system" — commercial intent
+- SERP features: ai_overview + snippet + question on most variants
+
+**New blog post: `/blog/septic-safe-toilet-bowl-cleaner`**
+- ~2,100 words covering: direct H2 "Is Lysol Toilet Bowl Cleaner Safe for Septic Systems?" (targeting snippet SERP feature), product-by-product ratings (Lysol, Scrubbing Bubbles, Clorox, Method, Seventh Generation, Better Life, Ecos, Bar Keepers Friend), what makes a cleaner septic-safe (4 criteria), the hydrochloric acid problem and dilution math, why in-tank tablets are the worst choice (continuous dosing), natural alternatives (white vinegar, baking soda, borax, citric acid, pumice stone), usage frequency guidelines, Central Valley hard water note, symptoms that cleaning products may be stressing the system, and 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- Distinct from existing `septic-safe-cleaning-products` (general household), `septic-safe-drain-cleaner`, `septic-safe-laundry-detergent`, `septic-safe-dishwasher-detergent` — completes the "septic safe [product]" series with the most-used daily bathroom cleaning product
+
+TypeScript: clean ✅ | Committed as Run #69 | Pushed to origin ✅
