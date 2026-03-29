@@ -1546,3 +1546,38 @@ Targets the fully uncovered water softener keyword cluster — extremely relevan
 - Central Valley relevance: very hard water makes this one of the most common homeowner concerns in the service area
 
 TypeScript: clean ✅ | Committed as Run #71 | Deployed: success ✅
+**Run 71 complete.** New post: `/blog/water-softener-septic-tank`
+
+**Target keyword cluster** (fully uncovered across 76 posts, KD 0–3):
+- "water softener and septic tank" / "is water softener bad for septic"
+- "water softener brine and septic system" — brand/chemistry intent
+- "salt free water softener septic" — comparison searches
+- SERP features: ai_overview + snippet + question
+
+**~2,000 words covering:**
+- How brine regeneration works and what gets discharged into the septic tank
+- NSF/WQRF research finding: salt at normal concentrations does not harm septic bacteria
+- The real risk: hydraulic overload (50–100 gallons extra water per regeneration cycle)
+- Salt-based vs. salt-free conditioner comparison for septic owners
+- 7 best practices including demand-initiated (DIR) softeners, accurate hardness settings, and slightly shortened pump-out intervals
+- Central Valley specifics: 14–22 GPG hardness = more frequent regeneration = 7,000–9,000 extra gallons/year through the tank
+- Well + softener + septic chloride warning
+- 5-question FAQ targeting featured snippet positions
+
+TypeScript: clean | Deployed: success
+[2026-03-29 01:10:34] Run #1 finished
+[2026-03-29 01:10:39] Run #2 starting (model: sonnet)
+
+**Run 72 complete: New 'after septic tank pumped' blog post**
+
+Targets the fully uncovered post-service keyword cluster — zero coverage across all 77 existing posts:
+- "what to do after septic tank is pumped" — common query after a service call, KD low
+- "after septic pumping" / "after septic tank cleaned" — variant clusters
+- SERP features: ai_overview + snippet + question
+
+**New blog post: `/blog/after-septic-tank-pumped`**
+- ~2,100 words covering: what happens during a pump-out (brief recap), what to ask the technician before they leave (7 questions with commercial value), first 24-hour guidelines (gentle water use, no garbage disposal, no bleach), whether to add Rid-X after pumping (research-based answer: usually no), post-pump inspection checklist (6 items), scheduling the next pump-out with interval guide by household size, what NOT to do in the weeks after pumping (7 common mistakes), effluent filter inspection and cleaning, maintenance record documentation (8-item list), Central Valley specifics (clay soil, seasonal water table, hard water softener settings), emergency symptoms that require a call before the next scheduled service, 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- Strong conversion: this is the moment of highest homeowner engagement — they just spent $300–$500 and are actively thinking about the system. Post converts to: filter cleaning, baffle inspection, scheduling next pump-out, and long-term maintenance plan
+
+TypeScript: clean ✅ | Committed as Run #72 | Pushed to origin ✅
