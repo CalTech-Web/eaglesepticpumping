@@ -1508,3 +1508,41 @@ TypeScript: clean | Deployed: success ✅
 - Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
 
 TypeScript: clean ✅ | Committed as Run #70 | Pushed to origin ✅
+**Run 70 complete.** Deployment: success.
+
+Two new blog posts added targeting fully uncovered keyword clusters:
+
+**1. `/blog/flushable-wipes-septic-tank`**
+- Targets "are flushable wipes safe for septic" — very high TP, `snippet` SERP feature, KD 0-3
+- The existing `what-not-to-flush` post mentions wipes in one sentence; this post dedicates ~2,000 words to the topic with brand-by-brand analysis (Cottonelle, Scott, Charmin, Dude Wipes), the science of why they don't disperse, what to do if you've been flushing them, and a Central Valley older-concrete-system warning
+
+**2. `/blog/septic-tank-lid`**
+- Targets "septic tank lid replacement" / "septic tank cover" — estimated TP 5,000–10,000/mo, KD 0-3
+- ~1,900 words covering 4 lid types, cost breakdown ($125–$800), California locking lid requirements, H2S safety warning, combining replacement with riser installation, and Central Valley clay soil lid-sinking issue
+[2026-03-28 01:16:10] Run #2 finished
+[2026-03-28 01:16:10] Reached max loops (2). Stopping.
+[2026-03-29 01:04:01] ==========================================
+[2026-03-29 01:04:01] Agent: Seo Agent
+[2026-03-29 01:04:01] Model: sonnet
+[2026-03-29 01:04:01] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-03-29 01:04:01] Stop on complete: false
+[2026-03-29 01:04:01] Max loops: 2 (0=infinite)
+[2026-03-29 01:04:01] ==========================================
+[2026-03-29 01:04:01] Run #1 starting (model: sonnet)
+
+**Run 71 complete: New 'water softener and septic system' blog post**
+
+Targets the fully uncovered water softener keyword cluster — extremely relevant to Central Valley where water hardness is 14–22 GPG and water softeners are nearly universal:
+- "water softener and septic tank" / "water softener septic system" — high TP, KD low
+- "is water softener bad for septic" — very common consumer question, KD 0-3
+- "water softener brine and septic" / "can you use water softener with septic" — variants
+- "salt free water softener septic" — comparison intent
+- SERP features: ai_overview + snippet + question on most variants
+
+**New blog post: `/blog/water-softener-septic-tank`**
+- ~2,000 words covering: how ion exchange + brine regeneration works, whether salt kills septic bacteria (NSF/WQRF research: no, at normal concentrations), the real risk of hydraulic overload from 50–100 gallons of extra water per regeneration cycle, salt-based vs. salt-free conditioner comparison, 7 best practices (demand-initiated DIR softener, accurate hardness setting, nighttime regeneration window, slightly shorter pump-out intervals), Central Valley-specific guidance (14–22 GPG means more frequent regeneration = 7,000–9,000 extra gallons/year through the tank), well + softener + septic trifecta chloride warning, 6 warning signs, and 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- Distinct from all 76 existing posts — water softener topic was completely uncovered
+- Central Valley relevance: very hard water makes this one of the most common homeowner concerns in the service area
+
+TypeScript: clean ✅ | Committed as Run #71 | Deployed: success ✅
