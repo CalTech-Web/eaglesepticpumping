@@ -1630,3 +1630,43 @@ Targets the fully uncovered vent pipe keyword cluster — mentioned as a cause i
 - This post is now a natural internal link target from: gurgling-drains-septic-system, bathroom-smells-like-sewage, sewage-smell-septic-system, septic-system-diagram
 
 TypeScript: clean ✅ | Committed as Run #73 | Pushed to origin ✅
+**Run 73 complete.** New post: `/blog/septic-vent-pipe`
+
+**Target keyword cluster** (fully uncovered across 78 posts, KD 0–2):
+- "septic vent pipe" / "what is a septic vent pipe"
+- "septic tank vent pipe smell" — indoor odor urgency intent
+- "blocked septic vent pipe" / "how to clear septic vent" — troubleshooting intent
+- SERP features: ai_overview + snippet + question
+
+**~2,100 words covering:**
+- What a vent pipe is and the two-circuit DWV system
+- How the vent connects to the septic system (house stack vs. dedicated tank vent)
+- 4 failure types: blocked roof opening, disconnected attic pipe, pipe too short, improper venting
+- The key diagnostic rule: one fixture = local clog; multiple fixtures = vent or main line
+- 5-step homeowner diagnostic process
+- DIY roof vent clearing with H₂S safety warning
+- California UPC code requirements (height, clearances, diameter)
+- Central Valley specifics: bird nesting season, valley oak debris, summer heat/gas expansion, older cast iron stacks
+- 5-question FAQ targeting featured snippet positions
+
+This post is now a natural internal link target from `gurgling-drains-septic-system`, `bathroom-smells-like-sewage`, `sewage-smell-septic-system`, and `septic-system-diagram`.
+
+Deployment: success ✅
+[2026-03-30 01:09:53] Run #1 finished
+[2026-03-30 01:09:58] Run #2 starting (model: sonnet)
+
+**Run 74 complete: New 'septic tank leaking' blog post**
+
+Targets the fully uncovered structural leak keyword cluster — distinct from existing overflow (septic-tank-overflowing) and drain field failure posts:
+- "septic tank leaking" / "leaking septic tank" — high urgency, KD low
+- "is my septic tank leaking" — question format, featured snippet opportunity
+- "signs of a leaking septic tank" / "septic tank leaking into yard" — diagnostic intent
+- SERP features: ai_overview + snippet + question
+
+**New blog post: `/blog/septic-tank-leaking`**
+- ~2,000 words covering: leak vs. overflow vs. drain field failure distinction (key diagnostic section), 6 common causes (concrete deterioration, steel corrosion, clay soil movement, failed pipe connections, improper installation, physical damage), 8 warning signs including the sunken-ground emergency callout, health/environmental hazards (E. coli, hepatitis A, H2S, groundwater contamination), 5-step diagnosis guide, 5 repair options with Central Valley costs (hydraulic cement $300–$800, pipe connection repair $200–$600, interior lining $1,500–$4,000, full replacement $4,000–$10,000), Central Valley specifics (aging steel tanks, expansive clay soils, agricultural tree roots, winter water table, pre-1970 missing permit records), 5-question FAQ
+- Category: Troubleshooting | relatedServiceSlugs: emergency-services, septic-tank-pumping, septic-inspections
+- Distinct from existing posts: `septic-tank-overflowing` covers a full tank; this post covers structural tank failure with sewage escaping through cracks and failed connections
+- Strong emergency commercial intent: wet ground over the tank + sewage smell = same-day service call
+
+TypeScript: clean ✅ | Committed as Run #74 | Pushed to origin ✅
