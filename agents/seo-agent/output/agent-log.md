@@ -1581,3 +1581,52 @@ Targets the fully uncovered post-service keyword cluster — zero coverage acros
 - Strong conversion: this is the moment of highest homeowner engagement — they just spent $300–$500 and are actively thinking about the system. Post converts to: filter cleaning, baffle inspection, scheduling next pump-out, and long-term maintenance plan
 
 TypeScript: clean ✅ | Committed as Run #72 | Pushed to origin ✅
+**Run 72 complete.** New post: `/blog/after-septic-tank-pumped`
+
+**Target keyword cluster** (fully uncovered across 77 posts, KD low):
+- "what to do after septic tank is pumped"
+- "after septic pumping" / "after septic tank cleaned"
+- SERP features: ai_overview + snippet + question
+
+**~2,100 words covering:**
+- What the technician just did (bacterial colony context)
+- 7 questions to ask before the truck leaves (baffle condition, filter cleaned, sludge thickness, etc.)
+- First 24-hour gentle-use guidelines
+- Research-based answer on whether to add Rid-X (usually unnecessary)
+- Post-pump property inspection checklist
+- Pump-out scheduling guide by household size
+- 7 common mistakes to avoid in the weeks following
+- Effluent filter inspection and cleaning
+- 8-item maintenance record documentation guide (real estate disclosure value)
+- Central Valley specifics: clay soil lid shifting, seasonal water table, hard water softener settings
+- Emergency symptoms requiring a call before the next scheduled service
+- 5-question FAQ
+
+Deployment: success.
+[2026-03-29 01:15:47] Run #2 finished
+[2026-03-29 01:15:47] Reached max loops (2). Stopping.
+[2026-03-30 01:04:04] ==========================================
+[2026-03-30 01:04:04] Agent: Seo Agent
+[2026-03-30 01:04:04] Model: sonnet
+[2026-03-30 01:04:04] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-03-30 01:04:04] Stop on complete: false
+[2026-03-30 01:04:04] Max loops: 2 (0=infinite)
+[2026-03-30 01:04:04] ==========================================
+[2026-03-30 01:04:04] Run #1 starting (model: sonnet)
+
+**Run 73 complete: New 'septic vent pipe' blog post**
+
+Targets the fully uncovered vent pipe keyword cluster — mentioned as a cause in the gurgling-drains and bathroom-smells posts but never covered as a standalone topic:
+- "septic vent pipe" / "what is a septic vent pipe" — KD 0–2, informational intent
+- "septic tank vent pipe smell" — high-urgency indoor odor intent
+- "blocked septic vent pipe" / "how to clear septic vent" — troubleshooting intent
+- "how does a septic vent work" — educational intent
+- SERP features: ai_overview + snippet + question on most variants
+
+**New blog post: `/blog/septic-vent-pipe`**
+- ~2,100 words covering: what a vent pipe is (DWV system), how the vent circuit connects to the septic system, the separate septic tank gas vent vs. house vent stack, 4 common failure types (blocked roof opening, disconnected attic pipe, vent too short, improper wet/dry venting), 6 symptoms including the key diagnostic (one fixture = local clog; all fixtures = vent or main line), 5-step homeowner diagnostic process, DIY roof vent clearing steps, when to call a plumber, California UPC code requirements (6" above roof, 10' from windows/HVAC intakes, 3" minimum diameter), Central Valley specifics (bird nesting season, valley oak leaf drop, summer heat/gas expansion, roof tile displacement, older cast iron stacks), prevention and maintenance guide, 5-question FAQ
+- Category: Education | relatedServiceSlugs: septic-tank-pumping, septic-inspections, emergency-services
+- Zero overlap with existing 78 posts — vent pipe was mentioned in 5+ posts as a cause of symptoms but never covered comprehensively
+- This post is now a natural internal link target from: gurgling-drains-septic-system, bathroom-smells-like-sewage, sewage-smell-septic-system, septic-system-diagram
+
+TypeScript: clean ✅ | Committed as Run #73 | Pushed to origin ✅
