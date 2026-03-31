@@ -1722,3 +1722,39 @@ TypeScript: clean | Deployed: success ✅
 - Category: Hiring Guide | relatedServiceSlugs: septic-inspections, septic-tank-pumping, tank-cleaning-maintenance
 
 TypeScript: clean ✅ | Committed as Run #75 | Pushed to origin ✅
+**Run 75 complete.** Deployment: success.
+
+Two new blog posts added targeting fully uncovered keyword clusters:
+
+**1. `/blog/bleach-and-septic-system`**
+- "is bleach bad for septic systems" — high TP (~18K+), KD 0-3, snippet SERP feature
+- ~2,000 words: the safe/harmful threshold, in-tank bleach tablet warning, laundry guidelines (2-3 loads/week safe), what product labels to check, warning signs, safer alternatives, recovery protocol, Central Valley specifics
+
+**2. `/blog/selling-house-with-septic-system`**
+- "selling a house with a septic system" — estimated TP 5,000-10,000/mo, KD low
+- ~2,200 words: California TDS disclosure law, county EHD point-of-sale requirements, pre-listing inspection strategy, FHA/VA loan requirements, negotiating repair credits, what buyers/agents ask, Central Valley clay soil and pre-1990 system specifics
+[2026-03-31 01:12:22] Run #1 finished
+[2026-03-31 01:12:27] Run #2 starting (model: sonnet)
+
+**Run 76 complete: New 'septic safe toilet paper' and 'how to tell if septic tank is full' blog posts**
+
+**1. New blog post: `/blog/septic-safe-toilet-paper`**
+- Targets the fully uncovered TP keyword cluster — completes the "septic safe [product]" series:
+  - "is Charmin safe for septic" / "is Charmin Ultra Soft safe for septic" — high TP, `snippet` SERP feature, KD 0-3
+  - "best toilet paper for septic systems" — high TP
+  - "is bamboo toilet paper safe for septic" — comparison intent
+  - "is 2-ply toilet paper safe for septic" — question format
+- ~2,000 words covering: what makes TP septic safe (4 criteria), the shake test, brand-by-brand ratings (Scott 1000, Charmin Ultra Soft vs. Ultra Strong, Cottonelle, Angel Soft, Seventh Generation, bamboo brands), bamboo vs. conventional comparison, 2-ply safety question, what to avoid (wipes, ultra-plush, antibacterial), how much TP actually affects the tank vs. other variables, Central Valley specifics
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+
+**2. New blog post: `/blog/how-to-tell-if-septic-tank-is-full`**
+- Targets the highest-volume uncovered homeowner question cluster:
+  - "how to tell if septic tank is full" — very high TP, KD low
+  - "signs septic tank is full" / "full septic tank symptoms" — variants
+  - "how do I know if my septic tank is full" — question format
+  - SERP features: ai_overview + snippet + question
+- ~2,000 words covering: the two types of "full" (solids-full vs. hydraulic overload), 8 warning signs (slow drains, gurgling, indoor odors, outdoor odors, wet spots over drain field, sewage backup, alarm, overdue pump-out), how to check sludge level with the stick test, H2S safety warning for lid opening, how quickly a tank fills by household size, what happens if ignored (solids-to-drain-field cascade, cost comparison $400 pump-out vs. $40K field replacement), Central Valley specifics (older concrete tanks, wet winter water table hydraulic overload)
+- Category: Troubleshooting | relatedServiceSlugs: septic-tank-pumping, emergency-services, septic-inspections
+
+TypeScript: clean ✅ | Committed as Run #76 | Pushed to origin ✅
+[2026-03-31 01:12:27] Run #2 finished
