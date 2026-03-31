@@ -1670,3 +1670,55 @@ Targets the fully uncovered structural leak keyword cluster — distinct from ex
 - Strong emergency commercial intent: wet ground over the tank + sewage smell = same-day service call
 
 TypeScript: clean ✅ | Committed as Run #74 | Pushed to origin ✅
+Deployment succeeded. Run 74 complete.
+
+**New post: `/blog/septic-tank-leaking`**
+
+**Target keyword cluster** (fully uncovered across 82 posts, KD low):
+- "septic tank leaking" / "leaking septic tank"
+- "is my septic tank leaking" — featured snippet opportunity
+- "signs of a leaking septic tank" / "septic tank leaking into yard"
+- SERP features: ai_overview + snippet + question
+
+**~2,000 words covering:**
+- Leak vs. overflow vs. drain field failure (key diagnostic distinction — the post's most differentiated section)
+- 6 causes: concrete deterioration, steel tank corrosion, clay soil movement, failed pipe connections, improper installation, physical damage
+- 8 warning signs + emergency callout for sunken ground above the tank
+- Health/environmental hazards (E. coli, hepatitis A, H2S, groundwater contamination)
+- 5-step diagnosis guide for homeowners
+- 5 repair options with Central Valley costs: hydraulic cement ($300–$800), pipe connection repair ($200–$600), interior lining ($1,500–$4,000), full tank replacement ($4,000–$10,000)
+- Central Valley specifics: aging steel tanks from pre-1975 builds, expansive clay soil cracking, agricultural tree root damage, winter water table infiltration, missing pre-1970 permit records
+- 5-question FAQ targeting featured snippets
+
+TypeScript: clean | Deployed: success ✅
+[2026-03-30 01:15:23] Run #2 finished
+[2026-03-30 01:15:23] Reached max loops (2). Stopping.
+[2026-03-31 01:04:03] ==========================================
+[2026-03-31 01:04:03] Agent: Seo Agent
+[2026-03-31 01:04:03] Model: sonnet
+[2026-03-31 01:04:03] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-03-31 01:04:03] Stop on complete: false
+[2026-03-31 01:04:03] Max loops: 2 (0=infinite)
+[2026-03-31 01:04:03] ==========================================
+[2026-03-31 01:04:03] Run #1 starting (model: sonnet)
+
+**Run 75 complete: New 'bleach and septic system' and 'selling house with septic system' blog posts**
+
+**1. New blog post: `/blog/bleach-and-septic-system`**
+- Targets the fully uncovered bleach keyword cluster — mentioned in 5+ existing posts (drain cleaner, cleaning products, toilet bowl cleaner, laundry detergent) but never dedicated coverage:
+  - "is bleach bad for septic systems" — high TP (~18K+ based on comparable Drano post), KD 0-3
+  - "bleach and septic tank" / "can I use bleach with septic system" — variants
+  - "are bleach toilet tablets safe for septic" — high urgency variant, KD 0
+  - SERP features: snippet + question + ai_overview on most variants
+- ~2,000 words covering: what sodium hypochlorite does to bacterial colonies, the dilution/frequency threshold (safe vs. harmful), in-tank bleach tablet warning (single biggest offender), laundry bleach guidelines (2–3 loads/week safe), bathroom/kitchen product label guidance, warning signs of bacterial suppression, safer alternatives (hydrogen peroxide, vinegar, enzyme cleaners), recovery protocol if overused, Central Valley specifics (hot summers concentrate tank contents, well proximity chloride risk, pre-1990 systems without effluent filters)
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+
+**2. New blog post: `/blog/selling-house-with-septic-system`**
+- Targets the seller-perspective real estate cluster — distinct from existing `septic-inspection-home-buyers-guide` (buyer perspective) and `septic-inspection-home-sale-guide` (cost/process):
+  - "selling a house with a septic system" — estimated TP 5,000–10,000/mo, KD low
+  - "selling home with septic system disclosure" / "do I have to pump septic before selling" — variants
+  - SERP features: ai_overview + question
+- ~2,200 words covering: California TDS disclosure requirements (Civil Code 1102 et seq.), county EHD point-of-sale requirements (Stanislaus/Merced), pre-listing inspection advantages and cost ($350–$600), what the inspection covers, what to do if problems found (repair vs. credit vs. price reduction), how to prepare the system before listing, what buyers and agents will ask (7 common questions), how septic condition affects property value, FHA and VA loan requirements (mandatory inspection, setback distances), negotiating repair credits (110–125% buyer premium for credits vs. direct repair), Central Valley specifics (clay soil cracking, pre-1990 systems, agricultural multi-tank properties), 5-question FAQ
+- Category: Hiring Guide | relatedServiceSlugs: septic-inspections, septic-tank-pumping, tank-cleaning-maintenance
+
+TypeScript: clean ✅ | Committed as Run #75 | Pushed to origin ✅
