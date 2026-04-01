@@ -1804,3 +1804,45 @@ Deployment succeeded.
 - Category: Troubleshooting | relatedServiceSlugs: emergency-services, septic-tank-pumping, septic-inspections
 
 TypeScript: clean ✅ | Committed as Run #77 | Pushed to origin ✅
+Deployment succeeded. Run 77 complete.
+
+**Two new blog posts added:**
+
+**1. `/blog/how-deep-is-a-septic-tank`**
+- Targets "how deep is a septic tank", "how far underground is a septic tank", "can you drive over a septic tank" — KD 0, not covered in any of the 86 existing posts
+- ~1,900 words: typical burial depth (4 inches to 4 feet), 4 factors that determine depth, why depth affects pump-out cost, 4 methods to find your tank's depth, vehicle traffic safety guide, Central Valley clay soil specifics, 5-question FAQ
+- Natural conversion path: excavation costs at each depth promote riser installation
+
+**2. `/blog/frozen-septic-system`**
+- Targets "frozen septic system", "can a septic tank freeze", "how to prevent septic tank from freezing" — KD low, zero coverage in existing posts
+- ~2,000 words: what actually freezes (pipes, not the tank), 4 risk conditions, 6 warning signs (including sudden-vs-gradual onset as the diagnostic cue), 4-step emergency response, 5 prevention strategies, Central Valley context (foothill properties more at risk; winter backup in the valley is usually hydraulic overload from rain, not freezing), 5-question FAQ
+
+TypeScript: clean | Deployed: success
+[2026-04-01 00:10:54] Run #1 finished
+[2026-04-01 00:10:59] Run #2 starting (model: sonnet)
+
+**Run 78 complete: Removed duplicate slug + new 'does Rid-X work' and 'mound septic system' blog posts**
+
+**Duplicate fix:** Removed the older `septic-safe-toilet-paper` post (2026-02-20) — a duplicate of the newer, better Run 76 version (2026-03-31). Now 88 posts with no duplicate slugs.
+
+**1. New blog post: `/blog/does-rid-x-work`**
+- Targets the fully uncovered Rid-X product query cluster:
+  - "does Rid-X work for septic tanks" — very high TP, KD 0-3
+  - "Rid-X for septic" / "is Rid-X safe for septic" / "Rid-X review" — branded product queries
+  - "does Rid-X really work" / "how to use Rid-X" — informational variants
+  - SERP features: ai_overview + snippet + question
+- ~2,000 words covering: what Rid-X contains (cellulase, protease, lipase, amylase + bacterial cultures), why a healthy tank doesn't need it, the 4 specific scenarios where it genuinely helps (post-antibiotics, post-bleach event, startup after vacancy, post-chemical treatment), why it doesn't extend pump intervals, correct application instructions, comparison with competing products, Central Valley context (warm summers help native colony; winter cold + agricultural properties with herbicide residues are where treatment adds value), 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+
+**2. New blog post: `/blog/mound-septic-system`**
+- Targets the fully uncovered mound/raised drain field cluster:
+  - "mound septic system" / "raised mound septic system" — moderate-high TP, KD 0-3
+  - "how does a mound septic system work" — educational intent
+  - "mound septic system cost" — commercial intent
+  - "mound septic system maintenance" — ongoing relationship intent
+  - SERP features: ai_overview + snippet + question
+- ~2,100 words covering: why mound systems are required (high water table, slow clay soils, shallow hardpan/bedrock, flat topography), step-by-step treatment process (primary tank → dose tank → timed pump dosing → pressure distribution in sand → native soil dispersal), all components explained, cost breakdown ($15,000–$35,000 vs $8,000–$15,000 conventional), maintenance requirements (annual pump inspection, pump-out schedule, mound surface protection), warning signs (alarm activation, wet spots, lush green stripes, surface subsidence), Central Valley specifics (valley floor = conventional is fine; foothill communities at 500–2,000 ft with clay soils and hardpan are mound candidates), 5-question FAQ
+- Category: Education | relatedServiceSlugs: septic-inspections, septic-tank-pumping, tank-cleaning-maintenance
+
+TypeScript: clean ✅ | Committed as Run #78 | Pushed to origin ✅
+Deployment: success ✅
