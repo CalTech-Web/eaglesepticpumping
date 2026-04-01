@@ -1758,3 +1758,49 @@ Two new blog posts added targeting fully uncovered keyword clusters:
 
 TypeScript: clean ✅ | Committed as Run #76 | Pushed to origin ✅
 [2026-03-31 01:12:27] Run #2 finished
+Deployment succeeded.
+
+**Run 76 complete.** Two new blog posts added:
+
+**1. `/blog/septic-safe-toilet-paper`**
+- Targets "is Charmin safe for septic" (snippet SERP feature), "best toilet paper for septic systems", "is bamboo toilet paper safe for septic" — all KD 0-3
+- Completes the septic-safe product series (after drain cleaner, laundry detergent, dishwasher detergent, toilet bowl cleaner, bleach)
+- Brand-by-brand ratings, bamboo vs. conventional comparison, 2-ply question, what to avoid
+
+**2. `/blog/how-to-tell-if-septic-tank-is-full`**
+- Targets "how to tell if septic tank is full" / "signs septic tank is full" / "full septic tank symptoms" — very high TP, ai_overview + snippet + question SERP features
+- 8 warning signs, the two types of "full" (solids vs. hydraulic overload), sludge stick test with H₂S safety warning, household size pump interval guide, cost comparison ($400 pump-out vs. $40K field replacement)
+- Strong direct conversion to pump-out service booking
+[2026-03-31 01:19:27] Run #2 finished
+[2026-03-31 01:19:27] Reached max loops (2). Stopping.
+[2026-04-01 00:04:02] ==========================================
+[2026-04-01 00:04:02] Agent: Seo Agent
+[2026-04-01 00:04:02] Model: sonnet
+[2026-04-01 00:04:02] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-04-01 00:04:02] Stop on complete: false
+[2026-04-01 00:04:02] Max loops: 2 (0=infinite)
+[2026-04-01 00:04:02] ==========================================
+[2026-04-01 00:04:02] Run #1 starting (model: sonnet)
+
+**Run 77 complete: New 'how deep is a septic tank' and 'frozen septic system' blog posts**
+
+**1. New blog post: `/blog/how-deep-is-a-septic-tank`**
+- Targets the fully uncovered burial depth keyword cluster — practical homeowner question, zero coverage across all existing posts:
+  - "how deep is a septic tank" — KD 0, high informational TP
+  - "how far underground is a septic tank" / "how deep are septic tanks buried" — variants
+  - "can you drive over a septic tank" — related query
+  - SERP features: ai_overview + snippet + question
+- ~1,900 words covering: typical burial depth by region and code (4 inches to 4 feet), the 4 factors that determine depth (inlet pipe elevation, lot grade, soil conditions, installer practice), why burial depth matters for pump-out access costs, 4 methods to find tank depth (permit records, ask at next pump-out, probe rod, professional locating), vehicle traffic safety by depth and tank material, Central Valley specifics (clay soil movement, pre-1980 systems without risers, multi-tank agricultural properties), 5-question FAQ
+- Category: Education | relatedServiceSlugs: septic-tank-pumping, septic-inspections, tank-cleaning-maintenance
+- Strong conversion path: explaining excavation costs at each depth naturally promotes riser installation
+
+**2. New blog post: `/blog/frozen-septic-system`**
+- Targets the fully uncovered winter freeze keyword cluster — zero coverage across all existing posts:
+  - "frozen septic system" / "can a septic tank freeze" — KD low, seasonal urgency
+  - "how to prevent septic tank from freezing" / "septic tank in winter" — prevention intent
+  - "frozen septic pipe" / "septic system frozen" — troubleshooting intent
+  - SERP features: ai_overview + snippet + question
+- ~2,000 words covering: whether a tank itself can freeze (usually no, pipes are the weak point), 4 conditions that create freezing risk (shallow pipe burial, reduced water flow, missing insulation, aerobic components), 6 warning signs including sudden-vs-progressive onset as the diagnostic cue to distinguish from a full tank, 4-step emergency response guide, 5 prevention strategies (insulate shallow sections, maintain water flow, keep snow cover, avoid compaction, riser/insulated lids), Central Valley context (freezing rare at valley floor but more common in foothill communities above 2,000 ft; saturation/hydraulic overload from rain more likely cause of winter backup), 5-question FAQ
+- Category: Troubleshooting | relatedServiceSlugs: emergency-services, septic-tank-pumping, septic-inspections
+
+TypeScript: clean ✅ | Committed as Run #77 | Pushed to origin ✅
