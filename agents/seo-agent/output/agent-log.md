@@ -1888,3 +1888,40 @@ Deployment: success ✅
 - Complements existing alternative-septic-systems and types-of-septic-systems posts by providing dedicated deep-dive coverage for the highest-cost alternative system type
 
 TypeScript: clean ✅ | Committed as Run #79 | Deployed: success ✅
+**Run 79 complete.** Two new blog posts added:
+
+**1. `/blog/shared-septic-system`**
+- Targets "shared septic system", "who is responsible for shared septic system", "shared septic easement" — zero coverage across all 88 existing posts, KD low
+- ~2,000 words: how shared systems are legally created (recorded easement vs. informal), maintenance responsibility frameworks, combined household pumping intervals, what happens when a neighbor refuses to pay, how to draft and record a maintenance agreement, converting to individual systems ($8K–$35K depending on site), home buyer due diligence checklist, Central Valley specifics (1950s–1980s subdivision stock, clay soil pipe cracking)
+
+**2. `/blog/drip-irrigation-septic-system`**
+- Targets "drip irrigation septic system", "drip field septic", "drip septic system cost" — only mentioned in passing in two existing posts, no dedicated coverage
+- ~2,100 words: complete 7-step treatment train, when drip is required (6 site conditions), component breakdown with replacement costs, full Central Valley cost table ($15K–$30K), maintenance by frequency, drip vs. mound vs. ATU comparison, California permitting process, Central Valley hardpan/clay/iron-water specifics
+
+TypeScript: clean | Deployed: success
+[2026-04-02 00:15:28] Run #1 finished
+[2026-04-02 00:15:34] Run #2 starting (model: sonnet)
+
+**Run 80 complete: Removed duplicate post + new 'what happens during septic pumping' and 'pressure distribution septic system' posts**
+
+**Duplicate fix:** Removed the older `how-to-find-your-septic-tank` post (2026-02-15, 6 methods) — a duplicate of the superior Run 64 version (`how-to-find-septic-tank`, 2026-03-25, 5 methods with Central Valley specifics). Now 91 posts total.
+
+**1. New blog post: `/blog/what-happens-during-septic-pumping`**
+- Targets the fully uncovered pumping process keyword cluster:
+  - "how long does it take to pump a septic tank" — high TP (~10,000/mo), KD 0-2, snippet SERP feature
+  - "what happens during septic tank pumping" — informational intent
+  - "what to expect during septic pumping" / "how is a septic tank pumped" — variants
+- ~2,200 words covering: truck arrival and setup, lid location and access, initial pre-pump inspection, the pumping process (both compartments, backflushing), post-pump inspection checklist (baffles, effluent filter, wall condition, liquid level), what normal vs. warning findings look like, 7 questions to ask before the truck leaves, how pumping frequency is determined, Central Valley concrete tank specifics, 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- Direct conversion: someone searching this query is actively planning or scheduling a pump-out
+
+**2. New blog post: `/blog/pressure-distribution-septic-system`**
+- Targets the fully uncovered pressure distribution system keyword cluster:
+  - "pressure distribution septic system" — KD 0-3, TP ~8,000/mo
+  - "pressure dosing septic system" / "how does pressure distribution work" — variants
+  - SERP features: question + ai_overview
+- ~2,400 words covering: what pressure distribution is (timed pump dosing vs. continuous gravity), all 8 system components, how the dosing cycle works, when it's required (6 site conditions), cost comparison vs. gravity ($12K–$22K vs $8K–$15K), full maintenance schedule by frequency (6-month / annual / 3–5 year), warning signs, pump replacement guide ($300–$700), Central Valley foothill soil conditions requiring pressure distribution, 5-question FAQ including power outage response
+- Category: Education | relatedServiceSlugs: septic-tank-pumping, septic-inspections, new-system-installation
+- Distinct from existing types-of-septic-systems (overview) and alternative-septic-systems (cost comparison) — this is the first dedicated deep-dive on pressure distribution as a standalone topic
+
+TypeScript: clean ✅ | Committed as Run #80 | Pushed to origin ✅
