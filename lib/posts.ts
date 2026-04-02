@@ -21712,6 +21712,538 @@ export const posts: BlogPost[] = [
       "tank-cleaning-maintenance",
     ],
   },
+  {
+    slug: "shared-septic-system",
+    title: "Shared Septic System: Legal Rights, Responsibilities, and Costs",
+    metaTitle: "Shared Septic System: Rights & Responsibilities",
+    metaDescription:
+      "Who pays when a shared septic system fails? Learn your legal rights, maintenance responsibilities, and options for shared systems in California.",
+    publishedAt: "2026-04-02",
+    updatedAt: "2026-04-02",
+    category: "Education",
+    readingTime: "9 min read",
+    coverImage: {
+      src: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=630&q=80&fit=crop&crop=center",
+      alt: "Rural properties sharing a septic system in California",
+    },
+    excerpt:
+      "Shared septic systems are common on rural California properties but create legal and financial complications most homeowners never anticipate. Here is what you need to know before you buy, sell, or face a repair bill.",
+    sections: [
+      {
+        type: "paragraph",
+        text: "A shared septic system — sometimes called a community or common septic system — serves two or more separate properties using a single treatment system. They are common on rural subdivisions, multi-parcel agricultural properties, and older residential clusters in the Central Valley where individual lot sizes or perc test results made separate systems impractical or cost-prohibitive.",
+      },
+      {
+        type: "paragraph",
+        text: "Shared systems can work well for decades. The problems arise when maintenance is deferred, ownership changes, neighbors disagree about costs, or the system needs a major repair. Understanding your rights and responsibilities before something goes wrong is the only way to protect yourself financially and legally.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Shared Septic Systems Are Created",
+      },
+      {
+        type: "paragraph",
+        text: "Shared systems are typically created at subdivision — when a developer parceled land and installed one large system to serve multiple homes rather than individual smaller systems. The arrangement is recorded in the county deed records as a shared septic easement or a declaration of covenants, conditions, and restrictions (CC&Rs).",
+      },
+      {
+        type: "paragraph",
+        text: "Some shared systems were created informally decades ago, particularly on older agricultural properties in Stanislaus and Merced Counties, with handshake agreements rather than recorded easements. These informal arrangements are legally murky and create significant complications when properties change hands or repairs are needed.",
+      },
+      {
+        type: "list",
+        items: [
+          "Recorded easement — the legal right to use the septic infrastructure crosses the property boundary, documented in the title chain",
+          "CC&Rs — a declaration binding all properties in a subdivision to share maintenance costs and responsibilities",
+          "Shared service agreement — a separate recorded document outlining specific obligations for each party",
+          "Informal agreement — no recorded document; relies entirely on neighborly cooperation and is not enforceable without a lawsuit",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "Buying a property? Request the septic agreement before closing.",
+        text: "If a property uses a shared septic system, request the recorded easement or CC&Rs from the seller before making an offer. The absence of a recorded agreement is a significant red flag — you may be buying into an obligation that is impossible to enforce against your neighbor.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Who Is Responsible for Maintenance?",
+      },
+      {
+        type: "paragraph",
+        text: "Maintenance responsibility depends entirely on what the recorded agreement says. In the absence of a written agreement, California law defaults to proportional shared responsibility — but enforcing that requires going to court. Common arrangements include:",
+      },
+      {
+        type: "list",
+        items: [
+          "Equal split — each property pays an equal share of pumping, inspection, and repair costs regardless of household size or water usage",
+          "Usage-based split — costs divided by number of bedrooms, number of residents, or metered water consumption",
+          "Owner-of-record-pays — the property owner where the tank is physically located bears primary maintenance responsibility",
+          "HOA or shared maintenance entity — a formal homeowners association collects fees and contracts with a septic service provider",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "For systems without a formal maintenance entity, the most practical approach is a simple written cost-sharing agreement signed by all property owners and recorded with the county. This does not require an attorney for a straightforward two-party situation, though an attorney review is worth the cost for complex multi-parcel arrangements.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Pumping and Inspection Schedule",
+      },
+      {
+        type: "paragraph",
+        text: "Shared systems serve higher combined household loads than individual systems, which means more solids enter the tank per day. A system serving two three-bedroom households of 3–4 people each is handling the equivalent of a 6–8 person household. Pump frequency should reflect this combined load:",
+      },
+      {
+        type: "list",
+        items: [
+          "Two-household system with 6–8 combined occupants: pump every 2–3 years",
+          "Three or more households: annual inspection with pumping every 1–2 years",
+          "Systems with garbage disposals in any connected home: reduce interval by 1 year",
+          "Annual inspection recommended regardless of pumping schedule — shared systems are too costly to repair to skip routine checks",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "One neighbor's habits affect your system.",
+        text: "If the neighboring household flushes wipes, uses a garbage disposal daily, or runs excessive laundry loads, your shared system degrades faster than your own habits would suggest. A shared system is only as healthy as its least careful user.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Happens When a Neighbor Refuses to Pay",
+      },
+      {
+        type: "paragraph",
+        text: "This is the scenario most homeowners on shared systems dread — a major repair is needed, one property owner refuses to pay their share, and the system fails while the dispute drags on. Your options depend on whether there is a recorded agreement:",
+      },
+      {
+        type: "list",
+        items: [
+          "Recorded agreement exists — the refusing party is in breach of contract; you can file in small claims court (under $12,500) or superior court for larger amounts, and a judgment can result in a lien on their property",
+          "No recorded agreement — your legal position is weaker but not hopeless; California courts recognize implied easements and shared maintenance obligations, but litigation is expensive and slow",
+          "Emergency health hazard — if the system is actively overflowing, the county Environmental Health Department can order all parties to repair the system",
+          "Pay and pursue reimbursement — in an emergency, paying for the repair yourself and then pursuing reimbursement in small claims court is often faster than waiting for the legal dispute to resolve",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The practical lesson: document everything. Keep written records of all cost-sharing communications, service invoices, and any neighbor correspondence about system maintenance. These records are essential in a dispute.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to Create or Update a Shared System Agreement",
+      },
+      {
+        type: "paragraph",
+        text: "If your shared system does not have a recorded maintenance agreement — or the existing agreement is outdated — creating one now is far less expensive than litigation later. A basic shared septic agreement should address:",
+      },
+      {
+        type: "list",
+        items: [
+          "Description of the system — physical location, tank size, drain field location, and components covered",
+          "Cost-sharing formula — how routine maintenance and repair costs are divided among the parties",
+          "Maintenance schedule — minimum pumping frequency and who is responsible for scheduling",
+          "Decision-making process — how decisions about repairs are made if parties disagree",
+          "Emergency repair authority — which party can authorize emergency repairs and how reimbursement is handled",
+          "Default consequences — what happens if one party fails to pay their share",
+          "Modification procedure — how the agreement can be amended if ownership changes or the system is upgraded",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Record the signed agreement with the county recorder's office. Recording costs $15–$30 per page and ensures the agreement is visible to future buyers in a title search. An unrecorded agreement binds the current parties but is invisible to a buyer who does not ask for it.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Converting from Shared to Individual Systems",
+      },
+      {
+        type: "paragraph",
+        text: "Some homeowners prefer to eliminate the dependency on a neighbor entirely by installing a separate individual system. Whether this is feasible depends on lot size, soil conditions, and county permitting:",
+      },
+      {
+        type: "list",
+        items: [
+          "The lot must pass a current perc test — the test is based on current soil conditions and may differ from historic results",
+          "Minimum lot size requirements — Stanislaus County requires 1 acre minimum for a new conventional system on a lot not previously served by an individual system",
+          "Cost range — a new conventional system in the Central Valley costs $8,000–$18,000; an alternative system (mound, ATU, drip) runs $15,000–$35,000",
+          "Both parties must agree if the shared easement must be modified — one party cannot unilaterally abandon a recorded shared easement without the other party's consent",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "Get a perc test before assuming separation is possible.",
+        text: "Many properties placed on shared systems were put there because individual systems were not feasible. A perc test ($500–$2,500 in Central Valley) will confirm whether your lot can support an independent system before you spend money on the full permitting process.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Buying a Property with a Shared Septic System",
+      },
+      {
+        type: "paragraph",
+        text: "Shared septic systems require extra due diligence before purchase. The California TDS (Transfer Disclosure Statement) requires sellers to disclose known septic conditions, but sellers may not know the full picture — especially for systems inherited from prior owners with informal arrangements.",
+      },
+      {
+        type: "list",
+        items: [
+          "Request all recorded documents — ask the title company to pull all recorded easements, CC&Rs, and shared service agreements that burden the property",
+          "Order a septic inspection before closing — an inspection reveals current system condition and whether pumping records have been maintained",
+          "Interview the neighbor — understanding whether co-owners have been cooperative in the past is information a disclosure form cannot provide",
+          "Confirm county permit status — Stanislaus County EHD and Merced County EHD have records of all permitted systems; verify the system is not an unpermitted installation",
+          "Negotiate a repair credit — if the system shows deferred maintenance, negotiate a price reduction rather than assuming the seller will remedy it before closing",
+          "Budget for system separation — if you anticipate ongoing conflict, budget $8,000–$35,000 for eventual separation and factor that into your offer price",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Central Valley Considerations",
+      },
+      {
+        type: "paragraph",
+        text: "Stanislaus and Merced Counties have a significant inventory of shared septic systems on rural residential parcels subdivided in the 1950s–1980s when individual system requirements were less stringent. Many of these are aging concrete tanks that have never been formally documented with a maintenance agreement. Common issues in the region include:",
+      },
+      {
+        type: "list",
+        items: [
+          "Ownership turnover — properties that have changed hands multiple times often have informal agreements that were never transferred to new owners",
+          "Agricultural property configurations — parcels converted from agricultural to residential use sometimes share infrastructure that was never intended for long-term residential use",
+          "Pre-1970 permit records — Stanislaus County EHD records before the mid-1970s are incomplete; some shared systems exist without any recorded permit documentation",
+          "Seasonal water table — high-rainfall years raise the water table and hydraulically overload shared drain fields that have been marginal for years, accelerating failure",
+          "Clay soil expansion — expansive Yolo and San Joaquin clay soils crack tank joints and dislodge pipe connections more frequently than sandy-soil areas, increasing repair frequency on older shared systems",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can I force my neighbor to maintain a shared septic system?",
+      },
+      {
+        type: "paragraph",
+        text: "If there is a recorded easement or maintenance agreement, yes — you can pursue enforcement through the courts. Without a recorded agreement, you can argue implied shared maintenance obligations under California property law, but litigation is slow and expensive. The most effective protection is a written, recorded agreement created before a dispute arises.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Does a shared septic system affect my property value?",
+      },
+      {
+        type: "paragraph",
+        text: "Shared systems can reduce property value compared to an individual system, particularly if the maintenance agreement is weak or the neighboring owner has a history of non-cooperation. FHA and VA loans require individual systems or shared systems with formal, recorded maintenance entities — an informal shared system may not qualify for government-backed financing.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Who do I call if the shared system has an emergency overflow?",
+      },
+      {
+        type: "paragraph",
+        text: "Call a septic service company immediately regardless of whose turn it is to pay. An overflowing system is an active environmental and health hazard. Deal with the cost allocation afterward. Contact Stanislaus County EHD (209-525-6700) or Merced County EHD (209-381-1094) if raw sewage is reaching the surface.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can I pump a shared system without my neighbor's permission?",
+      },
+      {
+        type: "paragraph",
+        text: "Yes — in most cases, you can schedule and pay for a pump-out without the other party's permission, then pursue reimbursement. Most recorded easements allow either party to maintain the system and seek cost recovery. Waiting for consensus on routine maintenance is how systems get neglected. Pay, document, and recover later if necessary.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "What if the tank is on my neighbor's property but serves my home?",
+      },
+      {
+        type: "paragraph",
+        text: "This is a common configuration. The recorded easement gives you the legal right to access, maintain, and repair the system infrastructure located on the neighboring parcel. If no easement is recorded, an implied easement may exist based on long-standing use — but you should consult a real estate attorney to confirm your rights and get them formally recorded before you need to exercise them.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "septic-inspections",
+      "septic-tank-pumping",
+      "new-system-installation",
+    ],
+  },
+  {
+    slug: "drip-irrigation-septic-system",
+    title: "Drip Irrigation Septic System: How It Works, Cost, and Maintenance",
+    metaTitle: "Drip Irrigation Septic System: Cost & How It Works",
+    metaDescription:
+      "Drip irrigation septic systems work on lots that fail perc tests. Learn how they work, costs ($15K–$30K in Central Valley), and what maintenance requires.",
+    publishedAt: "2026-04-02",
+    updatedAt: "2026-04-02",
+    category: "Education",
+    readingTime: "10 min read",
+    coverImage: {
+      src: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&h=630&q=80&fit=crop&crop=center",
+      alt: "Landscaped residential property suitable for a drip irrigation septic system",
+    },
+    excerpt:
+      "Drip irrigation septic systems deliver treated wastewater through shallow buried tubing, making them viable for properties that cannot pass a conventional perc test. Here is how they work, what they cost, and what ongoing maintenance looks like.",
+    sections: [
+      {
+        type: "paragraph",
+        text: "A drip irrigation septic system — also called a subsurface drip dispersal system or drip field — disperses treated wastewater through a network of small-diameter tubing buried 6–12 inches below the surface. Unlike a conventional drain field, which relies on gravity and deep percolation through 18–24 inches of gravel, a drip system applies effluent in small, timed doses directly to the root zone of the soil. This makes it viable on lots where a conventional system cannot be permitted.",
+      },
+      {
+        type: "paragraph",
+        text: "Drip systems are among the most flexible alternative septic technologies available in California. They can be installed on small lots, sloped terrain, properties with shallow hardpan or clay soils, and sites near sensitive water bodies where conventional setback distances cannot be met. The trade-off is higher installation cost and a more demanding maintenance schedule than any conventional alternative.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How a Drip Irrigation Septic System Works",
+      },
+      {
+        type: "paragraph",
+        text: "A drip system is not a single component — it is a complete treatment train that processes wastewater to a higher standard before dispersing it through the tubing network. The full treatment sequence:",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Primary treatment — wastewater flows from the house into a septic tank (or aerobic treatment unit), where solids settle and basic biological treatment begins",
+          "Secondary treatment — many drip systems require effluent that meets a higher treatment standard before entering the drip field; this may mean an aerobic treatment unit (ATU) ahead of the pump chamber",
+          "Pump chamber — a separate tank holds treated effluent until a timer or float switch triggers the pump; the pump delivers a precise dose volume to the drip tubing under pressure",
+          "Pressure manifold and zone valves — the system distributes effluent across multiple drip zones, with each zone dosed in rotation to allow soil recovery time between doses",
+          "Drip tubing network — flexible polyethylene tubing with emitters spaced every 12–24 inches delivers effluent at 0.3–0.9 gallons per hour per emitter directly into the soil",
+          "Return manifold and pressure regulation — excess pressure is controlled by pressure regulators; a return line allows the pump to flush debris from emitters periodically",
+          "System controller — a programmable timer manages dose timing, zone rotation, and pump run cycles; many systems include telemetry for remote monitoring",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "The drip system does not drip at the surface.",
+        text: "Drip tubing is buried 6–12 inches deep. Under normal operation, no effluent reaches the surface. If you see wet spots above the drip field, the system is either overloaded or a tubing emitter has failed — both require immediate service.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "When Is a Drip System Required?",
+      },
+      {
+        type: "paragraph",
+        text: "California regulations (Title 22 and county Environmental Health Departments) require alternative systems when a site cannot support a conventional gravity drain field. A drip system is appropriate for the following site conditions:",
+      },
+      {
+        type: "list",
+        items: [
+          "Slow percolation rate — soil that absorbs water too slowly for a conventional field (perc rate slower than 60 minutes per inch in some county standards) can often still support a drip system because the small dose volumes allow longer recovery time",
+          "High seasonal water table — drip systems can be permitted with a shallower separation distance from the seasonal high groundwater table than conventional fields because treatment occurs before dispersal",
+          "Small or irregularly shaped lots — drip tubing can be routed around structures, trees, and property lines in ways that a conventional field cannot",
+          "Steep slopes — drip systems work on grades up to 30–40% with appropriate pressure management; conventional fields require relatively flat terrain",
+          "Proximity to water — drip systems can sometimes meet setback requirements near streams, ponds, or wells where conventional fields cannot, because of the higher pre-treatment level",
+          "Replacement for a failed drain field — when a conventional field fails and the original footprint cannot be reused, a drip system can often be installed on the remaining usable land",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "System Components and What They Cost to Replace",
+      },
+      {
+        type: "paragraph",
+        text: "Drip systems have more mechanical components than conventional systems. Understanding what each component does and what it costs to repair helps you budget realistically:",
+      },
+      {
+        type: "list",
+        items: [
+          "Septic tank — same as conventional, $3,000–$6,000 to replace; required pumping every 3–5 years",
+          "Aerobic treatment unit (ATU) — if required ahead of the drip field, adds $4,000–$8,000 installed; requires a service contract",
+          "Pump chamber tank — $2,000–$4,000 to replace; pump motor replacement $400–$1,200",
+          "Pump and float switches — float switches $75–$200 to replace; pump $400–$1,200",
+          "System controller/timer — $300–$900 to replace; often the first component to fail",
+          "Pressure regulators — $150–$350 each; most systems have 2–4 zones",
+          "Drip tubing network — emitter clogging is repaired by flushing; physical damage (root intrusion, mechanical) runs $500–$3,000 depending on extent",
+          "Filtration screen — typically cleaned every 6–12 months; replacement $200–$500",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Installation Cost in Central Valley",
+      },
+      {
+        type: "paragraph",
+        text: "Drip irrigation septic systems cost significantly more than conventional systems, reflecting the additional components, engineering, and permitting required. Central Valley cost ranges for 2024–2025:",
+      },
+      {
+        type: "list",
+        items: [
+          "Site evaluation and perc testing — $500–$2,500 (required even when the lot fails conventional perc; the test determines drip system sizing)",
+          "System design by licensed engineer or REHS — $2,500–$6,000 (drip systems require more detailed design than conventional systems)",
+          "County permit fees — $1,500–$3,500 for Stanislaus and Merced Counties",
+          "Septic tank — $2,000–$4,500 installed",
+          "Aerobic treatment unit (if required) — $4,000–$8,000 installed",
+          "Pump chamber — $2,000–$4,000 installed",
+          "Controller, pressure manifolds, zone valves — $2,500–$5,000",
+          "Drip tubing installation — $4,000–$10,000 depending on field size",
+          "Total installed cost: $15,000–$30,000 for a 3-bedroom home",
+          "Complex sites (steep slope, ATU required, large lot): $25,000–$40,000",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Drip systems require ongoing service contracts in most California counties.",
+        text: "Stanislaus County requires an annual operation and maintenance (O&M) contract with a licensed septic service provider for all alternative systems including drip. This contract typically costs $300–$600 per year and includes an annual inspection, controller check, and filter cleaning. Non-compliance can result in permit revocation.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Maintenance Requirements",
+      },
+      {
+        type: "paragraph",
+        text: "Drip systems require more frequent and more technical maintenance than conventional septic systems. Budget time and money for the following:",
+      },
+      {
+        type: "list",
+        items: [
+          "Quarterly: check the system controller for alarm history, verify pump run times are within normal range, inspect panel for moisture or corrosion",
+          "Every 6 months: clean the drip system filtration screen (remove debris that accumulates from the effluent stream and can clog emitters)",
+          "Annually: full O&M inspection per county requirement — inspect all components, test pump output, check pressure at emitters, review dose volumes",
+          "Every 3–5 years: pump the septic tank (same as conventional); pump the dose tank to clear accumulated solids",
+          "As needed: flush the drip tubing network to clear emitter buildup; most controllers have an automatic flush cycle but manual flushing may be needed after periods of low use",
+          "If ATU is present: quarterly inspection of the ATU air system, annual media inspection, annual effluent sampling for nitrates (required by most counties)",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The most common drip system failures in the Central Valley are pump float switch corrosion (from the moist environment inside the dose tank), controller malfunction (from summer heat in exposed control panels), and emitter clogging from iron-rich well water or algae growth in systems with high sun exposure on above-grade components.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Drip vs. Mound vs. ATU: Which Alternative System Should You Choose?",
+      },
+      {
+        type: "paragraph",
+        text: "When a conventional system is not feasible, choosing among the available alternatives depends on site conditions, budget, and tolerance for maintenance complexity:",
+      },
+      {
+        type: "list",
+        items: [
+          "Drip system — best for: small lots, irregular shapes, slopes, proximity to water; cost $15K–$30K; highest maintenance complexity; requires service contract",
+          "Mound system — best for: properties with high water table or shallow hardpan where the site is flat or gently sloped; cost $15K–$35K; moderate maintenance; requires dose tank and pump",
+          "Aerobic treatment unit (ATU) — best for: properties that need higher treatment for discharge to a spray field or near-surface drip; cost $10K–$20K; requires service contract with quarterly inspections",
+          "Sand filter — best for: moderate soil percolation with limited dispersal area; cost $8K–$18K; annual sand media inspection required",
+          "Conventional system with pressure distribution — best for: marginally slow perc rates on adequate-sized lots; cost $10K–$20K; same maintenance as gravity except for pump inspection",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "California Permitting Process",
+      },
+      {
+        type: "paragraph",
+        text: "All drip dispersal systems in California require permits from the local county Environmental Health Department. The process for Stanislaus and Merced Counties:",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Site evaluation by county EHD or licensed soil scientist — determines whether the site qualifies and identifies the system type required",
+          "Perc test and soil profile — even when a conventional system is not feasible, percolation data is needed to size the drip field",
+          "System design by a licensed civil engineer (PE) or registered environmental health specialist (REHS) — drip systems require a PE for complex sites in many counties",
+          "Permit application with full design drawings submitted to county EHD — review time 4–12 weeks",
+          "Installation by a C-42 licensed contractor — California requires a C-42 specialty license for septic system installation",
+          "County inspection during installation — inspector verifies component placement, burial depth, and connections before backfill",
+          "O&M contract filed with county — must be in place before final permit sign-off",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Central Valley Specifics",
+      },
+      {
+        type: "paragraph",
+        text: "Drip irrigation septic systems in Stanislaus and Merced Counties face some specific challenges and opportunities that differ from other regions:",
+      },
+      {
+        type: "list",
+        items: [
+          "Clay soil expansion — Yolo and San Joaquin clay soils swell when wet and contract when dry, which can shift drip tubing and disconnect emitter fittings over years of seasonal cycling; annual inspection should include checking tubing alignment",
+          "Summer heat — Central Valley summers (100°F+ days) stress control panel electronics and accelerate UV degradation on any above-grade components; shade or protective enclosures extend component life",
+          "Well water iron — properties served by well water with high iron content can clog drip emitters faster than properties on treated municipal supply; iron filter systems are sometimes installed ahead of the dose tank",
+          "Agricultural proximity — properties near agricultural fields may experience herbicide or nitrate interference with the ATU bacterial community if a combined ATU/drip system is used",
+          "Hardpan at 18–36 inches — many foothill parcels in Stanislaus County have shallow hardpan (impermeable clay layer) that makes conventional systems impossible; shallow drip installation above the hardpan layer is a viable solution",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "How long does a drip irrigation septic system last?",
+      },
+      {
+        type: "paragraph",
+        text: "Well-maintained drip systems have a design life of 20–30 years for the tubing network and indefinite life for the tanks. The pump, controller, and float switches typically need replacement every 7–12 years. The higher maintenance frequency compared to a conventional system is the cost of using a technology that enables installation on otherwise unbuildable sites.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can I install a drip septic system myself?",
+      },
+      {
+        type: "paragraph",
+        text: "No. California law requires all septic system installations to be performed by a C-42 licensed contractor. Drip systems additionally require professional engineering design and county EHD permit. Unlicensed installation creates significant liability and will not pass the required county inspection.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "What happens if the drip system pump fails?",
+      },
+      {
+        type: "paragraph",
+        text: "Most drip system controllers have an alarm float in the dose tank that triggers a visual or audible alarm (and may send a text notification if the system has telemetry) when the effluent level rises above the normal range. When the alarm activates, stop non-essential water use immediately and call a septic service provider. The dose tank has limited capacity — typically 500–1,000 gallons — and overflow into the house plumbing can occur within 12–24 hours of a pump failure under normal household water use.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Do drip system emitters ever clog permanently?",
+      },
+      {
+        type: "paragraph",
+        text: "Emitter clogging is the most common drip system maintenance issue, but it is usually recoverable through flushing. The system has a filter screen upstream of the emitters that catches most debris before it reaches the tubing. Periodic flushing of the manifolds clears the slower-moving accumulation that passes the screen. Root intrusion into emitter ports is a more serious clogging mechanism — keeping trees and shrubs at least 10 feet from the drip field perimeter prevents most root-related failures.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "How does a drip system compare to a conventional system in drought conditions?",
+      },
+      {
+        type: "paragraph",
+        text: "Drip systems actually perform better than conventional systems during drought because reduced household water use simply reduces the dose volume and extends the soil recovery time between doses. Conventional gravity systems can develop short-circuiting pathways in very dry, cracked soil. The controlled, timed dosing of a drip system maintains more consistent soil moisture levels in the dispersal zone, which supports the biological treatment community and prevents the channeling failure mode that sometimes affects gravity systems during extended dry periods.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "new-system-installation",
+      "septic-inspections",
+      "septic-tank-pumping",
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
