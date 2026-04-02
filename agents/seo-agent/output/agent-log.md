@@ -1846,3 +1846,45 @@ TypeScript: clean | Deployed: success
 
 TypeScript: clean ✅ | Committed as Run #78 | Pushed to origin ✅
 Deployment: success ✅
+**Run 78 complete.** Deployed successfully.
+
+**What was done:**
+
+**Duplicate fix:** Removed the older `septic-safe-toilet-paper` post (2026-02-20) which was a duplicate of the superior Run 76 version. Now at 88 posts with no duplicate slugs.
+
+**1. `/blog/does-rid-x-work`** — targets "does Rid-X work for septic tanks", "Rid-X for septic", "is Rid-X safe for septic" (combined KD 0-3, very high TP). Covers what the enzymes actually do, the 4 scenarios where it genuinely helps (post-antibiotics, post-bleach event, vacancy startup, post-chemical treatment), why it doesn't extend pump intervals, correct usage, and a Central Valley context section.
+
+**2. `/blog/mound-septic-system`** — targets "mound septic system", "raised mound septic system cost", "how does a mound septic system work" (KD 0-3, not covered across all 88 existing posts). Covers why mound systems are required, the full 6-step treatment process, component breakdown, cost guide ($15K-$35K), maintenance requirements, warning signs, and foothill Central Valley specifics.
+[2026-04-01 00:18:44] Run #2 finished
+[2026-04-01 00:18:44] Reached max loops (2). Stopping.
+[2026-04-02 00:04:02] ==========================================
+[2026-04-02 00:04:02] Agent: Seo Agent
+[2026-04-02 00:04:02] Model: sonnet
+[2026-04-02 00:04:02] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-04-02 00:04:02] Stop on complete: false
+[2026-04-02 00:04:03] Max loops: 2 (0=infinite)
+[2026-04-02 00:04:03] ==========================================
+[2026-04-02 00:04:03] Run #1 starting (model: sonnet)
+
+**Run 79 complete: New 'shared septic system' and 'drip irrigation septic system' blog posts**
+
+**1. New blog post: `/blog/shared-septic-system`**
+- Targets the fully uncovered shared/community septic keyword cluster — zero coverage across all 88 existing posts:
+  - "shared septic system" / "community septic system" — KD low, informational + legal intent
+  - "who is responsible for shared septic system" — dispute-resolution intent
+  - "shared septic system agreement" / "shared septic easement" — real estate intent
+  - SERP features: ai_overview + question
+- ~2,000 words covering: how shared systems are created (recorded easement vs. CC&Rs vs. informal agreement), maintenance responsibility framework, pumping frequency for combined household loads, what happens when a neighbor refuses to pay (small claims court, implied easement enforcement, emergency EHD authority), how to create or update a maintenance agreement and record it at the county, converting from shared to individual systems (perc test, lot size, cost), home buyer due diligence checklist (6 steps), Central Valley specifics (1950s–1980s subdivision stock, incomplete pre-1970 permit records, seasonal clay soil cracking), 5-question FAQ
+- Category: Education | relatedServiceSlugs: septic-inspections, septic-tank-pumping, new-system-installation
+- Strong real estate conversion signal: buyers searching "shared septic system" are in due diligence and need both an inspection and potentially a new system
+
+**2. New blog post: `/blog/drip-irrigation-septic-system`**
+- Targets the fully uncovered drip system keyword cluster — mentioned briefly in types-of-septic-systems and alternative-septic-systems but never dedicated coverage:
+  - "drip irrigation septic system" — moderate TP, KD low
+  - "drip field septic" / "how does drip septic system work" / "drip septic system cost" — variants
+  - SERP features: ai_overview + question + image_th
+- ~2,100 words covering: what a drip system is (subsurface dispersal via timed-dose emitter tubing), the 7-step treatment train (septic tank → ATU → pump chamber → controller → pressure manifold → drip tubing → return manifold), when drip systems are required (6 site conditions: slow perc, high water table, small lot, steep slope, water proximity, failed drain field), all components with replacement costs, installation cost breakdown for Central Valley ($15K–$30K), maintenance requirements by frequency (quarterly/6-month/annual/3–5 year), drip vs. mound vs. ATU vs. sand filter comparison, California permitting process (7 steps), Central Valley specifics (clay soil expansion, summer heat, iron-rich well water, hardpan layers, agricultural proximity), 5-question FAQ
+- Category: Education | relatedServiceSlugs: new-system-installation, septic-inspections, septic-tank-pumping
+- Complements existing alternative-septic-systems and types-of-septic-systems posts by providing dedicated deep-dive coverage for the highest-cost alternative system type
+
+TypeScript: clean ✅ | Committed as Run #79 | Deployed: success ✅
