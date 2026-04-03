@@ -1973,3 +1973,40 @@ TypeScript: clean ✅ | Committed as Run #80 | Pushed to origin ✅
 - Fills the last major gap in the alternative systems coverage cluster: alternative-septic-systems (overview), types-of-septic-systems (all types), mound-septic-system (dedicated), drip-irrigation-septic-system (dedicated), pressure-distribution-septic-system (dedicated), aerobic-septic-system (dedicated) — now sand filter has dedicated coverage too
 
 TypeScript: clean ✅ | Committed as Run #81 | Deployed: success ✅
+**Run 81 complete.** Two new blog posts added, deployed successfully.
+
+**1. `/blog/can-you-pump-septic-tank-yourself`**
+- Targets "how to pump a septic tank yourself" — TP ~15,000/mo, KD 2-4
+- Honest answer: California C-42 license + CalRecycle registration required; covers the H₂S confined-space hazard (OSHA "rescuer effect" callout), what equipment costs, legal prohibition, Central Valley pricing ($350–$550), 7 ways to save money without DIY, and what homeowners CAN do themselves
+
+**2. `/blog/sand-filter-septic-system`**
+- Targets "sand filter septic system" — TP ~8,000-12,000/mo, KD 0-3
+- Fills the last gap in the alternative systems cluster (mound, drip, ATU, pressure distribution all have dedicated posts; sand filter didn't)
+- Covers both system types (single-pass vs. recirculating), 6 site conditions requiring one, all 9 components, Central Valley cost table ($12K–$40K), full maintenance schedule, and comparison to other alternatives
+[2026-04-03 00:18:18] Run #1 finished
+[2026-04-03 00:18:23] Run #2 starting (model: sonnet)
+
+**Run 82 complete: New 'what kills septic bacteria' and 'septic system financing' blog posts**
+
+**1. New blog post: `/blog/what-kills-septic-bacteria`**
+- Targets the fully uncovered authoritative bacterial-harm keyword cluster — mentioned in 10+ existing posts as a warning but never covered as a standalone comprehensive guide:
+  - "what kills septic bacteria" — very high TP, KD 0-2
+  - "what not to put in septic tank" (specific products angle) — high volume variants
+  - "does bleach kill septic bacteria" / "do antibiotics kill septic bacteria" — question-format searches
+  - SERP features: ai_overview + snippet + question — ideal for the comprehensive list format
+- ~2,000 words covering: the 7 categories of bacterial killers (antibiotics, bleach/chlorine, chemical drain cleaners, antibacterial soaps with triclosan/quats, strong disinfectants, paints/solvents/petroleum, large hot water volumes), mechanism of harm for each, the "in-tank bleach tablet worst offender" callout, warning signs of a compromised colony, natural recovery timeline (2–8 weeks), when biological additives actually help (post-antibiotics/bleach recovery), Central Valley summer heat amplification, 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- Completes the bacterial health topic cluster: cleaning products, drain cleaners, laundry detergent, dishwasher detergent, toilet bowl cleaner, bleach posts all exist — this post is the authoritative cross-reference that ties them all together
+
+**2. New blog post: `/blog/septic-system-financing`**
+- Targets the fully uncovered financial assistance keyword cluster — zero coverage across all 99 existing posts:
+  - "septic system grants" / "USDA septic grant" — very high commercial/distress intent, KD low
+  - "how to finance a septic system" / "septic system loan" — financing intent
+  - "septic tank grant programs California" — localized government assistance queries
+  - "USDA Section 504 septic" — program-specific searches
+  - SERP features: ai_overview + question
+- ~2,100 words covering: USDA Section 504 grant (up to $10,000 free for eligible homeowners 62+ under 50% AMI), USDA Section 504 loan (up to $40,000 at 1% fixed rate), USDA geographic eligibility in Stanislaus/Merced Counties, California SWRCB Prop 1 small community grants, CDBG programs in Stanislaus and Merced Counties, Self-Help Enterprises nonprofit resource, home equity options (HELOC, HEL, cash-out refi, FHA Title I), personal loans and contractor financing, step-by-step USDA application guide, who qualifies (by income tier), Central Valley rural designation specifics, 5-question FAQ
+- Category: Cost & Pricing | relatedServiceSlugs: new-system-installation, septic-inspections, septic-tank-pumping
+- Extremely high conversion intent: a homeowner searching "septic system grants" has a failing system and needs both financing AND a contractor — this post positions Eagle Septic as the local expert who understands the process
+
+TypeScript: clean ✅ | Committed as Run #82 | Pushed to origin ✅
