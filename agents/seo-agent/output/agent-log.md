@@ -1925,3 +1925,51 @@ TypeScript: clean | Deployed: success
 - Distinct from existing types-of-septic-systems (overview) and alternative-septic-systems (cost comparison) — this is the first dedicated deep-dive on pressure distribution as a standalone topic
 
 TypeScript: clean ✅ | Committed as Run #80 | Pushed to origin ✅
+**Run 80 complete.** Deployed successfully.
+
+**What was done:**
+
+**Duplicate fix:** Removed the older `how-to-find-your-septic-tank` post (2026-02-15) — a duplicate of the Run 64 version. Now at 91 posts.
+
+**1. `/blog/what-happens-during-septic-pumping`**
+- Targets "how long does it take to pump a septic tank" — TP ~10,000/mo, KD 0-2, `snippet` SERP feature
+- ~2,200 words: 7-step pumping process (setup → lid access → pre-pump inspection → pumping both compartments → backflushing → post-pump inspection → reporting), duration guide by tank size/access (30–90 min), normal vs. warning findings, 7 questions to ask before the truck leaves, Central Valley concrete tank specifics, 5-question FAQ
+
+**2. `/blog/pressure-distribution-septic-system`**
+- Targets "pressure distribution septic system" — TP ~8,000/mo, KD 0-3
+- ~2,400 words: how timed pressure dosing differs from gravity, all 8 system components, how the dosing cycle works, 6 site conditions requiring it, cost comparison ($12K–$22K vs $8K–$15K gravity), full maintenance schedule (6-month/annual/3–5 year), warning signs, pump replacement costs ($300–$700), Central Valley foothill hardpan specifics, 5-question FAQ
+[2026-04-02 00:29:49] Run #2 finished
+[2026-04-02 00:29:49] Reached max loops (2). Stopping.
+[2026-04-03 00:04:00] ==========================================
+[2026-04-03 00:04:00] Agent: Seo Agent
+[2026-04-03 00:04:00] Model: sonnet
+[2026-04-03 00:04:00] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-04-03 00:04:00] Stop on complete: false
+[2026-04-03 00:04:00] Max loops: 2 (0=infinite)
+[2026-04-03 00:04:00] ==========================================
+[2026-04-03 00:04:00] Run #1 starting (model: sonnet)
+
+**Run 81 complete: New 'can you pump septic tank yourself' and 'sand filter septic system' blog posts**
+
+**1. New blog post: `/blog/can-you-pump-septic-tank-yourself`**
+- Targets the highest-volume uncovered pumping intent query:
+  - "how to pump a septic tank yourself" — very high TP (~15,000/mo), KD 2-4
+  - "can I pump my own septic tank" — variant, KD 0-2
+  - "DIY septic pumping" — KD low
+  - SERP features: ai_overview + snippet + question
+- ~2,000 words covering: why homeowners ask (predictable cost motivation), what a professional pump-out actually involves (9-step process), California legal prohibition (C-42 license + CalRecycle hauler registration), why DIY is dangerous (H₂S immediate fatality risk, confined space OSHA requirements, "rescuer effect" callout), what equipment professionals bring (truck specs, monitoring tools), Central Valley cost breakdown ($350–$550), 7 ways to save money without DIY (risers, bundled services, water conservation, non-peak scheduling), what homeowners CAN legally do themselves, 5-question FAQ
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, tank-cleaning-maintenance, septic-inspections
+- Direct conversion: someone searching this query is ready to hire a service — the post educates why, then converts
+- Zero overlap with existing 91 posts — DIY pumping intent was completely uncovered
+
+**2. New blog post: `/blog/sand-filter-septic-system`**
+- Targets the fully uncovered sand filter keyword cluster — mentioned in passing in alternative-septic-systems and types-of-septic-systems but no dedicated coverage:
+  - "sand filter septic system" — KD 0-3, TP ~8,000-12,000/mo
+  - "intermittent sand filter septic" / "recirculating sand filter septic" — type-specific variants
+  - "packed bed sand filter septic" — KD 0
+  - SERP features: ai_overview + question + image_th
+- ~2,100 words covering: what a sand filter is, the two types (single-pass intermittent vs. recirculating), when required (6 site conditions: slow perc, high water table, shallow soil, small lot, proximity to wells/waterways, failed field), all system components (9 items), Central Valley installed cost breakdown ($12K–$40K by system type), maintenance schedule by frequency (6-month/annual/3–5 year), sand filter vs. ATU vs. mound vs. drip irrigation comparison, Central Valley clay soil/summer heat/iron water specifics, 5-question FAQ
+- Category: Education | relatedServiceSlugs: new-system-installation, septic-inspections, drain-field-repair
+- Fills the last major gap in the alternative systems coverage cluster: alternative-septic-systems (overview), types-of-septic-systems (all types), mound-septic-system (dedicated), drip-irrigation-septic-system (dedicated), pressure-distribution-septic-system (dedicated), aerobic-septic-system (dedicated) — now sand filter has dedicated coverage too
+
+TypeScript: clean ✅ | Committed as Run #81 | Deployed: success ✅
