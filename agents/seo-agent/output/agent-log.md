@@ -2010,3 +2010,51 @@ TypeScript: clean ✅ | Committed as Run #81 | Deployed: success ✅
 - Extremely high conversion intent: a homeowner searching "septic system grants" has a failing system and needs both financing AND a contractor — this post positions Eagle Septic as the local expert who understands the process
 
 TypeScript: clean ✅ | Committed as Run #82 | Pushed to origin ✅
+Deployment succeeded.
+
+**Run 82 complete.** Two new blog posts added targeting fully uncovered keyword clusters:
+
+**1. `/blog/what-kills-septic-bacteria`**
+- Targets "what kills septic bacteria", "does bleach kill septic bacteria", "do antibiotics kill septic bacteria" — very high TP, KD 0-2
+- The definitive cross-reference post that ties together all 6 existing "septic safe [product]" posts — mentioned as a warning in 10+ posts but never covered authoritatively as a standalone guide
+- ~2,000 words: 7 categories of bacterial killers with mechanisms, the in-tank bleach tablet callout, recovery timeline, when biological supplements help, Central Valley summer heat specifics, 5-question FAQ
+
+**2. `/blog/septic-system-financing`**
+- Targets "septic system grants", "USDA septic grant", "how to finance a septic system" — fully uncovered across all 101 posts, very high distress/conversion intent
+- ~2,100 words: USDA Section 504 grants (up to $10,000 free for eligible seniors), Section 504 loans (up to $40,000 at 1% fixed), California SWRCB programs, Stanislaus/Merced CDBG programs, Self-Help Enterprises, home equity options, personal loans, step-by-step USDA application guide, Central Valley rural eligibility specifics, 5-question FAQ
+- Extremely high commercial conversion: someone searching for septic grants has a failing system and needs both financing AND a contractor
+
+TypeScript: clean | Deployed: success ✅
+[2026-04-03 00:29:50] Run #2 finished
+[2026-04-03 00:29:50] Reached max loops (2). Stopping.
+[2026-04-04 00:04:02] ==========================================
+[2026-04-04 00:04:02] Agent: Seo Agent
+[2026-04-04 00:04:02] Model: sonnet
+[2026-04-04 00:04:02] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/seo-agent
+[2026-04-04 00:04:02] Stop on complete: false
+[2026-04-04 00:04:02] Max loops: 2 (0=infinite)
+[2026-04-04 00:04:02] ==========================================
+[2026-04-04 00:04:02] Run #1 starting (model: sonnet)
+
+**Run 83 complete: New 'how to restore drain field' and 'merced county septic regulations' blog posts**
+
+**1. New blog post: `/blog/how-to-restore-drain-field`**
+- Targets the fully uncovered drain field restoration keyword cluster:
+  - "how to restore drain field" — high TP, KD 2-5
+  - "drain field rejuvenation" / "how to fix a failing drain field" — variants
+  - "can a drain field be restored" — decision-intent query
+  - SERP features: ai_overview + snippet + question
+- ~2,100 words covering: the key diagnostic (biomat failure vs. structural failure — only biomat is restorable), 4 restoration methods (resting the field, aeration/Terralift treatment, hydro-jetting laterals, biological biomat treatment), honest effectiveness assessment and cost table ($0–$4,000 for restoration vs. $5K–$40K replacement), what never works (Rid-X, copper sulfate, Drano), warning signs a field is past restoring (solids reaching field, soil compaction across all zones, collapsed lateral pipes), Central Valley clay soil specifics (lower restoration success rates than sandy soils, seasonal water table affecting timing), the correct assessment-before-treatment process, 5-question FAQ
+- Category: Repairs | relatedServiceSlugs: drain-field-repair, septic-tank-pumping, septic-inspections
+- Complements existing drain field cluster: `drain-field-failure-signs-costs`, `drain-field-repair-vs-replacement-central-valley`, `drain-field-maintenance` — fills the restoration intent gap
+
+**2. New blog post: `/blog/merced-county-septic-regulations`**
+- Targets the local SEO cluster for Merced County homeowners — zero dedicated coverage in any of the 101 existing posts:
+  - "Merced County septic regulations" / "Merced County septic permit" — KD low, local intent
+  - "Merced County OWTS" / "septic rules Merced County" — regulatory variants
+  - SERP features: local_pack + question
+- ~2,000 words covering: Merced County Environmental Health Division as the regulatory authority, what requires a permit vs. what doesn't (full list), point-of-sale inspection requirements and process, permit fees and application timeline, setback requirements (tank-to-well 50ft, field-to-well 100-150ft), how Merced County rules differ from Stanislaus County, specific areas with stricter requirements (San Joaquin River corridor, Los Banos nitrate zones, Dos Palos canal areas), what to do when you receive an enforcement notice, homeowner records to keep, 5-question FAQ
+- Category: Regulations | relatedServiceSlugs: septic-inspections, septic-tank-pumping, new-system-installation
+- Local SEO companion to `stanislaus-county-septic-regulations` — Merced County is a core service area and the county was completely unaddressed from a regulatory content perspective
+
+TypeScript: clean ✅ | Committed as Run #83 | Pushed to origin ✅ | Deployed: success ✅
