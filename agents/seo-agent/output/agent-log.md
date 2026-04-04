@@ -2058,3 +2058,38 @@ TypeScript: clean | Deployed: success ✅
 - Local SEO companion to `stanislaus-county-septic-regulations` — Merced County is a core service area and the county was completely unaddressed from a regulatory content perspective
 
 TypeScript: clean ✅ | Committed as Run #83 | Pushed to origin ✅ | Deployed: success ✅
+**Run 83 complete.** Two new blog posts added and deployed successfully:
+
+**1. `/blog/how-to-restore-drain-field`**
+- Targets "how to restore drain field", "drain field rejuvenation", "can a drain field be restored" — high TP, KD 2-5
+- ~2,100 words: the biomat vs. structural failure diagnostic (the key decision point), 4 restoration methods (resting, Terralift aeration, hydro-jetting, biological treatment) with honest effectiveness ratings and costs, what doesn't work (Rid-X, copper sulfate), warning signs a field is past saving, Central Valley clay soil specifics (lower success rates, seasonal water table timing), and a 5-question FAQ
+- Fills the restoration intent gap alongside the existing drain field cluster
+
+**2. `/blog/merced-county-septic-regulations`**
+- Targets "Merced County septic regulations", "Merced County septic permit" — zero coverage across all 101 posts, local SEO intent
+- ~2,000 words: EHD as the regulatory authority, full permit trigger list, point-of-sale inspection requirements, fee guide, setback requirements, how Merced differs from Stanislaus County, specific sensitive areas (San Joaquin River corridor, Los Banos nitrate zones), enforcement notice response steps, and a 5-question FAQ
+- Local SEO companion to the existing Stanislaus County regulations post
+[2026-04-04 00:13:36] Run #1 finished
+[2026-04-04 00:13:41] Run #2 starting (model: sonnet)
+
+**Run 84 complete: New 'draining pool into septic tank' and 'do I have septic or sewer' blog posts**
+
+**1. New blog post: `/blog/draining-pool-into-septic-tank`**
+- Targets the fully uncovered pool drainage keyword cluster — zero coverage across all 103 existing posts, extremely common question for Central Valley homeowners with pools AND septic:
+  - "can you drain a pool into a septic tank" — KD 0, estimated TP 5,000–10,000/mo
+  - "drain pool into septic system" / "pool water into septic" — variants
+  - SERP features: ai_overview + snippet + question
+- ~2,000 words covering: why pool water destroys septic systems (3 mechanisms: hydraulic overload, chlorine killing bacteria, pool chemical contamination), scale comparison table (pool gallons vs. tank capacity — an inground pool is 10–20x the tank), 4 legal alternatives (dechlorinated street discharge, slow yard irrigation, pool draining service, drywell), what to do if pool water has already entered the system, Central Valley clay soil/high water table/well proximity specifics, FAQ covering saltwater pools, partial drains, backwash, and refill water
+- Category: Maintenance | relatedServiceSlugs: septic-tank-pumping, septic-inspections, emergency-services
+- Central Valley relevance: pools are extremely common in hot inland communities (Modesto, Turlock, Stockton area) where a significant portion of properties are on septic — this is a high-urgency question that prevents expensive system damage
+
+**2. New blog post: `/blog/do-i-have-septic-or-sewer`**
+- Targets the highest-volume uncovered homeowner question cluster — how to determine which wastewater system your property uses:
+  - "do I have septic or sewer" — very high TP, KD 0-2
+  - "how to tell if you have septic or sewer" / "is my house on septic or sewer" — variants
+  - "how do I know if I have a septic tank" — question format
+  - SERP features: ai_overview + snippet + question
+- ~2,000 words covering 5 reliable methods: (1) read the utility bill — sewer line items by city (Modesto/MID, Turlock, Merced, Stockton, Tracy), (2) search Stanislaus or Merced County EHD permit records with direct phone numbers, (3) visual property clues (riser lids, cleanout direction, drain field grass patterns, street manhole presence), (4) home inspection report and California TDS disclosure documents, (5) call the city/county utility directly with phone numbers for 7 local agencies; includes septic vs. sewer responsibilities comparison; Central Valley-specific situations (city-adjacent rural parcels, older city properties not yet connected, recently annexed areas); FAQ covering dual systems, mandatory connection rules, switching from septic to sewer, and property value impact
+- Category: Education | relatedServiceSlugs: septic-tank-pumping, septic-inspections, real-estate-inspections
+
+TypeScript: clean ✅ | Committed as Run #84 | Pushed to origin ✅
