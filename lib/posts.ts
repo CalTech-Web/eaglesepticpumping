@@ -24329,6 +24329,561 @@ export const posts: BlogPost[] = [
       "new-system-installation",
     ],
   },
+  {
+    slug: "draining-pool-into-septic-tank",
+    title: "Can You Drain a Pool Into a Septic Tank? The Real Answer",
+    metaTitle: "Can You Drain a Pool Into a Septic Tank?",
+    metaDescription:
+      "Draining a pool into your septic system can destroy the drain field in a single afternoon. Learn why it fails, what the legal alternatives are, and what to do if it's already happened.",
+    publishedAt: "2026-04-04",
+    updatedAt: "2026-04-04",
+    category: "Maintenance",
+    readingTime: "8 min read",
+    coverImage: {
+      src: "https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=1200&h=630&q=80&fit=crop&crop=center",
+      alt: "Backyard swimming pool representing pool drainage and septic system compatibility questions",
+    },
+    excerpt:
+      "Pool owners on septic systems often assume draining to the yard or tank is the easiest option. It isn't — and the wrong choice can cost more than the pool itself to fix. Here's what to know before you drain.",
+    sections: [
+      {
+        type: "paragraph",
+        text: "Every summer, homeowners across the Central Valley ask the same question: where do I drain my pool? If you're on a septic system, the answer matters a great deal. Draining a pool into your septic tank — or even directly over your drain field — can cause catastrophic and expensive damage in a matter of hours.",
+      },
+      {
+        type: "paragraph",
+        text: "This guide covers why pool water is incompatible with septic systems, what the legal alternatives are for Central Valley homeowners, and what to do if a pool drain has already happened.",
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Short Answer: No",
+        text: "You should not drain a pool into a septic tank or over a drain field. A standard swimming pool holds 15,000–30,000 gallons — far more than any residential system can process. The result is hydraulic overload, chlorine damage to the bacterial colony, and potential drain field failure.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Pool Water Damages Septic Systems",
+      },
+      {
+        type: "paragraph",
+        text: "A properly functioning septic system is a balanced biological environment. Your tank holds roughly 1,000–1,500 gallons of waste and liquid at any given time, and the soil in your drain field can only absorb a limited amount of liquid per day — typically 300–600 gallons for a residential property. Pool drainage creates two distinct problems: hydraulic overload and chemical damage.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Problem 1: Hydraulic Overload",
+      },
+      {
+        type: "paragraph",
+        text: "A 15-foot round above-ground pool holds approximately 5,000 gallons. An average inground pool holds 15,000–25,000 gallons. Your drain field can absorb perhaps 400 gallons per day under normal conditions. Introducing 15,000 gallons in a single afternoon — 37 times the daily absorption capacity — completely saturates the soil. When soil saturates, wastewater backs up through the drain field, surfaces in your yard, and can flow back toward the tank.",
+      },
+      {
+        type: "paragraph",
+        text: "Even if the soil absorbs the water slowly over several days, the sustained saturation prevents the biomat (the beneficial bacterial layer that actually treats wastewater) from receiving oxygen. Oxygen deprivation kills the biomat. Once the biomat dies, the drain field no longer treats wastewater effectively and must be replaced — a cost of $5,000–$40,000 in Central Valley depending on field size and soil conditions.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Problem 2: Chlorine Kills Septic Bacteria",
+      },
+      {
+        type: "paragraph",
+        text: "Pool water contains residual chlorine (typically 1–3 ppm) even after a swimming season. Your septic system depends entirely on a bacterial colony to digest waste. Chlorine at pool concentrations is bactericidal — the same property that keeps your pool sanitary makes it lethal to the microorganisms that run your septic system.",
+      },
+      {
+        type: "paragraph",
+        text: "Even if you let the pool sit without adding chemicals for 2–4 weeks, residual chlorine remains. Bromine, salt, and algaecide residues present additional bactericidal risks. For reference, even a small amount of residual chlorine at 0.5 ppm entering a 1,000-gallon tank can suppress the bacterial colony for weeks. Pool concentrations entering a tank at volume can effectively sterilize it.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Problem 3: Heavy Metals and Pool Chemicals",
+      },
+      {
+        type: "paragraph",
+        text: "In addition to chlorine, pool water often contains metal-based algaecides (copper sulfate), phosphate removers, pH adjusters (muriatic acid, sodium carbonate), and clarifying agents. These compounds are toxic to beneficial bacteria and can contaminate the surrounding soil and groundwater. In Stanislaus and Merced Counties, where many properties rely on well water, contaminating the soil near a drain field creates a direct pathway for pool chemicals to enter the water supply.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Big Is a Pool Compared to a Septic System?",
+      },
+      {
+        type: "paragraph",
+        text: "Understanding the scale mismatch helps explain why this is such a serious issue. Here's how common pool sizes compare to typical septic system capacity:",
+      },
+      {
+        type: "list",
+        items: [
+          "10x15 ft above-ground pool: ~3,500 gallons (3.5x tank capacity)",
+          "15 ft round above-ground pool: ~5,000 gallons (5x tank capacity)",
+          "12x24 ft inground pool: ~10,800 gallons (10x tank capacity)",
+          "16x32 ft inground pool: ~20,000 gallons (20x tank capacity)",
+          "Typical residential septic tank: 1,000–1,500 gallons",
+          "Drain field daily absorption capacity: 300–600 gallons",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Even a small above-ground pool introduces 3–5 times the total tank volume. An inground pool introduces 10–20 times the tank volume. There is no scenario in which a residential septic system can safely accept this volume.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Legal Alternatives for Draining a Pool in Central Valley",
+      },
+      {
+        type: "paragraph",
+        text: "California has specific rules for pool drainage, and they vary by municipality. Here are the legally acceptable options for most Stanislaus and Merced County homeowners:",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Option 1: Discharge to a Street Gutter or Storm Drain (Dechlorinated)",
+      },
+      {
+        type: "paragraph",
+        text: "Most California municipalities allow pool water to be discharged to the street gutter or storm drain as long as the water is first dechlorinated. Chlorine neutralizer (sodium thiosulfate) can drop chlorine levels to near zero within 24 hours at minimal cost. Most cities require chlorine levels below 0.1 ppm before discharge. Check with Stanislaus County, Merced County, or your city's environmental services department for specific requirements — some cities require a permit for large-volume discharges.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Option 2: Irrigation — With Caution",
+      },
+      {
+        type: "paragraph",
+        text: "Dechlorinated pool water can sometimes be used for landscape irrigation — specifically for trees, shrubs, and ornamental plants (not vegetable gardens). Allow the water to sit with no chemical additions for at least 1–2 weeks, then test chlorine levels before irrigating. Discharge slowly across a large surface area rather than pooling in one location. Do not irrigate directly over the drain field or within the setback zone.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Option 3: Hire a Pool Draining Service",
+      },
+      {
+        type: "paragraph",
+        text: "Some pool service companies and septic pumping companies can pump pool water directly to the street or a municipal sewer connection using a truck, bypassing the septic system entirely. This is often the safest option for large inground pools where volume and logistics make self-managed drainage difficult.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Option 4: Slow Percolation Into a Drywell (Where Permitted)",
+      },
+      {
+        type: "paragraph",
+        text: "Some rural properties have a drywell — a separate rock-filled pit designed for clean water percolation. If your property has a functioning drywell that is a safe distance from the septic drain field and any wells, dechlorinated pool water can be discharged there slowly. A drywell is not a septic system and is designed specifically for clean water percolation. Confirm with your county EHD whether a drywell is permitted on your parcel.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What If Pool Water Has Already Entered the Septic System?",
+      },
+      {
+        type: "paragraph",
+        text: "If a pool has already been drained into the septic tank or over the drain field — intentionally or by an uninformed contractor — here's what to assess:",
+      },
+      {
+        type: "list",
+        items: [
+          "Stop all additional water input to the system immediately",
+          "Do not flush toilets or run water for 24–48 hours if possible while the system recovers",
+          "Call a septic professional to inspect the tank and drain field condition",
+          "If chlorine killed the bacterial colony, the tank can be pumped and allowed to recolonize naturally over 2–8 weeks",
+          "If drain field saturation has occurred, a professional inspection will determine whether the soil has recovered or the field is damaged",
+          "Do not add Rid-X or bacterial additives immediately — the remaining chlorine will kill any new bacteria introduced",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Drain Field Damage May Not Be Immediate",
+        text: "Drain field damage from pool drainage often appears gradually — slow drains, wet spots in the yard, or sewage odors can emerge 1–4 weeks after the drainage event as the soil biomat dies. By the time symptoms appear, significant damage may have already occurred. An inspection after any large-volume discharge event is strongly recommended.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Special Considerations for Central Valley Homeowners",
+      },
+      {
+        type: "paragraph",
+        text: "Central Valley properties face several conditions that make pool drainage even more problematic:",
+      },
+      {
+        type: "list",
+        items: [
+          "Expansive clay soils: Clay soils in Stanislaus and Merced Counties already absorb water slowly. Pool drainage into clay dramatically extends saturation time and increases the likelihood of surface pooling over the drain field.",
+          "High summer water table: In agricultural areas and near irrigation canals, the groundwater table rises in summer. Saturated drain fields cannot recover quickly when the surrounding soil is already wet.",
+          "Well water proximity: Many rural properties have wells within 100–200 feet of the drain field. Pool chemicals entering the soil near the drain field create a contamination pathway to drinking water.",
+          "Aging concrete systems: Pre-1990 concrete tanks can crack under sudden hydraulic pressure changes. A rapid inflow of thousands of gallons can stress older tank walls.",
+          "Swimming seasons: In Central Valley summers, pool draining typically coincides with peak drought and hard ground — meaning the drainage has nowhere to go and pools above the drain field rather than percolating.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What About a Partial Drain — Can I Put a Little Pool Water In?",
+      },
+      {
+        type: "paragraph",
+        text: "Homeowners sometimes ask whether draining just a portion of the pool — say, 1,000 gallons — is safe. The honest answer: it depends on your system's current state and soil conditions, but it's still not recommended for most properties.",
+      },
+      {
+        type: "paragraph",
+        text: "A 1,000-gallon discharge is equivalent to a household with 10 people all showering on the same day. For a system already at or near capacity — which is common in summer when water use is high — this can still cause temporary saturation and hydrogen sulfide buildup in the tank.",
+      },
+      {
+        type: "paragraph",
+        text: "The chlorine problem remains at any volume. Even 1,000 gallons of pool water with 1 ppm chlorine introduces 3.8 grams of chlorine directly into a tank where any amount of bactericidal chemical disrupts the bacterial ecosystem.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What to Tell a Contractor Before Pool Work Begins",
+      },
+      {
+        type: "paragraph",
+        text: "If you're hiring a contractor to install or refill a pool, reseal it, or perform any large-volume water work on your property, make sure they understand you're on a septic system. Contractors accustomed to working on properties with city sewer may default to directing discharge toward the nearest drainage point — which on a rural property may be the septic tank cleanout or drain field area. Clarify in writing before work begins where drainage will be directed.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can I drain my pool into the yard if I have a septic system?",
+      },
+      {
+        type: "paragraph",
+        text: "Draining directly over the drain field is as damaging as draining into the tank. The soil saturation problem is the same. If you drain into a yard area that is not over the drain field, and the water is dechlorinated, some percolation into the soil is generally acceptable — but avoid any areas within 50 feet of the septic tank or drain field.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "How long do I need to wait after stopping pool chemicals before it's safe to drain anywhere?",
+      },
+      {
+        type: "paragraph",
+        text: "For chlorine-based pools: stop adding chemicals and allow direct sunlight for 7–14 days, then test with a pool test strip. You want chlorine below 0.1 ppm before street discharge and zero detectable chlorine before any soil application near the septic system.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can I drain a saltwater pool into a septic system?",
+      },
+      {
+        type: "paragraph",
+        text: "No. Saltwater pools still contain chlorine (generated by the salt cell), and the high salinity can disrupt the bacterial colony in the septic tank. The volume problem also applies equally to saltwater pools.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "What about backwash from a pool filter — can that go into the septic?",
+      },
+      {
+        type: "paragraph",
+        text: "Small-volume backwash (30–100 gallons) from a filter is far less problematic than draining the entire pool. However, backwash contains concentrated pool chemicals and fine particles. Direct it away from the drain field and dilute with clean water if possible. Do not make it a routine discharge to the septic system.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Is there a septic-safe way to fill a pool from a well and drain back into the ground?",
+      },
+      {
+        type: "paragraph",
+        text: "If your pool is filled from a well and treated only with low levels of non-chlorine sanitizers, you have more options. However, you still cannot discharge into the septic system. Low-chemical pool water drained slowly (over several days) across a large lawn area away from the septic system is generally the most practical option.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "septic-tank-pumping",
+      "septic-inspections",
+      "emergency-services",
+    ],
+  },
+  {
+    slug: "do-i-have-septic-or-sewer",
+    title: "Do I Have Septic or Sewer? How to Tell in 5 Minutes",
+    metaTitle: "Do I Have Septic or Sewer? How to Find Out Fast",
+    metaDescription:
+      "Not sure if your home is on septic or city sewer? Learn 5 reliable ways to find out — including how to read your utility bill, search county records, and identify physical clues on your property.",
+    publishedAt: "2026-04-04",
+    updatedAt: "2026-04-04",
+    category: "Education",
+    readingTime: "7 min read",
+    coverImage: {
+      src: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=630&q=80&fit=crop&crop=center",
+      alt: "Residential neighborhood showing homes that may be on septic or city sewer",
+    },
+    excerpt:
+      "New homeowners and recent buyers in the Central Valley often aren't sure whether their property uses a septic system or city sewer. Here are five reliable ways to find out — no digging required.",
+    sections: [
+      {
+        type: "paragraph",
+        text: "Whether you just bought a home, are considering a purchase, or have simply never looked into it, knowing whether your property is on septic or city sewer is one of the most practically important things a homeowner can know. The answer affects your maintenance responsibilities, your costs, your home sale disclosures, and who to call when something goes wrong with your drains.",
+      },
+      {
+        type: "paragraph",
+        text: "In the Central Valley — including unincorporated areas of Stanislaus and Merced Counties — the split between septic and sewer is more nuanced than in urban areas. Newer subdivisions may be on city sewer while adjacent rural parcels use private septic. Some older neighborhoods within city limits are still on septic. This guide gives you five reliable ways to determine which applies to your property.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Method 1: Check Your Utility Bill",
+      },
+      {
+        type: "paragraph",
+        text: "The fastest starting point is your monthly water or utility bill. If you have city sewer service, it will appear as a line item on your bill — usually labeled 'Sewer,' 'Wastewater,' or 'Sewer Service Charge.' It may appear on your water bill or as a separate utility bill depending on your city.",
+      },
+      {
+        type: "list",
+        items: [
+          "Modesto: Sewer charges appear on the Modesto Irrigation District (MID) or city utility bill as 'Wastewater'",
+          "Turlock: Appears on Turlock's city utility bill as 'Sewer Services'",
+          "Merced: Appears on City of Merced utility bill as 'Sewer'",
+          "Stockton: Appears on the Municipal Utilities Department bill",
+          "Unincorporated county areas: No sewer line item = almost certainly on septic",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If you see no sewer or wastewater charge on any of your utility bills, and you're not in a property with a shared community system, you are almost certainly on a private septic system.",
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "Tip: Water Bill Doesn't Prove Sewer",
+        text: "A water utility bill alone doesn't confirm sewer service. Some properties pay for city water but use a private septic system for wastewater. Look specifically for a sewer or wastewater line item — not just a water bill.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Method 2: Search County or City Permit Records",
+      },
+      {
+        type: "paragraph",
+        text: "If your property has a septic system, it should have a permit on file with the county. Stanislaus County Environmental Health Division and Merced County Environmental Health Division maintain permit records for all onsite wastewater treatment systems (OWTS) — what regulators call septic systems.",
+      },
+      {
+        type: "list",
+        items: [
+          "Stanislaus County EHD: Search online at ehd.stancounty.com or call (209) 525-6700",
+          "Merced County EHD: Search online at countyofmerced.com or call (209) 381-1100",
+          "You'll need the property address or Assessor Parcel Number (APN)",
+          "Records show permit date, system type, tank size, and installation location",
+          "If no OWTS permit exists and the property predates public sewer extension, verify with the city whether sewer was available at the time of construction",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If a septic permit exists for your property, you're on septic. If no permit exists, the property either predates permit requirements (possible for properties built before the 1970s), is on city sewer, or has an unrecorded system (which is a separate problem you'll want to address).",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Method 3: Look for Physical Clues on the Property",
+      },
+      {
+        type: "paragraph",
+        text: "Even without records, several physical signs tell you which system you have:",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Signs You Have a Septic System",
+      },
+      {
+        type: "list",
+        items: [
+          "Riser lids in the yard: Green or black plastic lids (6–24 inches diameter) flush with or slightly above grade are septic tank access points",
+          "Drain field area: A section of yard (usually 20×50 feet or larger) that may have slightly greener grass, slight mounding, or a pattern of parallel lines",
+          "Cleanout T at or near the foundation: A 4-inch PVC pipe with a threaded cap extending from the ground near the house foundation, angled toward the yard rather than toward a street",
+          "No sewer lateral at the street: Properties on city sewer have a sewer lateral running from the house to a pipe under the street. If you see no city access point or manhole near your property line, you may be on septic.",
+          "Backyard tank shape: If you probe the ground with a thin metal rod (septic technicians do this routinely), a solid obstruction 18–48 inches down indicates a buried tank",
+        ],
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Signs You Have City Sewer",
+      },
+      {
+        type: "list",
+        items: [
+          "Cleanout at or near foundation facing the street (not the back yard)",
+          "Sewer lateral running to a manhole or city-accessible point at the property line or street",
+          "City sewer manhole cover visible in the street or alley near your property",
+          "No area of the yard that looks like a drain field (no parallel buried pipe pattern)",
+          "Property is on a city lot under 1/4 acre in an established urban neighborhood — though this is not conclusive",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Method 4: Check Your Home Inspection Report or Disclosure Documents",
+      },
+      {
+        type: "paragraph",
+        text: "If you purchased your home and received a home inspection report, it should note whether the property has a septic system. Look for sections labeled 'Plumbing,' 'Sewage Disposal,' or 'Onsite Wastewater System.' A proper home inspection should identify the waste disposal method.",
+      },
+      {
+        type: "paragraph",
+        text: "In California, sellers are required to disclose known material facts about the property under Civil Code 1102. Septic system ownership is a material fact. Your Transfer Disclosure Statement (TDS) or Seller Property Questionnaire should indicate whether a septic system exists. If you have these documents from your purchase, they are a reliable reference.",
+      },
+      {
+        type: "paragraph",
+        text: "Additionally, your title insurance company or escrow officer may have noted septic system information in the preliminary title report. If you can access these purchase documents, check them before searching county records.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Method 5: Call the City or County Utility Department",
+      },
+      {
+        type: "paragraph",
+        text: "If the methods above haven't given you a clear answer, a direct call to the city or county utility department will. Tell them your address and ask: 'Is this property connected to the city sewer system?' They can check their connection records and give you a definitive answer in minutes.",
+      },
+      {
+        type: "list",
+        items: [
+          "City of Modesto Public Works: (209) 577-5268",
+          "City of Turlock Public Works: (209) 668-5570",
+          "City of Merced Public Works: (209) 385-6800",
+          "City of Stockton Municipal Utilities: (209) 937-8831",
+          "City of Tracy Public Works: (209) 831-6300",
+          "Stanislaus County Environmental Health: (209) 525-6700",
+          "Merced County Environmental Health: (209) 381-1100",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why It Matters: Septic vs. Sewer Responsibilities",
+      },
+      {
+        type: "paragraph",
+        text: "Once you know which system you have, understanding your responsibilities is straightforward:",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "If You Have a Septic System",
+      },
+      {
+        type: "list",
+        items: [
+          "You are responsible for all maintenance, repairs, and replacement of the system",
+          "Routine pump-outs every 3–5 years are required (every 1–3 years for larger households)",
+          "You must follow county health codes for what can be discharged into the system",
+          "Repairs and replacements require county permits",
+          "You must disclose the system to buyers when you sell",
+          "No monthly sewer fee is charged by the city",
+        ],
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "If You Have City Sewer",
+      },
+      {
+        type: "list",
+        items: [
+          "The city owns and maintains the public sewer main in the street",
+          "You are responsible for the sewer lateral from your house to the property line (rules vary by city)",
+          "You pay a monthly sewer or wastewater fee on your utility bill",
+          "No pump-outs are required — wastewater flows to the municipal treatment plant",
+          "Emergency backups may qualify for city assistance if caused by main line failure",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Special Situations in the Central Valley",
+      },
+      {
+        type: "paragraph",
+        text: "The Central Valley has several common situations that can make the septic-or-sewer question less straightforward:",
+      },
+      {
+        type: "list",
+        items: [
+          "City-adjacent rural parcels: Properties on large lots at the edge of city limits often appear urban but may be on septic — this is common in areas around Modesto, Turlock, and Merced",
+          "Older city properties on septic: Some homes within city limits predate sewer extension and were never connected — and may still be on septic unless proactively connected",
+          "Recently annexed areas: As cities expand, newly annexed rural areas may have a sewer connection option but not be required to connect immediately. Some of these properties remain on septic for years after annexation.",
+          "Agricultural parcels with residential structures: Farm properties often have both a septic system for the residence and separate agricultural waste management — the residential septic system may be smaller than expected for a large parcel",
+          "Pre-1970 properties with incomplete records: Older rural homes may have septic systems that predate county permit requirements, meaning no permit exists even though the system is operational",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What to Do Once You Know",
+      },
+      {
+        type: "paragraph",
+        text: "If you've confirmed you're on septic and don't know the last time the system was serviced, scheduling an inspection and pump-out is the right first step. This tells you the current condition of the tank, whether the baffles and effluent filter are intact, and how quickly solids have accumulated.",
+      },
+      {
+        type: "paragraph",
+        text: "If you've confirmed you're on city sewer and notice slow drains or backups, the issue is in the sewer lateral from your house to the street — and a plumber or rooter service is the right call, not a septic company.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can a property have both septic and city sewer?",
+      },
+      {
+        type: "paragraph",
+        text: "Rarely, but it can happen. Some properties were connected to city sewer at a later date but still have an old septic system on the parcel. The old system should have been decommissioned (pumped, filled with sand or slurry, and the county notified). If you find an old tank on a property that's been connected to sewer, have it properly abandoned.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Do I have to connect to city sewer if it becomes available?",
+      },
+      {
+        type: "paragraph",
+        text: "In most California jurisdictions, connection to city sewer is required when the main extends to within a certain distance of your property — typically 200 feet — and your existing septic system fails or needs major repair. Mandatory connection for currently functioning septic systems is less common but does occur in some sensitive groundwater areas. Check with your county EHD or city planning department if you're in an area where sewer is being extended.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "My neighbors have sewer — why don't I?",
+      },
+      {
+        type: "paragraph",
+        text: "Sewer availability depends on when each parcel was developed relative to when sewer main infrastructure was built in the area. In mixed neighborhoods, some properties may have connected to sewer when the main was extended, while adjacent parcels on different lot configurations or built at different times remained on septic. This is common at the edges of Central Valley cities.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can I switch from septic to city sewer?",
+      },
+      {
+        type: "paragraph",
+        text: "If a city sewer main runs within 200 feet of your property, you can typically apply to connect. The process involves a connection fee (often $5,000–$15,000 in Central Valley cities), permit fees, installation of a sewer lateral to the street, and decommissioning of the existing septic system. Call your city's public works department to confirm availability and costs.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Does being on septic affect my property value?",
+      },
+      {
+        type: "paragraph",
+        text: "A well-maintained septic system is not a negative for rural and semi-rural property values in the Central Valley. Buyers in these markets expect septic systems and factor in lower utility bills (no monthly sewer fee) as a partial offset to maintenance costs. A failing or aging system, however, does reduce value — which is why inspection before sale is strongly recommended.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "septic-tank-pumping",
+      "septic-inspections",
+      "real-estate-inspections",
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
